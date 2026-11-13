@@ -1,0 +1,447 @@
+{
+  "banks": [
+    {
+      "bank_id": "full_category_ggf_s26_f0",
+      "seed": 26,
+      "regime": "full_category",
+      "method": "ggf",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_slics_s21_f0",
+      "seed": 21,
+      "regime": "full_category",
+      "method": "slics",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_supervised_vanilla_s24_f1",
+      "seed": 24,
+      "regime": "category_split",
+      "method": "supervised_vanilla",
+      "fold": 1
+    },
+    {
+      "bank_id": "category_split_supervised_vanilla_s23_f1",
+      "seed": 23,
+      "regime": "category_split",
+      "method": "supervised_vanilla",
+      "fold": 1
+    },
+    {
+      "bank_id": "full_category_slics_s24_f0",
+      "seed": 24,
+      "regime": "full_category",
+      "method": "slics",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_vanilla_s24_f0",
+      "seed": 24,
+      "regime": "full_category",
+      "method": "vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_vanilla_s23_f0",
+      "seed": 23,
+      "regime": "full_category",
+      "method": "vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_ggf_s27_f0",
+      "seed": 27,
+      "regime": "category_split",
+      "method": "ggf",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_vanilla_s27_f0",
+      "seed": 27,
+      "regime": "category_split",
+      "method": "vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_supervised_vanilla_s27_f0",
+      "seed": 27,
+      "regime": "full_category",
+      "method": "supervised_vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_slics_s25_f0",
+      "seed": 25,
+      "regime": "full_category",
+      "method": "slics",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_supervised_vanilla_s27_f1",
+      "seed": 27,
+      "regime": "category_split",
+      "method": "supervised_vanilla",
+      "fold": 1
+    },
+    {
+      "bank_id": "category_split_ggf_s26_f1",
+      "seed": 26,
+      "regime": "category_split",
+      "method": "ggf",
+      "fold": 1
+    },
+    {
+      "bank_id": "category_split_ggf_s24_f1",
+      "seed": 24,
+      "regime": "category_split",
+      "method": "ggf",
+      "fold": 1
+    },
+    {
+      "bank_id": "full_category_slics_s22_f0",
+      "seed": 22,
+      "regime": "full_category",
+      "method": "slics",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_vanilla_s26_f0",
+      "seed": 26,
+      "regime": "full_category",
+      "method": "vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_slics_s26_f0",
+      "seed": 26,
+      "regime": "full_category",
+      "method": "slics",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_ggf_s21_f1",
+      "seed": 21,
+      "regime": "category_split",
+      "method": "ggf",
+      "fold": 1
+    },
+    {
+      "bank_id": "category_split_ggf_s26_f0",
+      "seed": 26,
+      "regime": "category_split",
+      "method": "ggf",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_vanilla_s25_f0",
+      "seed": 25,
+      "regime": "category_split",
+      "method": "vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_slics_s23_f0",
+      "seed": 23,
+      "regime": "full_category",
+      "method": "slics",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_supervised_vanilla_s24_f0",
+      "seed": 24,
+      "regime": "category_split",
+      "method": "supervised_vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_supervised_vanilla_s26_f0",
+      "seed": 26,
+      "regime": "category_split",
+      "method": "supervised_vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_supervised_vanilla_s23_f0",
+      "seed": 23,
+      "regime": "full_category",
+      "method": "supervised_vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_supervised_vanilla_s21_f0",
+      "seed": 21,
+      "regime": "category_split",
+      "method": "supervised_vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_vanilla_s21_f0",
+      "seed": 21,
+      "regime": "category_split",
+      "method": "vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_ggf_s21_f0",
+      "seed": 21,
+      "regime": "full_category",
+      "method": "ggf",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_supervised_vanilla_s24_f0",
+      "seed": 24,
+      "regime": "full_category",
+      "method": "supervised_vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_ggf_s22_f0",
+      "seed": 22,
+      "regime": "category_split",
+      "method": "ggf",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_supervised_vanilla_s22_f0",
+      "seed": 22,
+      "regime": "full_category",
+      "method": "supervised_vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_vanilla_s25_f0",
+      "seed": 25,
+      "regime": "full_category",
+      "method": "vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_supervised_vanilla_s25_f0",
+      "seed": 25,
+      "regime": "full_category",
+      "method": "supervised_vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_ggf_s23_f1",
+      "seed": 23,
+      "regime": "category_split",
+      "method": "ggf",
+      "fold": 1
+    },
+    {
+      "bank_id": "full_category_ggf_s25_f0",
+      "seed": 25,
+      "regime": "full_category",
+      "method": "ggf",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_ggf_s25_f1",
+      "seed": 25,
+      "regime": "category_split",
+      "method": "ggf",
+      "fold": 1
+    },
+    {
+      "bank_id": "full_category_ggf_s24_f0",
+      "seed": 24,
+      "regime": "full_category",
+      "method": "ggf",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_vanilla_s22_f0",
+      "seed": 22,
+      "regime": "full_category",
+      "method": "vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_supervised_vanilla_s21_f0",
+      "seed": 21,
+      "regime": "full_category",
+      "method": "supervised_vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_supervised_vanilla_s23_f0",
+      "seed": 23,
+      "regime": "category_split",
+      "method": "supervised_vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_ggf_s25_f0",
+      "seed": 25,
+      "regime": "category_split",
+      "method": "ggf",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_vanilla_s27_f0",
+      "seed": 27,
+      "regime": "full_category",
+      "method": "vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_ggf_s23_f0",
+      "seed": 23,
+      "regime": "full_category",
+      "method": "ggf",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_vanilla_s21_f0",
+      "seed": 21,
+      "regime": "full_category",
+      "method": "vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_supervised_vanilla_s22_f0",
+      "seed": 22,
+      "regime": "category_split",
+      "method": "supervised_vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_vanilla_s22_f0",
+      "seed": 22,
+      "regime": "category_split",
+      "method": "vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_supervised_vanilla_s22_f1",
+      "seed": 22,
+      "regime": "category_split",
+      "method": "supervised_vanilla",
+      "fold": 1
+    },
+    {
+      "bank_id": "category_split_supervised_vanilla_s21_f1",
+      "seed": 21,
+      "regime": "category_split",
+      "method": "supervised_vanilla",
+      "fold": 1
+    },
+    {
+      "bank_id": "full_category_ggf_s22_f0",
+      "seed": 22,
+      "regime": "full_category",
+      "method": "ggf",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_slics_s27_f0",
+      "seed": 27,
+      "regime": "full_category",
+      "method": "slics",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_supervised_vanilla_s26_f0",
+      "seed": 26,
+      "regime": "full_category",
+      "method": "supervised_vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_supervised_vanilla_s25_f0",
+      "seed": 25,
+      "regime": "category_split",
+      "method": "supervised_vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_ggf_s23_f0",
+      "seed": 23,
+      "regime": "category_split",
+      "method": "ggf",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_ggf_s27_f1",
+      "seed": 27,
+      "regime": "category_split",
+      "method": "ggf",
+      "fold": 1
+    },
+    {
+      "bank_id": "category_split_vanilla_s24_f0",
+      "seed": 24,
+      "regime": "category_split",
+      "method": "vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_vanilla_s26_f0",
+      "seed": 26,
+      "regime": "category_split",
+      "method": "vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_ggf_s24_f0",
+      "seed": 24,
+      "regime": "category_split",
+      "method": "ggf",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_ggf_s22_f1",
+      "seed": 22,
+      "regime": "category_split",
+      "method": "ggf",
+      "fold": 1
+    },
+    {
+      "bank_id": "category_split_supervised_vanilla_s25_f1",
+      "seed": 25,
+      "regime": "category_split",
+      "method": "supervised_vanilla",
+      "fold": 1
+    },
+    {
+      "bank_id": "category_split_vanilla_s23_f0",
+      "seed": 23,
+      "regime": "category_split",
+      "method": "vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_supervised_vanilla_s27_f0",
+      "seed": 27,
+      "regime": "category_split",
+      "method": "supervised_vanilla",
+      "fold": 0
+    },
+    {
+      "bank_id": "category_split_supervised_vanilla_s26_f1",
+      "seed": 26,
+      "regime": "category_split",
+      "method": "supervised_vanilla",
+      "fold": 1
+    },
+    {
+      "bank_id": "category_split_ggf_s21_f0",
+      "seed": 21,
+      "regime": "category_split",
+      "method": "ggf",
+      "fold": 0
+    },
+    {
+      "bank_id": "full_category_ggf_s27_f0",
+      "seed": 27,
+      "regime": "full_category",
+      "method": "ggf",
+      "fold": 0
+    }
+  ],
+  "judgment_count": 42525,
+  "judgment_multiset_sha256": "dbe7e9d300aabf41b16009b7c0f24c64bc4072978d14f87405ddede721f73702"
+}

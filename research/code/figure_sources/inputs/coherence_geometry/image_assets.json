@@ -1,0 +1,676 @@
+{
+  "images": [
+    {
+      "image_id": 307970,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          640,
+          427
+        ],
+        "resized": [
+          383,
+          256
+        ],
+        "box": [
+          80,
+          16,
+          304,
+          240
+        ],
+        "crop": 224
+      },
+      "original_sha256": "41d9470dc15b7d679e7f16de3f3e670a441e054ce0521c001c8891d45ae82f6f",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000307970.jpg",
+      "status": "ready",
+      "crop_path": "images/307970.png",
+      "crop_sha256": "62e1321cc054d6acb238be622cdcbd87794a279312b6dd151c7f0ae7cd3917d1",
+      "crop_pixel_sha256": "dc085dde4755a16fb29a6acb58b7721b4af5d1a3fd26ac29f2392b8f15b1641a",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 190905,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          640,
+          480
+        ],
+        "resized": [
+          341,
+          256
+        ],
+        "box": [
+          58,
+          16,
+          282,
+          240
+        ],
+        "crop": 224
+      },
+      "original_sha256": "b77db0554838148890aa4f13c318dbf1168e3eafa452b4046efe78e432f1ce11",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000190905.jpg",
+      "status": "ready",
+      "crop_path": "images/190905.png",
+      "crop_sha256": "dd003c0510d9eee441ec33d719742bd094f17e7ad873e48153b4f009769c11bb",
+      "crop_pixel_sha256": "ec21c7ea885e3a81eabef7ce360cedf4f200be251e218d08d3f7eda4d7680958",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 270871,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          427,
+          640
+        ],
+        "resized": [
+          256,
+          383
+        ],
+        "box": [
+          16,
+          80,
+          240,
+          304
+        ],
+        "crop": 224
+      },
+      "original_sha256": "d48444743b170cf9f2752ee9363b665356bbc3c66d3a8ef18f9945ca8102b8ac",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000270871.jpg",
+      "status": "ready",
+      "crop_path": "images/270871.png",
+      "crop_sha256": "a329eeac10a668c2f7ef9bc67d524a0225bd8f3b20daf97c7d1f2950e3f3ce48",
+      "crop_pixel_sha256": "c78b5a736b268c60fc79d65899f8427d2a66d19e6630e2fcd43c5dff7f542ee0",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 170077,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          480,
+          640
+        ],
+        "resized": [
+          256,
+          341
+        ],
+        "box": [
+          16,
+          58,
+          240,
+          282
+        ],
+        "crop": 224
+      },
+      "original_sha256": "aedd6e45f1a9f79aa108c22d65fb61dffc2eedd906d3e18f2671df44e943722a",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000170077.jpg",
+      "status": "ready",
+      "crop_path": "images/170077.png",
+      "crop_sha256": "4e40d8aee648c0c597dc6a75d17af5b82731c8160681494c5385c354e4c08313",
+      "crop_pixel_sha256": "0418dad3cd325f09a8fadf71715caba1f6d4a54e2cceb3c2dc6121466aa27e46",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 280976,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          512,
+          640
+        ],
+        "resized": [
+          256,
+          320
+        ],
+        "box": [
+          16,
+          48,
+          240,
+          272
+        ],
+        "crop": 224
+      },
+      "original_sha256": "1055f97850a037bdfe5fe95e84448236cda6990ac250555ecbc609294ebbe824",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000280976.jpg",
+      "status": "ready",
+      "crop_path": "images/280976.png",
+      "crop_sha256": "e9a270535e185db968dc2b687e907e80f63f9ca7efd2bc5311e4f01744c4e433",
+      "crop_pixel_sha256": "a359b4375beb632812008227bd1e00901c387e754d72eb27822e6f109f6238b5",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 337648,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          500,
+          350
+        ],
+        "resized": [
+          365,
+          256
+        ],
+        "box": [
+          70,
+          16,
+          294,
+          240
+        ],
+        "crop": 224
+      },
+      "original_sha256": "4b6affc16553af78ca7005dcf24ebc569e24fc8db70374388c9fd6b98028ece1",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000337648.jpg",
+      "status": "ready",
+      "crop_path": "images/337648.png",
+      "crop_sha256": "9b1204ceabfa73ade98e11f079509eb5a7d32e9202d630dc3fd7e5ca2a24a0da",
+      "crop_pixel_sha256": "745e223cf2880c5b6881d565eb43c6f4ccf4a192fe5894c369f9d42488e2cace",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 41740,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          369,
+          640
+        ],
+        "resized": [
+          256,
+          444
+        ],
+        "box": [
+          16,
+          110,
+          240,
+          334
+        ],
+        "crop": 224
+      },
+      "original_sha256": "93e77f3032f5fa2bc9efdcedd22287081b92e7086510f49db8d0acb7070d89bf",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000041740.jpg",
+      "status": "ready",
+      "crop_path": "images/41740.png",
+      "crop_sha256": "18af6abe6899aeb77b258886570f80b42c11f514ec274ac16f5b81e7805f4e20",
+      "crop_pixel_sha256": "3447732311dd1db353ac822b1541b52acdf814727a86aaaed629ef864d7b2f6c",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 470097,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          640,
+          512
+        ],
+        "resized": [
+          320,
+          256
+        ],
+        "box": [
+          48,
+          16,
+          272,
+          240
+        ],
+        "crop": 224
+      },
+      "original_sha256": "ef02a104c61ee41f8e070b5c4cb549b657fdaec7054834b30746eeb5c094bf7d",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000470097.jpg",
+      "status": "ready",
+      "crop_path": "images/470097.png",
+      "crop_sha256": "3ebbfa510c5fb817a089ee35c55ad02352382b943ee59c5c6dbf740222d43714",
+      "crop_pixel_sha256": "5c4f11849a251c60f7296150c9c48c519594a5079ec3b9bff957f9e74e77a8d4",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 555940,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          427,
+          640
+        ],
+        "resized": [
+          256,
+          383
+        ],
+        "box": [
+          16,
+          80,
+          240,
+          304
+        ],
+        "crop": 224
+      },
+      "original_sha256": "2264f35036791a70f4b0577c0692302a126de637c78ad5440e9db6741f41a158",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000555940.jpg",
+      "status": "ready",
+      "crop_path": "images/555940.png",
+      "crop_sha256": "cbcd3df001849c9a1aa783f50fb2b3bdb2062686616229d39db9f966f23d449e",
+      "crop_pixel_sha256": "0c741282ed07361e8e2ee648bf2a082b3559d16dd9eef890da2e1c52c2cb5ad6",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 498645,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          427,
+          640
+        ],
+        "resized": [
+          256,
+          383
+        ],
+        "box": [
+          16,
+          80,
+          240,
+          304
+        ],
+        "crop": 224
+      },
+      "original_sha256": "8eda3501be20abeac7be7bc61f87af4d7888912e9b615c2d81369a65e8c2e274",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000498645.jpg",
+      "status": "ready",
+      "crop_path": "images/498645.png",
+      "crop_sha256": "d22012f4e67af679accb58b6f5caa362f4a24b5e374210729bfe59d7bec9b4c6",
+      "crop_pixel_sha256": "97a603856e22d0cd042e75f3046d46ab79bd92ffb994d260078d3b5214b120f4",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 113745,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          428,
+          640
+        ],
+        "resized": [
+          255,
+          382
+        ],
+        "box": [
+          16,
+          79,
+          240,
+          303
+        ],
+        "crop": 224
+      },
+      "original_sha256": "1ff648f1fabd84695c6192c326e933143e6c8ef0ab411adc0d82537f12cbf027",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000113745.jpg",
+      "status": "ready",
+      "crop_path": "images/113745.png",
+      "crop_sha256": "79de92626afdfd89b10b2f31c83ba2f2961bb26abd349aba76138d3a6e9f3187",
+      "crop_pixel_sha256": "0c2da8d6e83c890488fca035937c23b0949c8a5cd95a503a86bb0bcbeaceb755",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 195715,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          640,
+          572
+        ],
+        "resized": [
+          286,
+          256
+        ],
+        "box": [
+          31,
+          16,
+          255,
+          240
+        ],
+        "crop": 224
+      },
+      "original_sha256": "d5eb2dc21c186df72c3c67140d6a8e2d51c8ce597b4906de93bf08a9a9f025f2",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000195715.jpg",
+      "status": "ready",
+      "crop_path": "images/195715.png",
+      "crop_sha256": "42aa2cbce180882f5f2dbf9b05f9b8e8e94ad967a6f2bef4c097258c0973a45c",
+      "crop_pixel_sha256": "0ff4ce2c69552c03818af9dfae86315bdbe6e62abeb8b4de5e8169419c19f69f",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 332420,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          640,
+          480
+        ],
+        "resized": [
+          341,
+          256
+        ],
+        "box": [
+          58,
+          16,
+          282,
+          240
+        ],
+        "crop": 224
+      },
+      "original_sha256": "193582227f106a41d734487f490e188204a85915589fd65a82e8af3d12708e7c",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000332420.jpg",
+      "status": "ready",
+      "crop_path": "images/332420.png",
+      "crop_sha256": "6af4ecaccb7b8b2290d879c50b75c678615c985812a5124d2a76acbd264c27e5",
+      "crop_pixel_sha256": "9fed3c6c31669bb3a66db10d59d7b087f79167d674f4aa31ae5712b599a966fc",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 502857,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          375,
+          500
+        ],
+        "resized": [
+          256,
+          341
+        ],
+        "box": [
+          16,
+          58,
+          240,
+          282
+        ],
+        "crop": 224
+      },
+      "original_sha256": "67d988bd809789c013b03a0de80cbe2b0e7e9dbf56eec20ce5e8fd22173818f8",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000502857.jpg",
+      "status": "ready",
+      "crop_path": "images/502857.png",
+      "crop_sha256": "3372631e19bd37dd677c9f2a59d751158a921048121f48901dfd381db913fb73",
+      "crop_pixel_sha256": "0dfe1114029532dad9ded086f7c8f0a64d954f4ae33f3c4e94f3e9d21d9be418",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 492495,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          640,
+          437
+        ],
+        "resized": [
+          374,
+          256
+        ],
+        "box": [
+          75,
+          16,
+          299,
+          240
+        ],
+        "crop": 224
+      },
+      "original_sha256": "e1a2e1aa8e417f892277a56a25d784dd0cf355e9d1f6c5cd062508e7caf4c083",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000492495.jpg",
+      "status": "ready",
+      "crop_path": "images/492495.png",
+      "crop_sha256": "df651c2cd1b5bfdb0b6bfeeb629b1780a015b8c72d7ad98de79b3385686f96b1",
+      "crop_pixel_sha256": "90f199c40471562e922a2c25672d8937455881634f34c0f11d85bb324df2ed54",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 440820,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          417,
+          640
+        ],
+        "resized": [
+          255,
+          392
+        ],
+        "box": [
+          16,
+          84,
+          240,
+          308
+        ],
+        "crop": 224
+      },
+      "original_sha256": "f64faaa8d4095e98a5fc293b54c931aae58b53091794cfa95ce9032f8dd7323d",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000440820.jpg",
+      "status": "ready",
+      "crop_path": "images/440820.png",
+      "crop_sha256": "d00375fc1c0443d5a9fe7867ba201767093f0a696dd9803ab1e60b6806919d0e",
+      "crop_pixel_sha256": "3c50609a55df36969f35bc6c69cfdcd94441720bf67db4fa219c2068fad7770e",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 449873,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          640,
+          640
+        ],
+        "resized": [
+          256,
+          256
+        ],
+        "box": [
+          16,
+          16,
+          240,
+          240
+        ],
+        "crop": 224
+      },
+      "original_sha256": "878958d4cf94448607e194855589ccd680f716e544ab39a50f7961e45cd6e341",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000449873.jpg",
+      "status": "ready",
+      "crop_path": "images/449873.png",
+      "crop_sha256": "df0d5442f552de2dbae6edd1c14881730b2a88811a262457b70552211e661594",
+      "crop_pixel_sha256": "b87703cc62728ead933771b9791583640db90fd87fea9b2aa9da589654100d46",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 408227,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          640,
+          427
+        ],
+        "resized": [
+          383,
+          256
+        ],
+        "box": [
+          80,
+          16,
+          304,
+          240
+        ],
+        "crop": 224
+      },
+      "original_sha256": "83cb624e521075af2618dc5d6e4a94652a3f5038843debe5883b57f1a6c6c0c6",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000408227.jpg",
+      "status": "ready",
+      "crop_path": "images/408227.png",
+      "crop_sha256": "9f1ba13123870127a0185381ee34da703b37d73d5634c2f39011ce50e9b38821",
+      "crop_pixel_sha256": "e6e9a600bdaaf54063e6e092e06b12161020539a8b59a4670b1c74ba92e3da74",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 445267,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          640,
+          480
+        ],
+        "resized": [
+          341,
+          256
+        ],
+        "box": [
+          58,
+          16,
+          282,
+          240
+        ],
+        "crop": 224
+      },
+      "original_sha256": "9764cc5fd1bdcc4d8aca868c2f381ed0f94188553718043cf13dbeda5d30edc2",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000445267.jpg",
+      "status": "ready",
+      "crop_path": "images/445267.png",
+      "crop_sha256": "761054b6908a24fac1274e7e486270decf082d03e77b967738302b8fa1de2f30",
+      "crop_pixel_sha256": "09ba56205d9704b99668373432dfa0636c48986514016bfcf3889727e03e35d4",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 532194,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          333,
+          500
+        ],
+        "resized": [
+          256,
+          384
+        ],
+        "box": [
+          16,
+          80,
+          240,
+          304
+        ],
+        "crop": 224
+      },
+      "original_sha256": "bd75ab29c8f770803ad197b2ddd2ff12fff5b394c25790389fbb9adde7653c14",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000532194.jpg",
+      "status": "ready",
+      "crop_path": "images/532194.png",
+      "crop_sha256": "61c29671174faa20bc5ddaac2bab043d80549cf906414aefa02efd0d3426134d",
+      "crop_pixel_sha256": "710feaa50c452ff372bfe3922bc8ed60bfba8a7744343ae28f1b8d32c0743cba",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 104466,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          640,
+          426
+        ],
+        "resized": [
+          384,
+          256
+        ],
+        "box": [
+          80,
+          16,
+          304,
+          240
+        ],
+        "crop": 224
+      },
+      "original_sha256": "3ed9c7b4af971483c5a4307440be74bcf258079a54572d906e402b775d499d99",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000104466.jpg",
+      "status": "ready",
+      "crop_path": "images/104466.png",
+      "crop_sha256": "2f6630443f4024621ac0d9d0554843056ec48c6501f6ce2e0b2e6e6e1108697b",
+      "crop_pixel_sha256": "b0916cefc30ba953771e4ac162142eb6c9c8db08c04b6cd468262afb74c91a14",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 99030,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          640,
+          427
+        ],
+        "resized": [
+          383,
+          256
+        ],
+        "box": [
+          80,
+          16,
+          304,
+          240
+        ],
+        "crop": 224
+      },
+      "original_sha256": "88512ae837736993c66623099f60f110099c2f7642fdbd11c3dbd77200e0e278",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000099030.jpg",
+      "status": "ready",
+      "crop_path": "images/99030.png",
+      "crop_sha256": "0d5bfcfc0d9be2e00974ac446f2fd86c1bb20cdef40679b05c7cf64102c9fc1f",
+      "crop_pixel_sha256": "81af4d49fe688f329a0628ce89174f2bec05677bb85af6acc3825eb0eedb96c9",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 320563,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          640,
+          480
+        ],
+        "resized": [
+          341,
+          256
+        ],
+        "box": [
+          58,
+          16,
+          282,
+          240
+        ],
+        "crop": 224
+      },
+      "original_sha256": "75f182bce08c50488ec824188bca11db7f5d6ce687184cc86c8a86d2bf826b9f",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000320563.jpg",
+      "status": "ready",
+      "crop_path": "images/320563.png",
+      "crop_sha256": "880824f820dfe0c4dc85b044b4d5021530e569d225e7f5c359468dede8519e71",
+      "crop_pixel_sha256": "0da0cb843323ad7b723ef4d3808f5fcbe6c1fa572f94d68a980694853026328d",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    },
+    {
+      "image_id": 548136,
+      "role": "audit",
+      "geometry": {
+        "original": [
+          640,
+          480
+        ],
+        "resized": [
+          341,
+          256
+        ],
+        "box": [
+          58,
+          16,
+          282,
+          240
+        ],
+        "crop": 224
+      },
+      "original_sha256": "b0ff415b8b54089149683ebc790f7cb8988638c44bb94b5b7afb2cb3e8c32cc4",
+      "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000548136.jpg",
+      "status": "ready",
+      "crop_path": "images/548136.png",
+      "crop_sha256": "af91d17be69bc548bca327ff928ae0d56454487482b281a425e36171d39fa8b3",
+      "crop_pixel_sha256": "efb567689d405d0b1fb84ba88b56e1cb513e964a3ff4a8aef516da4fa03aa124",
+      "pixel_replay_status": "Original JPEG SHA and recorded crop geometry verified; crop pixels hashed now. Original extraction did not supply an independent crop-pixel hash."
+    }
+  ]
+}

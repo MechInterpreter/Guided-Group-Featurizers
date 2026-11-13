@@ -1,0 +1,16 @@
+{
+  "focused_run.py": "2b87decec350ea03e5cdd31a381121ee90b669147dd77c3e3f7dad24712944dd",
+  "focused_protocol.py": "994ad3735e05baee32a69e173eed1fb1b042df39620c959f6f67573d382e59ec",
+  "focused_inputs.py": "9ee9e0de58efff4c58145ae5f63003181c7ace94cef73e0924bfc8574cf728cc",
+  "focused_evaluate.py": "fb314111ef34530c9172040ace15aae90fdda27847d3ab0b6daaf3a9e05b5453",
+  "focused_costs.py": "7e889181fae5db96685baf68d08d3b875359e958d376abeb17afccb55dcfbf6b",
+  "pilot_pins.json": "55d2ab4779fc7863804d6fa8ca1575878547290c932136330a511c67102b2884",
+  "test_focused.py": "60904327c09c41381369a352988c9db9ba5596004dbfbcc014f7938a0fd3cc84",
+  "PROTOCOL.md": "b73a522d9c52232abb762c3bb73a967f3ec5f5b0f95c676072456f7cebcbfc12",
+  "focused_zoo.py": "7c4e2f6f9822f8b1a0f1bf3379b26b2b9d997fb333d4405474bc168ed2c0658c",
+  "test_zoo.py": "5c5fc9313656046c3795337bb751bf7532094d53a4f652b0c3218c9c1eb2596d",
+  "zoo_reference.json": "2a2aae05b433d43794a2fe94d4bac1d11d004269f18d23732795413efb8f0b9d",
+  "zoo_benchmark/__init__.py": "533b8f7fe728418d97c149c779c43b1b6aedfa7a270e4f400898ec826a1770e5",
+  "zoo_benchmark/data.py": "3a22b171b903a6184adbfc7df4c9549542ac8f59bb6985c7d72c48ffbfbb4956",
+  "zoo_benchmark/metrics.py": "d208c96a1126955c458f797cc3af7ab73600247a6c8d0cdcdb2b9c166407e354"
+}

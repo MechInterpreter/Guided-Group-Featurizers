@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p084",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I1009",
+      "yes": [15,28],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,18,19,20,21,22,23,24,25,26,27,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [56],
+      "all_definitions_considered": true,
+      "rationale": "A real tabby cat rests in an open rigid travel suitcase; the upright lined lid and boxlike luggage body establish suitcase rather than handbag or backpack. The small pale furniture at the far end of the hallway may be a stool/chair, but its seat and structure are too occluded to identify confidently, so chair is unclear. The large tilted panel is luggage lining, not a bed, couch or display. After considering all 75 definitions, the other categories have no identifiable actual instances in this crop."
+    },
+    {
+      "case_id": "I1010",
+      "yes": [2,11],
+      "no": [0,1,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The red octagonal roadside sign has readable STOP lettering. Passenger cars are visible along the distant street, including the cropped light-colored car at the right edge. The foreground leaves belong to outdoor vegetation with no visible pot. The signpost is not a traffic signal or parking meter. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1011",
+      "yes": [0,8,37],
+      "no": [1,2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A person lies on a narrow yellow surfboard in the foreground wave. Its long pointed deck and surfing context support surfboard. At upper left, a rider and a small powered watercraft with a trailing wake are visible; watercraft falls within boat. The distant white streaks are wakes rather than identifiable birds or aircraft. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1012",
+      "yes": [0,25,27,77],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,26,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Several actual people surround a large brown stuffed teddy bear. The bear has plush construction and clothing, excluding actual bear. A gray necktie hangs from its white collar. The pink overhead canopy has umbrella structure. The people's clothing and hood strings do not establish additional ties or bags. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1013",
+      "yes": [0,62,65],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,63,64,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Two people hold white handheld game remote controllers; their buttoned bodies and active controller use establish remote rather than cell phone. The large standalone display occupies the lower right, with its rear casing visible. The stylized figure on the man's shirt is a print, not an additional actual person or tie. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1014",
+      "yes": [0,62,63,65,66],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [64],
+      "all_definitions_considered": true,
+      "rationale": "A person uses the visible keyboard/base of a laptop and holds a separate button-covered remote. A standalone desktop monitor is at upper left, so tv and laptop are independently present; the laptop keys also establish keyboard. A small rounded pale/green object behind the laptop might be a computer mouse, but cables and limited detail prevent a firm identification, so mouse is unclear. Loose white papers do not establish a bound book. The surface is a computer work desk rather than an identifiable dining table. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I1015",
+      "yes": [15],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Real black cats lie together on the floor and rug, with identifiable feline ears, faces and paws. The balls are outside the listed categories. Cardboard cartons are ordinary boxes, not suitcases; the small upright object behind the cats does not have an identifiable bottle neck, display, or other listed-category identity. No actual bear, dog or plush teddy bear is present. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1016",
+      "yes": [68],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,71,72,73,74,75,76,77,79],
+      "unclear": [69],
+      "all_definitions_considered": true,
+      "rationale": "A small microwave with a dark door and right-side controls sits on the back stainless work surface. The larger stainless appliance beside it has a dark door/handle assembly and may be a conventional oven, but the crop does not resolve its cooking cavity and controls enough to distinguish that identity confidently, so oven is unclear. The tall cylinders at left are beverage urns, not bottles, refrigerators or sinks. The stainless surfaces are preparation/work counters rather than identifiable dining tables. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I1017",
+      "yes": [0,38],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A child stands on a tennis court carrying a racket with an oval strung head and handle beside the leg. This is an actual tennis racket, supported by its construction and court context. The foreground tennis net, hat, shoes, pavement and background fence provide no other listed objects. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1018",
+      "yes": [0,41,56,64],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,60,61,62,65,66,67,68,69,71,72,74,75,76,77,79],
+      "unclear": [63,73],
+      "all_definitions_considered": true,
+      "rationale": "A man sits in a padded individual office chair. A small computer mouse is visible on the front right of the desk, and a cropped dark drinking cup with a light open rim is at the right edge. The flat dark rectangular item beneath his arms could be a closed laptop or a bound notebook/folio; its construction is insufficiently resolved, so laptop and book are unclear. No keyboard keys or standalone screen are identifiable. The mouse and office context support a work desk rather than dining-table identity. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I1019",
+      "yes": [0,13,35],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Actual players and background spectators are visible. The crouching catcher wears a substantial dark fielding mitt extended toward the batter, establishing baseball glove rather than merely batting gloves. The spectators sit along a long bench/bleacher seat in the background. The batter's bat and protective helmets are outside the listed categories. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1020",
+      "yes": [0],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,25,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [24,26],
+      "all_definitions_considered": true,
+      "rationale": "Several real people stand in the corridor, including the child holding a gold trophy. The trophy is an award object rather than a drinking cup, wine glass or bottle. A dark carried item at the standing woman's side has bag-like shape and straps, but its small, occluded body does not distinguish handbag from backpack; both remain unclear. The wheeled object near the rear woman is a stroller, not a bicycle or identifiable suitcase. Papers held at the right do not establish a bound book. All 75 definitions were considered."
+    }
+  ]
+}

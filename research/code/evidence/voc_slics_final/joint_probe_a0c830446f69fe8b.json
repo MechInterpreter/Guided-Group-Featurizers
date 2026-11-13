@@ -1,0 +1,18 @@
+{
+  "patches": 8,
+  "accelerated_seconds": 0.06283228299980692,
+  "reference_seconds": 0.14803346799999417,
+  "observed_probe_speedup": 2.3560096964875377,
+  "max_scaled_SSE_difference": 1.1763357432420377e-10,
+  "max_relative_kkt": 7.54688135864472e-06,
+  "reference_kkt": 1.7078935891980962e-15,
+  "caveat": "Small timing probe excludes dictionary initialization and does not predict full-run speed; no model/settings selected.",
+  "solver_stats": {
+    "gpu_certified": 8,
+    "pending": 0,
+    "iterations": 600,
+    "rows": 8,
+    "max_relative_kkt": 7.54688135864472e-06,
+    "seconds": 0.06277439199948276
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "source": "agf_final_evidence.json",
+  "targets": [
+    [
+      21,
+      "apple"
+    ],
+    [
+      22,
+      "person"
+    ],
+    [
+      22,
+      "bowl"
+    ],
+    [
+      22,
+      "baseball glove"
+    ],
+    [
+      23,
+      "baseball glove"
+    ]
+  ],
+  "capture_percentages": [
+    [
+      31.959529379761676,
+      32.65143092979568
+    ],
+    [
+      15.909428881373945,
+      17.09053080352948
+    ],
+    [
+      12.27588026093519,
+      13.394083457390593
+    ],
+    [
+      27.439400318360164,
+      28.533856750532994
+    ],
+    [
+      20.367583817191203,
+      21.242050415947343
+    ]
+  ],
+  "selection": "All five development-accepted target/seed pairs, frozen before fresh test; final cumulative model, not isolated swap effects"
+}

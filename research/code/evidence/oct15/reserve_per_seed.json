@@ -1,0 +1,482 @@
+[
+  {
+    "seed": 21,
+    "arm": "targeted",
+    "checkpoint_updates": 500,
+    "starting_weights_sha": "23396d3db5b3d29f8886fd9abea4cde8ce8c7c4f8b60ca7f67997b947f3123de",
+    "select": {
+      "primary": {
+        "macro_capture": 0.4107165622204549,
+        "macro_ap": 0.8098686011674533,
+        "reconstruction": {
+          "mse": 0.3456265890999337,
+          "ve": 0.6549278611560312,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.3996274217659004,
+        "macro_ap": 0.7961468054398567
+      }
+    },
+    "confirm": {
+      "primary": {
+        "macro_capture": 0.4202619493312413,
+        "macro_ap": 0.8142955085543402,
+        "reconstruction": {
+          "mse": 0.3466190739355954,
+          "ve": 0.6536329953613886,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.4091485305349897,
+        "macro_ap": 0.796861476271959
+      }
+    }
+  },
+  {
+    "seed": 22,
+    "arm": "targeted",
+    "checkpoint_updates": 500,
+    "starting_weights_sha": "14018792b31b82bf0b3b3920e4d958c122531e76c3d4c6615cdeff2f871cc638",
+    "select": {
+      "primary": {
+        "macro_capture": 0.41184708792189223,
+        "macro_ap": 0.802366462486655,
+        "reconstruction": {
+          "mse": 0.3450604598920189,
+          "ve": 0.6554930821858888,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.3821726534962797,
+        "macro_ap": 0.7889987059187088
+      }
+    },
+    "confirm": {
+      "primary": {
+        "macro_capture": 0.4215957904724602,
+        "macro_ap": 0.8012491766916537,
+        "reconstruction": {
+          "mse": 0.34548043822908997,
+          "ve": 0.654770803026036,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.3941852320149785,
+        "macro_ap": 0.7903106490522165
+      }
+    }
+  },
+  {
+    "seed": 23,
+    "arm": "targeted",
+    "checkpoint_updates": 500,
+    "starting_weights_sha": "15b9f924c1f84db041c155a81dead31440929d38b2777ceae170e8dfd4503502",
+    "select": {
+      "primary": {
+        "macro_capture": 0.4105555751567388,
+        "macro_ap": 0.8036462904057292,
+        "reconstruction": {
+          "mse": 0.3449635682761424,
+          "ve": 0.6555898183693334,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.4007956160913437,
+        "macro_ap": 0.7986149613925303
+      }
+    },
+    "confirm": {
+      "primary": {
+        "macro_capture": 0.42114753653657666,
+        "macro_ap": 0.8068448869123456,
+        "reconstruction": {
+          "mse": 0.34537216492790357,
+          "ve": 0.654878997588408,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.4111407868921062,
+        "macro_ap": 0.7995967363808267
+      }
+    }
+  },
+  {
+    "seed": 21,
+    "arm": "random",
+    "checkpoint_updates": 500,
+    "starting_weights_sha": "23396d3db5b3d29f8886fd9abea4cde8ce8c7c4f8b60ca7f67997b947f3123de",
+    "select": {
+      "primary": {
+        "macro_capture": 0.4087226052626164,
+        "macro_ap": 0.8105082986953934,
+        "reconstruction": {
+          "mse": 0.3448635061070693,
+          "ve": 0.6556897200198093,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.39736074384615044,
+        "macro_ap": 0.7951222577188507
+      }
+    },
+    "confirm": {
+      "primary": {
+        "macro_capture": 0.4180729481744917,
+        "macro_ap": 0.8131773506838958,
+        "reconstruction": {
+          "mse": 0.3458095572300349,
+          "ve": 0.6544419233679357,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.40680577948174845,
+        "macro_ap": 0.7952263990426172
+      }
+    }
+  },
+  {
+    "seed": 22,
+    "arm": "random",
+    "checkpoint_updates": 500,
+    "starting_weights_sha": "14018792b31b82bf0b3b3920e4d958c122531e76c3d4c6615cdeff2f871cc638",
+    "select": {
+      "primary": {
+        "macro_capture": 0.410819403241113,
+        "macro_ap": 0.8025432522608302,
+        "reconstruction": {
+          "mse": 0.3445065544449211,
+          "ve": 0.6560460990641477,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.38131831119470516,
+        "macro_ap": 0.7891616900774602
+      }
+    },
+    "confirm": {
+      "primary": {
+        "macro_capture": 0.4203529582729105,
+        "macro_ap": 0.8003629897199007,
+        "reconstruction": {
+          "mse": 0.34500978993369613,
+          "ve": 0.6552411090552539,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.3933587856152503,
+        "macro_ap": 0.7892087823824598
+      }
+    }
+  },
+  {
+    "seed": 23,
+    "arm": "random",
+    "checkpoint_updates": 500,
+    "starting_weights_sha": "15b9f924c1f84db041c155a81dead31440929d38b2777ceae170e8dfd4503502",
+    "select": {
+      "primary": {
+        "macro_capture": 0.4090471510073757,
+        "macro_ap": 0.8022672816881419,
+        "reconstruction": {
+          "mse": 0.34479671594100925,
+          "ve": 0.6557564030418421,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.39877645112203275,
+        "macro_ap": 0.7982347145352052
+      }
+    },
+    "confirm": {
+      "primary": {
+        "macro_capture": 0.41930638242194207,
+        "macro_ap": 0.806752961530616,
+        "reconstruction": {
+          "mse": 0.34542065163836133,
+          "ve": 0.6548305461385922,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.408693151782946,
+        "macro_ap": 0.7994875363039369
+      }
+    }
+  },
+  {
+    "seed": 21,
+    "arm": "ordinary",
+    "checkpoint_updates": 500,
+    "starting_weights_sha": "23396d3db5b3d29f8886fd9abea4cde8ce8c7c4f8b60ca7f67997b947f3123de",
+    "select": {
+      "primary": {
+        "macro_capture": 0.40766422809605996,
+        "macro_ap": 0.8106542839259988,
+        "reconstruction": {
+          "mse": 0.34559862942853925,
+          "ve": 0.6549557759748378,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.3963304853858498,
+        "macro_ap": 0.7952139466877798
+      }
+    },
+    "confirm": {
+      "primary": {
+        "macro_capture": 0.417021283022768,
+        "macro_ap": 0.8138926954391343,
+        "reconstruction": {
+          "mse": 0.3466437562575688,
+          "ve": 0.6536083309889629,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.4057747088926276,
+        "macro_ap": 0.7960748100083279
+      }
+    }
+  },
+  {
+    "seed": 22,
+    "arm": "ordinary",
+    "checkpoint_updates": 500,
+    "starting_weights_sha": "14018792b31b82bf0b3b3920e4d958c122531e76c3d4c6615cdeff2f871cc638",
+    "select": {
+      "primary": {
+        "macro_capture": 0.4100531816922534,
+        "macro_ap": 0.8022713788423054,
+        "reconstruction": {
+          "mse": 0.34549997480222017,
+          "ve": 0.6550542723405237,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.38050240626166104,
+        "macro_ap": 0.788906148531864
+      }
+    },
+    "confirm": {
+      "primary": {
+        "macro_capture": 0.4198510499686622,
+        "macro_ap": 0.8003657044141849,
+        "reconstruction": {
+          "mse": 0.34606947072976446,
+          "ve": 0.6541821988832319,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.39278836859495536,
+        "macro_ap": 0.7893071343527464
+      }
+    }
+  },
+  {
+    "seed": 23,
+    "arm": "ordinary",
+    "checkpoint_updates": 500,
+    "starting_weights_sha": "15b9f924c1f84db041c155a81dead31440929d38b2777ceae170e8dfd4503502",
+    "select": {
+      "primary": {
+        "macro_capture": 0.4083777493855042,
+        "macro_ap": 0.8016081288836305,
+        "reconstruction": {
+          "mse": 0.3458615643244639,
+          "ve": 0.6546932628760924,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.3981263973155997,
+        "macro_ap": 0.7984029574945747
+      }
+    },
+    "confirm": {
+      "primary": {
+        "macro_capture": 0.41874889732460135,
+        "macro_ap": 0.8070806406601815,
+        "reconstruction": {
+          "mse": 0.34641622010261064,
+          "ve": 0.6538357016744389,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.4081965072191359,
+        "macro_ap": 0.7996690601504816
+      }
+    }
+  },
+  {
+    "seed": 21,
+    "arm": "vanilla_ordinary",
+    "checkpoint_updates": 500,
+    "starting_weights_sha": "d9098013a434252518c175de886df93bd65592c0fc917394e608b5653f61de28",
+    "select": {
+      "primary": {
+        "macro_capture": 0.21948738721259886,
+        "macro_ap": 0.6098339679666367,
+        "reconstruction": {
+          "mse": 0.32401548038609973,
+          "ve": 0.6765043015742653,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.0019103107898569504,
+        "macro_ap": 0.011540927031872827
+      }
+    },
+    "confirm": {
+      "primary": {
+        "macro_capture": 0.2258293974607924,
+        "macro_ap": 0.6170833347570196,
+        "reconstruction": {
+          "mse": 0.32507275076947506,
+          "ve": 0.6751636495498288,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.0018824740746811132,
+        "macro_ap": 0.00881849194914904
+      }
+    }
+  },
+  {
+    "seed": 22,
+    "arm": "vanilla_ordinary",
+    "checkpoint_updates": 500,
+    "starting_weights_sha": "92be48cacff9b9a8c11c55947f165c7f858f552025220cb379305e1858392715",
+    "select": {
+      "primary": {
+        "macro_capture": 0.2160914240562904,
+        "macro_ap": 0.6179274580328852,
+        "reconstruction": {
+          "mse": 0.32204008794891187,
+          "ve": 0.6784765251092999,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.00037943172967671874,
+        "macro_ap": 0.008114707092740318
+      }
+    },
+    "confirm": {
+      "primary": {
+        "macro_capture": 0.22602841707935648,
+        "macro_ap": 0.6198783021148735,
+        "reconstruction": {
+          "mse": 0.3229046277136078,
+          "ve": 0.6773301958971547,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.0004395673041605737,
+        "macro_ap": 0.007557107611781729
+      }
+    }
+  },
+  {
+    "seed": 23,
+    "arm": "vanilla_ordinary",
+    "checkpoint_updates": 500,
+    "starting_weights_sha": "8d93b0dec05ef96e6aa90fe8c03d9bd021a3a1503364defd2bd7e408fb0180ae",
+    "select": {
+      "primary": {
+        "macro_capture": 0.22799247244390755,
+        "macro_ap": 0.6556820120224849,
+        "reconstruction": {
+          "mse": 0.3237475460363052,
+          "ve": 0.6767718061068135,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.0005929034923260963,
+        "macro_ap": 0.006946394612579438
+      }
+    },
+    "confirm": {
+      "primary": {
+        "macro_capture": 0.23173078637307284,
+        "macro_ap": 0.6557464804786498,
+        "reconstruction": {
+          "mse": 0.3246640141861958,
+          "ve": 0.6755720888905413,
+          "active_groups": 16.0,
+          "dead_groups": 0,
+          "patches": 78400
+        }
+      },
+      "fixed_category_slot_diagnostic": {
+        "macro_capture": 0.0009320274824390262,
+        "macro_ap": 0.007175091867277044
+      }
+    }
+  }
+]

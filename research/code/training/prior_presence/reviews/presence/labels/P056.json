@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p056",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I0673",
+      "yes": [9],
+      "no": [0,1,2,3,4,5,6,7,8,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual suspended traffic-signal head has illuminated red and green lamps and directional arrows. The remaining visible crop contains bare tree branches, building walls/windows and ordinary signs; none is a stop sign, parking meter, display or other defined object. No unresolved category ambiguity after consideration of all 75 definitions."
+    },
+    {
+      "case_id": "I0674",
+      "yes": [20,22],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The left edge contains an actual elephant with recognizable ear, trunk and legs. The animals gathered at the water show zebra striping and equine forms, including smaller striped animals. They are zebras rather than unstriped horses, cattle or sheep. The remaining landscape and watering depression supply no additional defined objects. No unresolved category ambiguity after considering all 75 definitions."
+    },
+    {
+      "case_id": "I0675",
+      "yes": [28],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,25,27,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [24,26],
+      "all_definitions_considered": true,
+      "rationale": "Several red and black travel cases have suitcase bodies, zippered compartments, luggage handles and tags, supporting suitcase presence. Some softer dark bags at the upper and left portions have obscured straps and bodies, so I cannot reliably distinguish an additional backpack or shoulder/tote handbag from soft luggage; those two categories remain unclear. The metal framing and open door edges are insufficient to identify a vehicle category. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0676",
+      "yes": [0],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77],
+      "unclear": [79],
+      "all_definitions_considered": true,
+      "rationale": "Two actual children are visible. The tall blue paddle-like object carries rows of white narrow projections with darker tips resembling toothbrushes, but this resolution does not resolve their bristles or whether this is an enlarged novelty/model object; toothbrush remains unclear. Clothing, doorway and walls do not establish any other defined category. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0677",
+      "yes": [0,38],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Both portions show an actual tennis player holding a strung tennis racket with recognizable oval head and handle. The yellow balls, court, fence and divider do not correspond to further frozen categories. No unresolved category ambiguity after considering all 75 definitions."
+    },
+    {
+      "case_id": "I0678",
+      "yes": [39,41,45,58,68,69,71],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,42,44,46,47,48,49,50,51,52,53,54,55,56,57,59,60,61,62,63,64,65,66,67,72,73,74,75,76,77,79],
+      "unclear": [43],
+      "all_definitions_considered": true,
+      "rationale": "The kitchen contains cleaning/drink-style bottles with necks, a recognizable white drinking mug near the left work area, stacked open bowls on the rear shelves, a small leafy plant in a pot at the upper left, a microwave on the upper rear shelf, an oven/range below the rear work area, and a sink/tap with metal drainage area. Thin upright utensils near the central rear work area do not resolve a knife blade and handle confidently, leaving knife unclear. The foreground food is not identifiable as any of the defined foods; the worktops are kitchen counters rather than dining tables. The upper-right grille is a fan, not a TV. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0679",
+      "yes": [43,69],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The electric range has an identifiable oven door and cooking controls. Multiple kitchen knives are visible in the block at the left edge. The red object is a kettle, and the tall wooden doors provide cabinet evidence without identifiable refrigerator structure. The counter is not a dining table. No unresolved category ambiguity after considering all 75 definitions."
+    },
+    {
+      "case_id": "I0680",
+      "yes": [0,6,74],
+      "no": [1,2,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual worker stands beside the red rail train, whose carriage, doors, windows and rail context identify train rather than bus. A large analog station clock with hands and hour markings is visible at the upper right. The departure board is ordinary station signage rather than an identifiable TV or another defined object. No unresolved category ambiguity after considering all 75 definitions."
+    },
+    {
+      "case_id": "I0681",
+      "yes": [0,13,56],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [35],
+      "all_definitions_considered": true,
+      "rationale": "Actual players and spectators fill the crop. The dugout has a long shared bench and the spectator area has rows of individual backed stadium seats, supporting both bench and chair. Small dark/tan forms at players' hands and knees are too indistinct to identify a fielding mitt confidently, so baseball glove remains unclear rather than inferred from the baseball setting. No further defined object is identifiable after considering all 75 definitions."
+    },
+    {
+      "case_id": "I0682",
+      "yes": [42,44],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,77,79],
+      "unclear": [43,76],
+      "all_definitions_considered": true,
+      "rationale": "The drawer contains recognizable metal spoons with bowls and handles and a fork with tines in the upper middle compartment. Overlapping narrow metal tools in the lower compartments leave possible knives and scissors unresolved because their blades and handle structures cannot be separated confidently. The large white/blue and pink implements are kitchen brushes/spatulas, not toothbrushes; the labelled round container is a wide-mouth jar rather than a bottle. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0683",
+      "yes": [26,57,73,77],
+      "no": [2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,25,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,58,59,60,61,62,63,64,65,66,67,68,69,71,72,74,75,76,79],
+      "unclear": [0,1,24],
+      "all_definitions_considered": true,
+      "rationale": "A brown bear-shaped plush toy sits on a small red pedal cycle, so teddy bear is present and actual bear is absent. The partly hidden cycle cannot be classified confidently as an actual bicycle versus a small toy or different cycle, leaving bicycle unclear. A cropped flesh-colored rounded patch at the lower left may be a person's knee but is not sufficiently resolved, leaving person unclear. A gray soft bag on the floor has obscured straps and could be a backpack or another soft bag, leaving backpack unclear; the black bags have clear purse/shoulder-bag bodies and straps. A gray sofa is visible behind the low coffee table, and bound books appear on and under that table. The coffee table is not identifiable as a dining table. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0684",
+      "yes": [0,57,65],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,58,59,60,61,62,63,64,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual child sits against a striped upholstered sofa. The white handheld electronic controller against the forehead has a recognizable remote body, button layout and wrist strap; the paired gray controller is also visible in the other hand. These are controllers rather than phones or computer mice. No unresolved category ambiguity after considering all 75 definitions."
+    }
+  ]
+}

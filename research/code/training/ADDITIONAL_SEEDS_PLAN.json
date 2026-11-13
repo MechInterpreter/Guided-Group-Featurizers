@@ -1,0 +1,62 @@
+{
+  "schema": "all75-additional-seeds-v1",
+  "status": "frozen_before_new_seed_training_and_reviews",
+  "training_orders": [
+    24,
+    25,
+    26,
+    27
+  ],
+  "combined_training_orders": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "capacity": {
+    "groups": 75,
+    "width": 12,
+    "BSF_top_k": 32,
+    "SLiCS_dictionaries": 75,
+    "SLiCS_dictionary_width": 12
+  },
+  "full_category_methods": [
+    "ggf",
+    "supervised_vanilla",
+    "vanilla",
+    "slics"
+  ],
+  "category_split_methods": [
+    "ggf",
+    "supervised_vanilla",
+    "vanilla"
+  ],
+  "unique_banks": 36,
+  "groups_requiring_new_review": 2700,
+  "pairs_requiring_new_review": 8100,
+  "review_contexts_per_endpoint": 3,
+  "pair_packets": 675,
+  "whole_packets": 675,
+  "cases_per_packet": 12,
+  "reviewer_model": "gpt-6.1-sol",
+  "reviewer_reasoning_effort": "high",
+  "unique_new_training_endpoints": 32,
+  "exact_preexisting_full_GGF_SLiCS_endpoints": 4,
+  "training_budget": {
+    "warm_updates": 7640,
+    "continuation_updates": 3000,
+    "images_per_update": 8
+  },
+  "settings": "Unchanged original full-category GGF/SLiCS engines and all75 Vanilla/Supervised Vanilla/category-split engines. Original regime-specific LRs, SNR, sampling, initializer, controller and masks retained.",
+  "selection": "Original seed21 per-regime/fold supervised weights reused after frozen tensor verification; no new hyperparameter search or checkpoint selection for headline endpoints.",
+  "coherence": "Same full75 census, original three disjoint pairs, separate specific-semantic and visual judgments; three fresh blinded reviewers. Whole-group single theme across six HIGH views, clear>=5, partial3-4, no_clear<=2, specificity separate, contrast not_assessed; unknowns retained.",
+  "concentration": "Exact existing signed mean-top4 pooling, negative calibration quantiles .95/.90 (higher), strict > thresholds, balanced-accuracy rank with native-ID tie break; OR coverage/FPR at1/2/4/8 groups; no recalibration on audit.",
+  "labels": "Reuse original bank-independent presence judgments and QA with exact crop, mapping, definition and input checks. Reuse is not new independent annotation. Every model-dependent coherence judgment is new.",
+  "split": "Same original reverse37/38 guided-category partition, but every matched BSF has75 native groups. Shared label-free Vanilla trained/counted once per seed. No new37/38 SLiCS or Concept-SAE bank.",
+  "statistics": "Report each seed then equal-seed mean and sample SD (ddof=1) across all7. Fold/category aggregation follows existing endpoints. AI contexts, folds and shared Vanilla do not increase n. No new-image, independent-initialization or human validation claim.",
+  "paper": "Keep existing verified three-seed results unchanged until new actual training, collection, reviews and independent verification are complete.",
+  "no_paid_API_calls": true
+}

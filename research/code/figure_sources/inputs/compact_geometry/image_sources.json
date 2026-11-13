@@ -1,0 +1,32 @@
+[
+  {
+    "image_id": 256029,
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000256029.jpg",
+    "file": "000000256029.jpg",
+    "sha256": "ca9c52628bdd11ce5c09b09ff655b8c67050be9bc84fbfe5a59f5661fcadbe5b"
+  },
+  {
+    "image_id": 261151,
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000261151.jpg",
+    "file": "000000261151.jpg",
+    "sha256": "b83d33a68c4ac4049d1933b4dbb08ed7eb9bf5c1a538e72734e9d9835e95fabc"
+  },
+  {
+    "image_id": 57979,
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000057979.jpg",
+    "file": "000000057979.jpg",
+    "sha256": "c5d3ce98fb29e4c8891eb86adb6fe31406556d2b8544559ffa70efecd833735f"
+  },
+  {
+    "image_id": 128831,
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000128831.jpg",
+    "file": "000000128831.jpg",
+    "sha256": "a66b4798a4feb74dc3c83959495cb19341681cdbf0a90bffcc491d32088f17ca"
+  },
+  {
+    "image_id": 423010,
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000423010.jpg",
+    "file": "000000423010.jpg",
+    "sha256": "4b7ab55614bc2de4a6e7da128cb7141f5112c96766394d7bf93606743f1293ad"
+  }
+]

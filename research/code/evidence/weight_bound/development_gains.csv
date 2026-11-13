@@ -1,0 +1,2 @@
+seed,split,capture_gain_pp,AP_gain_pp,VE_gain_pp,original_native_MSE_limit,reconstruction_guard_passed,all_three_point_estimates_improve,passes_screen
+21,development,1.100346745838815,0.47467678767723065,-0.4516632472628568,0.35414337471680163,True,False,False

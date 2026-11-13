@@ -1,0 +1,19 @@
+{
+  "run_id": "08ee0d68de48ea9557a88fc1d1de24d3bf06ff7cdbb1534541758d873d595117",
+  "seeds": [
+    21,
+    22,
+    23
+  ],
+  "split": "development",
+  "images": 400,
+  "groups": 1024,
+  "block_rank": 4,
+  "active_groups": 16,
+  "new_guided_updates": 3000,
+  "structural_exchanges": 0,
+  "test_scores_available": true,
+  "scope": "Completed 0.20, 0.40 and 0.60 endpoints only; development evidence cannot replace test baseline scores.",
+  "test_evaluation_scope": "Cap 0.40 only; cap 0.60 remains development-only",
+  "test_evidence": "evidence/cap040_test/"
+}

@@ -1,0 +1,107 @@
+{
+  "run_id": "e8aff97082f2f0d1942306ac1cae391aca2deef1374244b2e694903be6b310ec",
+  "config": {
+    "study": "ggf_prospective_supervised_controls",
+    "source_sha": "dfed82ac09e358dd8fc5e8d6de1bb524519cc0965cfea45f1318367b7eab90cf",
+    "core_sha": "8a29854a50c94420686f9b904f7eaecd88f9324bcf2b016c1ce6ad4057aa0b9c",
+    "numerical_versions": {
+      "numpy": "2.1.3",
+      "torch": "2.11.0+cu130",
+      "scipy": "1.16.3",
+      "scikit-learn": "1.6.1",
+      "einops": "0.8.2"
+    },
+    "protocol": {
+      "version": 3,
+      "evaluation_revision": "object-only-development-reservation-fix-v1",
+      "holdout_policy": "Reuse the pinned, verified unopened predecessor reservation; never reuse an opened test cohort",
+      "holdout_reservation_sha": "af34b44ced90edaae136b8108e287c8a4aabec3cadf45cb1f147f122212c07aa",
+      "seeds": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "screen_seeds": [
+        21,
+        22,
+        23
+      ],
+      "groups": 75,
+      "width": 12,
+      "k": 32,
+      "cap": 0.6,
+      "current_anchor_groups": 4096,
+      "warm": 7640,
+      "guided": 3000,
+      "total": 10640,
+      "new_bsf_controls": false,
+      "new_detection_only_bsf": false,
+      "small_groups": 75,
+      "small_width": 12,
+      "small_k": 32,
+      "small_lrs": [
+        0.0001,
+        0.0003,
+        0.001
+      ],
+      "selection": "capture + 0.2 AP on the fixed development set; exact ties retain earliest checkpoint, then declared LR grid order; no MSE selector",
+      "routine_validation": "object metrics only for SLiCS; full joint reconstruction only on the frozen final holdout",
+      "checkpoint_schedule": "SLiCS: 0, every 500, 7640 and 10640; GGF guided: 0, every 500 and 3000; GGF candidates include a shared 7640-update warm-up",
+      "training_arithmetic_changed": false,
+      "secondary_joint_object_readout": false,
+      "predecessor_run": "d8a0a7c7bd2e6ffb880cee729c8fdfba2adea8ca3709f887e5c58e5ae77fb0fd",
+      "primary_contrasts": [
+        [
+          "matched_ggf",
+          "slics_object_partial"
+        ]
+      ],
+      "confirmatory_capture_AP_tests": 2,
+      "holm_family_alpha": 0.05,
+      "current_capacity_anchor_seeds": [
+        21,
+        22,
+        23
+      ],
+      "current_anchor_retraining": false,
+      "fresh_seed": 126109,
+      "fresh_images": 1500,
+      "previous_test_for_selection": false,
+      "source_control_training": false,
+      "primary_small_readouts": "fixed category slots for BOTH methods",
+      "seed_scope": "Independent training orders conditional on a common deterministic SVD initializer and fixed data",
+      "scope": "Tests specified supervised controls; no claim to settle all possible supervised methods or guarantee acceptance."
+    },
+    "source_runs": [
+      "df54f9dbb7601fb3ffb636aee874e5da3ae73ec978974a32817a3088b128b765",
+      "bd3eb87f9fb5ffc0a41963b4e8154c881e32b96cb44b8c40e8730665a72fff32"
+    ],
+    "normalization_sha": "be92e9c543dc0d75d24147c273e60ecfee2bb125eb3116973e1f243573f7b13c",
+    "train_identity": "f23e4922ae6fd9ba0b29d558c2c8f36d741df6f907f40ccde5003a2ebb5395ff",
+    "development_identity": "19dfc4cf926be8b485819aa86cba99dd60c94f0921b9bafc50dabd988de62412",
+    "pilot_pins": {
+      "g4096_k32_s21_mask_lr3000_p10000_agf_g_c060": {
+        "weights_sha": "7ba79ec022b8fceee1c427c9aa3088669678a145129224c0bfd6e975cd17a029",
+        "targets_sha": "50d1848a9649c7a98765d548c38a164a1e1e73ef14d02bc1838aeea4be88feaa",
+        "seed": 21,
+        "kind": "agf_g"
+      },
+      "g4096_k32_s22_mask_lr3000_p10000_agf_g_c060": {
+        "weights_sha": "d0e7072c8dfb192eadfa23fb781b7a4e1c2692f3164c083508bafdfd9fc12667",
+        "targets_sha": "ffad8356bd3f541dc0e1d5062cd6159783f7ca416909eb7594fcb93bdaedd4eb",
+        "seed": 22,
+        "kind": "agf_g"
+      },
+      "g4096_k32_s23_mask_lr3000_p10000_agf_g_c060": {
+        "weights_sha": "5147a325efc0d491eecd1651c45c5c29cc3df3c33a073aed6f6d0a7140a52d8e",
+        "targets_sha": "aa24c1477b10660f13551e1a53d08fb669ba3459070cc0dafc663aaa789fd4f0",
+        "seed": 23,
+        "kind": "agf_g"
+      }
+    }
+  }
+}

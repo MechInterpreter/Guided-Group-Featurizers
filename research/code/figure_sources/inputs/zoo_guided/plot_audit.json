@@ -1,0 +1,110 @@
+{
+  "source_sha256": "6b1087d377161e1401722f4eb4da21e018da12f873ad55fedbe63ffcdd560e87",
+  "methods": [
+    "ggf_selected",
+    "vanilla",
+    "grassmannian",
+    "group_lasso"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "error_bars": "One sample standard deviation over three model seeds; not confidence intervals.",
+  "primary_recovery": "Calibration-locked one-group R2; fixed assigned group for GGF gives identical values.",
+  "bar_axes_start_at_zero": true,
+  "comparison_width_bp": 234,
+  "geometry_width_bp": 504,
+  "geometry_definition": "700 fresh points per known factor family from original generator; schematic normalized coordinates, not learned group embeddings or measured test points.",
+  "geometry_generator_sha256": "3a22b171b903a6184adbfc7df4c9549542ac8f59bb6985c7d72c48ffbfbb4956",
+  "geometry_seed": 48713,
+  "geometry": [
+    {
+      "kind": "segment",
+      "factors_per_seed": 64,
+      "mean_recovery_pct": 98.84439805800771,
+      "seed_recovery_pct": [
+        98.84366489140243,
+        98.84446659614167,
+        98.84506268647904
+      ]
+    },
+    {
+      "kind": "circle",
+      "factors_per_seed": 10,
+      "mean_recovery_pct": 98.18397392990302,
+      "seed_recovery_pct": [
+        98.18463786756875,
+        98.18491754454497,
+        98.18236637759534
+      ]
+    },
+    {
+      "kind": "disk",
+      "factors_per_seed": 9,
+      "mean_recovery_pct": 97.96912584732866,
+      "seed_recovery_pct": [
+        97.9696691711902,
+        97.96603088218797,
+        97.97167748860777
+      ]
+    },
+    {
+      "kind": "sphere",
+      "factors_per_seed": 9,
+      "mean_recovery_pct": 97.22035388381039,
+      "seed_recovery_pct": [
+        97.22149051520249,
+        97.21795392418981,
+        97.22161721203884
+      ]
+    },
+    {
+      "kind": "torus",
+      "factors_per_seed": 9,
+      "mean_recovery_pct": 97.57243560064866,
+      "seed_recovery_pct": [
+        97.56933044212097,
+        97.57421145923915,
+        97.57376490058589
+      ]
+    },
+    {
+      "kind": "mobius",
+      "factors_per_seed": 9,
+      "mean_recovery_pct": 97.42894174270714,
+      "seed_recovery_pct": [
+        97.42507100161225,
+        97.43082984883691,
+        97.43092437767227
+      ]
+    },
+    {
+      "kind": "swiss_roll",
+      "factors_per_seed": 9,
+      "mean_recovery_pct": 97.71470588831284,
+      "seed_recovery_pct": [
+        97.71379692713482,
+        97.71845754041925,
+        97.71186319738443
+      ]
+    },
+    {
+      "kind": "helix",
+      "factors_per_seed": 9,
+      "mean_recovery_pct": 97.17363995484659,
+      "seed_recovery_pct": [
+        97.17492172266792,
+        97.1753144363386,
+        97.1706837055333
+      ]
+    }
+  ],
+  "minimum_main_label_font_pt": {
+    "ggf_zoo_comparison": 9.0,
+    "ggf_zoo_geometry": 9.0
+  },
+  "full_variance_R2_not_percent_recovered": true,
+  "selected_GGF_supervision": "Known component contributions plus factor presence; stronger than COCO masks."
+}

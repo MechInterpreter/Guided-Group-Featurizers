@@ -1,0 +1,30 @@
+{
+  "source_sha256": "ec258ff3d738787b378076a770e28075dab59cdc0d7eaeec2a9b98c2bc6b1731",
+  "arms": [
+    "matched_ggf_final",
+    "slics_final_partial"
+  ],
+  "seed_group": "all_five",
+  "whiskers": "95% Student-t intervals over five training orders; not image-bootstrap bands",
+  "comparison": "Completed-training GGF versus completed-training SLiCS only; selected checkpoint retained in appendix",
+  "allocated_figure_width_bp": 432,
+  "minimum_font_pt": 9.0,
+  "all_axes": [
+    0,
+    100
+  ],
+  "values": [
+    {
+      "arm": "matched_ggf_final",
+      "capture_pct": "40.93837498045729",
+      "patch_AP_pct": "77.1954994291269",
+      "VE_pct": "82.1958395576245"
+    },
+    {
+      "arm": "slics_final_partial",
+      "capture_pct": "25.410357270178295",
+      "patch_AP_pct": "51.04995397585509",
+      "VE_pct": "75.47965365767433"
+    }
+  ]
+}

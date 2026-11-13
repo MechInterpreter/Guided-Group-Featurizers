@@ -1,0 +1,19 @@
+{
+  "figure": "agf_slics_bars",
+  "change": "GGF Capture label raised by 7 points; paired bar centers spaced by 0.48 instead of 0.34 to keep centered values clear of neighboring bars. Values, fonts, bar widths and figure dimensions unchanged.",
+  "all_six_labels_disjoint": true,
+  "printed_minimum_font_pt": 9.0,
+  "values": [
+    [
+      15.88,
+      50.71,
+      23.77
+    ],
+    [
+      25.48,
+      69.07,
+      51.92
+    ]
+  ],
+  "labels_clear_of_all_bars": true
+}

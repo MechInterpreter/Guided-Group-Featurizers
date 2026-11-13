@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p064",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I0769",
+      "yes": [0],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [44],
+      "all_definitions_considered": true,
+      "rationale": "A person's coated torso and hand are visible beside a transparent handled blender/pitcher jug containing pale liquid. The fur trim is clothing, not an actual animal or teddy bear. The jug is not a bottle, wine glass or identifiable drinking cup. A thin utensil appears to extend from the hand into the jug, but its submerged working end is not resolved; spoon (44) remains unclear. The visible work surface is a counter, not an eating table. I considered all 75 definitions across the entire crop; no other category has supported presence or unresolved identity."
+    },
+    {
+      "case_id": "I0770",
+      "yes": [13,22],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20,21,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Several actual zebras show characteristic striped equine bodies and legs; these are zebras rather than horses. A long slatted seat on supports in the rear is a bench. The surrounding vegetation grows in the ground without an identifiable pot. I considered every one of the 75 definitions, including small background features; none of the other defined objects is identifiable. No unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0771",
+      "yes": [0,79],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A person's face, torso and hand are clearly visible. The orange-and-white narrow handled implement held against the teeth has a toothbrush head and unmistakable brushing context. It is not an eating utensil. The dim background contains no identifiable additional defined object. I considered all 75 exact definitions; no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0772",
+      "yes": [39,71],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Two oval inset washbasins with chrome taps are actual sinks, one seen by reflection. Red narrow-neck pump containers beside them are bottles. The mirror reflections repeat these objects without adding a separate object class. Soap dishes and bars are not drinking cups, bowls or food, and the vanity is a counter rather than a dining table. All 75 definitions were considered; no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0773",
+      "yes": [0,36],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Actual people stand or skate within the concrete skate park. A skateboard at the lower left has a visible deck, truck and wheel; the boarding context supports skateboard identity, not snowboard or surfboard. Concrete ramp edges are not benches or dining tables, and the distant trees have no pots. I considered every one of the 75 definitions over the whole image. No unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0774",
+      "yes": [0,41,42,53,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,43,44,45,46,47,48,49,50,51,52,54,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "People sit behind two clearly topped round pizzas on an eating table. Straight-sided drinking glasses in the foreground are cups/tumblers rather than stemmed wine glasses. A fork lies at the left side of the place setting with visible prongs and handle. The small device the man holds is a compact camera, not a supported cell-phone identification. The food is pizza rather than sandwich, cake or other listed food; flat plates do not count as bowls. I considered all 75 definitions, including the background. No unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0775",
+      "yes": [43],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,44,45,46,47,48,49,50,51,52,53,54,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [55,60],
+      "all_definitions_considered": true,
+      "rationale": "A black riveted knife handle and its broad blade lie in a partly emptied foil baking/pie pan. The remaining crumbly layered dessert could be cake or pie; because pie is excluded and the fragment does not settle the distinction, cake (55) is unclear. The foil baking tin is not an identifiable bowl or flat food plate. Food packaging and the pan rest on a broad surface, but its identity as an eating table rather than another preparation/support surface is unresolved, so dining table (60) is unclear. Printed package imagery is excluded as actual category objects. I considered all 75 definitions; no further unresolved category identities."
+    },
+    {
+      "case_id": "I0776",
+      "yes": [56,57,73],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,59,60,61,62,63,64,65,66,67,68,69,71,72,74,76,77,79],
+      "unclear": [58,75],
+      "all_definitions_considered": true,
+      "rationale": "Single-person wooden and upholstered chairs surround a low coffee table, and a pink upholstered two-person settee is a couch. Bound volumes are stacked on the coffee table, supporting book presence. The low table has sitting-room/coffee-table context rather than dining context. A decorative orange floral arrangement at the upper right and a small green arrangement beside the settee have insufficient plant/container detail to decide growing potted plant (58) versus flowers in a vase (75); both remain unclear. Wall pictures do not count as actual objects depicted within them. All 75 definitions were considered; no additional unresolved category identity."
+    },
+    {
+      "case_id": "I0777",
+      "yes": [1],
+      "no": [0,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual pedal bicycle with two wheels, frame, saddle, handlebars and pedals rests against the stone building. The object perched above the saddle is a helmet, not a human head/person. Stone steps and architectural columns are not benches or furniture. Lettering and banners do not establish actual objects depicted in graphics. I considered all 75 definitions across the crop; no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0778",
+      "yes": [0,38],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual tennis player grips a racket with an oval strung head and handle while a tennis ball is airborne on a grass court. This supports person and tennis racket; the ball, net and court markings are outside the defined object categories. The racket is not a flying disc or board. I considered each of the 75 exact definitions throughout the crop; no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0779",
+      "yes": [0,2,3,20],
+      "no": [1,4,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [5],
+      "all_definitions_considered": true,
+      "rationale": "A large actual elephant has a visible trunk, ear, body and legs, with actual people riding above and another person at the right. White passenger cars are visible behind it. A red-and-black motor scooter/motorcycle with wheel/body and mirrors is partly exposed beneath the elephant's midsection. The larger white background vehicle has insufficient detail to distinguish a passenger van from a small bus, so bus (5) remains unclear. The elephant's saddle platform/railings are not sufficiently chair- or bench-shaped furniture; foreground metal loops are barriers rather than bicycle wheels. I considered all 75 definitions; no other unresolved category identities."
+    },
+    {
+      "case_id": "I0780",
+      "yes": [0,41],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [60],
+      "all_definitions_considered": true,
+      "rationale": "A seated man wearing headphones and the torso/hand of another actual person are visible. The upright dark-drink glass in the upper center has a straight tumbler body without a stem; another drinking glass is partly visible at the lower left, so cup is present and wine glass is not. The small white support surface at lower left is too limited to identify as an eating table rather than a desk or counter, leaving dining table (60) unclear. Headphones, jewelry and a wristwatch do not establish the listed electronic devices or a separate clock object. I considered all 75 definitions; no other unresolved category identities."
+    }
+  ]
+}

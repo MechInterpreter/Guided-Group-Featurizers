@@ -1,0 +1,338 @@
+{
+  "signature": "ca3245cc690a490569999969fe2fb4d890ea279de39672b186fae6a99be0c0ec",
+  "report": {
+    "seed": 21,
+    "kind": "concept_sae",
+    "macro_capture": 0.031861561699043923,
+    "macro_ap": 0.6859235226709758,
+    "reconstruction": {
+      "mse": 0.4493762630285219,
+      "ve": 0.5503347083028907
+    },
+    "categories": [
+      {
+        "category_index": 0,
+        "capture": 0.013509375738505969,
+        "ap": 0.7544733478061598,
+        "native_contribution_norm_AP": 0.5916596769643148,
+        "concept_token": 0
+      },
+      {
+        "category_index": 2,
+        "capture": 0.03887571689760694,
+        "ap": 0.8520998139950993,
+        "native_contribution_norm_AP": 0.7907233644183536,
+        "concept_token": 1
+      },
+      {
+        "category_index": 3,
+        "capture": 0.07071770458115012,
+        "ap": 0.8128632093413496,
+        "native_contribution_norm_AP": 0.6516062850379165,
+        "concept_token": 2
+      },
+      {
+        "category_index": 4,
+        "capture": 0.006436435504801885,
+        "ap": 0.783666802575998,
+        "native_contribution_norm_AP": 0.2918975303201717,
+        "concept_token": 3
+      },
+      {
+        "category_index": 5,
+        "capture": 0.10984506439893549,
+        "ap": 0.9266261863899585,
+        "native_contribution_norm_AP": 0.8642980942918483,
+        "concept_token": 4
+      },
+      {
+        "category_index": 6,
+        "capture": 0.0366855078393562,
+        "ap": 0.7951047478468155,
+        "native_contribution_norm_AP": 0.5699804720632741,
+        "concept_token": 5
+      },
+      {
+        "category_index": 8,
+        "capture": 0.016315026724291526,
+        "ap": 0.7000294645342382,
+        "native_contribution_norm_AP": 0.36706821883156654,
+        "concept_token": 6
+      },
+      {
+        "category_index": 14,
+        "capture": 0.010492941452369675,
+        "ap": 0.6400809591431439,
+        "native_contribution_norm_AP": 0.5224717146235435,
+        "concept_token": 7
+      },
+      {
+        "category_index": 15,
+        "capture": 0.059923282730297456,
+        "ap": 0.8318395022291584,
+        "native_contribution_norm_AP": 0.7654576897538317,
+        "concept_token": 8
+      },
+      {
+        "category_index": 16,
+        "capture": 0.03188853114002277,
+        "ap": 0.7723992947324808,
+        "native_contribution_norm_AP": 0.7088552584613022,
+        "concept_token": 9
+      },
+      {
+        "category_index": 17,
+        "capture": 0.06713683147288385,
+        "ap": 0.7472015558502229,
+        "native_contribution_norm_AP": 0.6309126601964617,
+        "concept_token": 10
+      },
+      {
+        "category_index": 18,
+        "capture": 0.0449880633467008,
+        "ap": 0.6068869172987699,
+        "native_contribution_norm_AP": 0.44629443805092445,
+        "concept_token": 11
+      },
+      {
+        "category_index": 19,
+        "capture": 0.05694180555846118,
+        "ap": 0.7790397561745844,
+        "native_contribution_norm_AP": 0.6577334495564268,
+        "concept_token": 12
+      },
+      {
+        "category_index": 39,
+        "capture": 0.004819481259548786,
+        "ap": 0.6271802746674794,
+        "native_contribution_norm_AP": 0.5405233161006338,
+        "concept_token": 13
+      },
+      {
+        "category_index": 56,
+        "capture": -0.00030750857999151116,
+        "ap": 0.06282334289685822,
+        "native_contribution_norm_AP": 0.054637513272380325,
+        "concept_token": 14
+      },
+      {
+        "category_index": 57,
+        "capture": 0.00988355717001399,
+        "ap": 0.6200656864315807,
+        "native_contribution_norm_AP": 0.46133799620864485,
+        "concept_token": 15
+      },
+      {
+        "category_index": 58,
+        "capture": 0.002759511552238858,
+        "ap": 0.39163915930717125,
+        "native_contribution_norm_AP": 0.3739699959795149,
+        "concept_token": 16
+      },
+      {
+        "category_index": 60,
+        "capture": 0.019892784594171764,
+        "ap": 0.7294465143432045,
+        "native_contribution_norm_AP": 0.5320086635052386,
+        "concept_token": 17
+      },
+      {
+        "category_index": 62,
+        "capture": 0.004565558900468836,
+        "ap": 0.5990803951842665,
+        "native_contribution_norm_AP": 0.3707645372925209,
+        "concept_token": 18
+      }
+    ],
+    "model_parameters": 92000983,
+    "scope": "Released Concept-SAE adapted to shared DINO/mask task; category-assigned native additive contributions for capture; native mask-times-presence for primary AP; no refitted BSF code or decoder; not capacity/sparsity/update matched",
+    "training_protocol": {
+      "revision": "concept-sae-development-repair-v2",
+      "epochs": [
+        30,
+        50,
+        30
+      ],
+      "tokenizer_LRs": [
+        0.0001,
+        0.0003,
+        0.001
+      ],
+      "aggregator_LR": 0.001,
+      "free_LR": 0.001,
+      "step_sizes": [
+        20,
+        30,
+        null
+      ],
+      "gammas": [
+        0.1,
+        0.1,
+        1.0
+      ],
+      "effective_batch": 64,
+      "microbatch": 8,
+      "selection_seed": 21,
+      "seeds": [
+        21,
+        22,
+        23
+      ],
+      "selection": "COCO seed21 tokenizer LR and epoch: maximum development native mask-times-presence macro AP among checkpoints with mask MSE below the all-zero baseline and AP above constant-score AP; ties prefer lower mask MSE, earlier epoch, then earlier LR. Freeze LR for remaining starts and VOC. Each tokenizer uses the same checkpoint rule. Stages2/3: minimum development reconstruction MSE.",
+      "gate": "Before freezing any tokenizer, require mask MSE below all-zero MSE and native patch AP above constant-score AP. Failure saves diagnostics and stops before downstream fitting/held-out scoring; no failed start is dropped.",
+      "losses": "Unchanged pinned RELEASED code: linear presence/mask, tokenizer merge L1=.01, aggregator KL=.01 at T=.02 and mean weight L1=1, free aggregation weight L1=1. No sigmoid, reweighting, focal loss or new heads.",
+      "paper_schedule": "30/50/30 epochs and tokenizer/aggregator StepLR timing follow paper Appendix B; native released objective/output conventions retained where paper and code differ. Free stage LR constant because paper specifies no decay.",
+      "task": "Normalized frozen DINO patches, human category masks/presence,14x14 grid,36 free tokens; explicit task adaptation, not native CLIP replication or matched BSF capacity.",
+      "evaluation": "Unchanged original category-assigned contribution capture and native mask-times-presence patch AP. No readout selected on held-out scores.",
+      "scope": "COCO held-out audit was previously inspected; VOC official validation, not official test. Development repair motivated by failed localization diagnostics, not independent confirmation.",
+      "no_time_limit": true,
+      "native_commit": "956d19b32baccd9c355b5ada9b281898ca998a16",
+      "native_source_sha256": "8323fe5aebc108d3c5929f106446998d14a7b0e0129aa51f00d8d61b24ad6593",
+      "train": "681d470415a7c293cdc33a7782bb797ca1d1ffcc9a436ea19908f49b9a63e08a",
+      "development": "a7eca6e12b639678e9b1e84d722b14f19d753882623383300067784f08cb6013",
+      "tokenizer_LR": 0.001,
+      "selection_sha": "77d1634e8d2524952fed0a76152c2db41beb9f6fa1a820176b2e79f1189cd426",
+      "code_sha256": "93260d8d3564a6f42715b4811a5521b1a73ad05db7da5fd28580ac53a6d5e4fd"
+    },
+    "stage_receipts": [
+      {
+        "key": "tokenizer_s21_lr10000",
+        "signature": "27e2cf204e096a067e943dc3b73a61839f29284587dd4db2f1ba36ed709bcb6e",
+        "best_epoch": 30,
+        "best_loss": 0.029839039801748478,
+        "best_diagnostics": {
+          "mask_MSE": 0.0082566381490465,
+          "presence_MSE": 0.021582401652701977,
+          "zero_mask_MSE": 0.016277728688688174,
+          "FIT_constant_mask_MSE": 0.015804681922526716,
+          "macro_patch_AP": 0.7006228948964589,
+          "constant_score_AP": 0.016706359924041993,
+          "AP_defined_categories": 19,
+          "AP_total_categories": 19,
+          "per_category_AP": [
+            0.7442734743109078,
+            0.8353666221629927,
+            0.8781083456508978,
+            0.7060412103268529,
+            0.9459780389731797,
+            0.7482685702029027,
+            0.5952487342864899,
+            0.8280830135037666,
+            0.9070776344971356,
+            0.7848917503045416,
+            0.715249738546555,
+            0.6988164113117056,
+            0.6868065592893433,
+            0.9075598064001423,
+            0.4192063108037595,
+            0.5601029083219434,
+            0.16731480102281612,
+            0.8316928856105295,
+            0.35174818750625725
+          ],
+          "per_category_mask_MSE": [
+            0.022744960933721334,
+            0.007916106416498965,
+            0.004389766682437818,
+            0.005119293995835484,
+            0.0069868111773520114,
+            0.01180603459842731,
+            0.004297285942998674,
+            0.00644686976571652,
+            0.012522811954035484,
+            0.013289793182609023,
+            0.004409452510235214,
+            0.010221485213193564,
+            0.004042449316125557,
+            0.003912548685479551,
+            0.0098899796718689,
+            0.008661958709405546,
+            0.003434250444715624,
+            0.006746252274221713,
+            0.010038013357005214
+          ],
+          "per_category_zero_MSE": [
+            0.0400735130981381,
+            0.018131961860796738,
+            0.010958735468274942,
+            0.008510188786462383,
+            0.03166378707468928,
+            0.025048377670572327,
+            0.00561983849866353,
+            0.012050126638918515,
+            0.03510536376198531,
+            0.025919460859581193,
+            0.008598584356510676,
+            0.02363054459037591,
+            0.004878216880374558,
+            0.009914904995158775,
+            0.010187834842502594,
+            0.008694560136291172,
+            0.0031258237807915983,
+            0.015923658651020352,
+            0.011241363133967279
+          ],
+          "per_category_image_AP": [
+            0.8884299454166781,
+            0.898616416263475,
+            0.9123230373230373,
+            0.9666976573983495,
+            1.0,
+            0.9558085433085434,
+            1.0,
+            0.9898989898989901,
+            0.9621364550942016,
+            0.9512988388846513,
+            0.9042735042735043,
+            0.9978354978354977,
+            0.8337231968810916,
+            0.9617346938775511,
+            0.4144454502495216,
+            0.7296092796092796,
+            0.5533683225072527,
+            0.8250081316679676,
+            0.9778223084105437
+          ],
+          "negative_presence_fraction": 0.40933388157894735,
+          "quality_pass": true
+        },
+        "epochs_completed": 30,
+        "updates": 570,
+        "weights_sha": "3b44970be38c2f5bd5d0062c0a29384337fa4d4acbc65ff0a3a4213f8a05e8b3",
+        "seconds": 222.06616482499885,
+        "final_epoch_is_best": true,
+        "convergence_note": "Fixed schedule completed; boundary best or improving final trajectory is flagged, not proof of convergence."
+      },
+      {
+        "key": "concept_sae_s21_stage2",
+        "signature": "c4d0e104fd7f9b056ca691dd3319e7c7aeaab36fc29d7d70f8f6ea3e20b36d63",
+        "best_epoch": 50,
+        "best_loss": 0.8501746580004692,
+        "best_diagnostics": {
+          "development_reconstruction_MSE": 0.8501746580004692
+        },
+        "epochs_completed": 50,
+        "updates": 950,
+        "weights_sha": "7e671e901f20cd79d797df4d5bc859ae2e5d2b330447dfea0e3317ad8d4174f8",
+        "seconds": 222.77515232501173,
+        "final_epoch_is_best": true,
+        "convergence_note": "Fixed schedule completed; boundary best or improving final trajectory is flagged, not proof of convergence."
+      },
+      {
+        "key": "concept_sae_s21_stage3",
+        "signature": "6d125eb16c3e7ac9c9ada2edae20bfb107286a6825b9a28dbb070f36b8cb0a41",
+        "best_epoch": 28,
+        "best_loss": 0.4451294196769595,
+        "best_diagnostics": {
+          "development_reconstruction_MSE": 0.4451294196769595
+        },
+        "epochs_completed": 30,
+        "updates": 570,
+        "weights_sha": "152c305d544df013ce8481ed7a22fa350b7be0783952f3dfa2161d3e6d714ea1",
+        "seconds": 693.3714602570362,
+        "final_epoch_is_best": false,
+        "convergence_note": "Fixed schedule completed; boundary best or improving final trajectory is flagged, not proof of convergence."
+      }
+    ]
+  }
+}

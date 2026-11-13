@@ -1,0 +1,13 @@
+{
+  "schema": "ggf-paper-payload-scope-v1",
+  "excluded_study": "Procedural 3D physical-lighting experiment; not reported in the paper",
+  "excluded_files": {
+    "sources/controlled_variation/lighting_study.py": "09bfaf7848fba1d02cb7ee674eaf22463c4970fd16ee5b25a148af921a44f893",
+    "sources/controlled_variation/lighting_math.py": "136e832deb7d74c5116271a357ce324b7327683fc40e8b45584baab93d16e1f9",
+    "sources/controlled_variation/render_lighting.py": "7ce79e5119bc2edf776bf935e672643f124ccef361248de65762f2a66054bd59",
+    "sources/controlled_variation/test_cv.py": "46532b30b1d16dacd3f2c0c8be83d2f69179da03041b365bcdbf25583edd0c1f"
+  },
+  "retained_implementations": "Original 2D rotation, scale and brightness functions and their dependencies; numerical kernels remain unchanged",
+  "default_entrypoint": "bootstrap/full_pipeline.py",
+  "controlled_entrypoint": "bootstrap/fresh_analysis.py --phase controlled"
+}

@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p093",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I1117",
+      "yes": [0,5,9],
+      "no": [1,2,3,4,6,7,8,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The crop shows two actual road buses, including a double-decker, and an actual man walking in the foreground. A red traffic-signal lamp and its dark signal head are visible between the buses beneath the bridge. The buses are distinguishable from trucks and trains; signs and advertising pictures do not supply other actual category objects. I considered all 75 frozen definitions across the whole crop; no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1118",
+      "yes": [10],
+      "no": [1,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [0],
+      "all_definitions_considered": true,
+      "rationale": "A yellow fire hydrant with a red cap and side outlet stands at the curb before the white fence. The trees and shrubs lack pot evidence. A small brownish form behind the fence near the center could be a partly obscured person, but its anatomy is too indistinct to establish that identity, so person remains unclear. I explicitly considered all 75 definitions; the house, fence, vegetation and roadway provide no identifiable objects for the other categories."
+    },
+    {
+      "case_id": "I1119",
+      "yes": [0,39,41,42,43,45,56,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,46,47,48,49,50,51,52,53,54,55,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [44],
+      "all_definitions_considered": true,
+      "rationale": "Actual people sit around an eating table with visible chair framing at the left. The settings include mugs and drinking glasses, condiment bottles with necks, small food bowls, identifiable forks and table knives. The large brown drinking vessel has a handle and no stem, so it counts as cup rather than wine glass. Some small silver utensils beside the cups are insufficiently resolved to tell whether a spoon bowl is present; spoon is unclear. The food portions do not establish any of the specified fruit, vegetable, sandwich or dessert categories. All 75 definitions were explicitly considered."
+    },
+    {
+      "case_id": "I1120",
+      "yes": [14],
+      "no": [0,1,2,3,4,5,6,7,9,10,11,12,13,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [8],
+      "all_definitions_considered": true,
+      "rationale": "Several actual gulls are visible: the central perched bird, a smaller left bird, a flying bird, and a cropped wing at the upper right. These are actual birds rather than kites or aircraft. Small cropped white and red structures at the bottom behind the rail could belong to boats, but a determinate watercraft identity is not supported by the limited visible parts, so boat is unclear. Pilings, rope, railings, roof and vegetation do not establish the other categories. I considered every one of the 75 definitions."
+    },
+    {
+      "case_id": "I1121",
+      "yes": [68,72,75],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,48,49,50,51,52,53,54,55,57,58,59,60,61,62,63,64,65,66,67,69,71,73,74,76,77,79],
+      "unclear": [47,56],
+      "all_definitions_considered": true,
+      "rationale": "The left countertop appliance has a microwave door and controls; the right stainless appliance is an actual refrigerator. A tall blue vase holds cut floral stems above the refrigerator; this is vase context rather than a growing potted plant. The adjacent small red round object could be an apple but lacks decisive fruit detail, leaving apple unclear. The cropped white tubular structure at the bottom may be a chair back or another frame, leaving chair unclear. Cabinets and counter do not establish an oven or dining table, and printed pictures do not count as actual objects. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I1122",
+      "yes": [61,71],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,62,63,64,65,66,67,68,69,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual toilet bowl and seat occupy the center, and an actual wall-mounted washbasin is visible at the upper right with sink plumbing context. The larger foreground fixture is a bathtub, excluded from sink and bowl. The wall holder and small bathroom hardware do not identify a toothbrush or drinking vessel. After explicitly considering all 75 definitions, no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1123",
+      "yes": [6,74],
+      "no": [1,2,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,75,76,77,79],
+      "unclear": [0],
+      "all_definitions_considered": true,
+      "rationale": "The actual rail train has a cab, coupled rolling-stock body and rail-platform context. The large hanging clock has a numbered face and hands, establishing a time-of-day clock. Small dark forms down the platform could include a person, but their limited detail prevents separation from structural elements, so person is unclear. Station signage and canopy supports are not traffic lights or stop signs. Every one of the 75 definitions was considered."
+    },
+    {
+      "case_id": "I1124",
+      "yes": [0,39,41,52,56,60,77],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,42,43,44,45,46,47,48,49,50,51,53,54,55,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A person's actual hands hold a visible frankfurter in a bun with toppings, establishing hot dog and excluding sandwich under the frozen definition. Bear-shaped stuffed toys in the box establish teddy bear, while their plush construction excludes actual bear. Paper drinking cups and sauce bottles stand on an eating table with red chair backs behind it. The cardboard box is neither bowl nor suitcase; printed cup graphics add no actual food categories. I explicitly considered all 75 definitions and have no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1125",
+      "yes": [0,27],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual man fills the foreground, with other people behind him. He wears a recognizable necktie with a floral printed design; the printed flowers are not potted plants. The folded printed paper in his hand appears to be a leaflet rather than an identifiable bound book. His jacket and pocket are not carried bags. All 75 definitions were explicitly considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1126",
+      "yes": [0],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [31],
+      "all_definitions_considered": true,
+      "rationale": "An actual person in winter clothing is moving through snow. The feet and equipment are largely hidden by powder; a dark sliver near the lower boot could be snowboard equipment, but there is no sufficiently resolved deck or binding for a determinate snowboard identification, so snowboard remains unclear. Gloves and the dangling wrist strap are not a baseball mitt or a carried bag. Snow-laden trees have no pot context. I explicitly considered all 75 definitions."
+    },
+    {
+      "case_id": "I1127",
+      "yes": [41,44,45,46,47],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,42,43,48,50,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [49,51],
+      "all_definitions_considered": true,
+      "rationale": "The meal contains identifiable peeled banana and apple slices with peel. A red drinking tumbler is a cup, an actual spoon protrudes from the open yogurt tub, and food bowls are visible, including the small bowl at the upper right. The yogurt tub is a food container rather than another drinking cup; the almond-milk carton is not a bottle. Small orange food pieces in the foreground lack enough surface and cross-section detail to distinguish orange fruit from carrot pieces, leaving both orange and carrot unclear. Leafy greens do not identify broccoli. The surface is a kitchen counter rather than an identifiable dining table. All 75 definitions were explicitly considered."
+    },
+    {
+      "case_id": "I1128",
+      "yes": [],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [0],
+      "all_definitions_considered": true,
+      "rationale": "The crop is chiefly a white architectural complex, lawn and an unpotted evergreen. A tiny dark upright form at the far-right entrance might be a person but is too small to distinguish confidently from doorway or architectural detail, leaving person unclear. The domes and finials are building elements rather than clock faces, and the tree has no identifiable planter. I considered every one of the 75 definitions; no other category object is identified."
+    }
+  ]
+}

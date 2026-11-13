@@ -1,0 +1,722 @@
+[
+  {
+    "index": 1,
+    "group": 5,
+    "confidence": 2,
+    "common": "All eight strongest examples show vehicle bodies or vehicle parts. This is a clear car-related theme, although the response also extends into the neutral background.",
+    "variation_note": "PC1 and PC2 mainly separate vehicles from unrelated cutouts. PC3 partly separates broad body views from wheel or door details, with a plant exception. Presence separation is clearer than a clean internal factor.",
+    "card_id": "f4e7e37bce4f"
+  },
+  {
+    "index": 2,
+    "group": 5,
+    "confidence": 2,
+    "common": "The strongest examples consistently show vases, jugs, and decorative containers with varied shapes and surface patterns.",
+    "variation_note": "PC1 separates rounded containers from unrelated objects. PC2 partly contrasts narrow stems or glass vessels with broader objects. PC3 mixes flowers and vessel types. Shape differences are plausible but not uniformly ordered.",
+    "card_id": "494682922f7a"
+  },
+  {
+    "index": 3,
+    "group": 5,
+    "confidence": 2,
+    "common": "The strongest examples are chairs and a sofa, giving a consistent seating-related explanation across different designs.",
+    "variation_note": "PC2 contrasts upholstered or curved seating with more open wooden frames. PC3 also contrasts straighter frames with softer or curved forms. PC1 includes non-seating fragments, so not every axis supports the same reading.",
+    "card_id": "10ce240a2322"
+  },
+  {
+    "index": 4,
+    "group": 5,
+    "confidence": 2,
+    "common": "All strongest examples are decorative vessels, including a pitcher, narrow glass vase, and rounded ceramic forms.",
+    "variation_note": "PC1 mostly distinguishes containers from other categories. PC2 partly contrasts narrow vessels with broader shapes. PC3 includes foliage on both sides and does not show a clear single factor.",
+    "card_id": "811cc9050f54"
+  },
+  {
+    "index": 5,
+    "group": 5,
+    "confidence": 2,
+    "common": "Dogs are the common theme across all strongest examples, including different coats, poses, and full-body or close views.",
+    "variation_note": "PC2 provides a fairly clear head-close-up versus full-body contrast. PC1 primarily separates dogs from other categories. PC3 partly changes crop and pose, but its interpretation is less consistent.",
+    "card_id": "878733e08da4"
+  },
+  {
+    "index": 6,
+    "group": 5,
+    "confidence": 2,
+    "common": "The strongest examples consistently depict cars or vans, including front, side, and rear views.",
+    "variation_note": "PC1 mainly separates vehicles from unrelated objects. PC2 partly separates van or rear views from wheel and body details. PC3 includes a chair among the vehicle views, weakening a simple shared factor.",
+    "card_id": "13f199e2b1d3"
+  },
+  {
+    "index": 7,
+    "group": 5,
+    "confidence": 2,
+    "common": "All strongest examples depict vehicles or recognizable vehicle parts, with consistent responses across viewpoints.",
+    "variation_note": "PC2 suggests rear versus front vehicle views. PC3 contrasts van-like rear views with lower car bodies. PC1 is largely vehicle presence versus other cutouts rather than within-vehicle variation.",
+    "card_id": "12fdd9c7dbeb"
+  },
+  {
+    "index": 8,
+    "group": 4,
+    "confidence": 2,
+    "common": "Most examples show plants or flowers in containers, but a bare red vessel and fragmentary cutouts broaden the theme beyond foliage alone.",
+    "variation_note": "PC2 partly contrasts exposed vessels with leafy texture. PC1 separates dogs from vegetation. PC3 mixes flowers with unrelated fragments, so a consistent internal geometry is only partly visible.",
+    "card_id": "f181fb2d7740"
+  },
+  {
+    "index": 9,
+    "group": 5,
+    "confidence": 2,
+    "common": "Leafy plants and flowers in pots form a clear common theme across the strongest examples.",
+    "variation_note": "PC1 largely separates foliage from other categories. PC2 partly distinguishes flower clusters from sparse or spiky forms. PC3 mixes vessel and foliage differences, making a single repeatable interpretation uncertain.",
+    "card_id": "9d21500942ff"
+  },
+  {
+    "index": 10,
+    "group": 5,
+    "confidence": 2,
+    "common": "The strongest examples consistently show containers such as vases, a pitcher, and a bottle.",
+    "variation_note": "PC1 shows container presence versus other objects. PC2 and PC3 mix animals, seats, plants, fragments, and vessels without a dependable visual change. Internal variation is weakly explained by these panels.",
+    "card_id": "fb1973b04014"
+  },
+  {
+    "index": 11,
+    "group": 5,
+    "confidence": 2,
+    "common": "All strongest examples depict people across standing, crouching, and active poses. The responses broadly follow human silhouettes.",
+    "variation_note": "PC1 contrasts dogs with people. PC2 and PC3 largely distinguish people from other object categories. There is some pose variation, but category presence is the more reliable explanation.",
+    "card_id": "36682c5ed5f7"
+  },
+  {
+    "index": 12,
+    "group": 5,
+    "confidence": 2,
+    "common": "The strongest examples consistently show people, including partial bodies and different postures.",
+    "variation_note": "PC1 partly contrasts head or seated crops with more extended bodies. PC2 and PC3 mainly separate people from other categories, so a specific within-person factor remains uncertain.",
+    "card_id": "150448f334e3"
+  },
+  {
+    "index": 13,
+    "group": 5,
+    "confidence": 2,
+    "common": "Decorative containers are consistent across all strongest examples, including round ceramics and tall glass forms.",
+    "variation_note": "PC2 fairly clearly contrasts rounded vessels with tall narrow ones. PC3 also relates to slender stems versus broader or flower-filled forms. PC1 is primarily container presence versus other categories.",
+    "card_id": "64893dc3ad3c"
+  },
+  {
+    "index": 14,
+    "group": 4,
+    "confidence": 2,
+    "common": "Most strongest examples are recognizable chairs or seats. A few heavily cropped silhouettes are harder to identify, but the seating explanation is plausible.",
+    "variation_note": "PC1 contrasts clear chair frames with fragmentary objects. PC2 partly separates upholstered seats from other forms. PC3 contains mixed categories, preventing a consistent interpretation across all axes.",
+    "card_id": "606c1b2d270f"
+  },
+  {
+    "index": 15,
+    "group": 5,
+    "confidence": 2,
+    "common": "Every strongest example is a dog or a dog-face crop, despite changes in coat and posture.",
+    "variation_note": "PC2 separates close heads from fuller bodies. PC3 partly separates extended or running bodies from more compact head-dominated views. PC1 mostly identifies dog presence.",
+    "card_id": "868b081679b1"
+  },
+  {
+    "index": 16,
+    "group": 5,
+    "confidence": 2,
+    "common": "The strongest examples consistently depict potted foliage or flower arrangements, with responses covering plant structure.",
+    "variation_note": "PC2 suggests sparse leaves versus dense flower clusters. PC3 contrasts broader leaves with finer clustered foliage or blooms. PC1 largely separates plants from people and seating.",
+    "card_id": "924323b1b3d9"
+  },
+  {
+    "index": 17,
+    "group": 5,
+    "confidence": 2,
+    "common": "Plants and flowers form a clear common explanation for all strongest examples.",
+    "variation_note": "PC1 and PC2 mainly separate vegetation from other categories. PC3 partly contrasts leaf arrangement and density, but the internal variation is less consistent than the category distinction.",
+    "card_id": "37246efff739"
+  },
+  {
+    "index": 18,
+    "group": 5,
+    "confidence": 2,
+    "common": "The strongest examples consistently show vessels, including decorative vases, a pitcher, and a bottle.",
+    "variation_note": "PC2 distinguishes slender glass forms from rounded ceramics. PC3 partly separates tall narrow shapes from broader vessels, although several fragments are ambiguous. PC1 is mostly vessel presence.",
+    "card_id": "42a053c84dda"
+  },
+  {
+    "index": 19,
+    "group": 4,
+    "confidence": 2,
+    "common": "Most strongest examples show flowers or plants in containers. One largely empty glass vessel and some fragmentary arrangements make the theme somewhat broader than foliage alone.",
+    "variation_note": "PC1 distinguishes flower or plant arrangements from animals and people. PC2 and PC3 mix container shape, foliage density, and category changes. Only partial internal ordering is visible.",
+    "card_id": "49406c4c4183"
+  },
+  {
+    "index": 20,
+    "group": 5,
+    "confidence": 2,
+    "common": "Dogs and dog heads consistently dominate the strongest examples.",
+    "variation_note": "PC1 is largely dog presence versus unrelated cutouts. PC3 partly distinguishes extended bodies from close heads. PC2 mixes people and dogs, so the three axes do not provide an equally clear shared interpretation.",
+    "card_id": "c346cafd843f"
+  },
+  {
+    "index": 21,
+    "group": 5,
+    "confidence": 2,
+    "common": "Chairs and sofas consistently explain the strongest examples across both open frames and upholstered forms.",
+    "variation_note": "PC2 clearly contrasts softer enclosed seating with open wooden frames. PC1 and PC3 partly separate seating from unrelated objects. The material and frame contrast is more convincing than every axis individually.",
+    "card_id": "2a0d866cccff"
+  },
+  {
+    "index": 22,
+    "group": 5,
+    "confidence": 2,
+    "common": "All strongest examples are people or human-body crops across clothing, pose, and age differences.",
+    "variation_note": "PC1 and PC2 are dominated by people versus unrelated objects. PC3 partly contrasts larger upper-body crops with fuller standing figures, but contains plant and furniture exceptions.",
+    "card_id": "03973ca246c6"
+  },
+  {
+    "index": 23,
+    "group": 3,
+    "confidence": 2,
+    "common": "Dogs recur, but the strongest set also contains a vehicle and several people. I cannot explain all examples with one more specific visual property from the displayed evidence.",
+    "variation_note": "The PCA extremes repeatedly mix dogs, people, seating, and vehicle fragments. Some poles contain more living things, but the ordering is not clear or consistent enough to identify a stable factor.",
+    "card_id": "9bba7e7658d1"
+  },
+  {
+    "index": 24,
+    "group": 5,
+    "confidence": 2,
+    "common": "Vases and other decorative vessels consistently dominate the strongest examples, including very narrow and broad forms.",
+    "variation_note": "PC2 gives a clear slender glass or stem-like versus rounded vessel contrast. PC3 partly separates narrow vertical forms from broader flower or vessel shapes. PC1 mostly captures vessel presence.",
+    "card_id": "a4d91b36851a"
+  },
+  {
+    "index": 25,
+    "group": 5,
+    "confidence": 2,
+    "common": "All strongest examples show cars, vans, or recognizable vehicle-body views.",
+    "variation_note": "PC3 contrasts low passenger-car forms with boxier vans. PC2 partly changes viewpoint and crop. PC1 mostly separates cars from other categories, so the within-vehicle interpretation is strongest on PC3.",
+    "card_id": "51fa93ac8ba6"
+  },
+  {
+    "index": 26,
+    "group": 5,
+    "confidence": 2,
+    "common": "Dogs and dog-head crops form a consistent theme across the strongest examples.",
+    "variation_note": "PC2 partly contrasts darker head or body views with brighter coat and face views. PC3 distinguishes closer heads from fuller body silhouettes. PC1 mainly separates dogs from other categories.",
+    "card_id": "c8f4ea937256"
+  },
+  {
+    "index": 27,
+    "group": 4,
+    "confidence": 2,
+    "common": "Flower arrangements and potted foliage dominate. An almost empty glass vessel broadens the common explanation to plants and their containers.",
+    "variation_note": "PC1 partly contrasts dense flower heads with slender leaves or stems. PC2 also distinguishes clustered blooms from more open foliage and vessels. PC3 is less clearly ordered but remains mostly within plant-related material.",
+    "card_id": "0f267e67905e"
+  },
+  {
+    "index": 28,
+    "group": 4,
+    "confidence": 2,
+    "common": "Most strongest examples contain plants or flowers, with a tall glass vessel among the exceptions. The theme is recognizable but not perfectly consistent.",
+    "variation_note": "PC1 and PC2 mainly separate plant content from unrelated categories. PC3 suggests differences in foliage density or color, but also includes vessels and a vehicle, weakening an internal-factor interpretation.",
+    "card_id": "776c94d680db"
+  },
+  {
+    "index": 29,
+    "group": 4,
+    "confidence": 2,
+    "common": "Decorative vessels dominate, with one plant-in-container example. The broader vessel explanation fits better than a single strict object category.",
+    "variation_note": "PC1 mostly distinguishes vessels from other categories. PC2 mixes flowers, cars, and containers. PC3 partly changes vessel shape and plant content, so only partial repeatable variation is visible.",
+    "card_id": "fb850b68dfcd"
+  },
+  {
+    "index": 30,
+    "group": 4,
+    "confidence": 2,
+    "common": "The strongest set combines vases, jugs, and plant or flower arrangements. Decorative containers provide a plausible but fairly broad common explanation.",
+    "variation_note": "PC1 mostly separates decorative containers from other cutouts. PC3 suggests flower-filled versus slender vessels, but the poles mix several properties. PC2 includes unrelated cars and fragments.",
+    "card_id": "b517481e135e"
+  },
+  {
+    "index": 31,
+    "group": 4,
+    "confidence": 2,
+    "common": "Most strongest examples are vessels or tall stem-like container forms. One dark rounded fragment is ambiguous and weakens a strict vessel interpretation.",
+    "variation_note": "PC2 gives a plausible rounded versus narrow vessel contrast. PC1 mostly separates narrow glass forms from other objects. PC3 mixes leaves, vessels, and fragments, so the internal ordering is only partial.",
+    "card_id": "a456fe7dfeac"
+  },
+  {
+    "index": 32,
+    "group": 5,
+    "confidence": 2,
+    "common": "The strongest examples consistently show decorative vessels across narrow, round, patterned, and smooth forms.",
+    "variation_note": "PC2 clearly contrasts slender transparent forms with broader ceramics. PC3 similarly changes vertical narrow forms toward rounder vessels. PC1 partly separates vessels from unrelated cutouts.",
+    "card_id": "c821d60cd39a"
+  },
+  {
+    "index": 33,
+    "group": 5,
+    "confidence": 2,
+    "common": "All strongest examples show seating, including chairs, office seats, and sofas.",
+    "variation_note": "PC2 contrasts enclosed or upholstered seats with open wooden frames. PC3 partly contrasts squarer forms with curved upholstered seats. PC1 mainly separates chairs from vehicles.",
+    "card_id": "e1dee6dc9947"
+  },
+  {
+    "index": 34,
+    "group": 5,
+    "confidence": 2,
+    "common": "Plants and flower arrangements consistently explain the strongest examples despite differences in crop and density.",
+    "variation_note": "PC1 and PC2 mostly separate plant material from other categories or fragments. PC3 partly selects flower clusters, but contrasts them with unrelated shapes rather than one clean plant factor.",
+    "card_id": "f1e06499f4ad"
+  },
+  {
+    "index": 35,
+    "group": 5,
+    "confidence": 2,
+    "common": "All strongest examples depict people in varied postures and clothing, including partial-body views.",
+    "variation_note": "PC1 and PC2 mainly distinguish people from other objects. PC3 may relate to posture or crop, but several unrelated fragments prevent a consistent within-person interpretation.",
+    "card_id": "7ff279bab7b7"
+  },
+  {
+    "index": 36,
+    "group": 5,
+    "confidence": 2,
+    "common": "Dogs and close dog-head views consistently dominate the strongest examples.",
+    "variation_note": "PC2 contrasts fuller bodies with close faces. PC3 partly shifts between body silhouettes and head-dominated crops, while PC1 mostly detects dog presence. The crop-related explanation is clearer than a fine-grained coat factor.",
+    "card_id": "66289255da4e"
+  },
+  {
+    "index": 37,
+    "group": 5,
+    "confidence": 2,
+    "common": "The strongest examples consistently show potted plants or flowers, with responses broadly following their silhouettes.",
+    "variation_note": "PC1 and PC2 are mainly plant presence versus unrelated cutouts. PC3 contrasts different fragments and leaf shapes, but not a single dependable internal factor.",
+    "card_id": "5ef641ebd3fa"
+  },
+  {
+    "index": 38,
+    "group": 5,
+    "confidence": 2,
+    "common": "Every strongest example is a person across active, standing, and crouched poses.",
+    "variation_note": "PC3 suggests seated or crouched versus extended-body views. PC1 and PC2 are dominated by people versus other categories, so internal posture organization is only partly established.",
+    "card_id": "c18a5f8951b5"
+  },
+  {
+    "index": 39,
+    "group": 5,
+    "confidence": 2,
+    "common": "Dogs form a clear common theme across all strongest examples and across large differences in pose and coat.",
+    "variation_note": "PC2 partly separates dark or extended body views from brighter close faces. PC3 also distinguishes fuller bodies from head-dominated crops. PC1 primarily separates dogs from other categories.",
+    "card_id": "038032c59965"
+  },
+  {
+    "index": 40,
+    "group": 5,
+    "confidence": 2,
+    "common": "The strongest examples consistently depict people, including full figures, seated figures, and head or torso crops.",
+    "variation_note": "PC1 mainly separates people from dogs and body fragments. PC2 partly contrasts head crops with full figures. PC3 again separates people from vehicles, so a specific within-person factor remains only partly visible.",
+    "card_id": "ed160440b632"
+  },
+  {
+    "index": 41,
+    "group": 5,
+    "confidence": 2,
+    "common": "Decorative vessels consistently dominate the strongest examples, from a pitcher and round ceramics to a tall glass vase.",
+    "variation_note": "PC1 mainly separates vessels from other categories. PC2 partially distinguishes tall narrow forms from broader objects. PC3 contains both vessels and seating, so the full set of axes does not establish a clear internal factor.",
+    "card_id": "39785c0c1171"
+  },
+  {
+    "index": 42,
+    "group": 5,
+    "confidence": 2,
+    "common": "All strongest examples are vehicles or vehicle-body parts, including a wheel and rear or side crops.",
+    "variation_note": "PC1 mostly detects vehicle presence. PC3 partly contrasts side or body views with rear and wheel details, but includes an unrelated arm crop. PC2 mixes categories and is harder to explain.",
+    "card_id": "52edb2e3b4e9"
+  },
+  {
+    "index": 43,
+    "group": 5,
+    "confidence": 2,
+    "common": "The strongest set consistently contains cars and vans across several viewpoints.",
+    "variation_note": "PC2 contrasts boxier van or rear views with lower front or side car views. PC3 also suggests boxy versus compact vehicle forms. PC1 primarily separates vehicle content from other objects.",
+    "card_id": "51bbad78aea3"
+  },
+  {
+    "index": 44,
+    "group": 5,
+    "confidence": 2,
+    "common": "Every strongest example depicts a person, including seated, standing, and partial-body views.",
+    "variation_note": "PC3 partly contrasts extended active poses with upper-body or seated crops. PC1 also changes pose but lacks a single consistent ordering. PC2 mainly separates fuller people from fragments or other objects.",
+    "card_id": "7995307b16f0"
+  },
+  {
+    "index": 45,
+    "group": 5,
+    "confidence": 2,
+    "common": "Potted foliage and flowers consistently explain the strongest examples.",
+    "variation_note": "PC1 partly contrasts green foliage with flower clusters. PC3 contrasts open leaves with denser or more compact plant texture. PC2 mainly separates floral arrangements from unrelated objects.",
+    "card_id": "bc1616d71646"
+  },
+  {
+    "index": 46,
+    "group": 5,
+    "confidence": 2,
+    "common": "All strongest examples are seats or chairs, spanning open frames and padded forms.",
+    "variation_note": "PC2 gives a clear padded or enclosed versus wooden-frame contrast. PC3 partly changes the same frame or material distinction. PC1 mostly separates chairs from vehicle fragments.",
+    "card_id": "429fed0dc8f5"
+  },
+  {
+    "index": 47,
+    "group": 4,
+    "confidence": 2,
+    "common": "Flowers and plants dominate, although a bare glass vessel and highly cropped plant detail make the exact common theme less specific.",
+    "variation_note": "PC1 mainly distinguishes flower arrangements from other shapes. PC2 separates leafy plants from a mixture of other objects. PC3 changes plant appearance without a sufficiently clean single axis.",
+    "card_id": "060d492148e3"
+  },
+  {
+    "index": 48,
+    "group": 5,
+    "confidence": 2,
+    "common": "All strongest examples depict people across active and standing poses, with a consistent human-body theme.",
+    "variation_note": "PC1 primarily separates people from other categories. PC2 and PC3 mix posture changes with dogs and object fragments. A repeatable within-person variation is only partly visible.",
+    "card_id": "1d665555598c"
+  },
+  {
+    "index": 49,
+    "group": 5,
+    "confidence": 2,
+    "common": "People consistently dominate the strongest examples across clothing and posture differences.",
+    "variation_note": "PC1 and PC3 largely distinguish people from animals or other objects. PC2 partly separates upper-body crops from active poses, but the presence distinction is clearer than a specific internal factor.",
+    "card_id": "e7d1f9b7058d"
+  },
+  {
+    "index": 50,
+    "group": 5,
+    "confidence": 2,
+    "common": "The strongest examples consistently show vehicles or recognizable vehicle parts despite substantial cropping.",
+    "variation_note": "PC1 mostly identifies vehicle presence. PC2 and PC3 mix body details with plants, seats, arms, and other fragments. The panels offer weak evidence for a consistent internal visual factor.",
+    "card_id": "c34d03a3c03e"
+  },
+  {
+    "index": 51,
+    "group": 5,
+    "confidence": 2,
+    "common": "All strongest examples are cars, vans, or recognizable vehicle parts across side, front, and rear views.",
+    "variation_note": "PC2 partly separates front or side views from rear details. PC3 contrasts boxy vans with lower car bodies. PC1 mainly separates vehicle content from other objects.",
+    "card_id": "fdbc5ab44faf"
+  },
+  {
+    "index": 52,
+    "group": 4,
+    "confidence": 2,
+    "common": "Plants and flowers dominate, but a red chair and a person are strong exceptions. A single broad vegetation-related explanation only partly covers the set.",
+    "variation_note": "Some poles contain more plant material, but the axes repeatedly mix people, seating, animals, vehicles, and vegetation. I cannot identify a stable internal visual factor from these examples.",
+    "card_id": "a7ce55e3b5cf"
+  },
+  {
+    "index": 53,
+    "group": 5,
+    "confidence": 2,
+    "common": "All strongest examples depict people or human-body parts, including an arm and several fuller figures.",
+    "variation_note": "PC1 and PC2 mainly separate people from other categories. PC3 partly changes crop and body extent, but mixes fragments and animals, so internal variation remains only partly interpretable.",
+    "card_id": "67baa191d4b8"
+  },
+  {
+    "index": 54,
+    "group": 5,
+    "confidence": 2,
+    "common": "The strongest examples consistently depict vehicles despite changes in viewpoint and crop.",
+    "variation_note": "PC2 partly contrasts boxier vans with lower vehicle-body views. PC3 changes viewpoint but includes ambiguous fragments. PC1 mostly separates cars from other categories, giving only partial internal ordering.",
+    "card_id": "642c2447bf72"
+  },
+  {
+    "index": 55,
+    "group": 4,
+    "confidence": 2,
+    "common": "Most strongest examples clearly show chairs or sofas. A dark flattened fragment is ambiguous, so the seating theme has a small uncertainty.",
+    "variation_note": "PC2 contrasts open or rigid frames with padded seating. PC3 partly distinguishes taller backs from broader upholstered forms. PC1 mainly separates chairs from other categories.",
+    "card_id": "8d4c99af6563"
+  },
+  {
+    "index": 56,
+    "group": 5,
+    "confidence": 2,
+    "common": "Every strongest example depicts a dog or dog-head crop, giving a clear common theme.",
+    "variation_note": "PC1 largely separates dogs from other objects. PC2 and PC3 contain substantial cross-category mixing rather than a clean ordering of dog appearance. The evidence for a consistent internal factor is weak.",
+    "card_id": "4e8dc6854d9b"
+  },
+  {
+    "index": 57,
+    "group": 5,
+    "confidence": 2,
+    "common": "Chairs and sofas consistently explain all strongest examples across several seating designs.",
+    "variation_note": "PC2 gives a clear soft or enclosed versus open wooden-frame contrast. PC1 mainly distinguishes seating from other objects. PC3 is less clear, with a plant exception and mixed seat forms.",
+    "card_id": "b3521002533c"
+  },
+  {
+    "index": 58,
+    "group": 2,
+    "confidence": 1,
+    "common": "The strongest set mixes chairs, plants, a dog, and a vase. Neither seating nor vegetation explains the whole set, and a shared shape or texture is not apparent.",
+    "variation_note": "PC1 partly orders clearer chairs against fragments. Other axes mix unrelated categories and forms, so a repeatable semantic change is difficult to identify. Several cutouts are too fragmentary for confident interpretation.",
+    "card_id": "485bb73249dd"
+  },
+  {
+    "index": 59,
+    "group": 5,
+    "confidence": 2,
+    "common": "Dogs consistently dominate the strongest examples across breed, pose, and coat differences.",
+    "variation_note": "PC2 partly contrasts darker body silhouettes with lighter faces or coats. PC3 separates more extended bodies from closer faces. PC1 mostly distinguishes dogs from unrelated objects.",
+    "card_id": "9b5aa23e21c6"
+  },
+  {
+    "index": 60,
+    "group": 5,
+    "confidence": 2,
+    "common": "All strongest examples are chairs or sofas, with a clear shared seating-related explanation.",
+    "variation_note": "PC3 clearly contrasts softer enclosed seats with open wooden or rigid frames. PC2 partly changes the same frame or upholstery distinction. PC1 mostly separates seats from other objects.",
+    "card_id": "a5562b3fe3a9"
+  },
+  {
+    "index": 61,
+    "group": 5,
+    "confidence": 2,
+    "common": "All strongest examples depict seating, including wooden chairs, office seating, an armchair, and a sofa.",
+    "variation_note": "One PCA axis separates seating from other objects. The other poles mix categories and fragments. This does not detract from the clear seating theme in the strongest responses.",
+    "card_id": "9c941fa81e0d"
+  },
+  {
+    "index": 62,
+    "group": 5,
+    "confidence": 2,
+    "common": "Plants and flowers consistently explain the strongest examples across foliage, blossoms, pots, and partial crops.",
+    "variation_note": "The poles partly contrast flower clusters with leafy plants, alongside a presence versus absence separation. There are unrelated exceptions in the broader PCA sample.",
+    "card_id": "82fd5758e396"
+  },
+  {
+    "index": 63,
+    "group": 5,
+    "confidence": 2,
+    "common": "The strongest examples consistently show cars, vans, or recognizable vehicle parts, even when the crop is small.",
+    "variation_note": "The clearest PCA separation is vehicles versus other content. Additional poles contain mixed fragments and categories without a clear common visual ordering.",
+    "card_id": "207583512de7"
+  },
+  {
+    "index": 64,
+    "group": 5,
+    "confidence": 2,
+    "common": "All strongest examples are cars or vans across different views and body shapes.",
+    "variation_note": "The poles partly contrast boxy vans with lower car bodies and different vehicle views. Another axis mostly separates vehicles from unrelated objects.",
+    "card_id": "246fabed7f78"
+  },
+  {
+    "index": 65,
+    "group": 5,
+    "confidence": 2,
+    "common": "The strongest examples consistently show chairs or sofas, including both upholstered and open-frame designs.",
+    "variation_note": "Some poles contrast padded or enclosed seating with open wooden and metal frames. Other poles include non-seating fragments.",
+    "card_id": "11bb6ed7cf7b"
+  },
+  {
+    "index": 66,
+    "group": 5,
+    "confidence": 2,
+    "common": "Chairs and sofas provide a clear common explanation for every strongest-response example.",
+    "variation_note": "PCA poles partly separate enclosed or padded seats from open frames. A presence axis also separates seating from unrelated objects.",
+    "card_id": "30c395ad740e"
+  },
+  {
+    "index": 67,
+    "group": 5,
+    "confidence": 2,
+    "common": "Every strongest example depicts a dog, ranging from head crops to more complete bodies.",
+    "variation_note": "The poles partly contrast extended bodies with closer faces, as well as different coats and poses. One axis mainly separates dogs from other objects.",
+    "card_id": "11807f720de7"
+  },
+  {
+    "index": 68,
+    "group": 4,
+    "confidence": 2,
+    "common": "Decorative vessels and plants explain most examples, including vases, a pitcher, a glass, and flower arrangements. This is a broad theme rather than one sharply defined object category.",
+    "variation_note": "Some poles contrast flowers and leafy arrangements with vessel shapes. Presence and unrelated fragments also affect the ordering.",
+    "card_id": "8f854c113031"
+  },
+  {
+    "index": 69,
+    "group": 5,
+    "confidence": 2,
+    "common": "Dogs consistently explain all strongest-response examples despite changes in pose, crop, and coat.",
+    "variation_note": "Some poles contrast close faces with fuller or extended bodies. Another mostly separates dogs from people and seating.",
+    "card_id": "dade733c3686"
+  },
+  {
+    "index": 70,
+    "group": 5,
+    "confidence": 2,
+    "common": "The strongest examples are consistently vehicles across front, rear, side, and partial views.",
+    "variation_note": "Several poles change vehicle view and crop, but some examples are ambiguous fragments. The clearest axis separates vehicles from other objects.",
+    "card_id": "8e6e1e2234f1"
+  },
+  {
+    "index": 71,
+    "group": 4,
+    "confidence": 2,
+    "common": "A broad plants-and-decorative-vessels theme covers the strongest examples, including flowers, vases, a pitcher, and a potted plant. The shared explanation is plausible but broad.",
+    "variation_note": "The poles partly separate plant arrangements from bare vessels. Another separation mixes unrelated objects and does not reveal a single clear property.",
+    "card_id": "45a606922e32"
+  },
+  {
+    "index": 72,
+    "group": 5,
+    "confidence": 2,
+    "common": "All strongest examples depict dogs or dog-head crops. The object theme is consistent across the set.",
+    "variation_note": "The poles partly contrast faces or lighter coats with darker extended bodies. Some non-dog examples also occur in the full PCA pool.",
+    "card_id": "2434df26a6d3"
+  },
+  {
+    "index": 73,
+    "group": 5,
+    "confidence": 2,
+    "common": "Every strongest example is a dog, including different breeds, poses, and body extents.",
+    "variation_note": "One axis partly distinguishes lighter from darker dogs and another contrasts heads with extended bodies. A separate axis includes unrelated fragments.",
+    "card_id": "cdf0717a5153"
+  },
+  {
+    "index": 74,
+    "group": 5,
+    "confidence": 2,
+    "common": "All strongest examples show vehicles or a clearly recognizable wheel crop.",
+    "variation_note": "The poles partly contrast boxy vans with lower cars and front views with rear or side views. Another axis mostly distinguishes vehicle presence.",
+    "card_id": "8d83aed26822"
+  },
+  {
+    "index": 75,
+    "group": 4,
+    "confidence": 2,
+    "common": "Plants and foliage dominate the strongest examples. A decorative vase and dark fragments make the common theme less exact.",
+    "variation_note": "A clear pole contains leafy plants. Other poles mix vessels, people, animals, and fragments, so the broader ordering is difficult to name.",
+    "card_id": "219adebfba24"
+  },
+  {
+    "index": 76,
+    "group": 5,
+    "confidence": 2,
+    "common": "The strongest set consistently shows cars or vans across different viewpoints and partial crops.",
+    "variation_note": "PCA partly separates boxy van bodies from lower car shapes. Some poles include small fragments, and one primarily distinguishes vehicle presence.",
+    "card_id": "30dab1c68a1d"
+  },
+  {
+    "index": 77,
+    "group": 5,
+    "confidence": 2,
+    "common": "Vessels consistently explain the strongest examples, including vases, a pitcher, a glass, and narrow-necked containers. Their contents and silhouettes differ.",
+    "variation_note": "The broader poles partly separate vessels from other content, but also mix animals, vegetation, and fragments. A single changing property is not clear.",
+    "card_id": "07346907d442"
+  },
+  {
+    "index": 78,
+    "group": 5,
+    "confidence": 2,
+    "common": "All strongest examples show people, including standing, seated, and sports poses.",
+    "variation_note": "One pole favors sports figures over ordinary standing people. Other axes include category presence and ambiguous fragments, so pose is a possible explanation rather than a demonstrated factor.",
+    "card_id": "650d82b6a25e"
+  },
+  {
+    "index": 79,
+    "group": 5,
+    "confidence": 2,
+    "common": "Every strongest example is a vase, pitcher, glass, or similar vessel. The vessel theme is consistent across shapes and materials.",
+    "variation_note": "Some poles contrast broader opaque vessels with narrower or transparent forms. Other poles mix unrelated fragments, so that interpretation is incomplete.",
+    "card_id": "2a3568a700ea"
+  },
+  {
+    "index": 80,
+    "group": 5,
+    "confidence": 2,
+    "common": "People and human-body crops consistently explain the strongest examples across clothing, age, and posture.",
+    "variation_note": "The clearest axes distinguish people from unrelated objects. The other poles mix body crops and poses without a single clear visual factor.",
+    "card_id": "adf1a5d1d23c"
+  },
+  {
+    "index": 81,
+    "group": 5,
+    "confidence": 2,
+    "common": "Plants and flowers consistently explain the strongest examples across different leaf structures, pots, blossoms, and partial crops.",
+    "variation_note": "Some poles contrast flowers with leafy plants. Other poles mainly distinguish plants from unrelated content. These are descriptive observations rather than requirements for coherence.",
+    "card_id": "d7e8f7e1a8fe"
+  },
+  {
+    "index": 82,
+    "group": 5,
+    "confidence": 2,
+    "common": "Every strongest example depicts a dog or dog-head crop, with a clear common theme across poses and coats.",
+    "variation_note": "The poles partly contrast darker extended bodies with lighter faces or closer crops. One axis primarily distinguishes dogs from other categories.",
+    "card_id": "fb9f0b5b06bc"
+  },
+  {
+    "index": 83,
+    "group": 5,
+    "confidence": 2,
+    "common": "Dogs consistently explain all strongest-response examples, including different breeds, head crops, and fuller bodies.",
+    "variation_note": "Some PCA poles contrast closer faces with fuller bodies and more extended poses. Another mostly distinguishes dogs from unrelated objects.",
+    "card_id": "8b6e50a0e972"
+  },
+  {
+    "index": 84,
+    "group": 5,
+    "confidence": 2,
+    "common": "All strongest examples are people across sports, standing, and seated poses.",
+    "variation_note": "One pole favors sports figures over more ordinary standing people. Other poles include presence and mixed fragments, so the pose interpretation is incomplete.",
+    "card_id": "586b03ccd2dd"
+  },
+  {
+    "index": 85,
+    "group": 5,
+    "confidence": 2,
+    "common": "The strongest examples consistently depict people, including several sports figures and a seated child.",
+    "variation_note": "Some poles contrast sports poses with standing figures. Other poles separate people from unrelated objects. These do not establish a controlled causal factor.",
+    "card_id": "84248c7acf6f"
+  },
+  {
+    "index": 86,
+    "group": 5,
+    "confidence": 2,
+    "common": "Chairs and sofas consistently explain the strongest examples across upholstery, frame, and silhouette differences.",
+    "variation_note": "Some poles contrast enclosed upholstered seating with open wooden or metal frames. Another mostly separates seating from other content.",
+    "card_id": "fc0e8784fc8c"
+  },
+  {
+    "index": 87,
+    "group": 5,
+    "confidence": 2,
+    "common": "All strongest examples are vehicles or recognizable vehicle details, including front, rear, side, and wheel crops.",
+    "variation_note": "PCA partly distinguishes small vehicle parts from fuller bodies, with some view changes. Other poles contain ambiguous fragments and a dog exception.",
+    "card_id": "548f79caf1f9"
+  },
+  {
+    "index": 88,
+    "group": 5,
+    "confidence": 2,
+    "common": "Every strongest example depicts a dog or dog-head crop. The dog theme persists across the displayed poses and coats.",
+    "variation_note": "Some poles contrast dark or extended bodies with lighter close views. Another partly changes pose and body extent, alongside a presence separation.",
+    "card_id": "8fd3059b3025"
+  },
+  {
+    "index": 89,
+    "group": 5,
+    "confidence": 2,
+    "common": "People consistently explain all strongest-response examples, including standing figures and sports poses.",
+    "variation_note": "The clearest axes distinguish people from other objects. Some poles contain different body extents or poses, but do not reveal one consistent visual factor.",
+    "card_id": "cae2fc5a838c"
+  },
+  {
+    "index": 90,
+    "group": 5,
+    "confidence": 2,
+    "common": "All strongest examples depict seating, including chairs, an armchair, an office chair, and a sofa.",
+    "variation_note": "Some poles contrast upholstered or enclosed seating with open frames. Another mostly separates seating from other content, with a plant exception.",
+    "card_id": "d6f132793166"
+  }
+]

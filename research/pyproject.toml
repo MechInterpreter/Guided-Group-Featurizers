@@ -1,0 +1,16 @@
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+include = ["code/**/*.py", "scripts/*.py", "tests/*.py"]
+extend-exclude = [
+  "code/training/core/coco_ggf/wider_groups.py",
+  "code/training/concept_sae_native.py",
+  "code/training/core/supervised_study.py", "code/training/core/object_schedule.py",
+  "archive", "paper", "release", "code/evidence", "code/frozen_legacy",
+  "code/frozen_sources", "code/sources", "code/vendor", "code/review_records",
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"

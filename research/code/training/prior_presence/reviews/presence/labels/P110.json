@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p110",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I1321",
+      "yes": [43,52],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,41,42,44,45,46,47,48,49,50,51,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [39],
+      "all_definitions_considered": true,
+      "rationale": "Actual frankfurters in split buns fill the foreground and upper-right food containers, so hot dog is present and sandwich is excluded by its definition. A knife with a dark handle and blade lies beside the packaged food near the top center. The narrow red/orange object clipped at the far left might be a condiment bottle, but its opening and overall form are outside the crop; bottle remains unclear. The rectangular plastic food-storage tubs are not identifiable bowls, and the pale work surface is a counter rather than an eating table. Yellow shredded topping is not identifiable banana, carrot, or other defined produce. I considered every frozen definition against the whole crop; no other actual category objects are identifiable."
+    },
+    {
+      "case_id": "I1322",
+      "yes": [0,2,9],
+      "no": [1,3,4,5,6,7,8,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The nighttime road and parking area contain identifiable passenger cars, with small actual pedestrians visible on the sidewalk near the central-left corner. The illuminated red signal head on the right is a traffic light. Building lights, street lamps, and the bright billboard do not establish additional categories; objects pictured on the billboard are excluded. The moving light trails alone do not identify further vehicle types, and no truck, bus, bicycle, train, stop sign, or parking meter is identifiable. I considered all 75 definitions across the complete crop; there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1323",
+      "yes": [0,38],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A person in white tennis clothing occupies the court. The racket frame and handle are visible at the upper-right edge in the player's hand, establishing an actual tennis racket despite the partial crop. Court lines, fencing, foliage, shoes, and the player's clothing are not additional defined objects. I considered every one of the 75 frozen definitions over the entire saved crop; no other category is present or unresolved."
+    },
+    {
+      "case_id": "I1324",
+      "yes": [0],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Actual soccer players are visible in the foreground and left background. The round patterned object is a soccer ball, not a frisbee or any other defined category, and the remaining scene comprises field markings, grass, distant vegetation, clothing, and shoes. I explicitly considered all 75 definitions, including the possible sports-equipment alternatives; none of the defined equipment or other category objects is identifiable. There is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1325",
+      "yes": [63,64,67,73],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,25,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,65,66,68,69,71,72,74,75,76,77,79],
+      "unclear": [24,26],
+      "all_definitions_considered": true,
+      "rationale": "The flat lay contains a recognizable closed Apple laptop, an oval wired computer mouse on the right, and a small gray mobile handset with display and keypad above it. Bound passport/booklet covers near the lower-left center supply actual book-form objects; the newspaper, loose papers, discs, and cards do not. The large soft zippered bag at left has a long strap and pack-like compartments, but its carrying design is not sufficiently exposed to resolve backpack versus shoulder bag; both backpack and handbag remain unclear. It lacks identifiable rolling-case or suitcase structure. Cables, adapters, earphones, pens, and a flat dark accessory do not establish a keyboard, remote, TV, scissors, or toothbrush. All 75 definitions were considered over the whole crop."
+    },
+    {
+      "case_id": "I1326",
+      "yes": [0,1,37],
+      "no": [3,4,5,6,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [2,7],
+      "all_definitions_considered": true,
+      "rationale": "Two actual people ride pedal bicycles while carrying long pointed surfboards; the foreground board's rail and pointed end and the rear rider's carried board establish surfboard identity. These are not motor scooters, skateboards, snowboards, or boats. A small white road vehicle at the far upper-right has too little detail to resolve passenger car/van versus truck, so car and truck remain unclear. Clothing, helmets, road markings, and unpotted trees do not identify another category. I considered every one of the 75 definitions against the complete saved crop."
+    },
+    {
+      "case_id": "I1327",
+      "yes": [56,63,66],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,61,62,64,65,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [60],
+      "all_definitions_considered": true,
+      "rationale": "An open laptop with integrated screen and visible keyboard sits on a small wooden drawer unit. The integrated display is laptop rather than standalone TV; the people pictured on it are excluded from actual person presence. Slatted chair backs are visible behind the wooden surface. The broad wooden surface may be an eating table, but the saved crop supplies only a laptop setup without dining evidence, leaving dining table unclear rather than establishing that specific use. The drawer unit is not an oven or other appliance, and the sheet beneath it is not an identifiable book. All 75 frozen definitions were explicitly considered."
+    },
+    {
+      "case_id": "I1328",
+      "yes": [22],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The clearly striped grazing equid is an actual zebra, not a horse or a depiction. The rest of the saved crop contains grass, shrubs, tree trunks, fallen wood, and fence wires. The greenery has no identifiable pot/container, and the pale wood at left does not form an identifiable animal or other defined object. I considered all 75 exact definitions across the entire crop; no other category is present or unresolved."
+    },
+    {
+      "case_id": "I1329",
+      "yes": [41,62,64,66,73],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,63,65,67,68,69,71,72,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A standalone desktop monitor, computer keyboard, wired mouse, and handled drinking mug are identifiable. Books with visible page-block/spine structure are stacked beneath the red tissue box behind the keyboard. The lamp, printer, tissue box, radiator, and wall photographs do not establish additional defined objects; depicted contents of the monitor and photographs are excluded. This is an identifiable computer work desk, excluded from dining table, and there is no integrated laptop. I explicitly considered all 75 frozen definitions over the whole crop; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1330",
+      "yes": [0,27,40,41,45,57,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,28,29,31,33,35,36,37,38,39,46,47,49,50,51,52,53,54,55,56,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [42,43,44,48],
+      "all_definitions_considered": true,
+      "rationale": "Four actual people gather around a food-covered dining table and a green upholstered sofa. The seated man at left wears a red necktie. The table has handled cups, small open serving bowls, and stemmed drinking glasses distinguishable from the cups. Several thin utensils appear in hands and beside dishes, but their small ends do not let me confidently identify tines, blades, or spoon bowls; fork, knife, and spoon remain unclear. The bread/food portions near the left-center of the spread might include a filled sandwich, but filling supported by bread is not sufficiently resolved, so sandwich is unclear. Other food portions do not identify the defined fruit, vegetables, hot dogs, pizza, donuts, or cake. The mounted animal head and wall art do not supply actual animals. Every frozen definition was considered across the entire crop."
+    },
+    {
+      "case_id": "I1331",
+      "yes": [0,38],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual tennis player in a red shirt holds a tennis racket, with its handle and blurred frame extending toward the top edge. The green advertising backdrop and printed emblem/text are not actual depicted objects. The cap, clothes, and racket motion do not establish other defined categories. I explicitly considered all 75 frozen definitions using the complete saved crop; no other presence or unresolved category ambiguity is supported."
+    },
+    {
+      "case_id": "I1332",
+      "yes": [19],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A line of reddish-brown and black cattle graze on the grassy slope. Their bodies, lowered heads, and cattle proportions establish cow, including the black individual; these are not horses, sheep, or bears. The remainder is grassland, distant shrubs, and a small water area at the top right, with no identifiable watercraft or other defined object. All 75 exact frozen definitions were considered against the whole crop; there is no unresolved category ambiguity."
+    }
+  ]
+}

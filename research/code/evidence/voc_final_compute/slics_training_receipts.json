@@ -1,0 +1,357 @@
+{
+  "slics": [
+    {
+      "seed": 21,
+      "method": "SLiCS",
+      "training_seconds": 7733.284350983911,
+      "training_updates": 10640,
+      "parameters": 691200,
+      "weights_sha": "e766e271dcadf0ce22022b4dd20989143b7b124d38097287dfb7c81ccb60a4b7"
+    },
+    {
+      "seed": 22,
+      "method": "SLiCS",
+      "training_seconds": 7647.292061456886,
+      "training_updates": 10640,
+      "parameters": 691200,
+      "weights_sha": "6859d472d9d5f03e4748e7ddc7ca025c00575db19c1632eb3b936fe37083b4bd"
+    },
+    {
+      "seed": 23,
+      "method": "SLiCS",
+      "training_seconds": 7463.69542736889,
+      "training_updates": 10640,
+      "parameters": 691200,
+      "weights_sha": "a3278e59bb5ba1d2c9f9305609a8ffaaf73f613080ab1102c4b754c43faaaa3b"
+    },
+    {
+      "seed": 24,
+      "method": "SLiCS",
+      "training_seconds": 7634.321404833982,
+      "training_updates": 10640,
+      "parameters": 691200,
+      "weights_sha": "3a0ef309627173897c48559481271fed382815c33c035abe6ea96f5a88f8f7d3"
+    },
+    {
+      "seed": 25,
+      "method": "SLiCS",
+      "training_seconds": 7610.288412546093,
+      "training_updates": 10640,
+      "parameters": 691200,
+      "weights_sha": "9dbcb362c35e1b9043edda908e345b25af29afa0efc1ed037aa752d06277f57e"
+    }
+  ],
+  "ggf_timings": [
+    {
+      "time_utc": "2026-10-17T14:06:34Z",
+      "stage": "study_checkpoint",
+      "key": "small75_s21_warm",
+      "update": 7640,
+      "total": 7640,
+      "limit": 7640,
+      "capture": null,
+      "AP": null,
+      "VE": 0.8645057195398347,
+      "active_groups": 32,
+      "weights": [
+        1,
+        0,
+        0
+      ],
+      "seconds_per_update": 0.007523094798044197
+    },
+    {
+      "time_utc": "2026-10-17T14:16:17Z",
+      "stage": "study_checkpoint",
+      "key": "small75_s21_lr1000_ggf",
+      "update": 3000,
+      "total": 3000,
+      "limit": 3000,
+      "capture": 0.3566843758910283,
+      "AP": 0.7899831657156606,
+      "VE": 0.8594917262944086,
+      "active_groups": 32,
+      "weights": [
+        1,
+        0.22074753046035767,
+        0.33106377720832825
+      ],
+      "seconds_per_update": 0.1514806020196605
+    },
+    {
+      "time_utc": "2026-10-17T14:26:02Z",
+      "stage": "study_checkpoint",
+      "key": "small75_s21_lr2999_ggf",
+      "update": 3000,
+      "total": 3000,
+      "limit": 3000,
+      "capture": 0.38914780293025764,
+      "AP": 0.8043158335238494,
+      "VE": 0.8527519295028514,
+      "active_groups": 32,
+      "weights": [
+        1,
+        0.2857985198497772,
+        0.21257781982421875
+      ],
+      "seconds_per_update": 0.15047034596300363
+    },
+    {
+      "time_utc": "2026-10-17T14:35:47Z",
+      "stage": "study_checkpoint",
+      "key": "small75_s21_lr10000_ggf",
+      "update": 3000,
+      "total": 3000,
+      "limit": 3000,
+      "capture": 0.40609878063006394,
+      "AP": 0.7983252860638692,
+      "VE": 0.8129105840035489,
+      "active_groups": 32,
+      "weights": [
+        1,
+        0.4943220615386963,
+        0.05718136578798294
+      ],
+      "seconds_per_update": 0.15058426389133153
+    },
+    {
+      "time_utc": "2026-10-18T03:30:17Z",
+      "stage": "study_checkpoint",
+      "key": "small75_s22_warm",
+      "update": 7640,
+      "total": 7640,
+      "limit": 7640,
+      "capture": null,
+      "AP": null,
+      "VE": 0.8643028764177288,
+      "active_groups": 32,
+      "weights": [
+        1,
+        0,
+        0
+      ],
+      "seconds_per_update": 0.007736717303141298
+    },
+    {
+      "time_utc": "2026-10-18T03:39:57Z",
+      "stage": "study_checkpoint",
+      "key": "small75_s22_lr1000_ggf",
+      "update": 3000,
+      "total": 3000,
+      "limit": 3000,
+      "capture": 0.3558051613612946,
+      "AP": 0.7903848768900963,
+      "VE": 0.8594986995073423,
+      "active_groups": 32,
+      "weights": [
+        1,
+        0.21886946260929108,
+        0.3180577754974365
+      ],
+      "seconds_per_update": 0.15033379724399856
+    },
+    {
+      "time_utc": "2026-10-18T03:49:26Z",
+      "stage": "study_checkpoint",
+      "key": "small75_s22_lr2999_ggf",
+      "update": 3000,
+      "total": 3000,
+      "limit": 3000,
+      "capture": 0.3851745557120754,
+      "AP": 0.8053497615305252,
+      "VE": 0.8545676481313123,
+      "active_groups": 32,
+      "weights": [
+        1,
+        0.2612805664539337,
+        0.20001642405986786
+      ],
+      "seconds_per_update": 0.14591587411301224
+    },
+    {
+      "time_utc": "2026-10-18T03:58:46Z",
+      "stage": "study_checkpoint",
+      "key": "small75_s22_lr10000_ggf",
+      "update": 3000,
+      "total": 3000,
+      "limit": 3000,
+      "capture": 0.40477806500257096,
+      "AP": 0.799945104217304,
+      "VE": 0.8247028365383744,
+      "active_groups": 32,
+      "weights": [
+        1,
+        0.45481958985328674,
+        0.05703343451023102
+      ],
+      "seconds_per_update": 0.1437053142623175
+    },
+    {
+      "time_utc": "2026-10-18T14:25:30Z",
+      "stage": "study_checkpoint",
+      "key": "small75_s23_warm",
+      "update": 7640,
+      "total": 7640,
+      "limit": 7640,
+      "capture": null,
+      "AP": null,
+      "VE": 0.8646101168216702,
+      "active_groups": 32,
+      "weights": [
+        1,
+        0,
+        0
+      ],
+      "seconds_per_update": 0.007881440817276913
+    },
+    {
+      "time_utc": "2026-10-18T14:35:36Z",
+      "stage": "study_checkpoint",
+      "key": "small75_s23_lr1000_ggf",
+      "update": 3000,
+      "total": 3000,
+      "limit": 3000,
+      "capture": 0.35602575195908537,
+      "AP": 0.7900407856209892,
+      "VE": 0.8594341771211046,
+      "active_groups": 32,
+      "weights": [
+        1,
+        0.2186933308839798,
+        0.32652825117111206
+      ],
+      "seconds_per_update": 0.158411100256333
+    },
+    {
+      "time_utc": "2026-10-18T14:45:42Z",
+      "stage": "study_checkpoint",
+      "key": "small75_s23_lr2999_ggf",
+      "update": 3000,
+      "total": 3000,
+      "limit": 3000,
+      "capture": 0.38825869848778854,
+      "AP": 0.8048868944322742,
+      "VE": 0.8529917286951278,
+      "active_groups": 32,
+      "weights": [
+        1,
+        0.287090003490448,
+        0.23202888667583466
+      ],
+      "seconds_per_update": 0.1562713689133296
+    },
+    {
+      "time_utc": "2026-10-18T14:55:58Z",
+      "stage": "study_checkpoint",
+      "key": "small75_s23_lr10000_ggf",
+      "update": 3000,
+      "total": 3000,
+      "limit": 3000,
+      "capture": 0.4064435490645541,
+      "AP": 0.801173681596032,
+      "VE": 0.8203249872341929,
+      "active_groups": 32,
+      "weights": [
+        1,
+        0.47525325417518616,
+        0.06580701470375061
+      ],
+      "seconds_per_update": 0.15881446630133572
+    },
+    {
+      "time_utc": "2026-10-18T15:09:17Z",
+      "stage": "study_checkpoint",
+      "key": "small75_s24_warm",
+      "update": 7640,
+      "total": 7640,
+      "limit": 7640,
+      "capture": null,
+      "AP": null,
+      "VE": 0.8642264664006287,
+      "active_groups": 32,
+      "weights": [
+        1,
+        0,
+        0
+      ],
+      "seconds_per_update": 0.007919938004056111
+    },
+    {
+      "time_utc": "2026-10-18T15:19:27Z",
+      "stage": "study_checkpoint",
+      "key": "small75_s24_lr10000_ggf",
+      "update": 3000,
+      "total": 3000,
+      "limit": 3000,
+      "capture": 0.40793601170963656,
+      "AP": 0.7980945024655588,
+      "VE": 0.8212277691752368,
+      "active_groups": 32,
+      "weights": [
+        1,
+        0.49460309743881226,
+        0.060879770666360855
+      ],
+      "seconds_per_update": 0.1589576930570074
+    },
+    {
+      "time_utc": "2026-10-18T21:56:16Z",
+      "stage": "study_checkpoint",
+      "key": "small75_s25_warm",
+      "update": 7640,
+      "total": 7640,
+      "limit": 7640,
+      "capture": null,
+      "AP": null,
+      "VE": 0.8643669525744889,
+      "active_groups": 32,
+      "weights": [
+        1,
+        0,
+        0
+      ],
+      "seconds_per_update": 0.007611080899343258
+    },
+    {
+      "time_utc": "2026-10-18T22:06:12Z",
+      "stage": "study_checkpoint",
+      "key": "small75_s25_lr10000_ggf",
+      "update": 3000,
+      "total": 3000,
+      "limit": 3000,
+      "capture": 0.40622456371902804,
+      "AP": 0.8003052392299783,
+      "VE": 0.8248880452856662,
+      "active_groups": 32,
+      "weights": [
+        1,
+        0.4426449239253998,
+        0.060543376952409744
+      ],
+      "seconds_per_update": 0.15497840389566347
+    }
+  ],
+  "gpu_execution": {
+    "revision": "62a1f6a65dd8427c55049e0c831a805437c00caf90e8f740d07c2e0c297aae16",
+    "run_id": "a9c638e1ec0bd97434d7cda7217d46ee46334c10820b393e038775d89e716822",
+    "gpu": "Tesla T4",
+    "versions": {
+      "numpy": "2.1.3",
+      "torch": "2.11.0+cu130",
+      "scipy": "1.16.3",
+      "einops": "0.8.2",
+      "scikit-learn": "1.6.1"
+    },
+    "full_dictionary": true,
+    "KKT_tolerance": 0.00001,
+    "fallback_maxiter": 20000,
+    "training": false,
+    "cohort_changed": false,
+    "existing_image_prefixes_retained": true,
+    "solver": "Float32 batched FISTA, certified-row compaction, cached float64 active-set refinement, full SciPy fallback",
+    "note": "Execution solver differs. All rows require original-space float64 KKT; nonunique coefficients/activity may differ. Prior verified CPU/GPU prefixes remain in final totals."
+  },
+  "training_events_source": "1ybdyVzjHxLivJY1aYXil2V4HT04RickF",
+  "frozen_models_source": "17haMVvoQrKde1hf5NLeVNO-qdmNTBzn0",
+  "note": "SLiCS optimizer-loop timers include supported NNLS and atom sweeps; exclude validation and deferred full-dictionary NNLS evaluation. Memory peaks were not recorded."
+}

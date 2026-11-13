@@ -1,0 +1,24 @@
+{
+  "run_id": "eafd62bd85668403d908248e03034d02d856ac6e29e219a54cd2a00e894ef649",
+  "source_sha": "8c5b34ce48d493580ed27c8fecc28942235852236bbc1d3e0905fc535aa825c1",
+  "complete": true,
+  "selected_cap": 0.4,
+  "selection_split": "development",
+  "test_images": 1500,
+  "seeds": [
+    21,
+    22,
+    23
+  ],
+  "categories": 75,
+  "new_gradient_updates": 0,
+  "controls_retrained": false,
+  "new_structural_exchanges": 0,
+  "model_reports": 12,
+  "paired_comparisons": 9,
+  "category_macro_means_verified": true,
+  "three_seed_means_verified": true,
+  "paired_delta_arithmetic_verified": true,
+  "all_capture_and_AP_intervals_positive": true,
+  "zip_artifact_hashes_verified": 50
+}

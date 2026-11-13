@@ -1,0 +1,55 @@
+[
+  {
+    "name": "lasso",
+    "drive_url": "PRIVATE_INPUT_LOCATION_SUPPLY_LOCALLY",
+    "metadata": {
+      "run": "20559c96e5df8f92f9f6539f4fefb76235ee1ab68c4306c6e0b5b6f0d9c570a3",
+      "sha256": "371dd61806a97a780207c4cd5887688a97faa3ea2e5e2a0effe98c1835013a6f",
+      "generation": 1790823304676241400,
+      "bytes": 1057617,
+      "summary": null
+    }
+  },
+  {
+    "name": "grass",
+    "drive_url": "PRIVATE_INPUT_LOCATION_SUPPLY_LOCALLY",
+    "metadata": {
+      "run": "20559c96e5df8f92f9f6539f4fefb76235ee1ab68c4306c6e0b5b6f0d9c570a3",
+      "sha256": "5085f9decca7e7bf899439db080c588d2b3fb9f27dbdb82ac8ebf7aaaaa80885",
+      "generation": 1790822943044924700,
+      "bytes": 528101,
+      "summary": null
+    }
+  },
+  {
+    "name": "vanilla",
+    "drive_url": "PRIVATE_INPUT_LOCATION_SUPPLY_LOCALLY",
+    "metadata": {
+      "run": "20559c96e5df8f92f9f6539f4fefb76235ee1ab68c4306c6e0b5b6f0d9c570a3",
+      "sha256": "2d015eda1205944e6012e9982c3f93a1ea79a36b995aa2ad56fdaba5e5c36381",
+      "generation": 1790821202982786000,
+      "bytes": 1055649,
+      "summary": null
+    }
+  },
+  {
+    "name": "dataset",
+    "drive_url": "PRIVATE_INPUT_LOCATION_SUPPLY_LOCALLY",
+    "metadata": {
+      "run": "20559c96e5df8f92f9f6539f4fefb76235ee1ab68c4306c6e0b5b6f0d9c570a3",
+      "sha256": "42b3290642ce3e53a07a018465adfcf9d6e09c414ba5ab1d94f93198c07ed968",
+      "generation": 1790820884768678000,
+      "bytes": 370209965,
+      "summary": null
+    }
+  },
+  {
+    "name": "ggf",
+    "drive_url": "PRIVATE_INPUT_LOCATION_SUPPLY_LOCALLY",
+    "metadata": {
+      "run_id": "9426167ab254b82d2a61a15c7054f0f58bae8bd60d2fccfe577d8d926424fe57",
+      "sha256": "a5165ca61db8c9c2e548c5bb4ad6e3c839e3c9a7ddbcffa3818d942dd94fb14a",
+      "generation": 1792167781461685800
+    }
+  }
+]

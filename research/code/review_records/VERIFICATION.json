@@ -1,0 +1,14 @@
+{
+  "verified": true,
+  "groups": 4725,
+  "gpt_contexts": 3,
+  "gemini_passes": 1,
+  "normalized_endpoint_records": 42525,
+  "response_status": {
+    "pair/invalid_rubric": 16,
+    "pair/valid": 4709,
+    "whole/invalid_rubric": 131,
+    "whole/valid": 4594
+  },
+  "note": "All rubric-invalid/provider-blocked judgments remain in the planned denominators. This checks saved labels and aggregation, not a fresh visual review."
+}

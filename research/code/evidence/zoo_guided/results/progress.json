@@ -1,0 +1,16 @@
+{
+  "time_utc": "2026-10-16T16:50:15Z",
+  "stage": "zoo_training",
+  "key": "zoo_s2_lr30000",
+  "target": 29200,
+  "update": 29200,
+  "epoch": 200,
+  "selection_mse": 0.00016590634955044223,
+  "weights": [
+    1.0,
+    0.012500000186264515,
+    0.009325754828751087
+  ],
+  "phase": "Guided Learning",
+  "seconds_per_update": 0.00842114687270627
+}

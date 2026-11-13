@@ -1,0 +1,35 @@
+Reproducibility entry points
+
+Use ../notebooks/reproduce_paper.ipynb in a GPU Colab runtime. The notebook
+provides quick, evidence and full modes. Quick mode exercises the pipeline
+sections with small inputs. Evidence mode independently recounts the delivered
+measurements. Full mode runs the selected experiments with their study budgets.
+See ../docs/REPRODUCING.md for installation, model access and dataset requirements.
+
+bootstrap/full_pipeline.py plans and runs the public-input dependency graph.
+It downloads public datasets and creates feature stores, fits, response arrays
+and review cards in the chosen run directory. Original Drive caches and author
+checkpoints are not inputs to this route. Complete full-budget GPU validation is
+pending. New visual judgments require reviewer access; numerical concentration
+and false-positive measurements use the crop-presence labels rather than the
+coherence judgments. Scoring requires complete accepted reviews.
+
+Run python verify_coherence.py and python verify_numeric_evidence.py from this
+directory to recount the supplied evidence without training or API calls.
+
+Run python workflows.py list to inspect the frozen historical registry.
+Its run command prints a validated command by default; --execute launches it.
+Those original entry points retain their recorded Colab/Drive input-store and
+precision-resume requirements. They preserve the implementation and provenance;
+use the maintained public-input planner for a new run from public data.
+
+The historical experiment_sha and core_sha fields identify original experiments,
+not this exported directory. SHA256SUMS verifies delivered files, and the frozen
+source manifests retain original and exported hashes. source_provenance/
+PRESENTATION.json documents formatting-only changes. Sources/matched75_original
+contains the seed21-23 collector; training contains the separate seed24-27
+collector. Their seed ranges and bank counts remain distinct.
+
+All method implementations and retained historical profiles are directly
+browsable. tools/materialize_frozen.py --verify-all checks the source vaults.
+../docs/PAPER_MAP.md maps paper claims to evidence, code and fresh-run inputs.

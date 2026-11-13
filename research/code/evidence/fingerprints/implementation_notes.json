@@ -1,0 +1,5 @@
+{
+  "Concept_SAE_free_token_interface": "The 36 free tokens are 768-dimensional native vectors, not 196 spatial mask values. They are included through actual additive contribution Capture, and their spatial diagnostic response is the norm of that additive contribution. They are not included in the primary 75 category-readout averages. Original signed mask-times-presence scores are used unchanged for all 75 concept tokens.",
+  "source_changes": "No checkpoint, native source, readout or data split changed. One local concatenation shape error was corrected before any Concept-SAE results were saved. The native additive output is checked against the pinned model forward.",
+  "protocol_preserved": true
+}

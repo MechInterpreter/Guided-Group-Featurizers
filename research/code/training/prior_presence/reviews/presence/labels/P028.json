@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p028",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I0337",
+      "yes": [0,33],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,26,27,28,29,31,35,36,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [25,37,56],
+      "all_definitions_considered": true,
+      "rationale": "The saved beach crop contains identifiable people and several airborne curved kites, with additional kite equipment on the sand. These are tangible kites, not actual birds. Long low white objects among the beach equipment may be surfboards or sailboard decks, but their identity is insufficiently clear, so surfboard is unclear. The small dark canopy at the right edge does not resolve umbrella versus other beach shelter/equipment, making umbrella unclear. Small seat-like structures among the people on the right leave chair unclear. Dark bundles do not establish backpack, handbag or suitcase identity. The bridge, hills, sand and other equipment supply no identifiable objects under the remaining definitions. All 75 definitions were considered; the unresolved categories are 25, 37 and 56."
+    },
+    {
+      "case_id": "I0338",
+      "yes": [0,14,29],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18,19,20,21,22,23,24,25,26,27,28,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A person extends both arms after throwing a white flying disc, identifiable as a frisbee from its disc form and throwing context. A grey pigeon is visible on the grass near the center. The trees and lawn are unpotted vegetation. No other animal, vehicle, furnishing, utensil, food, appliance or listed object is identifiable. All 75 exact definitions were considered; there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0339",
+      "yes": [44,46,47,49],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,45,48,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Inside the blender jar are clearly cut banana rounds, red-skinned apple chunks and peeled orange sections. The metallic spoon at the upper-left edge has a visible bowl and handle. The large transparent container is a blender jar, not an identifiable drinking cup, bottle or bowl under the frozen definitions. No knife or fork is identifiable among the jar ribs and hardware. All 75 definitions were considered; there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0340",
+      "yes": [0,25],
+      "no": [1,3,4,5,6,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [2,7,47],
+      "all_definitions_considered": true,
+      "rationale": "Several actual people stand at a produce stall, and the segmented white/blue canopy above the left customers has market-umbrella form. The vegetables include bell peppers, potatoes, squash and watermelon; they do not establish banana, orange, carrot or broccoli presence. Small partially occluded red round produce behind the central person's hand does not resolve apple versus tomato, so apple is unclear. The partial white road vehicle in the upper-right background lacks enough visible body structure to distinguish passenger car/van from truck, leaving car and truck unclear. Crates and the stall work surface are not dining furniture or bowls. All 75 definitions were considered; unresolved categories are 2, 7 and 47."
+    },
+    {
+      "case_id": "I0341",
+      "yes": [41,58,62,63,64,66],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,59,60,61,65,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A standalone desktop monitor, a laptop at the right edge, a white computer keyboard and a white mouse are physically visible. The plant's foliage and yellow pot provide potted-plant context. A black handled mug sits beneath the monitor, used as a desktop container but retaining drinking-mug form. The telephone at left is a desk telephone, not a cell phone or remote. The work desk is excluded from dining table; papers and trays below do not establish a bound book. Screen contents are not treated as actual depicted objects. All 75 definitions were considered; there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0342",
+      "yes": [68,72],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,69,71,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The black appliance at left has a microwave door and keypad, and the large two-door appliance at right is an identifiable refrigerator/freezer. The cartons and packages on top are not identifiable bottles or drinking cups. Notes fixed to the refrigerator are loose paper rather than books. The cabinet and surrounding counter do not supply an oven, sink or dining table. All 75 definitions were considered; there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0343",
+      "yes": [0,38],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Four actual people pose on a tennis court, holding several clearly strung tennis rackets with identifiable heads and handles. The net and court structures are not furniture, kite assemblies or other listed sports equipment. Clothing and wrist accessories do not establish ties or any other listed object. All 75 definitions were considered; there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0344",
+      "yes": [0,39,44,45,54],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,41,42,43,46,47,48,49,50,51,52,53,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,72,73,74,75,76,77,79],
+      "unclear": [71],
+      "all_definitions_considered": true,
+      "rationale": "A child holds a wooden spoon above a counter covered with ring donuts, several with chocolate frosting. Mixing bowls are visible at the lower left and right. A small bottle with a narrow neck stands behind the child near the black countertop device. The chrome fixture behind the child's left side could be part of a sink tap, but no definite basin/tap assembly is resolved, so sink remains unclear. The black device does not show an identifiable microwave or conventional oven structure. The work counter is not a dining table, and paper plates are not bowls. All 75 definitions were considered; sink is the unresolved category."
+    },
+    {
+      "case_id": "I0345",
+      "yes": [10,11],
+      "no": [0,1,2,3,4,5,6,7,8,9,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The foreground contains an actual fire hydrant with capped outlets and a traffic stop sign with readable STOP text. The thin signpost is not a traffic signal or parking meter. Grass, weeds, road and distant structures provide no identifiable listed vehicle, person, furnishing or other category object. All 75 definitions were considered; there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0346",
+      "yes": [45,51],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,43,46,47,48,49,50,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [42,44],
+      "all_definitions_considered": true,
+      "rationale": "Sliced orange carrots and green beans/asparagus sit in a visibly curved open bowl. The green vegetables have elongated stalk/bean form rather than identifiable broccoli florets. A metal serving utensil extends from the upper right into the vegetables; its partly obscured head does not resolve a spoon bowl versus fork tines, so spoon and fork remain unclear. It is not an identifiable cutting blade. The food supplies no identifiable orange fruit or other listed food category. All 75 definitions were considered; unresolved categories are fork and spoon."
+    },
+    {
+      "case_id": "I0347",
+      "yes": [0,1],
+      "no": [3,4,5,6,8,9,10,11,12,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [2,7,13,35],
+      "all_definitions_considered": true,
+      "rationale": "An actual person in white athletic clothing stands on dirt. A bicycle wheel and associated frame are visible behind the fence at right. The partly cropped red vehicle at upper left does not resolve passenger vehicle versus pickup/truck, so car and truck remain unclear. Blue horizontal furniture-like rails behind the bicycle may be a bench, but the limited visible structure leaves bench unclear. A small brown leather-like fragment at the lower-left edge could be a fielding mitt but is too cropped for definite glove identity, so baseball glove is unclear. The long object in the person's hand lacks a strung racket head and appears bat-like; it does not establish tennis racket, skateboard or another listed sports object. All 75 definitions were considered; unresolved categories are 2, 7, 13 and 35."
+    },
+    {
+      "case_id": "I0348",
+      "yes": [64,66,73],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,65,67,68,69,71,72,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A white computer keyboard with physical keys spans the middle of the crop, and a rounded white computer mouse is partially visible at the lower right. Bound Apple user-guide booklets with cover and page edges lie in the foreground. The large labelled objects behind them are product boxes; their printed equipment illustrations are excluded as actual objects. There is no visible standalone screen or integrated laptop body. All 75 definitions were considered; there is no unresolved category ambiguity."
+    }
+  ]
+}

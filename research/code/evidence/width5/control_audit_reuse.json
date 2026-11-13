@@ -1,0 +1,19 @@
+{
+  "source_run": "32dcb7bd6e9ccc3ad24fa9744a9e390229af6b2eea773fff813a4efdeabe0f41",
+  "restored_keys": [
+    "audit_s21_cap040",
+    "compact_s21_cap040",
+    "audit_s21_vanilla4",
+    "compact_s21_vanilla4",
+    "audit_s22_cap040",
+    "compact_s22_cap040",
+    "audit_s22_vanilla4",
+    "compact_s22_vanilla4",
+    "audit_s23_cap040",
+    "compact_s23_cap040",
+    "audit_s23_vanilla4",
+    "compact_s23_vanilla4"
+  ],
+  "new_gradient_updates": 0,
+  "new_inference": false
+}

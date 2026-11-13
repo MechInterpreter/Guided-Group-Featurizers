@@ -1,0 +1,287 @@
+{
+  "matched21.train": {
+    "source": "sources/matched75_original",
+    "entrypoint": "all75_run.py",
+    "arguments": "config",
+    "description": "75-group training and exact endpoint reuse for seeds 21\u201323",
+    "required_config_keys": [
+      "paths",
+      "output",
+      "local",
+      "core_sha",
+      "experiment_sha",
+      "concept_source",
+      "drive_root",
+      "cache_local",
+      "regime"
+    ],
+    "experiment_sha": "2502868f0b4e9553cb8d9cb0a1aac89f294e36000508ef98d5724aadcfe7d30c",
+    "frozen_profile": "matched75_original"
+  },
+  "matched21.collect": {
+    "source": "sources/matched75_original",
+    "entrypoint": "collect_evaluation.py",
+    "arguments": "config",
+    "description": "Native response collection for seeds 21\u201323",
+    "required_config_keys": [
+      "paths",
+      "output",
+      "local",
+      "core_sha",
+      "experiment_sha",
+      "concept_source",
+      "drive_root",
+      "cache_local",
+      "training_root"
+    ],
+    "experiment_sha": "9aecc52a2102b67b7f4f6ed839f3fa1a946a7676b0ce59987dd9b0908ce67446",
+    "config_values": {
+      "seed21_pilot": false
+    },
+    "frozen_profile": "matched75_original"
+  },
+  "matched21.package": {
+    "source": "sources/matched75_original",
+    "entrypoint": "run_evaluation.py",
+    "arguments": "root",
+    "description": "package outputs for seeds 21\u201323",
+    "phase": "package",
+    "frozen_profile": "matched75_original"
+  },
+  "matched21.score": {
+    "source": "sources/matched75_original",
+    "entrypoint": "run_evaluation.py",
+    "arguments": "root",
+    "description": "score outputs for seeds 21\u201323",
+    "phase": "score",
+    "frozen_profile": "matched75_original"
+  },
+  "matched21.report": {
+    "source": "sources/matched75_original",
+    "entrypoint": "run_evaluation.py",
+    "arguments": "root",
+    "description": "report outputs for seeds 21\u201323",
+    "phase": "report",
+    "frozen_profile": "matched75_original"
+  },
+  "matched24.train": {
+    "source": "training",
+    "entrypoint": "seeds24_27_run.py",
+    "arguments": "config",
+    "description": "75-group training and exact endpoint reuse for seeds 24\u201327",
+    "required_config_keys": [
+      "paths",
+      "output",
+      "local",
+      "core_sha",
+      "experiment_sha",
+      "concept_source",
+      "drive_root",
+      "cache_local",
+      "regime"
+    ],
+    "experiment_sha": "fc6f3f8579f9a953e5a1630b3baf6cacd7c3e1ae72f1e4858ee497201a926c98"
+  },
+  "matched24.collect": {
+    "source": "training",
+    "entrypoint": "collect_evaluation.py",
+    "arguments": "config",
+    "description": "Native response collection for seeds 24\u201327",
+    "required_config_keys": [
+      "paths",
+      "output",
+      "local",
+      "core_sha",
+      "experiment_sha",
+      "concept_source",
+      "drive_root",
+      "cache_local",
+      "training_root"
+    ],
+    "experiment_sha": "fc6f3f8579f9a953e5a1630b3baf6cacd7c3e1ae72f1e4858ee497201a926c98",
+    "config_values": {
+      "seed21_pilot": false
+    }
+  },
+  "matched24.package": {
+    "source": "training",
+    "entrypoint": "run_evaluation.py",
+    "arguments": "root",
+    "description": "package outputs for seeds 24\u201327",
+    "phase": "package"
+  },
+  "matched24.score": {
+    "source": "training",
+    "entrypoint": "run_evaluation.py",
+    "arguments": "root",
+    "description": "score outputs for seeds 24\u201327",
+    "phase": "score"
+  },
+  "matched24.report": {
+    "source": "training",
+    "entrypoint": "run_evaluation.py",
+    "arguments": "root",
+    "description": "report outputs for seeds 24\u201327",
+    "phase": "report"
+  },
+  "matched24.reuse-presence": {
+    "source": "training",
+    "entrypoint": "seeds24_27_evaluate.py",
+    "arguments": "root",
+    "description": "Reuse exact reviewed crop-presence labels and score concentration"
+  },
+  "matched24.verify-concentration": {
+    "source": "training",
+    "entrypoint": "verify_additional_concentration.py",
+    "arguments": "root",
+    "description": "Independent concentration verification for seeds 24\u201327"
+  },
+  "audit.coherence": {
+    "source": ".",
+    "entrypoint": "verify_coherence.py",
+    "arguments": "none",
+    "description": "Offline GPT-majority and Gemini recount"
+  },
+  "audit.numeric": {
+    "source": ".",
+    "entrypoint": "verify_numeric_evidence.py",
+    "arguments": "none",
+    "description": "Offline numeric, concentration and execution-profile recount"
+  },
+  "figures.geometry": {
+    "source": "figure_sources",
+    "entrypoint": "make_coherence_group_geometry.py",
+    "arguments": "none",
+    "description": "Measured group geometry figure"
+  },
+  "figures.architecture": {
+    "source": "figure_sources",
+    "entrypoint": "make_architecture.py",
+    "arguments": "none",
+    "description": "Architecture figure"
+  },
+  "figures.interpretability": {
+    "source": "figure_sources",
+    "entrypoint": "make_matched75_compact.py",
+    "arguments": "none",
+    "description": "Coherence and concentration figure"
+  },
+  "figures.voc": {
+    "source": "figure_sources",
+    "entrypoint": "make_voc_slics_final.py",
+    "arguments": "none",
+    "description": "VOC comparison and execution-profile figures"
+  },
+  "matched24.copy-images": {
+    "source": "training",
+    "entrypoint": "seeds24_27_evaluate.py",
+    "arguments": "root",
+    "input_root_argument": "--copy-images-from-drive",
+    "description": "Verify and copy the identical reviewed crop images before packaging"
+  },
+  "frozen.voc_slics_compute.run": {
+    "source": "sources/voc_slics_compute",
+    "entrypoint": "voc_pair.py",
+    "arguments": "config",
+    "frozen_profile": "voc_slics_compute",
+    "description": "VOC comparison and execution profiling from its original frozen notebook source"
+  },
+  "frozen.supervised_five_seed.fit": {
+    "source": "sources/supervised_five_seed",
+    "entrypoint": "five_seed_worker.py",
+    "arguments": "config",
+    "frozen_profile": "supervised_five_seed",
+    "description": "Resume the pinned historical five-order supervised fitting stage"
+  },
+  "frozen.supervised_five_seed.reconstruction": {
+    "source": "sources/supervised_five_seed",
+    "entrypoint": "gpu_finish_worker.py",
+    "arguments": "config",
+    "frozen_profile": "supervised_five_seed",
+    "description": "Resume the pinned historical five-order reconstruction finish"
+  },
+  "frozen.geometry_consistency.geometry": {
+    "source": "sources/geometry_consistency",
+    "entrypoint": "study.py",
+    "arguments": "config",
+    "frozen_profile": "geometry_consistency",
+    "description": "Geometry and fingerprint study from its original frozen notebook source"
+  },
+  "frozen.geometry_consistency.controlled": {
+    "source": "sources/geometry_consistency",
+    "entrypoint": "cv_study.py",
+    "arguments": "config",
+    "frozen_profile": "geometry_consistency",
+    "description": "Controlled-view consistency from its original frozen notebook source"
+  },
+  "frozen.components.prepare": {
+    "source": "sources/components",
+    "entrypoint": "pilot_inputs.py",
+    "arguments": "config",
+    "frozen_profile": "components",
+    "description": "Prepare component-control inputs from its original frozen notebook source"
+  },
+  "frozen.components.run": {
+    "source": "sources/components",
+    "entrypoint": "components.py",
+    "arguments": "config",
+    "frozen_profile": "components",
+    "description": "Component, initialization, loss and capacity controls from its original frozen notebook source"
+  },
+  "fresh.zoo.generate": {
+    "source": "bootstrap",
+    "entrypoint": "fresh_zoo.py",
+    "arguments": "root",
+    "phase": "generate",
+    "description": "Synthetic Manifold Zoo: generate using generated inputs"
+  },
+  "fresh.zoo.train-baselines": {
+    "source": "bootstrap",
+    "entrypoint": "fresh_zoo.py",
+    "arguments": "root",
+    "phase": "train-baselines",
+    "description": "Synthetic Manifold Zoo: train-baselines using generated inputs"
+  },
+  "fresh.zoo.train-ggf": {
+    "source": "bootstrap",
+    "entrypoint": "fresh_zoo.py",
+    "arguments": "root",
+    "phase": "train-ggf",
+    "description": "Synthetic Manifold Zoo: train-ggf using generated inputs"
+  },
+  "fresh.zoo.audit-baselines": {
+    "source": "bootstrap",
+    "entrypoint": "fresh_zoo.py",
+    "arguments": "root",
+    "phase": "audit-baselines",
+    "description": "Synthetic Manifold Zoo: audit-baselines using generated inputs"
+  },
+  "fresh.zoo.audit-ggf": {
+    "source": "bootstrap",
+    "entrypoint": "fresh_zoo.py",
+    "arguments": "root",
+    "phase": "audit-ggf",
+    "description": "Synthetic Manifold Zoo: audit-ggf using generated inputs"
+  },
+  "fresh.voc19.prepare": {
+    "source": "bootstrap",
+    "entrypoint": "fresh_voc.py",
+    "arguments": "root",
+    "phase": "prepare",
+    "description": "Download VOC2012 inputs and extract pinned DINOv3 features"
+  },
+  "fresh.voc19.train": {
+    "source": "bootstrap",
+    "entrypoint": "fresh_voc.py",
+    "arguments": "root",
+    "phase": "train",
+    "description": "Fit the six recorded 19-group GGF and SLiCS endpoints"
+  },
+  "fresh.voc19.evaluate": {
+    "source": "bootstrap",
+    "entrypoint": "fresh_voc.py",
+    "arguments": "root",
+    "phase": "evaluate",
+    "description": "Evaluate completed 19-group VOC fits"
+  }
+}

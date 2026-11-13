@@ -1,0 +1,6 @@
+arm,model,capture_pct,patch_AP_pct,VE_pct,eligible_seeds
+mask3_fixed,"Mask GGF: width 3, fixed losses",32.97471461127955,71.84307021146131,64.80212836616084,0
+mask4_fixed,"Mask GGF: width 4, fixed losses",33.88871949938309,72.381821208407,66.35506967554782,3
+mask3_balanced,"Mask GGF: width 3, balanced losses",36.901194966470605,74.37325540270827,64.27148666466479,0
+mask4_balanced,"Mask GGF: width 4, balanced losses",37.79664790421098,74.83594649616238,65.76490197802372,3
+vanilla4,Vanilla BSF: width 4,21.314844189568465,57.34838865618391,66.7366693913212,3

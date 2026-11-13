@@ -1,0 +1,64 @@
+{
+  "schema": "ggf-all75-two-regime-v1",
+  "status": "frozen_before_new_training_and_scores",
+  "date": "2026-10-27",
+  "purpose": "Compare GGF with capacity-matched baselines without changing endpoints after observing results. An advantage is a hypothesis, not an output requirement.",
+  "models": {
+    "full_category": {"primary": ["ggf75", "vanilla75", "supervised_vanilla75", "slics75"], "orders": [21, 22, 23]},
+    "category_split": {"primary": ["ggf75", "vanilla75", "supervised_vanilla75"], "reference": "Native SLiCS has 37/38 guided dictionaries. Keep it separately marked capacity-unmatched, per explicit user choice. Reuse seed21 after exact verification; missing reference orders do not become main all75 endpoints."},
+    "excluded": "No 75-unit slices of larger banks. No Concept-SAE main comparison until exact total-token capacity match. Historical 1024 results remain separate."
+  },
+  "training": {
+    "groups": 75, "width": 12, "top_k_bsf": 32,
+    "warm_updates": 7640, "continuation_updates": 3000, "images_per_update": 8,
+    "full_category": {"reuse": "Exact existing fixed-budget GGF75 and SLiCS75 orders21-23", "missing": ["vanilla", "supervised_vanilla"], "warm_lr": 0.0003, "continuation_lr": 0.001, "snr": 0.0, "sampling": "epochs", "ggf_adaptive_cap": 0.6, "supervised_known_only": true, "vanilla_uses_annotations": false},
+    "category_split": {"new": ["vanilla", "supervised_vanilla", "ggf"], "warm_lr": 0.0003, "continuation_lr": 0.0003, "snr": 0.1, "sampling": "with_replacement", "ggf_adaptive_cap": 0.4, "folds": "Exact original SHA category partition and its reverse. Objects may appear unlabeled in reconstruction; this is withheld supervision, not withheld visual exposure."},
+    "initialization": "GGF uses TRAIN foreground SVD initialization. Vanilla and Supervised Vanilla share their own random reconstruction warm-up. This is the native method distinction, not identical supervision. Full-category historical GGF warm-up used known patches; label-free Vanilla cannot use annotation-derived crowd exclusions. Disclose this difference.",
+    "supervised_weight_candidates": [[0.05, 0.01], [0.2, 0.2], [0.4, 0.4]],
+    "supervised_selection": "Order21 only, independently per regime/fold, guided development only: highest final Capture+0.2 AP within warm MSE+2%; otherwise retain minimum MSE and disclose. Freeze selected weights for orders22-23. Preserve all candidates. Fixed final endpoints; no coherence/test-based selection.",
+    "learning_rate_scope": "New baselines use the declared common continuation LR, not a claim of per-method optimality. Historical GGF75 LR was previously development selected; report tuning compute and sensitivity before a broad optimal-method claim.",
+    "vanilla_fold_reuse": "The same label-free category-split Vanilla endpoint serves both folds, counted once for training and dependence. It is not automatically reused in full-category because the training recipes differ.",
+    "category_leakage": "Excluded annotations removed before masks, crowd/ignore arrays, SVD initialization, targets, supervision, development and weight selection. No full-category supervised warm-start in category-split GGF/SV.",
+    "resume": "Exact model, Adam, controller, image/noise RNG and source/config fingerprints; read-back-verified two-slot journal. No overwrite of original sources."
+  },
+  "data": {
+    "backbone": "Original pinned DINOv3 final patch features, 196x768; exact original positional normalization and split identities",
+    "train": 2000, "development": 400, "calibration": 400, "audit": 1500,
+    "image_split_rule": "Reuse source allocations only after identity/disjointness verification. Train/development/calibration/audit ID sets disjoint. Existing data have prior researcher exposure; no new confirmatory-data claim.",
+    "labels": "Lock 75 category definitions before new response-linked reviews. For concentration use independent crop-only yes/no/unclear/missing presence judgments on calibration and audit. Existing judgments may be reused only for exact crop pixels/IDs/definitions and validated provenance. COCO masks define a separate annotated-category AP endpoint, not automatic human semantic ground truth.",
+    "fresh_pool": "All 640 previously allocated interpretability images have been opened. A future independent generalization study needs a newly frozen allocation."
+  },
+  "coherence": {
+    "primary": "Specific-semantic pair consistency: semantic yes / all planned pairs, with no/unclear/missing reported and unresolved upper bounds. All 75 native groups per bank, three fixed image pairs per group. Generic color/edge/orientation alone is not specific semantic agreement.",
+    "secondary": "Visual-property pair consistency, explicitly allowing shared texture/form/geometric structure; scored separately with its own yes/no/unclear codes. A coherent visual feature can lack object-category specificity.",
+    "view_selection": "Six strongest AUDIT images per native group by signed mean-top4, deterministic image-ID ties. Hash-shuffle the six planned slots using the fixed all75-pair-v1 salt and opaque group key; pair adjacent shuffled slots into three disjoint pairs. Retain missing slots. Use the same prespecified eligible image pool for all methods. Freeze image IDs, positive-top4 patch overlays and opaque randomized presentation before any new judgments. No category/method names. No unit replacement based on appearance, response magnitude or coherence. This is a new fixed matched sample, not a reuse or revision of historical pair outcomes.",
+    "annotation": "Three fresh blinded AI contexts per pair, majority yes/no/unclear. Keep individual labels, provenance and disagreements; no independent-human claim. A fixed blinded human validation subset must be sampled before AI labels; human review is not pooled into the AI endpoint.",
+    "other_rubrics": "Broader 5-of-6 C/P/U/? reviews remain separate. Parts and cross-category structure are legitimate; category assignment is never used as the unit's semantic label."
+  },
+  "concentration": {
+    "pooling": "Arithmetic mean of largest four SIGNED native responses over all196 positions; no clipping or zeroing. All75 candidates remain eligible for every target.",
+    "support": "At least5 determinate positives and10 determinate negatives in EACH calibration/audit split. Retain all75 categories and every low-support status; undefined metrics are null, never zero or omitted.",
+    "negative_quantiles": [0.95, 0.9], "primary_quantile": 0.95, "budgets": [1, 2, 4, 8],
+    "threshold": "Calibration-negative numpy quantile(method=higher), strict response>threshold; ties negative.",
+    "selector": "Descending calibration balanced accuracy=.5*(TPR+1-FPR), ties ascending native unit ID. Lock all thresholds, full rankings and budget selections before audit scoring. OR across selected groups, never sum dictionary vectors or call this information recovery.",
+    "metrics": ["OR positive coverage", "OR false-positive rate", "positive predictive precision", "positive/negative support Jaccard with zero-union counts", "incremental positive/negative coverage", "unique positive/negative coverage", "actual groups used and IDs"],
+    "summary": "Equal-category means only over explicitly supported categories, retaining all category support tables; same label-support set across methods. No activity weighting. Native category-split SLiCS uses all37/38 candidates and is separately capacity-unmatched."
+  },
+  "target_alignment": {
+    "selector": "Use the same calibration balanced-accuracy top group as concentration q=.95 budget1, across all methods. No reconstruction proxy, intended slot or audit outcome selector.",
+    "evidence": "Six strongest calibration and six strongest audit views per selected link, deterministic ties. Review and lock calibration alignment before audit alignment. Target must dominate the marked region; target elsewhere in image is insufficient.",
+    "codes": ["target", "related_context", "other", "mixed", "unclear"],
+    "score": "Confirmed target / all planned views; unresolved upper bound includes mixed/unclear/missing, not a confidence interval. Keep every category/link and pending evidence. Target alignment and generic coherence remain separate."
+  },
+  "category_AP": {
+    "role": "Additional annotated category-alignment endpoint, reported separately from visual target alignment and capture.",
+    "selector": "Best existing native unit by maximum calibration category-mask patch AP, ties smallest native ID; freeze before audit. Use the same selected unit for AP reporting. No test-selected unit or reconstruction proxy.",
+    "mask_thresholds": {"positive": 0.5, "negative": 0.1, "crowd_maximum": 0.1},
+    "report": "Full196 positions, tied-zero scores retained; per-category AP, prevalence, AP lift and within-positive-image AP. Guided and excluded category strata separately in category-split; all fixed category denominators and null support statuses."
+  },
+  "controls": ["Original regional Capture with its separately locked readout; do not substitute it for AP", "reconstruction MSE and variance explained", "active-group distribution and dead/rare units", "distinct represented concepts, duplication and unresolved coverage", "core/head parameter counts", "training/inference time and peak GPU memory", "update/example/tuning budgets and actual initialization/supervision differences"],
+  "description_fit_secondary": "If frozen free-form descriptions are collected, separately report marked-patch description fit in high and lower-response audit examples, description coverage and enrichment over controls. Lock descriptions before audit evidence; preserve unresolved/no-description groups. Do not replace whole-bank pair coherence with a mean conditional on interpreted groups. Unseen-image prediction is a later separately allocated test, not a substituted coherence score.",
+  "analysis": "Report all methods, orders and category folds without pooling incompatible protocols. Average pairs within groups before group-level analyses. Shared images, repeated groups, orders sharing initialization, repeated Vanilla across folds and AI contexts are not independent replications. Show effects and appropriate conditional uncertainty; predeclare any later inferential superiority claim and multiplicity family before new outcomes. No posthoc composite winner.",
+  "production_gates": ["Verified exact75 architecture and lineage", "All required endpoints frozen before calibration/audit collection", "Blinded view/sample lock before coherence labels", "Complete independently validated presence-label lock before concentration scoring", "Calibration-only selection lock before audit scores", "Explicit pending statuses for uncollected visual/semantic outcomes"],
+  "completion": "Training-stage completion produces verified endpoint catalog only. The dashboard is complete only after all required scoring/annotation gates pass. Do not report synthetic fixtures as experimental results."
+}

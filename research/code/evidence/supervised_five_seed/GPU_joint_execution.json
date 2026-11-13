@@ -1,0 +1,20 @@
+{
+  "revision": "62a1f6a65dd8427c55049e0c831a805437c00caf90e8f740d07c2e0c297aae16",
+  "run_id": "a9c638e1ec0bd97434d7cda7217d46ee46334c10820b393e038775d89e716822",
+  "gpu": "Tesla T4",
+  "versions": {
+    "numpy": "2.1.3",
+    "torch": "2.11.0+cu130",
+    "scipy": "1.16.3",
+    "einops": "0.8.2",
+    "scikit-learn": "1.6.1"
+  },
+  "full_dictionary": true,
+  "KKT_tolerance": 1e-05,
+  "fallback_maxiter": 20000,
+  "training": false,
+  "cohort_changed": false,
+  "existing_image_prefixes_retained": true,
+  "solver": "Float32 batched FISTA, certified-row compaction, cached float64 active-set refinement, full SciPy fallback",
+  "note": "Execution solver differs. All rows require original-space float64 KKT; nonunique coefficients/activity may differ. Prior verified CPU/GPU prefixes remain in final totals."
+}

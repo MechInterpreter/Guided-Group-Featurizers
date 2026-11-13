@@ -1,0 +1,194 @@
+{
+  "preview_only": false,
+  "paper_changed": true,
+  "source_sha256": "d1e19f16f28293f27a9fffbee9a457ac85b1adb37935ba5caab1d2dcae9d6077",
+  "weights_sha": "5147a325efc0d491eecd1651c45c5c29cc3df3c33a073aed6f6d0a7140a52d8e",
+  "source_geometry": "Saved centered PCA of 12D decoded group contributions from fixed 256-image training cohort",
+  "photograph_selection": "Illustrative high-response training images plus the existing Figure 1 photograph. Not a comparison of methods.",
+  "same_rgb_function_for_image_and_cloud": true,
+  "no_model_training": true,
+  "figure_inches": [
+    6.875,
+    1.8
+  ],
+  "captioned_inches": [
+    6.875,
+    2.3138888888888887
+  ],
+  "groups": [
+    {
+      "category": "Potted plant",
+      "group": 55,
+      "images": [
+        {
+          "image_id": 256029,
+          "source_sha256": "ca9c52628bdd11ce5c09b09ff655b8c67050be9bc84fbfe5a59f5661fcadbe5b",
+          "active_patches": 196
+        },
+        {
+          "image_id": 57979,
+          "source_sha256": "c5d3ce98fb29e4c8891eb86adb6fe31406556d2b8544559ffa70efecd833735f",
+          "active_patches": 133
+        },
+        {
+          "image_id": 261151,
+          "source_sha256": "b83d33a68c4ac4049d1933b4dbb08ed7eb9bf5c1a538e72734e9d9835e95fabc",
+          "active_patches": 170
+        },
+        {
+          "image_id": 553000,
+          "source_sha256": "918ae5b0e99393fe3db3dcc89285c06ad23894b77f109ed04e965a61bd69003d",
+          "active_patches": 103
+        }
+      ],
+      "point_count": 3000,
+      "rgb_train_percentiles": [
+        2,
+        98
+      ],
+      "rgb_limits": [
+        [
+          -7.5661407563963765,
+          -2.6580798132499006,
+          -2.536936060057222
+        ],
+        [
+          2.5331853160632782,
+          2.421196191179725,
+          3.9402921136737317
+        ]
+      ],
+      "opacity_norm_limit": 14.054877281188965,
+      "highlights": [
+        {
+          "image_id": 256029,
+          "patch": 80,
+          "pc": [
+            -9.808393198616615,
+            10.236413509270237,
+            -1.146564686367468
+          ],
+          "selection": "Largest gated coefficient norm within this image"
+        },
+        {
+          "image_id": 57979,
+          "patch": 157,
+          "pc": [
+            -9.114546111287055,
+            -4.974376267110669,
+            -9.924901811518051
+          ],
+          "selection": "Largest gated coefficient norm within this image"
+        },
+        {
+          "image_id": 261151,
+          "patch": 33,
+          "pc": [
+            -11.798289233213755,
+            -6.401080735289472,
+            -3.3076140739575783
+          ],
+          "selection": "Largest gated coefficient norm within this image"
+        },
+        {
+          "image_id": 553000,
+          "patch": 77,
+          "pc": [
+            -8.3186294159712,
+            6.556320189181969,
+            -2.419205012939714
+          ],
+          "selection": "Largest gated coefficient norm within this image"
+        }
+      ],
+      "variance_retained_pct": 63.4606610238642
+    },
+    {
+      "category": "Vase",
+      "group": 71,
+      "images": [
+        {
+          "image_id": 128831,
+          "source_sha256": "a66b4798a4feb74dc3c83959495cb19341681cdbf0a90bffcc491d32088f17ca",
+          "active_patches": 192
+        },
+        {
+          "image_id": 256029,
+          "source_sha256": "ca9c52628bdd11ce5c09b09ff655b8c67050be9bc84fbfe5a59f5661fcadbe5b",
+          "active_patches": 187
+        },
+        {
+          "image_id": 423010,
+          "source_sha256": "4b7ab55614bc2de4a6e7da128cb7141f5112c96766394d7bf93606743f1293ad",
+          "active_patches": 153
+        },
+        {
+          "image_id": 553000,
+          "source_sha256": "918ae5b0e99393fe3db3dcc89285c06ad23894b77f109ed04e965a61bd69003d",
+          "active_patches": 166
+        }
+      ],
+      "point_count": 3000,
+      "rgb_train_percentiles": [
+        2,
+        98
+      ],
+      "rgb_limits": [
+        [
+          -5.381176389840324,
+          -2.820679721076276,
+          -1.9333290290168605
+        ],
+        [
+          2.8849234642182844,
+          3.3453540417476577,
+          1.6512280932588912
+        ]
+      ],
+      "opacity_norm_limit": 10.118786811828613,
+      "highlights": [
+        {
+          "image_id": 128831,
+          "patch": 83,
+          "pc": [
+            -11.608090532326626,
+            7.170288895943194,
+            3.1850727797760183
+          ],
+          "selection": "Largest gated coefficient norm within this image"
+        },
+        {
+          "image_id": 256029,
+          "patch": 188,
+          "pc": [
+            -16.301024532407617,
+            -0.14809569185108196,
+            3.6984770391052937
+          ],
+          "selection": "Largest gated coefficient norm within this image"
+        },
+        {
+          "image_id": 423010,
+          "patch": 73,
+          "pc": [
+            -8.63272645237696,
+            7.047750248121306,
+            -0.7407070717844314
+          ],
+          "selection": "Largest gated coefficient norm within this image"
+        },
+        {
+          "image_id": 553000,
+          "patch": 104,
+          "pc": [
+            -7.149390173814987,
+            -0.858486743515658,
+            -0.4111870150905922
+          ],
+          "selection": "Largest gated coefficient norm within this image"
+        }
+      ],
+      "variance_retained_pct": 67.03948256757921
+    }
+  ]
+}

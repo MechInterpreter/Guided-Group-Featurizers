@@ -1,0 +1,3 @@
+-r code/requirements.txt
+pymupdf
+reportlab

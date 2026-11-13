@@ -1,0 +1,8 @@
+{
+  "training_source_sha256": "2502868f0b4e9553cb8d9cb0a1aac89f294e36000508ef98d5724aadcfe7d30c",
+  "training_protocol_sha256": "8e83cd351d17582b5f1f27fb63db35ff366c841661a5cf721e90e7d5700c71e3",
+  "training_notebook_sha256": "93b1a694bc355b4b4774f1a0c8a72d42c75a02d2687514d330b6e50a1255ffa3",
+  "native_NNLS_source_sha256": "49b1a24b0c1b6e6f89955d9d9d38d1dc2fcca8f53cff9667d7ca30cec2e62c5c",
+  "target_definitions_sha256": "fb91a7036331d26e05f69c90fec699772b8eea0aa06f44193776a996bcb28bfb",
+  "training_notebook_unchanged": true
+}

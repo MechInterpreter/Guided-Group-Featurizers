@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p011",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I0133",
+      "yes": [0,17],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual rider and horse are identifiable in the sandy riding arena. The striped upright jump poles, perimeter rails, red cone, trees and sky do not establish benches, signals or any other defined object. I considered each of the 75 definitions; there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0134",
+      "yes": [0,35],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A baseball player is fully identifiable, with a large tan-and-black fielding mitt on his lowered hand. This is an actual baseball glove, distinct from his clothing, cap and cleats. Grass and infield dirt supply the rest of the crop. I considered every definition and have no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0135",
+      "yes": [],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The crop shows a Pico street-name sign, the blank graffitied rear of another sign, building facades, a curved streetlamp and distant palms. Neither sign has an identifiable stop-sign face, and the lamp is not a traffic signal. No actual object meeting any of the 75 definitions is visible; all definitions were considered with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0136",
+      "yes": [55],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A frosted cake is constructed as a yellow locomotive and colorful carriages, with candy wheels, marshmallows and candy tracks on foil. The edible train depiction is cake rather than an actual rail vehicle; the round candy pieces are not donuts or fruit. The supporting surface is not identifiable as a dining table. Every definition was considered, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0137",
+      "yes": [43,50],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,44,46,47,48,49,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [45],
+      "all_definitions_considered": true,
+      "rationale": "A broccoli head has clear florets and stalk, and an ornate knife has a broad metal blade and dark decorated handle. The other produce resembles a garlic bulb and a cut red pepper, not identifiable apples, oranges or carrots. Category 45 remains unclear because the large open copper vessel has bowl-like sides but also cookware handles, leaving bowl versus cooking-pan identity unresolved. The preparation still life does not identify the wooden support as a dining table. Each of the 75 definitions was considered."
+    },
+    {
+      "case_id": "I0138",
+      "yes": [0,1,2,3,13,58],
+      "no": [4,5,6,8,9,10,11,12,14,15,16,17,18,19,20,21,22,23,25,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [7,24,26],
+      "all_definitions_considered": true,
+      "rationale": "The street contains pedestrians, a clear parked motor scooter, pedal bicycles along the right, passenger vehicles farther along the road, a wooden bench at the lower right, and small plants in containers against the left building. The red circular sign is not an identifiable STOP sign or an actual hydrant. Category 7 remains unclear for small distant light-colored vehicles whose cargo-truck versus van construction is unresolved. Categories 24 and 26 remain unclear for the dark carried/worn shape at the far-right pedestrian, which lacks enough detail to distinguish backpack, shoulder bag or clothing. I considered all 75 definitions."
+    },
+    {
+      "case_id": "I0139",
+      "yes": [0,2,7,33],
+      "no": [1,3,4,5,6,8,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [9],
+      "all_definitions_considered": true,
+      "rationale": "A small colored kite and its long pink tail are visible against the buildings and trees. People appear along the bottom edge; the right roadway contains passenger cars and a square white cargo-truck rear. Category 9 remains unclear because the tiny distant colored light detail at the right intersection cannot be resolved as a traffic signal rather than vehicle lighting. The trees are unpotted, and the concrete barriers are not seats. Every frozen definition was considered."
+    },
+    {
+      "case_id": "I0140",
+      "yes": [0,41,48,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,42,43,44,45,46,47,49,50,51,52,53,54,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Filled bread sandwiches, chips and flat plates sit on an eating table, with a person's torso and hands behind them. The tall handleless beverage glass on the right is a drinking tumbler and therefore cup, with no wine-glass stem or bottle neck. Plates are not bowls, and the potato chips are not defined fruit or carrot pieces. Each definition was considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0141",
+      "yes": [0,72,76],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,73,74,75,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A man holds green-handled scissors with two separated blades and visible finger loops. Behind him is a green refrigerator with divided appliance doors and magnets; the attached papers are not bound books. The scissors are distinct from a single knife, and the man's shirt has no necktie. I considered all 75 definitions, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0142",
+      "yes": [0,35],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The batter, catcher and background players are actual people. The catcher's extended blue sleeve ends in an open black fielding mitt at the right edge, supporting baseball glove presence separately from the batter's ordinary batting gloves. The bat and ball have no category in this frozen set, and the background railing does not establish an identifiable bench seat. All definitions were considered; there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0143",
+      "yes": [0,37],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A woman on a sandy beach carries a long surfboard overhead, its continuous narrow deck and rail identifiable in surfing context. The blue hanging object is a wetsuit or clothing rather than an identifiable backpack or handbag. The small blue beach container is not recognizable as a drinking cup; background beach structures do not establish defined furniture or vehicles. Each definition was considered with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0144",
+      "yes": [0,9,13,74],
+      "no": [1,3,4,5,6,7,8,10,11,12,14,15,16,17,18,19,20,21,22,23,25,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,75,76,77,79],
+      "unclear": [2,24,26],
+      "all_definitions_considered": true,
+      "rationale": "People walk through the square and a man sits on an actual slatted bench. The large freestanding clock has readable time-of-day faces, and yellow traffic-signal heads hang across the intersection. Category 2 remains unclear for a tiny light/dark vehicle-like shape at the distant left curb whose passenger-car identity is unresolved. Categories 24 and 26 remain unclear because a dark shape carried behind the left pedestrian cannot be confidently separated into backpack, shoulder bag or clothing. The flowers grow in ground beds, not identifiable pots. I considered every frozen definition."
+    }
+  ]
+}

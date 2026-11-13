@@ -1,0 +1,49 @@
+[
+  {
+    "original_module": "full_review_ready.py",
+    "function": "validate_batch",
+    "original_module_sha256": "ba71920bebf2ea101aeaae21459d34ae68685d70c158301a8e7e4d3aa17a99c6",
+    "namespace_only_change": true
+  },
+  {
+    "original_module": "replicate_group_review.py",
+    "function": "expected_label",
+    "original_module_sha256": "a980c837c208b38da4046dd82484edf936d54c25a120cf82025fa414e69c7415",
+    "namespace_only_change": false
+  },
+  {
+    "original_module": "replicate_group_review.py",
+    "function": "validate_case",
+    "original_module_sha256": "a980c837c208b38da4046dd82484edf936d54c25a120cf82025fa414e69c7415",
+    "namespace_only_change": true
+  },
+  {
+    "original_module": "openrouter_coherence_pilot.py",
+    "function": "require",
+    "original_module_sha256": "9626bcdfbf2974b332a9963410edbeaecea4baef09def0ece04b10d8a973e8f4",
+    "namespace_only_change": false
+  },
+  {
+    "original_module": "openrouter_coherence_pilot.py",
+    "function": "paid_schema",
+    "original_module_sha256": "9626bcdfbf2974b332a9963410edbeaecea4baef09def0ece04b10d8a973e8f4",
+    "namespace_only_change": false
+  },
+  {
+    "original_module": "openrouter_coherence_pilot.py",
+    "function": "request_body",
+    "original_module_sha256": "9626bcdfbf2974b332a9963410edbeaecea4baef09def0ece04b10d8a973e8f4",
+    "namespace_only_change": false,
+    "exported_file": "request_body_reference.py",
+    "exported_sha256": "c7942fdd3c3c1f0b734d291107c6e91da039bad3f04c933520ed29fde8a5bae8",
+    "encoding": "UTF-8",
+    "prompt_ast_identical_to_original": true,
+    "encoding_normalization": "Re-encode the reference export from Windows-1252 to UTF-8; source prompt characters and function AST unchanged."
+  },
+  {
+    "original_module": "openrouter_coherence_pilot.py",
+    "function": "validate",
+    "original_module_sha256": "9626bcdfbf2974b332a9963410edbeaecea4baef09def0ece04b10d8a973e8f4",
+    "namespace_only_change": false
+  }
+]

@@ -1,0 +1,632 @@
+{
+  "agf_g_21_0": {
+    "card_id": "650d82b6a25e",
+    "model": "agf_g",
+    "seed": 21,
+    "category": 0,
+    "group": 0
+  },
+  "agf_g_21_2": {
+    "card_id": "8d83aed26822",
+    "model": "agf_g",
+    "seed": 21,
+    "category": 2,
+    "group": 2
+  },
+  "agf_g_21_16": {
+    "card_id": "038032c59965",
+    "model": "agf_g",
+    "seed": 21,
+    "category": 16,
+    "group": 16
+  },
+  "agf_g_21_56": {
+    "card_id": "fc0e8784fc8c",
+    "model": "agf_g",
+    "seed": 21,
+    "category": 56,
+    "group": 53
+  },
+  "agf_g_21_58": {
+    "card_id": "d7e8f7e1a8fe",
+    "model": "agf_g",
+    "seed": 21,
+    "category": 58,
+    "group": 55
+  },
+  "agf_g_21_75": {
+    "card_id": "811cc9050f54",
+    "model": "agf_g",
+    "seed": 21,
+    "category": 75,
+    "group": 71
+  },
+  "released_vanilla_21_0": {
+    "card_id": "adf1a5d1d23c",
+    "model": "released_vanilla",
+    "seed": 21,
+    "category": 0,
+    "group": 743
+  },
+  "released_vanilla_21_2": {
+    "card_id": "30dab1c68a1d",
+    "model": "released_vanilla",
+    "seed": 21,
+    "category": 2,
+    "group": 740
+  },
+  "released_vanilla_21_16": {
+    "card_id": "66289255da4e",
+    "model": "released_vanilla",
+    "seed": 21,
+    "category": 16,
+    "group": 120
+  },
+  "released_vanilla_21_56": {
+    "card_id": "8d4c99af6563",
+    "model": "released_vanilla",
+    "seed": 21,
+    "category": 56,
+    "group": 680
+  },
+  "released_vanilla_21_58": {
+    "card_id": "0f267e67905e",
+    "model": "released_vanilla",
+    "seed": 21,
+    "category": 58,
+    "group": 854
+  },
+  "released_vanilla_21_75": {
+    "card_id": "a456fe7dfeac",
+    "model": "released_vanilla",
+    "seed": 21,
+    "category": 75,
+    "group": 477
+  },
+  "supervised_vanilla_21_0": {
+    "card_id": "c18a5f8951b5",
+    "model": "supervised_vanilla",
+    "seed": 21,
+    "category": 0,
+    "group": 743
+  },
+  "supervised_vanilla_21_2": {
+    "card_id": "13f199e2b1d3",
+    "model": "supervised_vanilla",
+    "seed": 21,
+    "category": 2,
+    "group": 740
+  },
+  "supervised_vanilla_21_16": {
+    "card_id": "c8f4ea937256",
+    "model": "supervised_vanilla",
+    "seed": 21,
+    "category": 16,
+    "group": 120
+  },
+  "supervised_vanilla_21_56": {
+    "card_id": "30c395ad740e",
+    "model": "supervised_vanilla",
+    "seed": 21,
+    "category": 56,
+    "group": 680
+  },
+  "supervised_vanilla_21_58": {
+    "card_id": "9d21500942ff",
+    "model": "supervised_vanilla",
+    "seed": 21,
+    "category": 58,
+    "group": 854
+  },
+  "supervised_vanilla_21_75": {
+    "card_id": "2a3568a700ea",
+    "model": "supervised_vanilla",
+    "seed": 21,
+    "category": 75,
+    "group": 477
+  },
+  "agf_g_22_0": {
+    "card_id": "84248c7acf6f",
+    "model": "agf_g",
+    "seed": 22,
+    "category": 0,
+    "group": 0
+  },
+  "agf_g_22_2": {
+    "card_id": "12fdd9c7dbeb",
+    "model": "agf_g",
+    "seed": 22,
+    "category": 2,
+    "group": 2
+  },
+  "agf_g_22_16": {
+    "card_id": "8fd3059b3025",
+    "model": "agf_g",
+    "seed": 22,
+    "category": 16,
+    "group": 16
+  },
+  "agf_g_22_56": {
+    "card_id": "b3521002533c",
+    "model": "agf_g",
+    "seed": 22,
+    "category": 56,
+    "group": 53
+  },
+  "agf_g_22_58": {
+    "card_id": "bc1616d71646",
+    "model": "agf_g",
+    "seed": 22,
+    "category": 58,
+    "group": 55
+  },
+  "agf_g_22_75": {
+    "card_id": "494682922f7a",
+    "model": "agf_g",
+    "seed": 22,
+    "category": 75,
+    "group": 71
+  },
+  "released_vanilla_22_0": {
+    "card_id": "150448f334e3",
+    "model": "released_vanilla",
+    "seed": 22,
+    "category": 0,
+    "group": 551
+  },
+  "released_vanilla_22_2": {
+    "card_id": "642c2447bf72",
+    "model": "released_vanilla",
+    "seed": 22,
+    "category": 2,
+    "group": 93
+  },
+  "released_vanilla_22_16": {
+    "card_id": "11807f720de7",
+    "model": "released_vanilla",
+    "seed": 22,
+    "category": 16,
+    "group": 458
+  },
+  "released_vanilla_22_56": {
+    "card_id": "429fed0dc8f5",
+    "model": "released_vanilla",
+    "seed": 22,
+    "category": 56,
+    "group": 813
+  },
+  "released_vanilla_22_58": {
+    "card_id": "060d492148e3",
+    "model": "released_vanilla",
+    "seed": 22,
+    "category": 58,
+    "group": 653
+  },
+  "released_vanilla_22_75": {
+    "card_id": "c821d60cd39a",
+    "model": "released_vanilla",
+    "seed": 22,
+    "category": 75,
+    "group": 655
+  },
+  "supervised_vanilla_22_0": {
+    "card_id": "36682c5ed5f7",
+    "model": "supervised_vanilla",
+    "seed": 22,
+    "category": 0,
+    "group": 551
+  },
+  "supervised_vanilla_22_2": {
+    "card_id": "246fabed7f78",
+    "model": "supervised_vanilla",
+    "seed": 22,
+    "category": 2,
+    "group": 93
+  },
+  "supervised_vanilla_22_16": {
+    "card_id": "2434df26a6d3",
+    "model": "supervised_vanilla",
+    "seed": 22,
+    "category": 16,
+    "group": 458
+  },
+  "supervised_vanilla_22_56": {
+    "card_id": "11bb6ed7cf7b",
+    "model": "supervised_vanilla",
+    "seed": 22,
+    "category": 56,
+    "group": 813
+  },
+  "supervised_vanilla_22_58": {
+    "card_id": "82fd5758e396",
+    "model": "supervised_vanilla",
+    "seed": 22,
+    "category": 58,
+    "group": 653
+  },
+  "supervised_vanilla_22_75": {
+    "card_id": "a4d91b36851a",
+    "model": "supervised_vanilla",
+    "seed": 22,
+    "category": 75,
+    "group": 655
+  },
+  "agf_g_23_0": {
+    "card_id": "586b03ccd2dd",
+    "model": "agf_g",
+    "seed": 23,
+    "category": 0,
+    "group": 0
+  },
+  "agf_g_23_2": {
+    "card_id": "fdbc5ab44faf",
+    "model": "agf_g",
+    "seed": 23,
+    "category": 2,
+    "group": 2
+  },
+  "agf_g_23_16": {
+    "card_id": "dade733c3686",
+    "model": "agf_g",
+    "seed": 23,
+    "category": 16,
+    "group": 16
+  },
+  "agf_g_23_56": {
+    "card_id": "d6f132793166",
+    "model": "agf_g",
+    "seed": 23,
+    "category": 56,
+    "group": 53
+  },
+  "agf_g_23_58": {
+    "card_id": "37246efff739",
+    "model": "agf_g",
+    "seed": 23,
+    "category": 58,
+    "group": 55
+  },
+  "agf_g_23_75": {
+    "card_id": "39785c0c1171",
+    "model": "agf_g",
+    "seed": 23,
+    "category": 75,
+    "group": 71
+  },
+  "released_vanilla_23_0": {
+    "card_id": "e7d1f9b7058d",
+    "model": "released_vanilla",
+    "seed": 23,
+    "category": 0,
+    "group": 784
+  },
+  "released_vanilla_23_2": {
+    "card_id": "51fa93ac8ba6",
+    "model": "released_vanilla",
+    "seed": 23,
+    "category": 2,
+    "group": 567
+  },
+  "released_vanilla_23_16": {
+    "card_id": "868b081679b1",
+    "model": "released_vanilla",
+    "seed": 23,
+    "category": 16,
+    "group": 297
+  },
+  "released_vanilla_23_56": {
+    "card_id": "10ce240a2322",
+    "model": "released_vanilla",
+    "seed": 23,
+    "category": 56,
+    "group": 113
+  },
+  "released_vanilla_23_58": {
+    "card_id": "49406c4c4183",
+    "model": "released_vanilla",
+    "seed": 23,
+    "category": 58,
+    "group": 480
+  },
+  "released_vanilla_23_75": {
+    "card_id": "42a053c84dda",
+    "model": "released_vanilla",
+    "seed": 23,
+    "category": 75,
+    "group": 703
+  },
+  "supervised_vanilla_23_0": {
+    "card_id": "1d665555598c",
+    "model": "supervised_vanilla",
+    "seed": 23,
+    "category": 0,
+    "group": 784
+  },
+  "supervised_vanilla_23_2": {
+    "card_id": "51bbad78aea3",
+    "model": "supervised_vanilla",
+    "seed": 23,
+    "category": 2,
+    "group": 567
+  },
+  "supervised_vanilla_23_16": {
+    "card_id": "fb9f0b5b06bc",
+    "model": "supervised_vanilla",
+    "seed": 23,
+    "category": 16,
+    "group": 297
+  },
+  "supervised_vanilla_23_56": {
+    "card_id": "e1dee6dc9947",
+    "model": "supervised_vanilla",
+    "seed": 23,
+    "category": 56,
+    "group": 113
+  },
+  "supervised_vanilla_23_58": {
+    "card_id": "924323b1b3d9",
+    "model": "supervised_vanilla",
+    "seed": 23,
+    "category": 58,
+    "group": 480
+  },
+  "supervised_vanilla_23_75": {
+    "card_id": "64893dc3ad3c",
+    "model": "supervised_vanilla",
+    "seed": 23,
+    "category": 75,
+    "group": 703
+  },
+  "slics_21_0": {
+    "card_id": "ed160440b632",
+    "model": "slics",
+    "seed": 21,
+    "category": 0,
+    "group": 0
+  },
+  "slics_21_2": {
+    "card_id": "207583512de7",
+    "model": "slics",
+    "seed": 21,
+    "category": 2,
+    "group": 2
+  },
+  "slics_21_16": {
+    "card_id": "c346cafd843f",
+    "model": "slics",
+    "seed": 21,
+    "category": 16,
+    "group": 16
+  },
+  "slics_21_56": {
+    "card_id": "a5562b3fe3a9",
+    "model": "slics",
+    "seed": 21,
+    "category": 56,
+    "group": 53
+  },
+  "slics_21_58": {
+    "card_id": "f181fb2d7740",
+    "model": "slics",
+    "seed": 21,
+    "category": 58,
+    "group": 55
+  },
+  "slics_21_75": {
+    "card_id": "fb1973b04014",
+    "model": "slics",
+    "seed": 21,
+    "category": 75,
+    "group": 71
+  },
+  "slics_22_0": {
+    "card_id": "67baa191d4b8",
+    "model": "slics",
+    "seed": 22,
+    "category": 0,
+    "group": 0
+  },
+  "slics_22_2": {
+    "card_id": "8e6e1e2234f1",
+    "model": "slics",
+    "seed": 22,
+    "category": 2,
+    "group": 2
+  },
+  "slics_22_16": {
+    "card_id": "cdf0717a5153",
+    "model": "slics",
+    "seed": 22,
+    "category": 16,
+    "group": 16
+  },
+  "slics_22_56": {
+    "card_id": "2a0d866cccff",
+    "model": "slics",
+    "seed": 22,
+    "category": 56,
+    "group": 53
+  },
+  "slics_22_58": {
+    "card_id": "f1e06499f4ad",
+    "model": "slics",
+    "seed": 22,
+    "category": 58,
+    "group": 55
+  },
+  "slics_22_75": {
+    "card_id": "07346907d442",
+    "model": "slics",
+    "seed": 22,
+    "category": 75,
+    "group": 71
+  },
+  "slics_23_0": {
+    "card_id": "cae2fc5a838c",
+    "model": "slics",
+    "seed": 23,
+    "category": 0,
+    "group": 0
+  },
+  "slics_23_2": {
+    "card_id": "548f79caf1f9",
+    "model": "slics",
+    "seed": 23,
+    "category": 2,
+    "group": 2
+  },
+  "slics_23_16": {
+    "card_id": "4e8dc6854d9b",
+    "model": "slics",
+    "seed": 23,
+    "category": 16,
+    "group": 16
+  },
+  "slics_23_56": {
+    "card_id": "606c1b2d270f",
+    "model": "slics",
+    "seed": 23,
+    "category": 56,
+    "group": 53
+  },
+  "slics_23_58": {
+    "card_id": "5ef641ebd3fa",
+    "model": "slics",
+    "seed": 23,
+    "category": 58,
+    "group": 55
+  },
+  "slics_23_75": {
+    "card_id": "fb850b68dfcd",
+    "model": "slics",
+    "seed": 23,
+    "category": 75,
+    "group": 71
+  },
+  "concept_sae_21_0": {
+    "card_id": "7ff279bab7b7",
+    "model": "concept_sae",
+    "seed": 21,
+    "category": 0,
+    "group": 0
+  },
+  "concept_sae_21_2": {
+    "card_id": "c34d03a3c03e",
+    "model": "concept_sae",
+    "seed": 21,
+    "category": 2,
+    "group": 2
+  },
+  "concept_sae_21_16": {
+    "card_id": "9b5aa23e21c6",
+    "model": "concept_sae",
+    "seed": 21,
+    "category": 16,
+    "group": 16
+  },
+  "concept_sae_21_56": {
+    "card_id": "9c941fa81e0d",
+    "model": "concept_sae",
+    "seed": 21,
+    "category": 56,
+    "group": 53
+  },
+  "concept_sae_21_58": {
+    "card_id": "776c94d680db",
+    "model": "concept_sae",
+    "seed": 21,
+    "category": 58,
+    "group": 55
+  },
+  "concept_sae_21_75": {
+    "card_id": "b517481e135e",
+    "model": "concept_sae",
+    "seed": 21,
+    "category": 75,
+    "group": 71
+  },
+  "concept_sae_22_0": {
+    "card_id": "03973ca246c6",
+    "model": "concept_sae",
+    "seed": 22,
+    "category": 0,
+    "group": 0
+  },
+  "concept_sae_22_2": {
+    "card_id": "f4e7e37bce4f",
+    "model": "concept_sae",
+    "seed": 22,
+    "category": 2,
+    "group": 2
+  },
+  "concept_sae_22_16": {
+    "card_id": "878733e08da4",
+    "model": "concept_sae",
+    "seed": 22,
+    "category": 16,
+    "group": 16
+  },
+  "concept_sae_22_56": {
+    "card_id": "485bb73249dd",
+    "model": "concept_sae",
+    "seed": 22,
+    "category": 56,
+    "group": 53
+  },
+  "concept_sae_22_58": {
+    "card_id": "219adebfba24",
+    "model": "concept_sae",
+    "seed": 22,
+    "category": 58,
+    "group": 55
+  },
+  "concept_sae_22_75": {
+    "card_id": "8f854c113031",
+    "model": "concept_sae",
+    "seed": 22,
+    "category": 75,
+    "group": 71
+  },
+  "concept_sae_23_0": {
+    "card_id": "7995307b16f0",
+    "model": "concept_sae",
+    "seed": 23,
+    "category": 0,
+    "group": 0
+  },
+  "concept_sae_23_2": {
+    "card_id": "52edb2e3b4e9",
+    "model": "concept_sae",
+    "seed": 23,
+    "category": 2,
+    "group": 2
+  },
+  "concept_sae_23_16": {
+    "card_id": "8b6e50a0e972",
+    "model": "concept_sae",
+    "seed": 23,
+    "category": 16,
+    "group": 16
+  },
+  "concept_sae_23_56": {
+    "card_id": "9bba7e7658d1",
+    "model": "concept_sae",
+    "seed": 23,
+    "category": 56,
+    "group": 53
+  },
+  "concept_sae_23_58": {
+    "card_id": "a7ce55e3b5cf",
+    "model": "concept_sae",
+    "seed": 23,
+    "category": 58,
+    "group": 55
+  },
+  "concept_sae_23_75": {
+    "card_id": "45a606922e32",
+    "model": "concept_sae",
+    "seed": 23,
+    "category": 75,
+    "group": 71
+  }
+}

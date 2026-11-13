@@ -1,0 +1,1 @@
+GGF: Initialization and Guided Learning only. Group membership fixed; adaptivity refers to bounded task-loss weights. Synthetic3D initialization illustration; no structural graph or Exchanges stage.

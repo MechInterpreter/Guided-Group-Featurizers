@@ -1,0 +1,228 @@
+{
+  "seed": 0,
+  "rows": [
+    {
+      "kind": "torus",
+      "factor": 67,
+      "points": 700,
+      "common_center": [
+        -0.016332294992805273,
+        0.008574629825805969,
+        0.007039832709463423
+      ],
+      "common_rms_scale": 0.4962016145599937,
+      "common_radius": 1.505686105281258,
+      "models": {
+        "vanilla": {
+          "r2_128d": 0.9600630567310129,
+          "group": 83
+        },
+        "grass": {
+          "r2_128d": 0.9175673902931742,
+          "group": 234
+        },
+        "lasso": {
+          "r2_128d": 0.934695000156025,
+          "group": 178
+        },
+        "ggf": {
+          "r2_128d": 0.9727227368017257,
+          "group": 67
+        }
+      }
+    },
+    {
+      "kind": "sphere",
+      "factor": 66,
+      "points": 700,
+      "common_center": [
+        -0.007068742901397596,
+        -0.013002343410792361,
+        -0.001431656362754961
+      ],
+      "common_rms_scale": 0.5001030053915722,
+      "common_radius": 1.2076733745968196,
+      "models": {
+        "vanilla": {
+          "r2_128d": 0.957077246436879,
+          "group": 71
+        },
+        "grass": {
+          "r2_128d": 0.9040258741599676,
+          "group": 44
+        },
+        "lasso": {
+          "r2_128d": 0.9722302046887488,
+          "group": 57
+        },
+        "ggf": {
+          "r2_128d": 0.9736400056883265,
+          "group": 66
+        }
+      }
+    },
+    {
+      "kind": "disk",
+      "factor": 65,
+      "points": 700,
+      "common_center": [
+        0.0028023803143047035,
+        -0.030230679455313027,
+        0.0
+      ],
+      "common_rms_scale": 0.501426714869065,
+      "common_radius": 1.5740638009396533,
+      "models": {
+        "vanilla": {
+          "r2_128d": 0.9754099808459945,
+          "group": 131
+        },
+        "grass": {
+          "r2_128d": 0.9290847826085,
+          "group": 41
+        },
+        "lasso": {
+          "r2_128d": 0.9453480791888732,
+          "group": 114
+        },
+        "ggf": {
+          "r2_128d": 0.9839674630821902,
+          "group": 65
+        }
+      }
+    },
+    {
+      "kind": "mobius",
+      "factor": 68,
+      "points": 700,
+      "common_center": [
+        0.002601402870911564,
+        -0.019920005632364856,
+        0.00011540877666058265
+      ],
+      "common_rms_scale": 0.4940105002124488,
+      "common_radius": 1.5247631475950516,
+      "models": {
+        "vanilla": {
+          "r2_128d": 0.9498882318825308,
+          "group": 170
+        },
+        "grass": {
+          "r2_128d": 0.9145521820682544,
+          "group": 176
+        },
+        "lasso": {
+          "r2_128d": 0.9386008486875714,
+          "group": 162
+        },
+        "ggf": {
+          "r2_128d": 0.9729900610247114,
+          "group": 68
+        }
+      }
+    },
+    {
+      "kind": "swiss_roll",
+      "factor": 69,
+      "points": 700,
+      "common_center": [
+        -0.0046839654477246525,
+        0.0005315947341529991,
+        0.011473353361029053
+      ],
+      "common_rms_scale": 0.49812776211641285,
+      "common_radius": 1.605439406036658,
+      "models": {
+        "vanilla": {
+          "r2_128d": 0.9289128322403442,
+          "group": 128
+        },
+        "grass": {
+          "r2_128d": 0.9159719398602848,
+          "group": 168
+        },
+        "lasso": {
+          "r2_128d": 0.9347069502253559,
+          "group": 128
+        },
+        "ggf": {
+          "r2_128d": 0.9755427582359752,
+          "group": 69
+        }
+      }
+    },
+    {
+      "kind": "helix",
+      "factor": 70,
+      "points": 700,
+      "common_center": [
+        -0.008617198027642582,
+        0.005827023614297757,
+        0.014388396039368154
+      ],
+      "common_rms_scale": 0.4982449335801736,
+      "common_radius": 1.2516406528301276,
+      "models": {
+        "vanilla": {
+          "r2_128d": 0.9572386497317635,
+          "group": 85
+        },
+        "grass": {
+          "r2_128d": 0.9102153199316962,
+          "group": 102
+        },
+        "lasso": {
+          "r2_128d": 0.9669561129773456,
+          "group": 113
+        },
+        "ggf": {
+          "r2_128d": 0.9684224401878566,
+          "group": 70
+        }
+      }
+    },
+    {
+      "kind": "circle",
+      "factor": 64,
+      "points": 700,
+      "common_center": [
+        -0.016300773592748948,
+        -0.012422249892260881,
+        0.0
+      ],
+      "common_rms_scale": 0.49988124052419725,
+      "common_radius": 1.3109032840848631,
+      "models": {
+        "vanilla": {
+          "r2_128d": 0.9007717286488581,
+          "group": 65
+        },
+        "grass": {
+          "r2_128d": 0.9365027036433377,
+          "group": 148
+        },
+        "lasso": {
+          "r2_128d": 0.9514925497817316,
+          "group": 5
+        },
+        "ggf": {
+          "r2_128d": 0.9825321080116816,
+          "group": 64
+        }
+      }
+    }
+  ],
+  "columns": [
+    "Ground\ntruth",
+    "Vanilla\nBSF",
+    "Grassmannian\nBSF",
+    "Group Lasso\nBSF",
+    "GGF"
+  ],
+  "coordinate_system": "Ground-truth embedding frame, shared for every method in a row; single ground-truth center and RMS scale. No prediction-specific fit, rotation or rescaling.",
+  "colors": "Ground-truth azimuth, identical for paired observations across all columns.",
+  "hidden_error": "Projections omit off-factor directions. Full 128D factor R2 is printed; unchanged all-factor three-seed metrics remain in tables.",
+  "minimum_label_font_pt": 9,
+  "width_inches": 6.875,
+  "source_sha256": "c758b3b21e264fd42f79f79a00e91e6a491ad88a692e54ed4b86a2e87ca2050e"
+}

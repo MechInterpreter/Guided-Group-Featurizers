@@ -1,0 +1,42 @@
+\paragraph{Larger-bound development screen.}\label{app:higherbound}
+The completed screen uses seeds 21, 22 and 23 and the same 400-image
+development set. Each trial raises both upper bounds, retains the original
+lower bounds, and reuses its saved four-direction mask warm-up and fixed
+training readouts. All trials perform the same 2,500 plus 500 guided
+updates with paired image sampling and noise. Saved controls are reused.
+Table~\ref{tab:higherbound} reports means across the training starts. These
+scores measure development performance, not held-out confirmation.
+Group membership remains fixed.
+
+\begin{table*}[t]\centering\small
+\caption{Values with $\pm$ show mean and sample SD. Seed development means (\%). Each cap passes the original
+native-reference MSE limit in all runs.}\label{tab:higherbound}
+\begin{tabular}{@{}lrrr@{}}\hline
+Upper bound & Capture & Patch AP & VE\\\hline
+0.20 (saved) & $37.52\pm0.14$ & $80.10\pm0.39$ & $65.35\pm0.06$\\
+0.40 & $38.55\pm0.13$ & $80.68\pm0.35$ & $64.93\pm0.07$\\
+0.60 & $38.56\pm0.12$ & $80.68\pm0.35$ & $64.92\pm0.08$\\\hline
+\end{tabular}\end{table*}
+
+Raising the cap to 0.40 improves Capture and AP but reduces reconstruction
+VE. Increasing it to 0.60 adds only 0.014 Capture percentage points, with
+essentially unchanged AP and a 0.005-point VE decrease. These development
+results motivated cap 0.40 for the subsequent test audit.
+
+Larger caps do not force larger weights. At the 0.60 endpoints, contrast
+weights range from 0.340 to 0.381 and detection weights from 0.273 to
+0.327, below the cap. In sampled gradient diagnostics at updates 250 and
+500 of the final phase, the cosine between reconstruction and contrast
+encoder gradients ranges from $-0.147$ to $-0.088$ across seeds. Detection
+gradients have positive cosine with both other losses at these checks.
+Meanwhile, the last 500 updates still add 0.50--0.80 Capture points and
+0.28--0.46 AP points, while losing 0.11--0.14 VE points. Thus, the cap
+plateau does not establish that training has plateaued. These diagnostics
+motivate testing gradient conflict as a source of the reconstruction
+tradeoff. They do not establish its cause or prove an intervention works.
+
+Complete per-seed development scores, endpoint identities and final-phase
+histories are retained in \path{evidence/cap_bounds/}. The original
+seed-21-only screen remains in \path{evidence/weight_bound/}. The 0.40 cap
+was selected before its test audit. 0.60 was not evaluated on test.
+

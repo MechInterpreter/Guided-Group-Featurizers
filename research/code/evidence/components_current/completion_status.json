@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "training_complete": true,
+  "evaluation_complete": true,
+  "new_warmups": 0,
+  "reused_controls": 6,
+  "planned_new_updates": 18000,
+  "exchanges": false,
+  "seven_seed_study": false
+}

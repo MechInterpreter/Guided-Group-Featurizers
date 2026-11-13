@@ -1,0 +1,115 @@
+PAPER REPORTING: mean +/- SAMPLE SD, n=3 training orders (21,22,23), ddof=1.
+All rates shown on0-100 scale. SD is across run-level scores, not raters/categories/folds.
+Shared initialization/source images: descriptive training-order variation only.
+
+COHERENCE: setting | method | specific pairs | visual pairs | whole clear | clear+discriminating
+category_split | ggf | 79.70 +/- 1.92 | 78.22 +/- 2.84 | 84.00 +/- 2.40 | 83.33 +/- 2.40
+category_split | supervised_vanilla | 72.96 +/- 4.23 | 72.59 +/- 3.12 | 78.89 +/- 3.67 | 77.78 +/- 3.36
+category_split | vanilla | 59.70 +/- 4.45 | 60.00 +/- 1.94 | 69.78 +/- 4.68 | 69.78 +/- 4.68
+full_category | ggf | 94.07 +/- 0.93 | 91.26 +/- 2.19 | 100.00 +/- 0.00 | 100.00 +/- 0.00
+full_category | slics | 82.96 +/- 1.85 | 84.30 +/- 2.00 | 98.22 +/- 1.54 | 98.22 +/- 1.54
+full_category | supervised_vanilla | 65.33 +/- 2.22 | 64.74 +/- 2.53 | 72.89 +/- 4.07 | 71.56 +/- 5.39
+full_category | vanilla | 55.41 +/- 1.68 | 54.96 +/- 1.56 | 67.11 +/- 5.39 | 64.44 +/- 4.68
+
+CONCENTRATION: setting | target stratum | method | calibration-negative quantile | group budget | coverage | false positives | positive overlap | negative overlap
+category_split | excluded | ggf | 0.9 | 1 | 79.94 +/- 1.58 | 9.79 +/- 0.16 | undefined | undefined
+category_split | excluded | ggf | 0.9 | 2 | 88.13 +/- 0.64 | 17.59 +/- 0.30 | 62.88 +/- 0.86 | 15.87 +/- 1.30
+category_split | excluded | ggf | 0.9 | 4 | 93.55 +/- 0.09 | 29.45 +/- 0.23 | 46.62 +/- 1.04 | 14.80 +/- 0.31
+category_split | excluded | ggf | 0.9 | 8 | 97.20 +/- 0.18 | 47.54 +/- 0.53 | 29.19 +/- 0.47 | 12.29 +/- 0.41
+category_split | excluded | ggf | 0.95 | 1 | 65.59 +/- 2.43 | 5.05 +/- 0.10 | undefined | undefined
+category_split | excluded | ggf | 0.95 | 2 | 73.75 +/- 1.16 | 9.37 +/- 0.15 | 44.79 +/- 1.01 | 11.56 +/- 1.00
+category_split | excluded | ggf | 0.95 | 4 | 82.10 +/- 1.06 | 17.15 +/- 0.32 | 26.76 +/- 1.22 | 9.06 +/- 0.89
+category_split | excluded | ggf | 0.95 | 8 | 89.03 +/- 0.50 | 29.97 +/- 0.52 | 14.41 +/- 0.07 | 6.67 +/- 0.20
+category_split | guided | ggf | 0.9 | 1 | 93.70 +/- 0.20 | 9.72 +/- 0.04 | undefined | undefined
+category_split | guided | ggf | 0.9 | 2 | 96.79 +/- 0.10 | 17.19 +/- 0.14 | 57.32 +/- 0.58 | 20.41 +/- 0.63
+category_split | guided | ggf | 0.9 | 4 | 97.62 +/- 0.23 | 28.02 +/- 0.24 | 41.74 +/- 0.09 | 18.25 +/- 0.24
+category_split | guided | ggf | 0.9 | 8 | 98.71 +/- 0.25 | 46.01 +/- 0.53 | 25.20 +/- 0.62 | 13.30 +/- 0.22
+category_split | guided | ggf | 0.95 | 1 | 89.96 +/- 0.26 | 4.71 +/- 0.01 | undefined | undefined
+category_split | guided | ggf | 0.95 | 2 | 92.19 +/- 0.22 | 8.89 +/- 0.09 | 40.49 +/- 1.70 | 14.77 +/- 0.43
+category_split | guided | ggf | 0.95 | 4 | 94.33 +/- 0.08 | 16.07 +/- 0.14 | 24.97 +/- 0.08 | 11.13 +/- 0.30
+category_split | guided | ggf | 0.95 | 8 | 96.22 +/- 0.24 | 29.35 +/- 0.05 | 13.05 +/- 0.33 | 6.99 +/- 0.18
+category_split | excluded | supervised_vanilla | 0.9 | 1 | 72.17 +/- 1.42 | 10.01 +/- 0.06 | undefined | undefined
+category_split | excluded | supervised_vanilla | 0.9 | 2 | 81.12 +/- 0.82 | 17.93 +/- 0.29 | 56.82 +/- 3.84 | 13.97 +/- 0.77
+category_split | excluded | supervised_vanilla | 0.9 | 4 | 88.24 +/- 1.18 | 30.46 +/- 0.37 | 43.94 +/- 1.41 | 12.47 +/- 0.78
+category_split | excluded | supervised_vanilla | 0.9 | 8 | 93.76 +/- 0.67 | 50.01 +/- 0.41 | 28.41 +/- 1.42 | 10.10 +/- 0.61
+category_split | excluded | supervised_vanilla | 0.95 | 1 | 58.17 +/- 2.18 | 5.35 +/- 0.32 | undefined | undefined
+category_split | excluded | supervised_vanilla | 0.95 | 2 | 66.94 +/- 1.08 | 9.80 +/- 0.34 | 41.78 +/- 1.92 | 10.52 +/- 1.14
+category_split | excluded | supervised_vanilla | 0.95 | 4 | 75.34 +/- 1.28 | 17.54 +/- 0.73 | 29.01 +/- 1.37 | 8.08 +/- 1.00
+category_split | excluded | supervised_vanilla | 0.95 | 8 | 82.56 +/- 0.75 | 31.05 +/- 0.80 | 15.08 +/- 1.12 | 5.74 +/- 0.60
+category_split | guided | supervised_vanilla | 0.9 | 1 | 87.91 +/- 1.11 | 9.50 +/- 0.28 | undefined | undefined
+category_split | guided | supervised_vanilla | 0.9 | 2 | 92.63 +/- 0.40 | 17.06 +/- 0.09 | 67.97 +/- 1.78 | 12.94 +/- 1.17
+category_split | guided | supervised_vanilla | 0.9 | 4 | 95.66 +/- 0.24 | 29.73 +/- 0.04 | 45.04 +/- 0.99 | 12.06 +/- 0.60
+category_split | guided | supervised_vanilla | 0.9 | 8 | 97.90 +/- 0.03 | 49.05 +/- 0.95 | 27.37 +/- 0.75 | 10.07 +/- 0.57
+category_split | guided | supervised_vanilla | 0.95 | 1 | 80.32 +/- 2.22 | 4.79 +/- 0.20 | undefined | undefined
+category_split | guided | supervised_vanilla | 0.95 | 2 | 85.40 +/- 1.76 | 8.91 +/- 0.09 | 53.23 +/- 1.89 | 9.28 +/- 0.68
+category_split | guided | supervised_vanilla | 0.95 | 4 | 89.81 +/- 1.55 | 16.97 +/- 0.09 | 30.41 +/- 1.32 | 7.43 +/- 0.69
+category_split | guided | supervised_vanilla | 0.95 | 8 | 93.12 +/- 1.00 | 30.32 +/- 0.27 | 15.38 +/- 0.79 | 5.66 +/- 0.55
+category_split | excluded | vanilla | 0.9 | 1 | 69.56 +/- 0.62 | 9.71 +/- 0.04 | undefined | undefined
+category_split | excluded | vanilla | 0.9 | 2 | 78.30 +/- 0.72 | 17.37 +/- 0.04 | 56.37 +/- 2.23 | 14.10 +/- 1.16
+category_split | excluded | vanilla | 0.9 | 4 | 85.83 +/- 0.54 | 29.57 +/- 0.46 | 43.18 +/- 1.29 | 12.40 +/- 0.78
+category_split | excluded | vanilla | 0.9 | 8 | 91.92 +/- 0.15 | 49.22 +/- 0.35 | 27.66 +/- 0.04 | 9.83 +/- 0.44
+category_split | excluded | vanilla | 0.95 | 1 | 57.15 +/- 1.11 | 5.27 +/- 0.14 | undefined | undefined
+category_split | excluded | vanilla | 0.95 | 2 | 65.25 +/- 1.95 | 9.77 +/- 0.30 | 40.66 +/- 1.38 | 8.54 +/- 1.56
+category_split | excluded | vanilla | 0.95 | 4 | 73.40 +/- 0.91 | 17.56 +/- 0.50 | 28.29 +/- 1.84 | 7.43 +/- 0.47
+category_split | excluded | vanilla | 0.95 | 8 | 80.73 +/- 1.20 | 31.05 +/- 0.62 | 15.41 +/- 0.18 | 5.55 +/- 0.14
+category_split | guided | vanilla | 0.9 | 1 | 69.56 +/- 0.62 | 9.71 +/- 0.04 | undefined | undefined
+category_split | guided | vanilla | 0.9 | 2 | 78.30 +/- 0.72 | 17.37 +/- 0.04 | 56.37 +/- 2.23 | 14.10 +/- 1.16
+category_split | guided | vanilla | 0.9 | 4 | 85.83 +/- 0.54 | 29.57 +/- 0.46 | 43.18 +/- 1.29 | 12.40 +/- 0.78
+category_split | guided | vanilla | 0.9 | 8 | 91.92 +/- 0.15 | 49.22 +/- 0.35 | 27.66 +/- 0.04 | 9.83 +/- 0.44
+category_split | guided | vanilla | 0.95 | 1 | 57.15 +/- 1.11 | 5.27 +/- 0.14 | undefined | undefined
+category_split | guided | vanilla | 0.95 | 2 | 65.25 +/- 1.95 | 9.77 +/- 0.30 | 40.66 +/- 1.38 | 8.54 +/- 1.56
+category_split | guided | vanilla | 0.95 | 4 | 73.40 +/- 0.91 | 17.56 +/- 0.50 | 28.29 +/- 1.84 | 7.43 +/- 0.47
+category_split | guided | vanilla | 0.95 | 8 | 80.73 +/- 1.20 | 31.05 +/- 0.62 | 15.41 +/- 0.18 | 5.55 +/- 0.14
+full_category | all_categories | ggf | 0.9 | 1 | 93.40 +/- 0.58 | 9.99 +/- 0.22 | undefined | undefined
+full_category | all_categories | ggf | 0.9 | 2 | 96.48 +/- 0.15 | 16.68 +/- 0.05 | 66.76 +/- 0.44 | 23.29 +/- 0.38
+full_category | all_categories | ggf | 0.9 | 4 | 97.55 +/- 0.10 | 26.90 +/- 0.26 | 47.63 +/- 0.45 | 19.91 +/- 0.13
+full_category | all_categories | ggf | 0.9 | 8 | 98.81 +/- 0.09 | 42.62 +/- 0.36 | 31.82 +/- 0.19 | 16.14 +/- 0.08
+full_category | all_categories | ggf | 0.95 | 1 | 90.59 +/- 0.13 | 5.02 +/- 0.11 | undefined | undefined
+full_category | all_categories | ggf | 0.95 | 2 | 93.14 +/- 0.28 | 8.89 +/- 0.05 | 51.13 +/- 0.86 | 17.59 +/- 0.67
+full_category | all_categories | ggf | 0.95 | 4 | 94.61 +/- 0.17 | 15.27 +/- 0.14 | 33.71 +/- 0.68 | 15.12 +/- 0.52
+full_category | all_categories | ggf | 0.95 | 8 | 96.53 +/- 0.10 | 26.80 +/- 0.17 | 18.12 +/- 0.48 | 9.80 +/- 0.33
+full_category | all_categories | slics | 0.9 | 1 | 85.98 +/- 1.65 | 9.21 +/- 0.33 | undefined | undefined
+full_category | all_categories | slics | 0.9 | 2 | 90.94 +/- 1.08 | 14.75 +/- 0.25 | 70.18 +/- 3.12 | 28.31 +/- 1.41
+full_category | all_categories | slics | 0.9 | 4 | 94.17 +/- 0.42 | 23.56 +/- 0.47 | 56.06 +/- 1.42 | 24.73 +/- 1.44
+full_category | all_categories | slics | 0.9 | 8 | 96.28 +/- 0.54 | 37.41 +/- 0.89 | 38.23 +/- 1.08 | 19.43 +/- 1.14
+full_category | all_categories | slics | 0.95 | 1 | 79.39 +/- 0.12 | 4.59 +/- 0.06 | undefined | undefined
+full_category | all_categories | slics | 0.95 | 2 | 83.92 +/- 1.10 | 7.75 +/- 0.16 | 56.36 +/- 3.44 | 24.37 +/- 2.28
+full_category | all_categories | slics | 0.95 | 4 | 87.72 +/- 0.70 | 13.36 +/- 0.45 | 37.40 +/- 1.99 | 17.72 +/- 1.48
+full_category | all_categories | slics | 0.95 | 8 | 91.13 +/- 0.86 | 23.75 +/- 0.83 | 20.24 +/- 0.28 | 11.68 +/- 0.41
+full_category | all_categories | supervised_vanilla | 0.9 | 1 | 75.98 +/- 3.66 | 9.60 +/- 0.29 | undefined | undefined
+full_category | all_categories | supervised_vanilla | 0.9 | 2 | 83.43 +/- 2.83 | 17.45 +/- 0.31 | 59.35 +/- 6.56 | 12.53 +/- 2.93
+full_category | all_categories | supervised_vanilla | 0.9 | 4 | 89.47 +/- 1.38 | 29.93 +/- 0.58 | 42.10 +/- 1.63 | 11.97 +/- 1.22
+full_category | all_categories | supervised_vanilla | 0.9 | 8 | 94.43 +/- 1.17 | 49.75 +/- 0.70 | 26.29 +/- 1.78 | 9.65 +/- 0.63
+full_category | all_categories | supervised_vanilla | 0.95 | 1 | 61.88 +/- 2.04 | 4.90 +/- 0.08 | undefined | undefined
+full_category | all_categories | supervised_vanilla | 0.95 | 2 | 70.36 +/- 2.54 | 9.22 +/- 0.23 | 43.54 +/- 4.03 | 8.22 +/- 2.33
+full_category | all_categories | supervised_vanilla | 0.95 | 4 | 77.92 +/- 2.27 | 16.95 +/- 0.26 | 26.39 +/- 1.30 | 6.98 +/- 0.93
+full_category | all_categories | supervised_vanilla | 0.95 | 8 | 84.54 +/- 1.45 | 30.50 +/- 0.59 | 14.07 +/- 0.33 | 5.15 +/- 0.34
+full_category | all_categories | vanilla | 0.9 | 1 | 68.74 +/- 2.19 | 9.68 +/- 0.18 | undefined | undefined
+full_category | all_categories | vanilla | 0.9 | 2 | 76.21 +/- 1.57 | 17.27 +/- 0.35 | 51.99 +/- 1.95 | 13.60 +/- 0.84
+full_category | all_categories | vanilla | 0.9 | 4 | 84.81 +/- 1.23 | 30.06 +/- 0.52 | 40.45 +/- 1.21 | 11.85 +/- 0.33
+full_category | all_categories | vanilla | 0.9 | 8 | 91.44 +/- 1.36 | 49.79 +/- 0.25 | 26.45 +/- 1.39 | 9.63 +/- 0.75
+full_category | all_categories | vanilla | 0.95 | 1 | 55.03 +/- 0.27 | 4.93 +/- 0.08 | undefined | undefined
+full_category | all_categories | vanilla | 0.95 | 2 | 63.36 +/- 0.79 | 9.39 +/- 0.21 | 38.63 +/- 3.56 | 8.62 +/- 1.22
+full_category | all_categories | vanilla | 0.95 | 4 | 70.95 +/- 1.13 | 17.14 +/- 0.51 | 26.74 +/- 2.45 | 7.02 +/- 0.23
+full_category | all_categories | vanilla | 0.95 | 8 | 79.06 +/- 0.25 | 30.93 +/- 0.43 | 14.57 +/- 0.94 | 5.17 +/- 0.18
+
+CATEGORY MASK AP: setting | target stratum | method | AP x100
+category_split | excluded | ggf | 22.36 +/- 1.66
+category_split | guided | ggf | 69.90 +/- 0.03
+category_split | excluded | supervised_vanilla | 22.21 +/- 0.30
+category_split | guided | supervised_vanilla | 54.95 +/- 3.26
+category_split | excluded | vanilla | 21.42 +/- 1.06
+category_split | guided | vanilla | 21.42 +/- 1.06
+full_category | all_categories | ggf | 74.27 +/- 0.45
+full_category | all_categories | slics | 50.08 +/- 1.39
+full_category | all_categories | supervised_vanilla | 31.31 +/- 2.35
+full_category | all_categories | vanilla | 20.48 +/- 0.94
+
+All per-run values and rank-wise incremental/unique coverage are in RESULTS_MEAN_SD.json.
+The new SD layer preserves all frozen source scores/labels. No new models or reviews were needed.
+Shared initialization and image pools; descriptive training-order SD, not model-population uncertainty or a significance test.
+Coherence reviewers are AI contexts, not independent humans. Pair semantic/visual and whole endpoints remain separate.
+Category split excludes annotations from featurizer guidance; excluded objects may be present in training images. Readout calibration may use their labels after fitting.
+Category-split whole/pair coherence scores every native group, not only withheld-category readouts.
+Concentration is around75 predefined targets; it does not establish consolidation of every discovered concept.
+Human validation, independent visual target alignment and genuinely new-image tests remain outstanding.

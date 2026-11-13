@@ -1,0 +1,48 @@
+cohort,method,seed,stage,seconds,updates,best_epoch,epochs
+coco,Supervised Vanilla,21,continuation,830.4405260379831,3000,,
+coco,Concept-SAE,21,1,1526.6535155259553,960,29.0,30.0
+coco,Concept-SAE,21,2,1683.9310627529303,1600,50.0,50.0
+coco,Concept-SAE,21,3,1288.6034240349763,960,29.0,30.0
+coco,Vanilla BSF,22,warm,323.9622871068941,7640,,
+coco,Vanilla BSF,22,continuation,127.44536120698012,3000,,
+coco,Supervised Vanilla,22,warm,323.9622871068941,7640,,
+coco,Supervised Vanilla,22,continuation,829.5902750109926,3000,,
+coco,Concept-SAE,22,1,1602.2099187729823,960,28.0,30.0
+coco,Concept-SAE,22,2,1667.2043010770267,1600,49.0,50.0
+coco,Concept-SAE,22,3,1284.7206408500188,960,30.0,30.0
+coco,Vanilla BSF,23,warm,325.6671645900624,7640,,
+coco,Vanilla BSF,23,continuation,127.82878852206703,3000,,
+coco,Supervised Vanilla,23,warm,325.6671645900624,7640,,
+coco,Supervised Vanilla,23,continuation,841.1487129569978,3000,,
+coco,GGF,23,warm,323.59199501392686,7640,,
+coco,GGF,23,continuation,896.5963785679687,3000,,
+coco,Concept-SAE,23,1,1636.9368329899844,960,28.0,30.0
+coco,Concept-SAE,23,2,1717.521430015011,1600,50.0,50.0
+coco,Concept-SAE,23,3,1314.3478492019858,960,30.0,30.0
+voc,Vanilla BSF,21,warm,322.8874599709634,7640,,
+voc,Vanilla BSF,21,continuation,127.15065675596725,3000,,
+voc,Supervised Vanilla,21,warm,322.8874599709634,7640,,
+voc,Supervised Vanilla,21,continuation,356.62592525300624,3000,,
+voc,GGF,21,warm,324.56071223893014,7640,,
+voc,GGF,21,continuation,379.50643801101523,3000,,
+voc,Concept-SAE,21,1,222.06616482499885,570,30.0,30.0
+voc,Concept-SAE,21,2,222.77515232501173,950,50.0,50.0
+voc,Concept-SAE,21,3,693.3714602570362,570,28.0,30.0
+voc,Vanilla BSF,22,warm,322.18986901609424,7640,,
+voc,Vanilla BSF,22,continuation,127.0002272680267,3000,,
+voc,Supervised Vanilla,22,warm,322.18986901609424,7640,,
+voc,Supervised Vanilla,22,continuation,355.2192570629595,3000,,
+voc,GGF,22,warm,321.14145613491564,7640,,
+voc,GGF,22,continuation,378.038970177011,3000,,
+voc,Concept-SAE,22,1,250.36410850699758,570,30.0,30.0
+voc,Concept-SAE,22,2,259.06737366407106,950,50.0,50.0
+voc,Concept-SAE,22,3,703.7378211510477,570,26.0,30.0
+voc,Vanilla BSF,23,warm,323.84072647604444,7640,,
+voc,Vanilla BSF,23,continuation,127.34736269202222,3000,,
+voc,Supervised Vanilla,23,warm,323.84072647604444,7640,,
+voc,Supervised Vanilla,23,continuation,356.8609985141593,3000,,
+voc,GGF,23,warm,323.5162876590457,7640,,
+voc,GGF,23,continuation,379.37832083397916,3000,,
+voc,Concept-SAE,23,1,232.66708196094987,570,30.0,30.0
+voc,Concept-SAE,23,2,236.29382464688388,950,50.0,50.0
+voc,Concept-SAE,23,3,684.0124797719654,570,29.0,30.0

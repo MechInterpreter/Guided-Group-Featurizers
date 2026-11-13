@@ -1,0 +1,31 @@
+{
+  "complete": true,
+  "comparison": {
+    "reference_seeds": [
+      21,
+      22
+    ],
+    "reference_complete": false,
+    "paired_development_differences": [
+      {
+        "seed": 21,
+        "capture_gain_pp": 0.10812083415693285,
+        "AP_gain_pp": -1.7536824446637955,
+        "VE_gain_pp": 6.348610548909594
+      },
+      {
+        "seed": 22,
+        "capture_gain_pp": 0.27803981458178195,
+        "AP_gain_pp": -2.0582476972219155,
+        "VE_gain_pp": 5.8258851070856155
+      }
+    ],
+    "scope": "Same development split and screen budget; reference settings differ; missing seeds are not trained",
+    "candidate_selected_by_rule": null,
+    "reason": "All three reference seeds are required to apply the original rule. Review the pilot; no automatic promotion."
+  },
+  "stop_after_pilot": true,
+  "final_test_opened": false,
+  "seven_seed_started": false,
+  "score_scope": "Previously inspected development split; three-seed pilot at 10640 updates"
+}

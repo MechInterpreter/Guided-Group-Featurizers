@@ -1,0 +1,6 @@
+{
+  "stage": "width5",
+  "error_type": "FileNotFoundError",
+  "error": "Missing frozen source audit_s21_cap040. No retraining or extraction fallback is permitted.",
+  "traceback": "Traceback (most recent call last):\n  File \"/content/agf_prioritized_source/0c0a52cdea8d445d/next_worker.py\", line 28, in main\n    stage=args.stage;result=exp.run_stage(ctx,args.stage)\n                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^\n  File \"/content/agf_prioritized_source/0c0a52cdea8d445d/coco_ggf/next_experiments.py\", line 316, in run_stage\n    return evaluate_stage(ctx,stage,frozen)\n  File \"/content/agf_prioritized_source/0c0a52cdea8d445d/coco_ggf/next_experiments.py\", line 350, in evaluate_stage\n    row=root_for(ctx,seed,arm);saved=memory.required(s,f'audit_s{seed}_{arm}')\n                                     ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/content/agf_prioritized_source/0c0a52cdea8d445d/coco_coordinated/run.py\", line 78, in required\n    raise FileNotFoundError('Missing frozen source '+key+'. No retraining or extraction fallback is permitted.')\nFileNotFoundError: Missing frozen source audit_s21_cap040. No retraining or extraction fallback is permitted.\n"
+}

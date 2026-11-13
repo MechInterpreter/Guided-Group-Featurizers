@@ -1,0 +1,112 @@
+{
+  "complete": true,
+  "previous_native_interface_checks": [
+    {
+      "method": "agf_g",
+      "seed": 21,
+      "checks": 12,
+      "max_AP_difference": 3.885780586188048e-15,
+      "mean_AP_difference": 6.938893903907228e-16
+    },
+    {
+      "method": "supervised_vanilla",
+      "seed": 21,
+      "checks": 12,
+      "max_AP_difference": 3.3306690738754696e-15,
+      "mean_AP_difference": 5.071174961438866e-16
+    },
+    {
+      "method": "released_vanilla",
+      "seed": 21,
+      "checks": 12,
+      "max_AP_difference": 2.3314683517128287e-15,
+      "mean_AP_difference": 3.81928285294227e-16
+    },
+    {
+      "method": "slics",
+      "seed": 21,
+      "checks": 12,
+      "max_AP_difference": 1.8841030633431899e-06,
+      "mean_AP_difference": 1.5713960855798237e-07
+    },
+    {
+      "method": "concept_sae",
+      "seed": 21,
+      "checks": 12,
+      "max_AP_difference": 1.4523056812709711e-07,
+      "mean_AP_difference": 2.2978529797106535e-08
+    },
+    {
+      "method": "agf_g",
+      "seed": 22,
+      "checks": 12,
+      "max_AP_difference": 2.1094237467877974e-15,
+      "mean_AP_difference": 4.163336342344337e-16
+    },
+    {
+      "method": "supervised_vanilla",
+      "seed": 22,
+      "checks": 12,
+      "max_AP_difference": 1.4432899320127035e-15,
+      "mean_AP_difference": 3.642919299551295e-16
+    },
+    {
+      "method": "released_vanilla",
+      "seed": 22,
+      "checks": 12,
+      "max_AP_difference": 2.220446049250313e-15,
+      "mean_AP_difference": 4.0997298148918543e-16
+    },
+    {
+      "method": "slics",
+      "seed": 22,
+      "checks": 12,
+      "max_AP_difference": 7.992134350820468e-06,
+      "mean_AP_difference": 7.566944430631439e-07
+    },
+    {
+      "method": "concept_sae",
+      "seed": 22,
+      "checks": 12,
+      "max_AP_difference": 3.5112038498930076e-08,
+      "mean_AP_difference": 6.126351434834754e-09
+    },
+    {
+      "method": "agf_g",
+      "seed": 23,
+      "checks": 12,
+      "max_AP_difference": 2.1094237467877974e-15,
+      "mean_AP_difference": 3.4231876592608995e-16
+    },
+    {
+      "method": "supervised_vanilla",
+      "seed": 23,
+      "checks": 12,
+      "max_AP_difference": 1.887379141862766e-15,
+      "mean_AP_difference": 4.255854927729767e-16
+    },
+    {
+      "method": "released_vanilla",
+      "seed": 23,
+      "checks": 12,
+      "max_AP_difference": 2.3314683517128287e-15,
+      "mean_AP_difference": 6.036837696399289e-16
+    },
+    {
+      "method": "slics",
+      "seed": 23,
+      "checks": 12,
+      "max_AP_difference": 8.084117181228478e-07,
+      "mean_AP_difference": 8.894478826839321e-08
+    },
+    {
+      "method": "concept_sae",
+      "seed": 23,
+      "checks": 12,
+      "max_AP_difference": 3.8856936535047737e-07,
+      "mean_AP_difference": 4.96856176786011e-08
+    }
+  ],
+  "tolerance": 0.002,
+  "explanation": "Compare exact single-view native response AP from archived six-unit arrays against the new all-unit solver/forward pass. Small NNLS and floating point rank differences are allowed. No outputs replaced."
+}

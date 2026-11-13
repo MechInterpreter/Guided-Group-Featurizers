@@ -1,0 +1,56 @@
+[
+  {
+    "path": "openrouter_coherence_full.py",
+    "original_source": "scripts/ggf_all75/openrouter_coherence_full.py",
+    "original_sha256": "5b9e3b6dd274308af203724146bf05e2d314a02fa42d1e380c599d9b9efff6dc",
+    "exported_sha256": "5b9e3b6dd274308af203724146bf05e2d314a02fa42d1e380c599d9b9efff6dc"
+  },
+  {
+    "path": "openrouter_coherence_pilot.py",
+    "original_source": "scripts/ggf_all75/openrouter_coherence_pilot.py",
+    "original_sha256": "9626bcdfbf2974b332a9963410edbeaecea4baef09def0ece04b10d8a973e8f4",
+    "exported_sha256": "9626bcdfbf2974b332a9963410edbeaecea4baef09def0ece04b10d8a973e8f4"
+  },
+  {
+    "path": "replicate_group_review.py",
+    "original_source": "scripts/ggf_all75/replicate_group_review.py",
+    "original_sha256": "a980c837c208b38da4046dd82484edf936d54c25a120cf82025fa414e69c7415",
+    "exported_sha256": "a980c837c208b38da4046dd82484edf936d54c25a120cf82025fa414e69c7415"
+  },
+  {
+    "path": "group_review.py",
+    "original_source": "scripts/ggf_all75/group_review.py",
+    "original_sha256": "b0aad42c81f06f960b2cc3bbb22e3d9461dd26f470982989aa44e5393f23d97b",
+    "exported_sha256": "b0aad42c81f06f960b2cc3bbb22e3d9461dd26f470982989aa44e5393f23d97b"
+  },
+  {
+    "path": "review_ready.py",
+    "original_source": "scripts/ggf_all75/review_ready.py",
+    "original_sha256": "46c5932413953f932c168dc790c5f69ab186731af92bd4bb9e620cb3b59158ae",
+    "exported_sha256": "46c5932413953f932c168dc790c5f69ab186731af92bd4bb9e620cb3b59158ae"
+  },
+  {
+    "path": "full_review_ready.py",
+    "original_source": "scripts/ggf_all75/full_review_ready.py",
+    "original_sha256": "ba71920bebf2ea101aeaae21459d34ae68685d70c158301a8e7e4d3aa17a99c6",
+    "exported_sha256": "ba71920bebf2ea101aeaae21459d34ae68685d70c158301a8e7e4d3aa17a99c6"
+  },
+  {
+    "path": "recount_readonly.py",
+    "original_source": "output/ggf_all75_openrouter_full/recount_readonly.py",
+    "original_sha256": "70aefda4a7ed890e2f0e315784ce42fd45ee2c737573f6abf2992623f94cda92",
+    "exported_sha256": "70aefda4a7ed890e2f0e315784ce42fd45ee2c737573f6abf2992623f94cda92"
+  },
+  {
+    "path": "reconcile_scores.py",
+    "original_source": "output/ggf_all75_openrouter_full/reconcile_scores.py",
+    "original_sha256": "5bb6b91ea841b7da01680ad453fc4aaa45b03bd063004a37432c696ac7d80998",
+    "exported_sha256": "5bb6b91ea841b7da01680ad453fc4aaa45b03bd063004a37432c696ac7d80998"
+  },
+  {
+    "path": "verify_payloads.py",
+    "original_source": "output/ggf_all75_openrouter_full/verify_payloads.py",
+    "original_sha256": "463ac0c87437d2fa8ee0ab2b71d1315931a92a3ac3e9b20c1500bc45f905bab9",
+    "exported_sha256": "463ac0c87437d2fa8ee0ab2b71d1315931a92a3ac3e9b20c1500bc45f905bab9"
+  }
+]

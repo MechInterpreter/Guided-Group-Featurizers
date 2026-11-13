@@ -1,0 +1,6 @@
+numpy
+scipy
+matplotlib
+pandas
+pillow
+PyMuPDF>=1.24

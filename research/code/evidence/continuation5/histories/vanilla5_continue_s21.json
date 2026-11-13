@@ -1,0 +1,378 @@
+[
+  {
+    "update": 0,
+    "validation": {
+      "reconstruction": {
+        "mse": 0.32334225911985187,
+        "ve": 0.6771764428665901,
+        "active_groups": 16.0,
+        "dead_groups": 0,
+        "patches": 78400
+      },
+      "macro_capture": null,
+      "macro_ap": null,
+      "score": null
+    },
+    "eligible": true
+  },
+  {
+    "update": 250,
+    "validation": {
+      "reconstruction": {
+        "mse": 0.3244847630360493,
+        "ve": 0.6760357717422227,
+        "active_groups": 16.0,
+        "dead_groups": 0,
+        "patches": 78400
+      },
+      "macro_capture": null,
+      "macro_ap": null,
+      "score": null
+    },
+    "eligible": true,
+    "losses": [
+      0.1816353052854538,
+      0.0,
+      0.0
+    ],
+    "weights_used": [
+      1.0,
+      0.05000000074505806,
+      0.009999999776482582
+    ],
+    "weights_next": null,
+    "diagnostics": null,
+    "gradient_norm": 0.06295166164636612,
+    "seconds_per_update": 0.022343559623994223
+  },
+  {
+    "update": 500,
+    "validation": {
+      "reconstruction": {
+        "mse": 0.32358741774402844,
+        "ve": 0.6769316775230991,
+        "active_groups": 16.0,
+        "dead_groups": 0,
+        "patches": 78400
+      },
+      "macro_capture": null,
+      "macro_ap": null,
+      "score": null
+    },
+    "eligible": true,
+    "losses": [
+      0.18329815566539764,
+      0.0,
+      0.0
+    ],
+    "weights_used": [
+      1.0,
+      0.05000000074505806,
+      0.009999999776482582
+    ],
+    "weights_next": null,
+    "diagnostics": null,
+    "gradient_norm": 0.06511102616786957,
+    "seconds_per_update": 0.022218721304008794
+  },
+  {
+    "update": 750,
+    "validation": {
+      "reconstruction": {
+        "mse": 0.3234198100484385,
+        "ve": 0.6770990163443238,
+        "active_groups": 16.0,
+        "dead_groups": 0,
+        "patches": 78400
+      },
+      "macro_capture": null,
+      "macro_ap": null,
+      "score": null
+    },
+    "eligible": true,
+    "losses": [
+      0.21403728425502777,
+      0.0,
+      0.0
+    ],
+    "weights_used": [
+      1.0,
+      0.05000000074505806,
+      0.009999999776482582
+    ],
+    "weights_next": null,
+    "diagnostics": null,
+    "gradient_norm": 0.07525445520877838,
+    "seconds_per_update": 0.02202771264799109
+  },
+  {
+    "update": 1000,
+    "validation": {
+      "reconstruction": {
+        "mse": 0.32331757536161004,
+        "ve": 0.6772010870274268,
+        "active_groups": 16.0,
+        "dead_groups": 0,
+        "patches": 78400
+      },
+      "macro_capture": null,
+      "macro_ap": null,
+      "score": null
+    },
+    "eligible": true,
+    "losses": [
+      0.18319851160049438,
+      0.0,
+      0.0
+    ],
+    "weights_used": [
+      1.0,
+      0.05000000074505806,
+      0.009999999776482582
+    ],
+    "weights_next": null,
+    "diagnostics": null,
+    "gradient_norm": 0.053956933319568634,
+    "seconds_per_update": 0.022003024147008547
+  },
+  {
+    "update": 1250,
+    "validation": {
+      "reconstruction": {
+        "mse": 0.32346922088506536,
+        "ve": 0.6770496847720009,
+        "active_groups": 16.0,
+        "dead_groups": 0,
+        "patches": 78400
+      },
+      "macro_capture": null,
+      "macro_ap": null,
+      "score": null
+    },
+    "eligible": true,
+    "losses": [
+      0.18942081928253174,
+      0.0,
+      0.0
+    ],
+    "weights_used": [
+      1.0,
+      0.05000000074505806,
+      0.009999999776482582
+    ],
+    "weights_next": null,
+    "diagnostics": null,
+    "gradient_norm": 0.052955273538827896,
+    "seconds_per_update": 0.02207711339440866
+  },
+  {
+    "update": 1500,
+    "validation": {
+      "reconstruction": {
+        "mse": 0.32392793513526263,
+        "ve": 0.6765917063860036,
+        "active_groups": 16.0,
+        "dead_groups": 0,
+        "patches": 78400
+      },
+      "macro_capture": null,
+      "macro_ap": null,
+      "score": null
+    },
+    "eligible": true,
+    "losses": [
+      0.1840401142835617,
+      0.0,
+      0.0
+    ],
+    "weights_used": [
+      1.0,
+      0.05000000074505806,
+      0.009999999776482582
+    ],
+    "weights_next": null,
+    "diagnostics": null,
+    "gradient_norm": 0.062103766947984695,
+    "seconds_per_update": 0.022041789436675268
+  },
+  {
+    "update": 1750,
+    "validation": {
+      "reconstruction": {
+        "mse": 0.3242522515576764,
+        "ve": 0.676267910228318,
+        "active_groups": 16.0,
+        "dead_groups": 0,
+        "patches": 78400
+      },
+      "macro_capture": null,
+      "macro_ap": null,
+      "score": null
+    },
+    "eligible": true,
+    "losses": [
+      0.19264985620975494,
+      0.0,
+      0.0
+    ],
+    "weights_used": [
+      1.0,
+      0.05000000074505806,
+      0.009999999776482582
+    ],
+    "weights_next": null,
+    "diagnostics": null,
+    "gradient_norm": 0.08208520710468292,
+    "seconds_per_update": 0.022000745614295217
+  },
+  {
+    "update": 2000,
+    "validation": {
+      "reconstruction": {
+        "mse": 0.3247907215467501,
+        "ve": 0.6757303040466962,
+        "active_groups": 16.0,
+        "dead_groups": 0,
+        "patches": 78400
+      },
+      "macro_capture": null,
+      "macro_ap": null,
+      "score": null
+    },
+    "eligible": true,
+    "losses": [
+      0.1851971447467804,
+      0.0,
+      0.0
+    ],
+    "weights_used": [
+      1.0,
+      0.05000000074505806,
+      0.009999999776482582
+    ],
+    "weights_next": null,
+    "diagnostics": null,
+    "gradient_norm": 0.06236470490694046,
+    "seconds_per_update": 0.021991651057508534
+  },
+  {
+    "update": 2250,
+    "validation": {
+      "reconstruction": {
+        "mse": 0.32424538799438524,
+        "ve": 0.6762747627811587,
+        "active_groups": 16.0,
+        "dead_groups": 0,
+        "patches": 78400
+      },
+      "macro_capture": null,
+      "macro_ap": null,
+      "score": null
+    },
+    "eligible": true,
+    "losses": [
+      0.17354664206504822,
+      0.0,
+      0.0
+    ],
+    "weights_used": [
+      1.0,
+      0.05000000074505806,
+      0.009999999776482582
+    ],
+    "weights_next": null,
+    "diagnostics": null,
+    "gradient_norm": 0.059453725814819336,
+    "seconds_per_update": 0.02197014992222992
+  },
+  {
+    "update": 2500,
+    "validation": {
+      "reconstruction": {
+        "mse": 0.32370364507571286,
+        "ve": 0.6768156366419824,
+        "active_groups": 16.0,
+        "dead_groups": 0,
+        "patches": 78400
+      },
+      "macro_capture": null,
+      "macro_ap": null,
+      "score": null
+    },
+    "eligible": true,
+    "losses": [
+      0.17636431753635406,
+      0.0,
+      0.0
+    ],
+    "weights_used": [
+      1.0,
+      0.05000000074505806,
+      0.009999999776482582
+    ],
+    "weights_next": null,
+    "diagnostics": null,
+    "gradient_norm": 0.05085146427154541,
+    "seconds_per_update": 0.021948615067205902
+  },
+  {
+    "update": 2750,
+    "validation": {
+      "reconstruction": {
+        "mse": 0.3248574595047661,
+        "ve": 0.6756636731489559,
+        "active_groups": 16.0,
+        "dead_groups": 0,
+        "patches": 78400
+      },
+      "macro_capture": null,
+      "macro_ap": null,
+      "score": null
+    },
+    "eligible": true,
+    "losses": [
+      0.18033134937286377,
+      0.0,
+      0.0
+    ],
+    "weights_used": [
+      1.0,
+      0.05000000074505806,
+      0.009999999776482582
+    ],
+    "weights_next": null,
+    "diagnostics": null,
+    "gradient_norm": 0.046050362288951874,
+    "seconds_per_update": 0.021948141304372587
+  },
+  {
+    "update": 3000,
+    "validation": {
+      "reconstruction": {
+        "mse": 0.32395283300141375,
+        "ve": 0.676566848460727,
+        "active_groups": 16.0,
+        "dead_groups": 0,
+        "patches": 78400
+      },
+      "macro_capture": null,
+      "macro_ap": null,
+      "score": null
+    },
+    "eligible": true,
+    "losses": [
+      0.18160079419612885,
+      0.0,
+      0.0
+    ],
+    "weights_used": [
+      1.0,
+      0.05000000074505806,
+      0.009999999776482582
+    ],
+    "weights_next": null,
+    "diagnostics": null,
+    "gradient_norm": 0.05272255465388298,
+    "seconds_per_update": 0.02195594559700991
+  }
+]

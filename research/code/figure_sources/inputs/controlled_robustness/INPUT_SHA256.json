@@ -1,0 +1,19 @@
+{
+  "agf_g_21_dog.png": "2266c058cc7f44db95bfacb3b67697ad33c11f7d8d4ef617f5efe805760733e5",
+  "agf_g_21_person.png": "777ba4ac376142e91c511719fdeaef564dab096cb2c58d6d1618ed8b36578b2b",
+  "agf_g_21_potted_plant.png": "8873e8c03ac313b275e74e42fc49c62ad7b74f47880399b8c41b34ad6e44d151",
+  "capture_by_category.csv": "172fd210e4632e37b6a35dacf38c4abef7842c8e4c79d054f6db7bae1ff200b1",
+  "capture_seed_summary.csv": "73e38389022367841fe289e9c3f0684646aac4d84c830b098ebf7ba36a1d8d6e",
+  "category_metrics.csv": "dae758389e99be9f69a5b24eaf991d4fb693d962e1e2836327eb2f2a6460b119",
+  "cohort.json": "2f12eb5ac9b334d0057bd2ca2ddc52da0af4a66b4c7721910734497c84a663bc",
+  "condition_metrics.csv": "64673278d84b7fb3603add6713e182adbda72b91316a768da6af219ef732b0ed",
+  "paired_primary_comparisons.csv": "692236541618777a6c92f6a5e08e98aed212c4c83a1eefcb5fe28fe4b8bec1cf",
+  "per_start_metrics.csv": "afadddc902025636c22363f64af83cc31450b80dd157632bf16b3a0cb291511e",
+  "protocol.json": "ffc54d3adaa93bc245b5c6a14b972c50a30b16201efdcf95b5d27334b90fb26f",
+  "released_vanilla_21_dog.png": "8da838ade65f19934aa382594412b1acc32738fbdedcb9f1395f2e7c9c2d8e93",
+  "released_vanilla_21_person.png": "49b39fa70650564d1343b870f8560049aa74de69a8e014ba443d2f88e8db2b71",
+  "released_vanilla_21_potted_plant.png": "67fd1425aa7bd4a6dba03ab8b0a64ba94e16296c9c31a35470f0cde443c28318",
+  "supervised_vanilla_21_dog.png": "b223dc244b494ec7d665ab6bcaa49473f845344e1cb20d88fd5125c0686cd8b0",
+  "supervised_vanilla_21_person.png": "ddc11e4eef44a84d2d4e54b5edf105aafe692667a60f5709b94b53b8fd05d5c9",
+  "supervised_vanilla_21_potted_plant.png": "4996069322269b95126d267f79669106ffe5aa18d2a59a99f96fb7c668e86a11"
+}

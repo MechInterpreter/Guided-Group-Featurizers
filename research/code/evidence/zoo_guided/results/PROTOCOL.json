@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "config": {
+    "version": 1,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "dimension": 128,
+    "factors": 128,
+    "groups": 256,
+    "block_rank": 4,
+    "active_factors": 4,
+    "train_rows": 300000,
+    "select_rows": 20000,
+    "calibration_rows": 20000,
+    "test_rows": 100000,
+    "normalization_rows": 50000,
+    "data_seed": 701,
+    "epochs": 200,
+    "batch": 2048,
+    "lrs": [
+      0.0004,
+      0.003
+    ],
+    "save_updates": 500,
+    "log_epochs": 5,
+    "snr": 0.0,
+    "warmup": 0.05,
+    "methods": [
+      "vanilla",
+      "grassmannian",
+      "group_lasso"
+    ],
+    "include_sae": false,
+    "no_session_limit": true,
+    "scope": "Released-code replication on reconstructed Goodfire manifold zoo; bounded configuration sweep, not exact published-result replication.",
+    "schedule": "Released trainer Adam/OneCycleLR; clean synthetic inputs"
+  },
+  "warm_epochs": 40,
+  "cap": 0.6,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "balance": {
+    "alpha": 1.5,
+    "weight_lr": 0.01,
+    "every": 10,
+    "reference_batches": 20,
+    "bounds": {
+      "capture": [
+        0.0125,
+        0.6
+      ],
+      "detection": [
+        0.0025,
+        0.6
+      ]
+    }
+  },
+  "initialization": "Training mixture second moments conditional on factor presence; no true component vectors used for initialization.",
+  "guidance": "Known component reconstruction, equally averaged over active instances within factor and then factors; balanced factor-presence BCE.",
+  "assignment": "First128 groups fixed to128 known factors; reserve groups remain unlabelled.",
+  "selection": "Minimum selection-set reconstruction MSE over logged checkpoints and two learning rates, before opening synthetic test.",
+  "final_endpoint": "Final200-epoch endpoint of the same selected learning-rate trial is a separate diagnostic.",
+  "scope": "Factor-supervised synthetic analogue; stronger labels than COCO object masks. No guarantee of perfect learned recovery."
+}

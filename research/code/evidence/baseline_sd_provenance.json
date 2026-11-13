@@ -1,0 +1,92 @@
+[
+  {
+    "model": "Vanilla BSF",
+    "source": "matched_baselines_per_seed.csv",
+    "seeds": [
+      "21",
+      "22",
+      "23"
+    ]
+  },
+  {
+    "model": "Grassmannian BSF",
+    "source": "matched_baselines_per_seed.csv",
+    "seeds": [
+      "21",
+      "22",
+      "23"
+    ]
+  },
+  {
+    "model": "Released Group Lasso",
+    "source": "matched_baselines_per_seed.csv",
+    "seeds": [
+      "21",
+      "22",
+      "23"
+    ]
+  },
+  {
+    "model": "GGF 3",
+    "source": "width_balance/comparison.csv",
+    "seeds": [
+      "21",
+      "22",
+      "23"
+    ]
+  },
+  {
+    "model": "Vanilla BSF 8 continued",
+    "source": "oct15/twelve_test_comparison.csv",
+    "seeds": [
+      "21",
+      "22",
+      "23"
+    ]
+  },
+  {
+    "model": "GGF 8 continued",
+    "source": "oct15/twelve_test_comparison.csv",
+    "seeds": [
+      "21",
+      "22",
+      "23"
+    ]
+  },
+  {
+    "model": "Vanilla BSF 12 expanded",
+    "source": "oct15/twelve_test_comparison.csv",
+    "seeds": [
+      "21",
+      "22",
+      "23"
+    ]
+  },
+  {
+    "model": "GGF 12 expanded",
+    "source": "oct15/twelve_test_comparison.csv",
+    "seeds": [
+      "21",
+      "22",
+      "23"
+    ]
+  },
+  {
+    "model": "Vanilla BSF 12 fresh 4096",
+    "source": "pilot4096_test/test_models.csv",
+    "seeds": [
+      "21",
+      "22",
+      "23"
+    ]
+  },
+  {
+    "model": "GGF 12 fresh 4096",
+    "source": "pilot4096_test/test_models.csv",
+    "seeds": [
+      "21",
+      "22",
+      "23"
+    ]
+  }
+]

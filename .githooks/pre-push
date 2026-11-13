@@ -1,0 +1,13 @@
+#!/bin/sh
+set -eu
+if [ -n "${GGF_SAFETY_PYTHON:-}" ]; then
+  exec "$GGF_SAFETY_PYTHON" scripts/check_repository.py --history
+fi
+if command -v python3 >/dev/null 2>&1; then
+  exec python3 scripts/check_repository.py --history
+elif command -v python >/dev/null 2>&1; then
+  exec python scripts/check_repository.py --history
+else
+  echo 'Python 3.11+ is required for the repository safety check.' >&2
+  exit 1
+fi

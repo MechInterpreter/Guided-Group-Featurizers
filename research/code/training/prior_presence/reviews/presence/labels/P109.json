@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p109",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I1309",
+      "yes": [0,13,25,29,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20,21,22,23,24,26,27,28,31,33,35,36,37,38,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [39,41],
+      "all_definitions_considered": true,
+      "rationale": "People stand on grass beside occupied picnic benches and an eating table. The woman in white holds an orange flying disc; a blue radial umbrella canopy is visible behind her. The picnic seating is a long bench rather than an identifiable individual chair. Tiny upright vessels on the right-hand table leave bottle (39) and drinking cup (41) identity unresolved at this crop resolution. I considered every frozen definition against the entire crop; the remaining categories have no identifiable actual object or part."
+    },
+    {
+      "case_id": "I1310",
+      "yes": [21],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual black bear fills the crop, with a pale muzzle, rounded ears, heavy forelimbs and a pale chest marking. It is a living animal rather than a teddy bear or costume. Surroundings are soil, scattered leaves and a log; none establishes another defined object. I considered all 75 frozen definitions; there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1311",
+      "yes": [0,24,31],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,25,26,27,28,29,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A person sits on snow wearing an orange-and-black backpack with shoulder straps. The wide board and bindings at the feet identify an actual snowboard, distinct from skis, a skateboard or surfboard. The hand coverings are ordinary winter gloves, not a baseball fielding glove. The background consists of snowy ground and unpotted trees. I considered all 75 frozen definitions; no category identity remains unresolved."
+    },
+    {
+      "case_id": "I1312",
+      "yes": [0,40,41,42,43,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [44],
+      "all_definitions_considered": true,
+      "rationale": "A woman is eating at a dining table, holding a tined fork and a table knife. A stemmed wine-glass form is clear near the center-right, and the tall straight-sided drinking glass at the right is a cup under the frozen definition. The food rests on flat plates, not bowls; salad and sliced food do not identify the listed fruits, vegetables or prepared-food categories. A partly cropped shiny utensil on the dark napkin at the lower left may have a spoon bowl, but its shape is insufficiently clear, so spoon (44) is unresolved. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I1313",
+      "yes": [0,31],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20,21,22,23,25,26,27,28,29,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [13,24],
+      "all_definitions_considered": true,
+      "rationale": "Several people occupy the snowy slope, and the foreground boots are secured to a broad snowboard with bindings. The narrow equipment used by the standing skiers does not create additional board-category judgments. The cropped lift structure at the left may include a long lift bench, but a sufficient seat/back is not clear, leaving bench (13) unresolved. Small dark shapes against the standing skiers' backs could be backpacks or clothing, leaving backpack (24) unresolved. I considered all 75 definitions across the whole crop."
+    },
+    {
+      "case_id": "I1314",
+      "yes": [0,17,25,56],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,18,19,20,21,22,23,24,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [13,60],
+      "all_definitions_considered": true,
+      "rationale": "An actual horse in harness pulls a wheeled land carriage; the partially cropped driver is a person. The horse's mane, body and hooves support horse identity rather than zebra or cattle. The cafe background has umbrella canopies and visible individual chair backs. The cropped carriage seat could be a multi-person bench but its extent is unclear (13). Small blue horizontal cafe surfaces may be dining tables, but their tabletop structure is insufficiently resolved (60). The carriage is not a road motor vehicle or boat. All 75 frozen definitions were considered."
+    },
+    {
+      "case_id": "I1315",
+      "yes": [0,3,19],
+      "no": [1,2,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A person rides an actual motorbike with a motor-vehicle rear assembly and license plate, while another person walks beside a black cattle animal. The bovine body, tail, legs and head context support cattle identity rather than horse or dog. Vegetation grows in the ground, with no identifiable plant pot. Brick piles, buildings and road surfaces do not establish any other listed category. I considered every one of the 75 definitions; no category ambiguity remains unresolved."
+    },
+    {
+      "case_id": "I1316",
+      "yes": [0,39,45,46,58,71,72],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,42,48,50,51,52,53,54,55,56,57,59,60,61,62,63,64,65,66,67,73,74,75,76,77,79],
+      "unclear": [41,43,44,47,49,68,69],
+      "all_definitions_considered": true,
+      "rationale": "Three people prepare food in a kitchen. Actual necked bottles, open mixing/fruit bowls, bananas, a small leafy plant in its pot, the gooseneck sink assembly and a large double-door refrigerator are identifiable. The work island is a counter rather than a dining table. Several clear prep vessels might include drinking cups but their drinking identity is unresolved (41). Small utensils near the mixing area lack enough blade or bowl detail to settle knife (43) and spoon (44). Red and yellow round produce in the right bowl leaves apple (47) and orange (49) unresolved. A partly obscured dark built-in appliance behind the middle person does not clearly distinguish microwave (68) from conventional oven (69). I considered all 75 definitions."
+    },
+    {
+      "case_id": "I1317",
+      "yes": [15,63],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,58,60,61,62,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [56,57,59],
+      "all_definitions_considered": true,
+      "rationale": "An actual orange-and-white cat stands beside an integrated laptop display. The screen content is excluded as depicted imagery, and no keyboard keys are visible in the saved crop, so keyboard is no. The gray padded furniture fragment at the upper right could be part of a chair, sofa or bed, but the limited cushion/frame context cannot resolve chair (56), couch (57) or bed (59). I considered all 75 frozen definitions against the entire crop."
+    },
+    {
+      "case_id": "I1318",
+      "yes": [45,47,49],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,46,48,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A blue open pedestal bowl contains actual fruit: the textured orange on the left and the red/yellow apple with a stem depression are identifiable. The green fruit behind them has a pear-like bulb rather than identifiable banana structure. The circular object on the right is a coin in a stand, with currency lettering rather than a time-of-day face, so it is not a clock. The plain support surface has no dining-table context. All 75 frozen definitions were considered; no category ambiguity remains unresolved."
+    },
+    {
+      "case_id": "I1319",
+      "yes": [41,42,43,60],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,44,45,46,47,48,49,50,51,52,53,54,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [55],
+      "all_definitions_considered": true,
+      "rationale": "A handled mug of coffee, a four-tined fork and a table knife sit beside a plate of dessert on an eating table. The shallow flat plate is not a bowl, and the mug is not a stemmed wine glass. The red-topped baked slice could be cake or a rhubarb-style pie/tart; its crust/base does not settle cake (55), which remains unclear under the pie exclusion. The topping does not identify any listed fruit or pizza. I considered all 75 frozen definitions."
+    },
+    {
+      "case_id": "I1320",
+      "yes": [73],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,25,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,68,69,71,72,74,75,76,77,79],
+      "unclear": [24,26,67],
+      "all_definitions_considered": true,
+      "rationale": "Bound books with visible covers/spines and a spiral-bound notebook occupy the crop among keys, stationery, cases and a calculator. The black zippered bag at the left is real, but its cropped construction does not establish backpack versus carried shoulder/handbag design (24 and 26 unclear). The small oval-faced electronic handset near the upper center resembles an older mobile phone, but its visible screen and controls do not establish phone identity decisively (67 unclear). The numeric calculator at the lower right is not a phone or computer keyboard. Keys and clips are not scissors; narrow packaged items have no identifiable toothbrush bristles. I considered all 75 definitions."
+    }
+  ]
+}

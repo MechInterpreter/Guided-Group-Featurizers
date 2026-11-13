@@ -1,0 +1,63 @@
+{
+  "complete": true,
+  "recipe": {
+    "version": 1,
+    "study": "agf_reserved_concept_additions_prescreen",
+    "seeds": [
+      21,
+      22,
+      23
+    ],
+    "arms": [
+      "targeted",
+      "random",
+      "ordinary",
+      "vanilla_ordinary"
+    ],
+    "updates_per_arm": 500,
+    "planned_new_updates": 6000,
+    "concept_groups": 75,
+    "groups": 1024,
+    "source_rank": 5,
+    "padded_rank": 6,
+    "active_groups": 16,
+    "screening_images": 512,
+    "training_seed": 107011,
+    "profile_chunk": 25,
+    "fit_seed_offset": 111000,
+    "balance": {
+      "kind": "bounded_reconstruction_anchored_GradNorm_inspired",
+      "alpha": 1.5,
+      "weight_lr": 0.01,
+      "every": 10,
+      "reference_batches": 20,
+      "bounds": {
+        "capture": [
+          0.0125,
+          0.4
+        ],
+        "detection": [
+          0.0025,
+          0.4
+        ]
+      }
+    },
+    "operation": "COPY one full learned encoder column, bias and decoder row from groups 75..1023 into a new sixth concept slot. Donors and all five original slots remain in place. New-coordinate Adam moments start at zero.",
+    "selection": "TRAIN-only, largest additive object-contrast residual reduction among reserve directions with nonzero foreground raw activity. Uniform random addition from the same legal category pool; no development/test choice.",
+    "receivers": "Initialized concept slots 0..74 in saved category order. Keep original TRAIN-selected capture/detection readouts and heads; log off-slot exceptions rather than silently retarget them.",
+    "padding": "Native rectangular 6D storage; reserve sixth slots are exactly-zero, zero-moment padding. They cannot learn under this objective and are checked at every inspected checkpoint. Effective widths are 6 for concept slots, 5 for reserves.",
+    "preservation": "No original slot is removed or reassigned. During the 500 updates, existing and added directions may train. Original directions are not numerically frozen.",
+    "controls": "Targeted/random have identical usable capacity, gate, root, Adam/head/controller, image/noise streams and update budget. Ordinary AGF/Vanilla are budget controls, not addition-capacity controls.",
+    "gating": "Unchanged raw group L2 Top-16, no width normalization; maximum active slots may rise from 80 to 96.",
+    "development": "Initial and final reports on selection and confirmation; primary original readouts plus separately labelled initialized-slot diagnostics. No test features or intervals.",
+    "endpoint": "Final 500 updates; retain all outcomes. No automatic adoption or search based on development.",
+    "no_warmup": true,
+    "no_backbone_extraction": true,
+    "no_removal_graph": true,
+    "checkpoint_local_every": 50,
+    "checkpoint_drive_every": 250
+  },
+  "development_only": true,
+  "test_features_opened": false,
+  "later_capacity_roots_unchanged": true
+}

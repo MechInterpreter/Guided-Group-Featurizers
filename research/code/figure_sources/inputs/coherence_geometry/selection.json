@@ -1,0 +1,819 @@
+{
+  "preview_only": true,
+  "paper_figure_1_unchanged": true,
+  "selection": "User-requested illustrative favorable GGF and weaker comparator groups; selected on frozen semantic reviews, never on PCA separation. Not a representative method sample.",
+  "seed": 21,
+  "groups_per_method": 75,
+  "cases": [
+    {
+      "case_id": "G0622",
+      "bank_id": "full_category_ggf_s21_f0",
+      "unit": 32,
+      "source_slots": [
+        0,
+        2,
+        4,
+        1,
+        5,
+        3
+      ],
+      "image_ids": [
+        502857,
+        195715,
+        337648,
+        555940,
+        280976,
+        492495
+      ],
+      "invalid_pairs": [
+        false,
+        false,
+        false
+      ],
+      "review_outcome": {
+        "case_id": "G0622",
+        "bank_id": "full_category_ggf_s21_f0",
+        "unit": 32,
+        "majority": "clear",
+        "specificity_majority": "specific",
+        "clear_and_discriminating": true,
+        "raw": [
+          {
+            "case_id": "G0622",
+            "theme": "Baseball gloves with padded finger sections, seams and lacing.",
+            "fit_views": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "high_fit_count": 6,
+            "exceptions": [],
+            "coherence": "clear",
+            "specificity": "specific",
+            "confidence": "high",
+            "high_low_contrast": "not_assessed",
+            "observations": "Each marked group lies on a baseball glove, including gloves being worn and the glove displayed with a ball. Leather color and scale vary but the glove construction is consistent."
+          },
+          {
+            "case_id": "G0622",
+            "theme": "Baseball gloves with padded leather fingers, pockets and laced seams.",
+            "fit_views": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "high_fit_count": 6,
+            "exceptions": [],
+            "coherence": "clear",
+            "specificity": "specific",
+            "confidence": "high",
+            "high_low_contrast": "not_assessed",
+            "observations": "All six marked areas lie on baseball gloves, ranging from a close-up glove beside a ball to gloves worn by players. Their leather pockets and finger sections recur despite different colors and scales. Full sheet and embedded zoom strip inspected at original resolution."
+          },
+          {
+            "case_id": "G0622",
+            "theme": "Baseball fielding gloves with padded leather pockets, fingers and stitched edges.",
+            "fit_views": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "high_fit_count": 6,
+            "exceptions": [],
+            "coherence": "clear",
+            "specificity": "specific",
+            "confidence": "high",
+            "high_low_contrast": "not_assessed",
+            "observations": "Original-resolution sheet and zoom strip inspected. Every view marks a baseball glove, spanning tan, reddish and black leather and differing glove orientations."
+          }
+        ]
+      },
+      "views": [
+        {
+          "image_id": 502857,
+          "pooled": 22.438282012939453,
+          "patches": [
+            74,
+            75,
+            88,
+            60
+          ]
+        },
+        {
+          "image_id": 195715,
+          "pooled": 21.83464813232422,
+          "patches": [
+            76,
+            69,
+            82,
+            83
+          ]
+        },
+        {
+          "image_id": 337648,
+          "pooled": 21.47071075439453,
+          "patches": [
+            123,
+            151,
+            149,
+            164
+          ]
+        },
+        {
+          "image_id": 555940,
+          "pooled": 22.071025848388672,
+          "patches": [
+            104,
+            129,
+            130,
+            132
+          ]
+        },
+        {
+          "image_id": 280976,
+          "pooled": 21.00213050842285,
+          "patches": [
+            143,
+            158,
+            156,
+            157
+          ]
+        },
+        {
+          "image_id": 492495,
+          "pooled": 21.479209899902344,
+          "patches": [
+            136,
+            123,
+            137,
+            111
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "G0068",
+      "bank_id": "full_category_slics_s21_f0",
+      "unit": 56,
+      "source_slots": [
+        2,
+        3,
+        0,
+        5,
+        4,
+        1
+      ],
+      "image_ids": [
+        190905,
+        270871,
+        445267,
+        170077,
+        532194,
+        332420
+      ],
+      "invalid_pairs": [
+        false,
+        false,
+        false
+      ],
+      "review_outcome": {
+        "case_id": "G0068",
+        "bank_id": "full_category_slics_s21_f0",
+        "unit": 56,
+        "majority": "partial",
+        "specificity_majority": "specific",
+        "clear_and_discriminating": false,
+        "raw": [
+          {
+            "case_id": "G0068",
+            "theme": "Children's facial features, especially eyes and noses.",
+            "fit_views": [
+              1,
+              2,
+              5
+            ],
+            "high_fit_count": 3,
+            "exceptions": [
+              3,
+              4,
+              6
+            ],
+            "coherence": "partial",
+            "specificity": "specific",
+            "confidence": "high",
+            "high_low_contrast": "not_assessed",
+            "observations": "Views 1, 2 and 5 mark children's faces. View 3 instead marks a stuffed animal and bedding, view 4 marks the umbrella behind the child, and view 6 marks patterned bedding below the suitcase. Unmarked faces or animals do not extend the motif."
+          },
+          {
+            "case_id": "G0068",
+            "theme": "Young children's eyes and noses in close facial views.",
+            "fit_views": [
+              1,
+              2,
+              5
+            ],
+            "high_fit_count": 3,
+            "exceptions": [
+              3,
+              4,
+              6
+            ],
+            "coherence": "partial",
+            "specificity": "specific",
+            "confidence": "high",
+            "high_low_contrast": "not_assessed",
+            "observations": "Views 1, 2 and 5 clearly mark children's eyes and noses. View 3 marks plush fabric and bedding, 4 marks tent fabric away from the boy's face, and 6 marks patterned bedding below the cat. These do not share the facial motif."
+          },
+          {
+            "case_id": "G0068",
+            "theme": "Young children's eye and upper-cheek regions.",
+            "fit_views": [
+              1,
+              2,
+              5
+            ],
+            "high_fit_count": 3,
+            "exceptions": [
+              3,
+              4,
+              6
+            ],
+            "coherence": "partial",
+            "specificity": "specific",
+            "confidence": "high",
+            "high_low_contrast": "not_assessed",
+            "observations": "Views 1, 2 and 5 clearly mark children's eyes and adjacent facial skin. View 3 instead marks a plush toy and nearby fabric; view 4 marks tent/background fabric; view 6 marks patterned bedding below the cat. Those three do not fit the facial motif. Full sheets and zoom strips inspected at original resolution."
+          }
+        ]
+      },
+      "views": [
+        {
+          "image_id": 190905,
+          "pooled": 21.326646889245513,
+          "patches": [
+            121,
+            120,
+            135,
+            106
+          ]
+        },
+        {
+          "image_id": 270871,
+          "pooled": 20.838323500256273,
+          "patches": [
+            79,
+            93,
+            65,
+            78
+          ]
+        },
+        {
+          "image_id": 445267,
+          "pooled": 21.51224265902349,
+          "patches": [
+            176,
+            195,
+            192,
+            190
+          ]
+        },
+        {
+          "image_id": 170077,
+          "pooled": 20.331543489764044,
+          "patches": [
+            98,
+            80,
+            41,
+            40
+          ]
+        },
+        {
+          "image_id": 532194,
+          "pooled": 20.389369692811137,
+          "patches": [
+            2,
+            4,
+            17,
+            18
+          ]
+        },
+        {
+          "image_id": 332420,
+          "pooled": 21.39441635620892,
+          "patches": [
+            192,
+            184,
+            191,
+            194
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "G0617",
+      "bank_id": "full_category_supervised_vanilla_s21_f0",
+      "unit": 30,
+      "source_slots": [
+        4,
+        3,
+        2,
+        1,
+        0,
+        5
+      ],
+      "image_ids": [
+        440820,
+        99030,
+        307970,
+        548136,
+        104466,
+        41740
+      ],
+      "invalid_pairs": [
+        false,
+        false,
+        false
+      ],
+      "review_outcome": {
+        "case_id": "G0617",
+        "bank_id": "full_category_supervised_vanilla_s21_f0",
+        "unit": 30,
+        "majority": "partial",
+        "specificity_majority": "specific",
+        "clear_and_discriminating": false,
+        "raw": [
+          {
+            "case_id": "G0617",
+            "theme": "Tennis racket frames and string meshes.",
+            "fit_views": [
+              1,
+              3,
+              4,
+              5
+            ],
+            "high_fit_count": 4,
+            "exceptions": [
+              2,
+              6
+            ],
+            "coherence": "partial",
+            "specificity": "specific",
+            "confidence": "high",
+            "high_low_contrast": "not_assessed",
+            "observations": "Views 1, 3, 4 and 5 mark racket frames or strings. View 2 marks plain ceiling and floor surfaces in a kitchen; view 6 marks the background beside a baseball player's leg. Full sheets and bottom zoom strips inspected at original resolution."
+          },
+          {
+            "case_id": "G0617",
+            "theme": "Tennis racket frames and string meshes near players.",
+            "fit_views": [
+              1,
+              3,
+              4,
+              5
+            ],
+            "high_fit_count": 4,
+            "exceptions": [
+              2,
+              6
+            ],
+            "coherence": "partial",
+            "specificity": "specific",
+            "confidence": "medium",
+            "high_low_contrast": "not_assessed",
+            "observations": "Views 1, 3, 4 and 5 include marked racket structure, although some boxes in view 4 overlap a striped shirt. View 2 marks a plain ceiling; view 6 marks blurred background bands beside a baseball player. Neither exception contains the racket motif within the marked patches. Full sheet and all six zoom strips inspected at original resolution."
+          },
+          {
+            "case_id": "G0617",
+            "theme": "Tennis rackets with a narrow frame enclosing a mesh of strings.",
+            "fit_views": [
+              1,
+              3,
+              4,
+              5
+            ],
+            "high_fit_count": 4,
+            "exceptions": [
+              2,
+              6
+            ],
+            "coherence": "partial",
+            "specificity": "specific",
+            "confidence": "medium",
+            "high_low_contrast": "not_assessed",
+            "observations": "Views 1, 3, 4, and 5 mark racket frames or strings, although some small patches include adjacent clothing. View 2 marks room surfaces, and view 6 marks a dark stadium background rather than a racket. Full sheet and zoom strip inspected at original resolution."
+          }
+        ]
+      },
+      "views": [
+        {
+          "image_id": 440820,
+          "pooled": 9.87443733215332,
+          "patches": [
+            181,
+            195,
+            143,
+            186
+          ]
+        },
+        {
+          "image_id": 99030,
+          "pooled": 9.908823013305664,
+          "patches": [
+            36,
+            33,
+            35,
+            22
+          ]
+        },
+        {
+          "image_id": 307970,
+          "pooled": 9.944772720336914,
+          "patches": [
+            150,
+            149,
+            165,
+            164
+          ]
+        },
+        {
+          "image_id": 548136,
+          "pooled": 10.065835952758789,
+          "patches": [
+            80,
+            93,
+            79,
+            109
+          ]
+        },
+        {
+          "image_id": 104466,
+          "pooled": 10.49976921081543,
+          "patches": [
+            23,
+            24,
+            9,
+            22
+          ]
+        },
+        {
+          "image_id": 41740,
+          "pooled": 9.702526092529297,
+          "patches": [
+            111,
+            102,
+            98,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "G0461",
+      "bank_id": "full_category_vanilla_s21_f0",
+      "unit": 23,
+      "source_slots": [
+        1,
+        2,
+        3,
+        0,
+        4,
+        5
+      ],
+      "image_ids": [
+        498645,
+        470097,
+        320563,
+        113745,
+        408227,
+        449873
+      ],
+      "invalid_pairs": [
+        false,
+        false,
+        false
+      ],
+      "review_outcome": {
+        "case_id": "G0461",
+        "bank_id": "full_category_vanilla_s21_f0",
+        "unit": 23,
+        "majority": "no_clear_theme",
+        "specificity_majority": "specific",
+        "clear_and_discriminating": false,
+        "raw": [
+          {
+            "case_id": "G0461",
+            "theme": "Smooth white ceramic surfaces of bathroom basins.",
+            "fit_views": [
+              3,
+              5
+            ],
+            "high_fit_count": 2,
+            "exceptions": [
+              1,
+              2,
+              4,
+              6
+            ],
+            "coherence": "no_clear_theme",
+            "specificity": "specific",
+            "confidence": "high",
+            "high_low_contrast": "not_assessed",
+            "observations": "Views 3 and 5 mark a bathtub rim and sink basin. View 1 marks baseball uniform fabric; 2 mainly marks field dirt with one small uniform region; 4 marks pepperoni and cheese on pizza; 6 marks the baseball-field edge and dirt. Repeated white areas or broad surface texture would not be a sufficiently recognizable shared motif across these disparate marked regions. Fresh AI review of the full original sheet and embedded zoom strip."
+          },
+          {
+            "case_id": "G0461",
+            "theme": "Baseball uniforms and playing-field surfaces.",
+            "fit_views": [
+              1,
+              2,
+              6
+            ],
+            "high_fit_count": 3,
+            "exceptions": [
+              3,
+              4,
+              5
+            ],
+            "coherence": "partial",
+            "specificity": "broad_but_discriminating",
+            "confidence": "medium",
+            "high_low_contrast": "not_assessed",
+            "observations": "Inspected the original full sheet and all six embedded zooms. View 1 marks baseball uniform trousers and sock, view 2 the mound and a player's trouser edge, and view 6 the dirt playing area. Views 3 and 5 instead mark pale sink basins, while view 4 marks pizza cheese and topping edges. No single object or material spans those exceptions."
+          },
+          {
+            "case_id": "G0461",
+            "theme": "Pale ceramic concave surfaces and rounded rims",
+            "fit_views": [
+              3,
+              5
+            ],
+            "high_fit_count": 2,
+            "exceptions": [
+              1,
+              2,
+              4,
+              6
+            ],
+            "coherence": "no_clear_theme",
+            "specificity": "specific",
+            "confidence": "medium",
+            "high_low_contrast": "not_assessed",
+            "observations": "Fresh AI review of the original-resolution full sheet and zoom strip. The pale plate in 3 and sink basin in 5 share a recognizable curved ceramic surface. View 1 marks baseball trousers, views 2 and 6 largely mark tan playing-field ground, and view 4 marks pizza cheese and crust. A broad pale-color resemblance does not establish one recognizable motif across half the regions."
+          }
+        ]
+      },
+      "views": [
+        {
+          "image_id": 498645,
+          "pooled": 9.833735466003418,
+          "patches": [
+            119,
+            172,
+            118,
+            120
+          ]
+        },
+        {
+          "image_id": 470097,
+          "pooled": 9.713532447814941,
+          "patches": [
+            164,
+            157,
+            163,
+            119
+          ]
+        },
+        {
+          "image_id": 320563,
+          "pooled": 9.687938690185547,
+          "patches": [
+            59,
+            46,
+            73,
+            153
+          ]
+        },
+        {
+          "image_id": 113745,
+          "pooled": 10.031795501708984,
+          "patches": [
+            174,
+            159,
+            162,
+            175
+          ]
+        },
+        {
+          "image_id": 408227,
+          "pooled": 9.589371681213379,
+          "patches": [
+            107,
+            93,
+            91,
+            108
+          ]
+        },
+        {
+          "image_id": 449873,
+          "pooled": 9.588557243347168,
+          "patches": [
+            152,
+            155,
+            140,
+            138
+          ]
+        }
+      ]
+    }
+  ],
+  "reference_image_ids": [
+    200307,
+    64492,
+    321234,
+    288761,
+    523306,
+    329339,
+    225458,
+    523098,
+    253710,
+    374302,
+    37210,
+    121817,
+    347926,
+    283648,
+    242001,
+    188762,
+    130188,
+    503886,
+    250849,
+    316901,
+    254822,
+    12757,
+    134863,
+    254510,
+    362192,
+    456602,
+    153542,
+    325863,
+    201074,
+    221317,
+    4489,
+    481828,
+    388983,
+    11168,
+    400285,
+    428412,
+    322955,
+    402563,
+    12484,
+    299780,
+    345244,
+    553531,
+    236671,
+    3870,
+    67871,
+    528074,
+    132814,
+    411430,
+    539848,
+    21750,
+    397404,
+    101094,
+    311149,
+    170512,
+    238655,
+    130432,
+    206280,
+    183348,
+    569596,
+    277854,
+    270109,
+    567982,
+    34773,
+    307970
+  ],
+  "reference_rule": "First 64 audit images in original frozen order, selected before computing coordinates, shared across methods; exploratory geometry only.",
+  "feature_chunk_starts": [
+    0,
+    20,
+    40,
+    60,
+    220,
+    300,
+    440,
+    460,
+    560,
+    600,
+    740,
+    820,
+    840,
+    900,
+    920,
+    1020,
+    1100,
+    1140,
+    1320,
+    1340,
+    1380,
+    1420
+  ],
+  "all_image_ids": [
+    200307,
+    64492,
+    321234,
+    288761,
+    523306,
+    329339,
+    225458,
+    523098,
+    253710,
+    374302,
+    37210,
+    121817,
+    347926,
+    283648,
+    242001,
+    188762,
+    130188,
+    503886,
+    250849,
+    316901,
+    254822,
+    12757,
+    134863,
+    254510,
+    362192,
+    456602,
+    153542,
+    325863,
+    201074,
+    221317,
+    4489,
+    481828,
+    388983,
+    11168,
+    400285,
+    428412,
+    322955,
+    402563,
+    12484,
+    299780,
+    345244,
+    553531,
+    236671,
+    3870,
+    67871,
+    528074,
+    132814,
+    411430,
+    539848,
+    21750,
+    397404,
+    101094,
+    311149,
+    170512,
+    238655,
+    130432,
+    206280,
+    183348,
+    569596,
+    277854,
+    270109,
+    567982,
+    34773,
+    307970,
+    190905,
+    270871,
+    170077,
+    280976,
+    337648,
+    41740,
+    470097,
+    555940,
+    498645,
+    113745,
+    195715,
+    332420,
+    502857,
+    492495,
+    440820,
+    449873,
+    408227,
+    445267,
+    532194,
+    104466,
+    99030,
+    320563,
+    548136
+  ],
+  "review_results_sha256": "aad1eceda02db6af403f436a43c011ecbda244a01b4f974a4649a407159f730d"
+}

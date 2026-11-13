@@ -1,0 +1,63 @@
+{
+  "source_document": "LOCAL_INPUTS/b32c020889ff/1dYqqUBuImw2O5EV1SNj1ztacN1eQjczxp57ZlgwVNvs",
+  "complete": false,
+  "items": [
+    {
+      "item": "Supervised Vanilla with both object objectives, heads, fixed development-selected weights",
+      "status": "completed",
+      "evidence": "paper_results_mean_sd.csv; fixed_weight_selection.json; protocol.json"
+    },
+    {
+      "item": "Numerical consolidation across matched BSF models",
+      "status": "completed",
+      "evidence": "evidence_summary.json; consolidation_plans/; rank/"
+    },
+    {
+      "item": "Direction-level atlas across matched BSF models",
+      "status": "completed",
+      "images_completed": 18,
+      "images_expected": 18,
+      "evidence": "atlas/index.html and adjacent PNG/PDF/JSON files"
+    },
+    {
+      "item": "Functional group-removal diagnostic with frozen TRAIN probe and TRAIN-matched random controls",
+      "status": "completed",
+      "evidence": "interpretability/; TRAIN_linear_mask_probe checkpoint"
+    },
+    {
+      "item": "Additional dataset training without new GGF sweep",
+      "status": "pending VOC training stage",
+      "evidence": "VOC_result_location.json; voc_training/results/.../training_protocol.json"
+    },
+    {
+      "item": "Additional published supervised method beyond existing SLiCS",
+      "status": "pending",
+      "evidence": "concept_sae/protocol.json; native CLIP benchmark replication NOT claimed"
+    },
+    {
+      "item": "Mean/SD, paired seed intervals and paired image-bootstrap consolidation intervals",
+      "status": "completed",
+      "evidence": "paper_results_mean_sd.csv; evidence_summary.json; coco/voc paired output"
+    },
+    {
+      "item": "Practical runtime, GPU memory, model parameter counts",
+      "status": "recorded for executed stages",
+      "evidence": "cost_events.jsonl; per-seed results; hardware.json"
+    },
+    {
+      "item": "Optional supervised Grassmannian/Group Lasso",
+      "status": "not included; four UNSUPERVISED implementation variants remain supporting comparisons",
+      "evidence": "protocol.json"
+    },
+    {
+      "item": "Rewrite abstract/introduction/method/discussion/conclusion, integrate tables/figures and fix references",
+      "status": "manual paper revision remains necessary",
+      "evidence": "paper_results.tex and generated figures are inputs, not completed writing"
+    },
+    {
+      "item": "Venue formatting/page limit, arXiv/conference versions, mentor approval and resource coordination",
+      "status": "manual review remains necessary",
+      "evidence": "No automatic sharing, publishing, checklist ticks or submission performed"
+    }
+  ]
+}

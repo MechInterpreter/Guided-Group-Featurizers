@@ -1,0 +1,10 @@
+{
+  "schema": "all75-seed21-first-execution-amendment-v1",
+  "user_request": "Try one seed first to obtain preliminary full comparisons sooner; retain seeds22-23 for later robustness checks.",
+  "scope": "seed21_pilot",
+  "seeds": [21],
+  "unchanged": ["75groups, width12, Top32 for BSFs", "Original warm-up, losses, LR, initialization and data", "All three supervised weight candidates in seed21", "Both category folds", "All methods and native reference rules", "Frozen metric definitions, full native-unit denominators and blinding"],
+  "main_study": "The original three-seed training specification and model-store fingerprints remain unchanged. This wrapper executes seed21 first, writes separately named pilot receipts, and resumes compatible existing checkpoints. It never writes a three-seed TRAINING_COMPLETE receipt.",
+  "endpoints": "Seven new main endpoints in seed21: two full-category baselines plus five category-split endpoints. Reuse GGF75/SLiCS75 seed21; preserve existing seeds22-23 assets for later.",
+  "interpretation": "Single-seed exploratory comparison. No training-run variability estimate or broad superiority claim. The amendment was requested for time before this pilot comparison was scored; earlier exploratory studies and source image cohorts were already inspected. Not a new preregistered independent confirmation."
+}

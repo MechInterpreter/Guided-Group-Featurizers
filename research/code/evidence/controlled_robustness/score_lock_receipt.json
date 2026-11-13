@@ -1,0 +1,13 @@
+{
+  "reviewer": "AI assisted exploratory review",
+  "cards": 90,
+  "score_distribution": {
+    "5": 74,
+    "4": 14,
+    "3": 1,
+    "2": 1
+  },
+  "sha256": "699ec751f879f01af4d83f9b59f4b55d1120a12554b8fd526710a785e7d7cb37",
+  "method_key_read_before_lock": false,
+  "pca_scores_included": false
+}

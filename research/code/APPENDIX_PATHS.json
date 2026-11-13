@@ -1,0 +1,15 @@
+[
+  "evidence/cap040_test/",
+  "evidence/components_current/",
+  "evidence/current_control/",
+  "evidence/dictionary_size/",
+  "evidence/matched_baselines/",
+  "evidence/pilot4096_test/",
+  "evidence/supervised_five_seed/",
+  "evidence/terminology.csv",
+  "evidence/voc_slics_final/",
+  "evidence/voc_slics_final/FLOP_COVERAGE.json",
+  "evidence/width_balance/paired_comparison.csv",
+  "evidence/zoo_baselines/",
+  "evidence/zoo_guided/"
+]

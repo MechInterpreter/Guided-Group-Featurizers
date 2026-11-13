@@ -1,0 +1,29 @@
+{
+  "evidence": "Existing six high-response audit image IDs from verified plans. Old per-unit peak exclusions inherited. No new images or inference.",
+  "frozen_plan_inventory_sha": "db940a6a0b3f2b0ec34a1989963de995cde584818091fd92251e16a62098855d",
+  "interpretation": "Consistency of sampled strong response pairs, not recall, specificity against nonresponding images, full-bank latent semantics, fragmentation, or semantic-fit audit against a locked description.",
+  "limitations": [
+    "Previously inspected pool; some audit examples already inspected in the old study.",
+    "AI-assisted exploratory review, method and old-status hidden in sheets; not a blinded independent human study.",
+    "Different native capacities and original training assignments remain.",
+    "Three pairs per group have substantial sampling uncertainty; groups and pairs share images and are not independent model runs.",
+    "No model-run significance claim or SD from one model run.",
+    "No Capture or Patch AP endpoint."
+  ],
+  "missingness": "All native groups stay in the denominator. Missing slots/images and unreadable pairs contribute unknown [0,1], not an invented zero. Report judged yes/no/unclear counts and available pairs.",
+  "old_audits_sha": "e316d2f6b817cb0a02253e2d8581ea7ec629ba9c561e0c81d42681947872737b",
+  "old_descriptions_sha": "33038e114913e4ea632cb64613df9755a368043465d567a8fe66f4d1b0a7801a",
+  "original_protocol_sha": "2dd3a8a94150f6c3403a5cea6e6a2e152f332f49fbbf0b36e221e4f0b2d08dd4",
+  "pairs": "Deterministically hash-shuffle six planned slots per unit, pair adjacent slots into three disjoint pairs. Short plans retain missing slots, not replacements.",
+  "primary": "Per native group: count semantic yes/3 and (yes+unclear)/3, averaged equally over ALL native groups. These are unresolved-pair bounds on this finite fixed-pair metric, not confidence intervals or bounds on all possible images.",
+  "purpose": "Include every native group without conditioning on an interpretable description.",
+  "relationship": "NEW exploratory post-hoc endpoint selected after seeing old results; never replace or revise old locked descriptions or claim preregistration.",
+  "reviewer": "Codex AI reviewers, individually identified; previous user authorization for parallel review persists",
+  "secondary": "Determinate-pair yes/(yes+no), clearly conditional; calibration-activity weighted bounds; native partitions; old-disposition breakdown; visual-property bounds.",
+  "semantic_no": "Responding content is visible and semantically different, with no common specific meaning. Mere outdoor/background/thing/animal/furniture umbrella, same color, brightness, orientation or generic edge is not a semantic yes.",
+  "semantic_unclear": "Missing crop/slot, unreadable responding content, competing meanings with no dominant support, or genuinely uncertain relation. Do not force a yes or no.",
+  "semantic_yes": "Dominant responding content in BOTH views supports the SAME specific semantic meaning: basic-level object, identifiable part/action/scene relation, or named material/region such as grass, sky, water, wall, floor. State the shared meaning. Judge actual outlined locations with context, not an incidental object elsewhere.",
+  "spatial": "Show original crop with POSITIVE positions among its strongest four of196 native response positions outlined. Never outline zero/negative filler positions. Frozen signed score arrays are unchanged. No object masks.",
+  "version": "wholebank_pair_semantic_consistency_v2",
+  "visual_yes": "Separately, a specific shared visual property (color/material/texture/form) is visible at responding positions. State it. This is secondary and never substituted for semantic yes."
+}

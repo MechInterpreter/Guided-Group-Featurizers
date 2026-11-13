@@ -1,0 +1,34 @@
+{
+  "source_sha256": "264ff8cba46342b95a6e7cb9683191e502998f419e4c181c31631796c41f3617",
+  "source_row_indices": [
+    0,
+    4,
+    6,
+    8,
+    1,
+    2,
+    3,
+    5,
+    7,
+    9
+  ],
+  "models": [
+    "Vanilla BSF",
+    "Vanilla BSF 8 continued",
+    "Vanilla BSF 12 expanded",
+    "Vanilla BSF 12 fresh 4096",
+    "Grassmannian BSF",
+    "Released Group Lasso",
+    "GGF 3",
+    "GGF 8 continued",
+    "GGF 12 expanded",
+    "GGF 12 fresh 4096"
+  ],
+  "grouping": [
+    "Vanilla",
+    "Other released baselines",
+    "GGF"
+  ],
+  "ordering": "Original 3D, 8D continued, 12D expanded, 12D fresh within each family; identical ordering in all metrics.",
+  "values_unchanged": true
+}

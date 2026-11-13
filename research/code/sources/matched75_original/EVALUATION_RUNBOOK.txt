@@ -1,0 +1,42 @@
+All75 post-training collection and evaluation
+
+CURRENT USER PRIORITY: seed21 first for preliminary results. Stop the original running training cell and wait for its worker to stop completely before starting ggf_all75_seed21_first_colab.ipynb. The continuation retains the original model-store fingerprints and settings, resumes completed/partial seed21 fits, performs BOTH category folds, writes separately named PILOT_SEED21_COMPLETE.json receipts, then automatically collects and packages preliminary results. The original three-seed notebook remains available for later replication. Keep the current runtime if practical; a fresh runtime can also resume verified Drive checkpoints, potentially replaying unsaved updates.
+
+The standalone collector ggf_all75_response_evaluation_colab.ipynb defaults to SEED21_PILOT=True and requires the two PILOT_SEED21_COMPLETE.json receipts. Set that flagFalse only after BOTH original TRAINING_COMPLETE.json receipts exist for the complete three-seed study. Do not run two training writers concurrently. The collector verifies the exact original training source/protocol, execution amendment, endpoint matrix, serialized/tensor hashes, architecture, folds, normalization and source feature identities. It cannot train or silently replace a missing endpoint.
+
+REUSE: Six actual full-category GGF75/SLiCS75 endpoints, orders21-23. Category-split native SLiCS seed21 folds37/38 remain separately capacity-unmatched references. The same newly trained category-split Vanilla endpoint is evaluated in both folds without claiming two training replicates. Do not reuse full-category supervised checkpoints for category transfer. Cached DINO features and normalization are reused; no backbone extraction occurs. Raw native maps are collected once per distinct checkpoint.
+
+STAGE1, automatic on GPU:
+1. Verify all9 main native banks plus2 native-reference banks for the seed21 pilot (27+2 for the later three-seed comparison) before response inference.
+2. Stream400 calibration and1500 audit images from the exact original caches. New response chunks are atomic, SHA-verified and resumable. Each native image has196 patch positions. BSFs use their frozen Top32 encoder; SLiCS uses original independent per-concept NNLS and terminal float64 KKT checks.
+3. Lock maximum category-mask AP readouts and the SEPARATE regional Capture readouts on calibration, before that bank's audit collection/scoring. Unsupported categories remain explicit.
+4. Produce per-category audit AP, prevalence/lift, within-positive-image AP, regional Capture, reconstruction for native additive BSFs, activity, dead groups, parameters, timing and memory. Independent SLiCS projections are never summed into an invented global reconstruction; that interface is marked structurally not additive.
+5. Save compact all-image pooled responses and strongest-six view caches. Full response maps stay on Drive.
+6. Reproduce224x224 PNG crops from original JPEG SHA+recorded geometry using the original transform code. Original JPEG and geometry are verified; new crop pixels are hashed for review/label reuse. The extraction did not provide an independent crop-pixel hash, so bitwise pixel replay across Pillow versions is not independently proved. Prepare opaque method/category-blinded coherence cards and crop-only presence sheets. Missing images/zero-positive pairs stay unknown. No object masks select displayed patches.
+7. Write a partial dashboard. Numeric AP is not relabeled semantic coherence. Export separate metadata, blinded-card and presence-image ZIPs.
+
+STAGE2, independent annotation using the frozen public packs:
+- Coherence: reviews/coherence/PUBLIC.json plus cards only. Three fresh reviewer contexts, each filling one context1/2/3 label file. Every group has three hash-fixed disjoint pairs of six strongest audit examples. Specific semantic and visual-property labels are separate yes/no/unclear. State a positive shared meaning. Never look at PRIVATE.json/native methods while reviewing. Missing/zero-positive evidence requires unclear. Human validation is a separate fixed sample of at most30 groups, approximately under one hour, not added to the primary AI denominator.
+- Presence: reviews/presence/PUBLIC.json and crop sheets, with fixed75 definitions. Each available crop receives an explicit disjoint yes/no/unclear partition of all75 categories; missing stays missing. No response overlay or method identity. Templates require reviewer/blinding provenance. These labels cannot be silently populated from COCO masks or native activations.
+- Presence QA: reviews/presence_qa/PUBLIC.json fixes20 calibration and20 audit crops by hash before canonical judgments. A separate reviewer context fills labels.json from its template without seeing canonical judgments. Canonical labels remain unchanged. Report individual disagreements and positive agreement, not only raw agreement dominated by absences. This is AI quality control unless independent humans actually provide the judgments.
+- Existing independent labels may be imported only after exact display-crop SHA AND definition match. Original JPEG display crops and new exact PNG crops are not presumed identical. Incompatible or unreviewed cells remain pending; no negative imputation.
+
+STAGE3, deterministic locks and scoring (same commands on Colab or a local unpacked source package):
+python run_evaluation.py --root <evaluation_root> --phase lock-presence
+python run_evaluation.py --root <evaluation_root> --phase target-calibration
+
+The first command validates all received presence files, freezes separate calibration/audit label locks and validates the required fixed QA second pass. The second uses calibration presence ONLY to freeze q95/q90 thresholds, full native rankings and1/2/4/8 selections for EVERY category and method. q95/budget1 defines the common target-alignment link; no reconstruction proxy or intended category-slot selector. It generates method-blinded calibration target-alignment cards.
+
+Coherence batch templates are under reviews/coherence/batches/context1,context2,context3. Completed disjoint batches go under batch_labels/<context>. Use prepare_evaluation_reviews.py --root <root> --phase assemble-context1 (and likewise2/3) to validate coverage and retain every raw source before the final scorer joins method identities. A full context template can also be completed directly.
+
+Fill reviews/alignment_calibration/labels.json from its template, then:
+python run_evaluation.py --root <evaluation_root> --phase target-audit
+
+This locks calibration alignment before generating corresponding audit alignment cards. Fill reviews/alignment_audit/labels.json and the three coherence context label files, then:
+python run_evaluation.py --root <evaluation_root> --phase score
+
+Scoring verifies frozen mappings, card hashes, source labels and selectors. It computes original signed-top4 OR coverage/FPR/precision, positive/negative-support Jaccard, incremental/unique coverage and all support counts. Low-support categories keep null metrics and status. Majority AI pair coherence retains all native groups/pairs and unresolved bounds. Target alignment retains all six planned views and codes target/context/other/mixed/unclear/missing.
+
+COMPARISON_REPORT.html and COMPARISON_RESULTS.json separate full-category and category-split outcomes. Category-split guided and excluded categories are separate; equal category weighting is preserved across reversed folds. Native37/38 SLiCS is never included as a75-group matched effect. Shared images, groups, Vanilla folds, common-initializer orders and AI contexts are not independent replications. Effects are descriptive; broad superiority is not promised. All previously allocated640 interpretability images were opened; this uses previously inspected source cohorts, not a new independent generalization allocation.
+
+The current notebook exports reviewed assets and machine-readable requests. It does not invent AI/human judgments, call a paid external model API, or turn training completion into completed semantic results. Return the three export ZIPs when collection finishes; the assistant can conduct the frozen reviews and run the remaining stages here. Additional alignment cards are created only after their calibration gates pass.

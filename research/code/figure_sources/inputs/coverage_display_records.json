@@ -1,0 +1,30 @@
+{
+  "source": "figure_sources/inputs/coverage_original.pdf (exact printed min/median/max summaries)",
+  "source_sha256": "1512ba1cda782716f0c4356c24ca7fc8d5d7e04e036a00e19c04ad3cb5920126",
+  "rows": [
+    [
+      "Training",
+      40,
+      51,
+      825
+    ],
+    [
+      "Selection",
+      10,
+      10,
+      159
+    ],
+    [
+      "Calibration",
+      10,
+      10,
+      154
+    ],
+    [
+      "Earlier test",
+      20,
+      22,
+      642
+    ]
+  ]
+}

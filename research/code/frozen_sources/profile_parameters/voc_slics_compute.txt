@@ -1,0 +1,133 @@
+# Historical notebook parameter and execution cells. Reference only, not a one-click script.
+# Source payloads are omitted; materialize with tools/materialize_frozen.py.
+# Personal paths and private download locations are replaced with placeholders.
+# Supply equivalent local caches and saved runs; GPU finish profiles require their recorded prior state.
+
+# Cell 2
+import os, sys, json, hashlib, re, importlib.util, importlib.metadata, subprocess
+from pathlib import Path
+from google.colab import drive, files
+if not os.path.ismount('/content/drive'):
+    drive.mount('/content/drive')
+if not os.path.ismount('/content/drive') or not Path('/content/drive/MyDrive').is_dir():
+    raise OSError('Drive is not mounted. Mount it before continuing.')
+DRIVE=Path('/content/drive/MyDrive')
+PARENT_OUTPUT=DRIVE/'AGF_COCO_capacity_sweep_v1'
+ACTIVATION_OUTPUT=DRIVE/'AGF_COCO_stratified_confirmation_v1'
+STRONG_OUTPUT=DRIVE/'AGF_COCO_strong_mask_regroup_v1'
+SOURCE_RANK_OUTPUT=DRIVE/'AGF_COCO_capacity_effective_rank_v1'
+TWELVE_OUTPUT=DRIVE/'AGF_COCO_12D_followup_v1'
+SOURCE_OUTPUT=DRIVE/'AGF_COCO_scale_study_v1'
+SAVED_ROOT=DRIVE/'GGF_checklist_evidence_v1'
+OUTPUT=DRIVE/'GGF_VOC_SLiCS_compute_v1'
+LOCAL=Path('/content/ggf_voc_slics_compute_local')
+CACHE_LOCAL=Path('/content/ggf_width_balance_local')
+PARENT_RUN='2921b057f824362ab83e76e7fb35645f94c376fadf8b86f4f22d1a2311105b9e'
+manifests=[]
+for path in (PARENT_OUTPUT/'results').glob('*/manifest.json'):
+    candidate=json.loads(path.read_text())
+    if candidate.get('run_id')==PARENT_RUN:manifests.append(candidate)
+if len(manifests)!=1:
+    raise FileNotFoundError('Expected the completed capacity source manifest at '+str(PARENT_OUTPUT))
+manifest=manifests[0]
+if hashlib.sha256(json.dumps(manifest['config'],sort_keys=True,allow_nan=False).encode()).hexdigest()!=manifest['run_id']:
+    raise ValueError('Source manifest identity is invalid')
+EXPECTED={k:manifest['config']['versions'][k] for k in ('numpy','torch','scipy','scikit-learn','einops')}
+different=[]
+for name,target in EXPECTED.items():
+    try:actual=importlib.metadata.version(name)
+    except importlib.metadata.PackageNotFoundError:actual=None
+    if actual!=target:different.append(dict(package=name,installed=actual,required=target))
+constraints=Path('/content/agf_scale_study_numeric_constraints.txt')
+constraints.write_text(''.join(name+'=='+target+'\n' for name,target in EXPECTED.items()))
+if different:
+    print('Installing the actual source versions:',different,flush=True)
+    if any(r['package']=='torch' for r in different):
+        target=EXPECTED['torch'];suffix=target.split('+',1)[1] if '+' in target else None
+        args=[sys.executable,'-m','pip','install','-q','torch=='+target]
+        if suffix is not None:
+            if not re.fullmatch(r'cu[0-9]+',suffix):raise ValueError('Unsupported source CUDA wheel suffix: '+suffix)
+            args+=['--index-url','https://download.pytorch.org/whl/'+suffix]
+        subprocess.check_call(args)
+    subprocess.check_call([sys.executable,'-m','pip','install','-q','-c',str(constraints),
+        *[k+'=='+v for k,v in EXPECTED.items() if k!='torch']])
+deps={'PIL':'pillow','matplotlib':'matplotlib','pandas':'pandas','requests':'requests','threadpoolctl':'threadpoolctl','pytest':'pytest'}
+missing=[p for m,p in deps.items() if importlib.util.find_spec(m) is None]
+if missing:subprocess.check_call([sys.executable,'-m','pip','install','-q','-c',str(constraints),*missing])
+installed={name:importlib.metadata.version(name) for name in EXPECTED}
+if installed!=EXPECTED:raise RuntimeError('Package installation did not match the saved versions: '+str(installed))
+print('Packages are ready. The experiment uses a fresh Python worker; no kernel restart is needed.')
+print('Numerical packages match the source:',EXPECTED)
+
+
+PATHS=dict(capacity=PARENT_OUTPUT,original=ACTIVATION_OUTPUT,strong=STRONG_OUTPUT,rank=SOURCE_RANK_OUTPUT,twelve=TWELVE_OUTPUT)
+if manifest['config']['source_sha']!='6f9138f8885fdbb2d5971f30ab0c5d744d4c8fa914e1c191491c895d5ca8cd79':raise ValueError('Wrong completed capacity source')
+
+
+LOCAL.mkdir(parents=True,exist_ok=True)
+
+
+# Cell 4
+#@title Restore verified sources (automatic)
+import base64,io,zipfile,hashlib
+CORE_RAW=base64.b64decode('SOURCE_PAYLOAD_OMITTED_USE_MATERIALIZER')
+EXT_RAW=base64.b64decode('SOURCE_PAYLOAD_OMITTED_USE_MATERIALIZER')
+CORE_SHA='dfed82ac09e358dd8fc5e8d6de1bb524519cc0965cfea45f1318367b7eab90cf';EXT_SHA='1cb9902f3c2d827ce0c694d43fa063b88b53b1c511ef8fc7cd5d41c434d81936'
+def unpack(raw,digest,folder):
+    assert hashlib.sha256(raw).hexdigest()==digest
+    folder.mkdir(parents=True,exist_ok=True)
+    with zipfile.ZipFile(io.BytesIO(raw)) as z:
+        assert z.testzip() is None
+        for name in z.namelist():
+            p=Path(name)
+            if p.is_absolute() or '..' in p.parts or ':' in name or '\\' in name:raise ValueError('Unsafe source member')
+            dest=folder/p;dest.parent.mkdir(parents=True,exist_ok=True);dest.write_bytes(z.read(name))
+    return folder
+SOURCE=unpack(CORE_RAW,CORE_SHA,LOCAL/'core'/CORE_SHA[:16])
+EXECUTION=unpack(EXT_RAW,EXT_SHA,LOCAL/'extension'/EXT_SHA[:16])
+ENV=dict(os.environ,PYTHONPATH=os.pathsep.join([str(EXECUTION),str(SOURCE)]),OMP_NUM_THREADS='1',MKL_NUM_THREADS='1',PYTHONUNBUFFERED='1')
+options=dict(drive=str(DRIVE),saved_root=str(SAVED_ROOT),output=str(OUTPUT),local=str(LOCAL),extension_sha=EXT_SHA,concept_source=str(SAVED_ROOT/'input_assets/Concept-SAE/956d19b32baccd9c355b5ada9b281898ca998a16/replace_model.py'),receipt=str(LOCAL/'completion.json'))
+CONFIG=LOCAL/'run.json';CONFIG.write_text(json.dumps(options,indent=2))
+subprocess.check_call([sys.executable,'-m','pytest',str(EXECUTION/'test_voc_compute.py'),str(EXECUTION/'test_gpu_joint_nnls.py'),'-q','--basetemp',str(LOCAL/'preflight_tests')],env=ENV,cwd=EXECUTION)
+del CORE_RAW,EXT_RAW
+
+
+# Cell 6
+import queue,threading,time,signal
+PIDFILE=LOCAL/'worker.pid'
+if PIDFILE.exists():
+    previous=PIDFILE.read_text().strip();cmd=Path('/proc')/previous/'cmdline'
+    if cmd.exists() and 'voc_pair.py' in cmd.read_bytes().decode(errors='replace'):raise RuntimeError('A VOC worker is already running; do not start a second writer')
+worker=subprocess.Popen([sys.executable,'-u',str(EXECUTION/'voc_pair.py'),'--config',str(CONFIG)],env=ENV,cwd=EXECUTION,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,bufsize=1,start_new_session=True)
+PIDFILE.write_text(str(worker.pid));lines=queue.Queue()
+def read_lines():
+    for line in worker.stdout:lines.put(line)
+threading.Thread(target=read_lines,daemon=True).start()
+start=time.monotonic();heartbeat=start
+print('Live VOC worker PID',worker.pid,'| original results are read-only',flush=True)
+try:
+    while worker.poll() is None or not lines.empty():
+        try:print(lines.get(timeout=1),end='',flush=True)
+        except queue.Empty:pass
+        now=time.monotonic()
+        if now-heartbeat>=30:print('[heartbeat] worker alive:',worker.poll() is None,'| elapsed minutes:',round((now-start)/60,1),flush=True);heartbeat=now
+except KeyboardInterrupt:
+    if worker.poll() is None:
+        print('Stop requested. Waiting for the last complete-update/image checkpoint. Do not disconnect yet.',flush=True)
+        os.killpg(worker.pid,signal.SIGINT)
+        while worker.poll() is None:
+            try:print(lines.get(timeout=1),end='',flush=True)
+            except queue.Empty:pass
+    raise
+if worker.returncode:raise RuntimeError('Worker stopped; read the error above. Committed results resume with Run All.')
+receipt=json.loads(Path(options['receipt']).read_text());assert receipt['complete'];print(json.dumps(receipt,indent=2))
+
+
+# Cell 8
+from IPython.display import display,Image
+import pandas as pd
+ROOT_RESULTS=Path(receipt['results'])
+for name in ['VOC_completed_mean_SD.csv','VOC_paired_intervals.csv','compute_profiles.csv']:
+    print(name);display(pd.read_csv(ROOT_RESULTS/name))
+display(Image(filename=str(ROOT_RESULTS/'VOC_SLiCS_GGF.png')))
+files.download(receipt['archive'])

@@ -1,0 +1,757 @@
+{
+  "cases": [
+    {
+      "case_id": "I1266",
+      "image": "../presence/images/I1266.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0260",
+      "image": "../presence/images/I0260.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I1571",
+      "image": "../presence/images/I1571.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I1823",
+      "image": "../presence/images/I1823.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I1440",
+      "image": "../presence/images/I1440.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0511",
+      "image": "../presence/images/I0511.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0192",
+      "image": "../presence/images/I0192.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0647",
+      "image": "../presence/images/I0647.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I1494",
+      "image": "../presence/images/I1494.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0911",
+      "image": "../presence/images/I0911.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0960",
+      "image": "../presence/images/I0960.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0329",
+      "image": "../presence/images/I0329.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0437",
+      "image": "../presence/images/I0437.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I1419",
+      "image": "../presence/images/I1419.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I1458",
+      "image": "../presence/images/I1458.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0882",
+      "image": "../presence/images/I0882.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0384",
+      "image": "../presence/images/I0384.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0362",
+      "image": "../presence/images/I0362.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0543",
+      "image": "../presence/images/I0543.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0039",
+      "image": "../presence/images/I0039.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0338",
+      "image": "../presence/images/I0338.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0201",
+      "image": "../presence/images/I0201.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0550",
+      "image": "../presence/images/I0550.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0680",
+      "image": "../presence/images/I0680.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I1618",
+      "image": "../presence/images/I1618.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I1532",
+      "image": "../presence/images/I1532.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I1333",
+      "image": "../presence/images/I1333.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I1756",
+      "image": "../presence/images/I1756.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0286",
+      "image": "../presence/images/I0286.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0198",
+      "image": "../presence/images/I0198.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0975",
+      "image": "../presence/images/I0975.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0691",
+      "image": "../presence/images/I0691.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I1224",
+      "image": "../presence/images/I1224.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I1819",
+      "image": "../presence/images/I1819.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0595",
+      "image": "../presence/images/I0595.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0957",
+      "image": "../presence/images/I0957.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0129",
+      "image": "../presence/images/I0129.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0435",
+      "image": "../presence/images/I0435.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I1032",
+      "image": "../presence/images/I1032.png",
+      "status": "ready"
+    },
+    {
+      "case_id": "I0681",
+      "image": "../presence/images/I0681.png",
+      "status": "ready"
+    }
+  ],
+  "definitions": {
+    "version": "category75_crop_presence_definitions_v1",
+    "status": "ROOT_REVIEWED_LOCKED_BEFORE_NEW_JUDGMENTS",
+    "common_rules": [
+      "Judge actual saved224x224 crop only, without response overlays, method identity or model scores. Use the whole crop for category presence.",
+      "For each available crop consider EVERY one of75 definitions. Multiple actual objects can each be yes; multiple categories alone are not mixed/unclear.",
+      "Yes requires an identifiable actual category object or part whose identity is supported by context. A generic color/texture or an object merely suggested by context is insufficient.",
+      "Exclude drawings, photographs on paper/screens, logos, statues, miniatures and toys unless a category definition explicitly includes that object type. A tangible kite depicting a bird is kite yes and actual bird no.",
+      "Retain unclear for unidentifiable parts, ambiguous category distinctions, mixed competing evidence without a determinate identification, or inadequate detail. Unclear is not no.",
+      "Missing crop is a separate crop-level status and no75 judgments may be invented. Unreviewed available cells are unknown, never implicit no.",
+      "A reviewer may submit yes and unclear lists only after explicitly considering all75; unlisted keys become no only with all75_considered=true.",
+      "No reused broad six-concept label substitutes for a native-category judgment. Existing bear/horse labels may be compared later as reused evidence, never presented as new independent labels.",
+      "A definitely excluded alternative object is no for that category. If visible evidence leaves two or more plausible category identities unresolved, mark those plausible categories unclear; do not turn uncertainty into no or mark every absent category unclear.",
+      "Definitions are locked for this exploratory pass. Do not revise them using response outcomes, audit outcomes or method identity; proposed fixes require a separate version and disclosure."
+    ],
+    "categories": [
+      {
+        "category_order": 0,
+        "category_index": 0,
+        "category_key": "category:person",
+        "category_name": "person",
+        "definition": "An actual human, or an identifiable human body part belonging to a visible person. A human wearing an animal costume still counts as a person."
+      },
+      {
+        "category_order": 1,
+        "category_index": 1,
+        "category_key": "category:bicycle",
+        "category_name": "bicycle",
+        "definition": "An actual pedal bicycle, including an identifiable bicycle wheel, frame or handlebar in bicycle context. Exclude motorcycles, scooters and toy/model bicycles."
+      },
+      {
+        "category_order": 2,
+        "category_index": 2,
+        "category_key": "category:car",
+        "category_name": "car",
+        "definition": "An actual passenger car, including an identifiable part in car context. Exclude trucks, buses, toy/model cars and car-shaped barber/play seats."
+      },
+      {
+        "category_order": 3,
+        "category_index": 3,
+        "category_key": "category:motorcycle",
+        "category_name": "motorcycle",
+        "definition": "An actual motorcycle or motor scooter, including identifiable motorcycle parts. Exclude pedal bicycles and toy/model motorcycles."
+      },
+      {
+        "category_order": 4,
+        "category_index": 4,
+        "category_key": "category:airplane",
+        "category_name": "airplane",
+        "definition": "An actual airplane, including identifiable fuselage, wing, cockpit or landing gear in airplane context. Exclude birds and toy/model aircraft."
+      },
+      {
+        "category_order": 5,
+        "category_index": 5,
+        "category_key": "category:bus",
+        "category_name": "bus",
+        "definition": "An actual bus, including identifiable bus body, windows or wheels in bus context. Exclude trains, passenger cars and model/toy buses."
+      },
+      {
+        "category_order": 6,
+        "category_index": 6,
+        "category_key": "category:train",
+        "category_name": "train",
+        "definition": "An actual rail train or rail tram, including identifiable rail-vehicle parts. Exclude road buses and miniature/model trains."
+      },
+      {
+        "category_order": 7,
+        "category_index": 7,
+        "category_key": "category:truck",
+        "category_name": "truck",
+        "definition": "An actual truck, pickup, lorry or road tanker, including identifiable truck parts. Exclude passenger cars, buses and toy/model trucks."
+      },
+      {
+        "category_order": 8,
+        "category_index": 8,
+        "category_key": "category:boat",
+        "category_name": "boat",
+        "definition": "An actual boat or watercraft, including sailboats, kayaks and identifiable boat hulls. Exclude surfboards, toy/model boats and images of boats on screens."
+      },
+      {
+        "category_order": 9,
+        "category_index": 9,
+        "category_key": "category:traffic_light",
+        "category_name": "traffic light",
+        "definition": "An actual traffic signal assembly or identifiable signal lamp/head used to control traffic. Exclude street lamps, signs and poles without an identifiable signal."
+      },
+      {
+        "category_order": 10,
+        "category_index": 10,
+        "category_key": "category:fire_hydrant",
+        "category_name": "fire hydrant",
+        "definition": "An actual fire hydrant or identifiable hydrant body, cap or outlet. Exclude ordinary taps, pipes and ornamental/toy hydrants."
+      },
+      {
+        "category_order": 11,
+        "category_index": 11,
+        "category_key": "category:stop_sign",
+        "category_name": "stop sign",
+        "definition": "An actual traffic stop sign, including readable STOP or equivalent stop-sign text in another language and an identifiable stop-sign face/part. Exclude other traffic signs and flags alone."
+      },
+      {
+        "category_order": 12,
+        "category_index": 12,
+        "category_key": "category:parking_meter",
+        "category_name": "parking meter",
+        "definition": "An actual parking meter or identifiable meter head/body used to control paid parking. Exclude hydrants, ticket machines not identifiable as parking meters and ordinary signs."
+      },
+      {
+        "category_order": 13,
+        "category_index": 13,
+        "category_key": "category:bench",
+        "category_name": "bench",
+        "definition": "An actual bench: a long seat intended for multiple people, including identifiable bench seat/back. Exclude individual chairs, sofas and tables."
+      },
+      {
+        "category_order": 14,
+        "category_index": 14,
+        "category_key": "category:bird",
+        "category_name": "bird",
+        "definition": "An actual bird or identifiable bird body/head/wing/feet in bird context. Exclude bird-shaped kites, toys, statues, drawings and costumes."
+      },
+      {
+        "category_order": 15,
+        "category_index": 15,
+        "category_key": "category:cat",
+        "category_name": "cat",
+        "definition": "An actual cat or identifiable cat body/head/part in cat context. Exclude plush cats, statues, drawings and costumes."
+      },
+      {
+        "category_order": 16,
+        "category_index": 16,
+        "category_key": "category:dog",
+        "category_name": "dog",
+        "definition": "An actual dog or identifiable dog body/head/part in dog context. Exclude plush dogs, statues, drawings and costumes."
+      },
+      {
+        "category_order": 17,
+        "category_index": 17,
+        "category_key": "category:horse",
+        "category_name": "horse",
+        "definition": "An actual horse or identifiable horse body/head/part. Exclude zebras, other equids whose horse identity is uncertain, toys, statues and costumes."
+      },
+      {
+        "category_order": 18,
+        "category_index": 18,
+        "category_key": "category:sheep",
+        "category_name": "sheep",
+        "definition": "An actual sheep, lamb or identifiable sheep body/head/part. Exclude goats, stuffed animals, drawings and costumes."
+      },
+      {
+        "category_order": 19,
+        "category_index": 19,
+        "category_key": "category:cow",
+        "category_name": "cow",
+        "definition": "An actual cattle animal, including cow, bull, calf or identifiable cattle part. Exclude ceramic/wooden cattle figures, toys, costumes and other ungulates."
+      },
+      {
+        "category_order": 20,
+        "category_index": 20,
+        "category_key": "category:elephant",
+        "category_name": "elephant",
+        "definition": "An actual elephant or identifiable elephant body/head/trunk/part. Exclude statues, toys, drawings and costumes."
+      },
+      {
+        "category_order": 21,
+        "category_index": 21,
+        "category_key": "category:bear",
+        "category_name": "bear",
+        "definition": "An actual bear animal or identifiable bear body/head/part. Exclude teddy bears, plush toys, humans in bear costumes and ambiguous other animals."
+      },
+      {
+        "category_order": 22,
+        "category_index": 22,
+        "category_key": "category:zebra",
+        "category_name": "zebra",
+        "definition": "An actual zebra or identifiable zebra body/head/part. Exclude horses, striped objects, toys and statues."
+      },
+      {
+        "category_order": 23,
+        "category_index": 23,
+        "category_key": "category:giraffe",
+        "category_name": "giraffe",
+        "definition": "An actual giraffe or identifiable giraffe body/head/neck/part. Exclude giraffe toys, statues and drawings."
+      },
+      {
+        "category_order": 24,
+        "category_index": 24,
+        "category_key": "category:backpack",
+        "category_name": "backpack",
+        "definition": "An actual backpack/rucksack, identified by its pack body and backpack design or wearing context. Exclude handbags, suitcases and ambiguous piles of straps."
+      },
+      {
+        "category_order": 25,
+        "category_index": 25,
+        "category_key": "category:umbrella",
+        "category_name": "umbrella",
+        "definition": "An actual umbrella or parasol, including a market/beach umbrella canopy or identifiable umbrella part. Exclude generic fabric awnings without umbrella structure."
+      },
+      {
+        "category_order": 26,
+        "category_index": 26,
+        "category_key": "category:handbag",
+        "category_name": "handbag",
+        "definition": "An actual handbag, purse or carried shoulder/tote bag. Exclude backpacks, rigid luggage/suitcases and unidentified fabric bundles."
+      },
+      {
+        "category_order": 27,
+        "category_index": 27,
+        "category_key": "category:tie",
+        "category_name": "tie",
+        "definition": "An actual necktie or bow tie, including ties worn by people or animals. Exclude scarves, bandanas/neckerchiefs, collar ribbons that are not identifiable ties and printed tie patterns."
+      },
+      {
+        "category_order": 28,
+        "category_index": 28,
+        "category_key": "category:suitcase",
+        "category_name": "suitcase",
+        "definition": "Actual travel luggage with a suitcase/rolling-case structure, including an identifiable suitcase part. Exclude backpacks, handbags, generic boxes and ambiguous bags."
+      },
+      {
+        "category_order": 29,
+        "category_index": 29,
+        "category_key": "category:frisbee",
+        "category_name": "frisbee",
+        "definition": "An actual flying disc/frisbee, including a disc held by a person or dog. Exclude plates, wheels and circular objects without flying-disc identity."
+      },
+      {
+        "category_order": 30,
+        "category_index": 31,
+        "category_key": "category:snowboard",
+        "category_name": "snowboard",
+        "definition": "An actual snowboard or identifiable snowboard deck/binding in snowboarding context. Exclude skis, skateboards, surfboards and toy boards."
+      },
+      {
+        "category_order": 31,
+        "category_index": 33,
+        "category_key": "category:kite",
+        "category_name": "kite",
+        "definition": "An actual flying kite or identifiable kite body/string assembly. Bird/animal-shaped kites count as kites, not as actual animals."
+      },
+      {
+        "category_order": 32,
+        "category_index": 35,
+        "category_key": "category:baseball_glove",
+        "category_name": "baseball glove",
+        "definition": "An actual baseball/softball fielding glove or mitt. Exclude batting gloves worn on a hand, ordinary gloves, boxing gloves and a baseball scene without a visible fielding glove."
+      },
+      {
+        "category_order": 33,
+        "category_index": 36,
+        "category_key": "category:skateboard",
+        "category_name": "skateboard",
+        "definition": "An actual skateboard or identifiable skateboard deck, trucks or wheels in skateboard context. Exclude snowboards, surfboards and scooters."
+      },
+      {
+        "category_order": 34,
+        "category_index": 37,
+        "category_key": "category:surfboard",
+        "category_name": "surfboard",
+        "definition": "An actual surfboard or identifiable surfboard deck/rail in surfing context. Exclude kayaks, boats, bodyboards whose identity is uncertain, skateboards and snowboards."
+      },
+      {
+        "category_order": 35,
+        "category_index": 38,
+        "category_key": "category:tennis_racket",
+        "category_name": "tennis racket",
+        "definition": "An actual tennis racket or identifiable racket head/handle in tennis context. Exclude badminton rackets when distinguishable, paddles and an empty tennis scene."
+      },
+      {
+        "category_order": 36,
+        "category_index": 39,
+        "category_key": "category:bottle",
+        "category_name": "bottle",
+        "definition": "An actual bottle with an identifiable bottle body and neck/opening, including drink bottles. Exclude wide-mouth jars, cups, wine glasses and ambiguous containers."
+      },
+      {
+        "category_order": 37,
+        "category_index": 40,
+        "category_key": "category:wine_glass",
+        "category_name": "wine glass",
+        "definition": "An actual wine-glass-form drinking vessel with an identifiable bowl, stem and foot; contents need not be wine. Exclude straight beer pints/tumblers, cups/mugs and indistinct stemless vessels."
+      },
+      {
+        "category_order": 38,
+        "category_index": 41,
+        "category_key": "category:cup",
+        "category_name": "cup",
+        "definition": "An actual drinking cup or mug, including paper/plastic cups, handled mugs and recognizable handleless drinking tumblers/pint glasses. Exclude stemmed wine-glass forms, bottles, bowls and vessels whose drinking-cup identity is unresolved."
+      },
+      {
+        "category_order": 39,
+        "category_index": 42,
+        "category_key": "category:fork",
+        "category_name": "fork",
+        "definition": "An actual eating/serving fork identified by tines and a handle, including plastic forks. Exclude knives, spoons, garden forks and unidentified shiny lines."
+      },
+      {
+        "category_order": 40,
+        "category_index": 43,
+        "category_key": "category:knife",
+        "category_name": "knife",
+        "definition": "An actual knife, including table/butter knives, identified by a cutting/spreading blade and handle. Exclude forks, spoons, scissors and unidentified metallic strips."
+      },
+      {
+        "category_order": 41,
+        "category_index": 44,
+        "category_key": "category:spoon",
+        "category_name": "spoon",
+        "definition": "An actual eating/serving spoon identified by a bowl and handle. Exclude forks, knives, ladle-like objects if spoon identity is uncertain and unidentified shiny lines."
+      },
+      {
+        "category_order": 42,
+        "category_index": 45,
+        "category_key": "category:bowl",
+        "category_name": "bowl",
+        "definition": "An actual bowl or identifiable bowl rim/body used as an open vessel. Exclude flat plates, cups/mugs, stemmed glasses and basins that are identifiable as sinks."
+      },
+      {
+        "category_order": 43,
+        "category_index": 46,
+        "category_key": "category:banana",
+        "category_name": "banana",
+        "definition": "Actual banana fruit or identifiable banana pieces/peel belonging to the fruit. Exclude other elongated yellow foods or decorative/toy fruit."
+      },
+      {
+        "category_order": 44,
+        "category_index": 47,
+        "category_key": "category:apple",
+        "category_name": "apple",
+        "definition": "Actual apple fruit or identifiable apple pieces. Exclude oranges, peaches, tomatoes and fruit whose apple identity is uncertain."
+      },
+      {
+        "category_order": 45,
+        "category_index": 48,
+        "category_key": "category:sandwich",
+        "category_name": "sandwich",
+        "definition": "An actual sandwich or hamburger with filling supported by bread, including identifiable sandwich portions. Exclude hot dogs, pizza, plain bread, and bagels/doughnuts without sandwich filling."
+      },
+      {
+        "category_order": 46,
+        "category_index": 49,
+        "category_key": "category:orange",
+        "category_name": "orange",
+        "definition": "Actual orange fruit or identifiable orange sections/peel. Exclude lemons, other citrus whose orange identity is uncertain, tomatoes and orange-colored objects."
+      },
+      {
+        "category_order": 47,
+        "category_index": 50,
+        "category_key": "category:broccoli",
+        "category_name": "broccoli",
+        "definition": "Actual broccoli florets/stalks or identifiable broccoli portions. Exclude cauliflower, lettuce, generic greens and green sauces unless broccoli is identifiable."
+      },
+      {
+        "category_order": 48,
+        "category_index": 51,
+        "category_key": "category:carrot",
+        "category_name": "carrot",
+        "definition": "Actual carrots or identifiable carrot pieces. Exclude orange peppers, other orange foods and uncertain vegetable fragments."
+      },
+      {
+        "category_order": 49,
+        "category_index": 52,
+        "category_key": "category:hot_dog",
+        "category_name": "hot dog",
+        "definition": "An identifiable hot-dog/frankfurter food item, with or without a bun. Exclude generic sausages if frankfurter identity is uncertain, hamburgers and other sandwiches."
+      },
+      {
+        "category_order": 50,
+        "category_index": 53,
+        "category_key": "category:pizza",
+        "category_name": "pizza",
+        "definition": "An actual pizza or identifiable pizza slice/portion with pizza crust and topping context. Exclude sandwiches, unrelated flatbreads and cake."
+      },
+      {
+        "category_order": 51,
+        "category_index": 54,
+        "category_key": "category:donut",
+        "category_name": "donut",
+        "definition": "An actual doughnut/donut, including ring or filled varieties and identifiable portions. Exclude plain bagels, onion rings, lifebuoys and uncertain ring-shaped baked foods."
+      },
+      {
+        "category_order": 52,
+        "category_index": 55,
+        "category_key": "category:cake",
+        "category_name": "cake",
+        "definition": "Actual cake, including slices, cupcakes and cheesecake. Exclude doughnuts, bread, pies, pancakes and unrelated desserts unless cake is identifiable."
+      },
+      {
+        "category_order": 53,
+        "category_index": 56,
+        "category_key": "category:chair",
+        "category_name": "chair",
+        "definition": "An actual single-person chair, including office/barber/dining chairs and identifiable chair parts. Exclude benches, couches, beds and toy furniture."
+      },
+      {
+        "category_order": 54,
+        "category_index": 57,
+        "category_key": "category:couch",
+        "category_name": "couch",
+        "definition": "An actual sofa/couch or identifiable upholstered sofa seat/back. Exclude individual armchairs, benches and beds."
+      },
+      {
+        "category_order": 55,
+        "category_index": 58,
+        "category_key": "category:potted_plant",
+        "category_name": "potted plant",
+        "definition": "An actual plant growing in an identifiable pot/container, with plant-and-pot context. Exclude cut flowers in vases, unpotted trees/shrubs and ambiguous greenery without pot evidence."
+      },
+      {
+        "category_order": 56,
+        "category_index": 59,
+        "category_key": "category:bed",
+        "category_name": "bed",
+        "definition": "An actual bed or identifiable bed frame/mattress/bedding in bed context. Exclude sofas, chairs and loose cloth whose bed context is uncertain."
+      },
+      {
+        "category_order": 57,
+        "category_index": 60,
+        "category_key": "category:dining_table",
+        "category_name": "dining table",
+        "definition": "An actual table identifiable as a dining/eating table, including its tabletop or legs in dining-table context. Exclude computer/work desks, counters, floors and ambiguous table/counter surfaces."
+      },
+      {
+        "category_order": 58,
+        "category_index": 61,
+        "category_key": "category:toilet",
+        "category_name": "toilet",
+        "definition": "An actual toilet fixture or identifiable toilet bowl, seat or cistern. Exclude sinks, baths, generic basins and toilet-paper/tissue boxes alone."
+      },
+      {
+        "category_order": 59,
+        "category_index": 62,
+        "category_key": "category:tv",
+        "category_name": "tv",
+        "definition": "An actual standalone television/monitor display, including desktop monitors and TV-type displays on exercise equipment. Exclude laptop-integrated screens, cell phones, projected/printed pictures and the objects depicted inside a screen."
+      },
+      {
+        "category_order": 60,
+        "category_index": 63,
+        "category_key": "category:laptop",
+        "category_name": "laptop",
+        "definition": "An actual laptop/notebook computer or identifiable integrated laptop screen/keyboard/base. Exclude standalone monitors, desktop keyboards, tablets and cell phones."
+      },
+      {
+        "category_order": 61,
+        "category_index": 64,
+        "category_key": "category:mouse",
+        "category_name": "mouse",
+        "definition": "An actual computer mouse/input device or identifiable mouse body. Exclude the animal, remotes and unidentified small desktop objects."
+      },
+      {
+        "category_order": 62,
+        "category_index": 65,
+        "category_key": "category:remote",
+        "category_name": "remote",
+        "definition": "An actual handheld electronic remote-control unit identified by its body/button layout or clear use context. Exclude phones, keyboards, unidentifiable key fobs and generic rectangular objects."
+      },
+      {
+        "category_order": 63,
+        "category_index": 66,
+        "category_key": "category:keyboard",
+        "category_name": "keyboard",
+        "definition": "An actual computer keyboard or identifiable keyboard keys/body, including integrated laptop keyboards. Exclude musical keyboards, remote controls and printed keyboard images."
+      },
+      {
+        "category_order": 64,
+        "category_index": 67,
+        "category_key": "category:cell_phone",
+        "category_name": "cell phone",
+        "definition": "An actual mobile/cell phone, including identifiable handset portions. Exclude remote controls, cameras, tablets and generic small rectangles."
+      },
+      {
+        "category_order": 65,
+        "category_index": 68,
+        "category_key": "category:microwave",
+        "category_name": "microwave",
+        "definition": "An actual microwave oven or identifiable microwave door/control panel in microwave context. Exclude conventional ovens, cooker hoods, refrigerators and televisions."
+      },
+      {
+        "category_order": 66,
+        "category_index": 69,
+        "category_key": "category:oven",
+        "category_name": "oven",
+        "definition": "An actual conventional cooking oven, including identifiable oven door/cavity or range with oven. Exclude microwave ovens, cooker hoods, stovetops alone without identifiable oven context and generic cabinets."
+      },
+      {
+        "category_order": 67,
+        "category_index": 71,
+        "category_key": "category:sink",
+        "category_name": "sink",
+        "definition": "An actual sink/washbasin or identifiable sink bowl/tap assembly in sink context. Exclude toilets, bathtubs, portable bowls and isolated taps whose sink context is uncertain."
+      },
+      {
+        "category_order": 68,
+        "category_index": 72,
+        "category_key": "category:refrigerator",
+        "category_name": "refrigerator",
+        "definition": "An actual refrigerator/freezer appliance or identifiable refrigerator door/body. Exclude ordinary cabinets, ovens, microwaves and generic metal panels."
+      },
+      {
+        "category_order": 69,
+        "category_index": 73,
+        "category_key": "category:book",
+        "category_name": "book",
+        "definition": "An actual bound book or identifiable book cover/pages/spine. Exclude magazines/newspapers, isolated sheets, framed prints and illegible rectangular objects."
+      },
+      {
+        "category_order": 70,
+        "category_index": 74,
+        "category_key": "category:clock",
+        "category_name": "clock",
+        "definition": "An actual clock/time-of-day clock object or identifiable clock face/body. Exclude exercise timers, parking-meter dials, incidental digital time on phones/computers and generic circular dials."
+      },
+      {
+        "category_order": 71,
+        "category_index": 75,
+        "category_key": "category:vase",
+        "category_name": "vase",
+        "definition": "An actual vase or identifiable vase body holding or intended to hold flowers. Exclude plant pots, bottles, drinking vessels and generic containers without vase identity."
+      },
+      {
+        "category_order": 72,
+        "category_index": 76,
+        "category_key": "category:scissors",
+        "category_name": "scissors",
+        "definition": "Actual scissors or identifiable paired cutting blades/handle loops. Exclude single knives, forceps and unrelated metal strips."
+      },
+      {
+        "category_order": 73,
+        "category_index": 77,
+        "category_key": "category:teddy_bear",
+        "category_name": "teddy bear",
+        "definition": "An actual bear-shaped plush/stuffed toy, including identifiable teddy-bear parts. Exclude real bears, humans in bear costumes and non-bear plush toys."
+      },
+      {
+        "category_order": 74,
+        "category_index": 79,
+        "category_key": "category:toothbrush",
+        "category_name": "toothbrush",
+        "definition": "An actual toothbrush identified by its narrow handle and bristled head, including electric toothbrushes. Exclude hairbrushes, paintbrushes, remotes and unidentified thin handles."
+      }
+    ],
+    "scope_notes": [
+      "TV deliberately includes standalone computer monitors; integrated laptop screens count as laptop, and a laptop keyboard may also count as keyboard.",
+      "Donut excludes plain bagels; hot dog uses identifiable frankfurter rather than generic sausage; dining table excludes identifiable work desks/counters.",
+      "Category names/order derive only from verified native targets; training category assignments are not visual labels.",
+      "Cup includes recognizable handleless drinking tumblers and pint glasses; material and the presence of a handle alone do not exclude a drinking cup. Wine-glass-form stemmed vessels retain their separate definition.",
+      "These are explicit study review definitions based on native target names; no assertion that every border case reproduces an external dataset annotation policy."
+    ],
+    "proposal_sha256": "3e7646158668f17f1a6450fbe3baa51b960c992d8efd9b5ff8a52fd3609f7493",
+    "source_native_target_alignment_sha256": "54d14f90871531caa9496ce80300b0abb81975350c13f5cafff9b8ec89afad09"
+  },
+  "instruction": "Independent crop-only second pass. Do not read canonical presence labels or model responses. Explicit yes/no/unclear partition of all75 categories."
+}

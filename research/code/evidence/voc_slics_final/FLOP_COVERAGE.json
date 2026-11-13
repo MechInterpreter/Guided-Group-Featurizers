@@ -1,0 +1,6 @@
+{
+  "full_FLOPs_available": false,
+  "covered": "Registered matrix/convolution formulas executed inside forward, objectives, backward, Adam/controller and NNLS scopes",
+  "uncovered": "Unregistered elementwise/reduction/indexing/eigen operations and external SciPy/BLAS CPU work; see per-operator inventory",
+  "do_not_infer": "No full training FLOP or end-to-end runtime ratios from this partial count; cold-update repeated benchmarks are separate from historical fit timers"
+}

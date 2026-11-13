@@ -1,0 +1,8 @@
+{
+  "time_utc": "2026-10-12T03:03:07Z",
+  "stage": "paired_intervals_start",
+  "experiment": "continuation5",
+  "seed": 23,
+  "treatment": "pcgrad5_both",
+  "control": "ggf_pcgrad"
+}

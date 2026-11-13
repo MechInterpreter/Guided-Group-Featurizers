@@ -1,0 +1,21 @@
+{
+  "source": "evidence/width_balance/three_seed_means.csv",
+  "source_sha256": "c48eb6fcb2a9afdaaa00c50acb1b97b29cae5f280b0d4efea0f1f453db458e1d",
+  "source_arm": "mask3_balanced",
+  "plot_label": "GGF 3",
+  "cap": 0.2,
+  "values": {
+    "capture_pct": 36.901194966470605,
+    "patch_AP_pct": 74.37325540270827,
+    "VE_pct": 64.27148666466479
+  },
+  "previous_fixed_row": {
+    "model": "GGF 3",
+    "directions_per_group": "3",
+    "stage": "Guided Learning",
+    "capture_pct": "32.97471461127955",
+    "patch_AP_pct": "71.84307021146131",
+    "VE_pct": "64.80212836616084"
+  },
+  "scope": "Same inspected test cohort; adaptive3D from the width/weight study. Earlier fixed3D and native-baseline experiment records stay unchanged."
+}

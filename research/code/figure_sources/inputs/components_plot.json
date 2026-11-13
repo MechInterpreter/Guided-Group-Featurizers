@@ -1,0 +1,17 @@
+{
+  "source_sha256": "0b1389ae0e432175b3d7cb6ca4c680b00b2fdcc6388f939245b72d2361e060c7",
+  "rows": [
+    "released_vanilla",
+    "mask_only",
+    "fixed_guided",
+    "agf_g"
+  ],
+  "values": "Unrounded saved three-seed means; whiskers are sample SD.",
+  "minimum_final_font_pt": 9.0,
+  "placement_width_bp": 234,
+  "VE_axis": [
+    74,
+    82
+  ],
+  "bar_chart": false
+}

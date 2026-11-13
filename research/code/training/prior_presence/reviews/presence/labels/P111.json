@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p111",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I1333",
+      "yes": [46,47,49],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,48,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The original crop shows actual bananas, red apples and an orange on a glass pedestal platter, alongside pears. The shallow flat platter is not a bowl or drinking vessel; its supporting stem does not make it a wine glass. No dining-table context is visible. I considered each of the 75 frozen definitions against the whole crop; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1334",
+      "yes": [0,9,13,17],
+      "no": [2,3,4,5,6,7,8,10,11,12,14,15,16,18,19,20,21,22,23,24,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [1,25],
+      "all_definitions_considered": true,
+      "rationale": "People ride and stand around a horse-drawn carriage; the actual horse bodies and legs, traffic-signal head overhead, and the carriage's long shared bench seating are identifiable. The carriage wheels are not bicycle evidence. Congested background metal frames and wheels could include bicycles, but their identity is unresolved, so bicycle is unclear. Market canopies are visible, but umbrella structure versus fixed fabric awnings is unresolved, so umbrella is unclear. I considered every one of the 75 definitions, including individual-chair versus bench and vehicle distinctions."
+    },
+    {
+      "case_id": "I1335",
+      "yes": [2,9],
+      "no": [0,1,3,4,6,8,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [5,7],
+      "all_definitions_considered": true,
+      "rationale": "The rear body, window and lamps identify the silver passenger car, and an actual traffic light hangs above it. The far-right red road vehicle is only partly exposed; bus versus truck cannot be resolved from that narrow view, so both remain unclear. No human is identifiable through the reflective windows. I explicitly considered all 75 definitions; the license plate and blue street sign are not stop signs, and the signal's red numeric display is not a time-of-day clock."
+    },
+    {
+      "case_id": "I1336",
+      "yes": [0,43,55,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,44,45,46,47,48,49,50,51,52,53,54,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A woman sits behind an iced birthday cake on an eating table. A table knife lies diagonally at the lower-right edge, with its blade and handle visible. The folded birthday card is not a bound book; the cake's flower decoration is not a potted plant or vase, and the candles are not category objects. Each of the 75 definitions was considered against the original crop; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1337",
+      "yes": [72],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The large open insulated metal door and metal-lined produce-storage interior identify a walk-in refrigerator. The visible green produce consists of leafy cabbage/lettuce forms rather than identifiable broccoli. Shelving, boxes, bins and work surfaces provide no identifiable oven cavity, microwave, sink basin, dining table or other listed object. I considered each of the 75 exact definitions using the whole original crop; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1338",
+      "yes": [0,3],
+      "no": [1,2,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual helmeted person sits astride an identifiable motorcycle with engine, fuel tank, handlebars and front wheel. The motorcycle is not a pedal bicycle. Its mounted rear equipment does not show backpack, handbag or suitcase structure. Background road-name signs are not stop signs or traffic lights, and the distant industrial equipment does not identify a road truck. I considered every one of the 75 frozen definitions; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1339",
+      "yes": [0,29],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A crouching person holds an orange flying disc by the grass; the held shallow disc has clear frisbee context. The tree, grass and iron fence are not potted plants, a bench or other listed objects. I explicitly considered all 75 definitions against the original crop, including other sports equipment and animal categories; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1340",
+      "yes": [50],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,45,46,47,48,49,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [44],
+      "all_definitions_considered": true,
+      "rationale": "Actual broccoli florets and stalks are clearly visible cooking in a pan. The wooden utensil enters from the lower left, but its partially food-covered working end does not establish a spoon bowl rather than a flat spatula, so spoon remains unclear. The pan is cookware rather than a bowl; the burner/stovetop fragment does not establish an oven. I considered all 75 frozen definitions, including other vegetables and cutlery, on the whole original crop."
+    },
+    {
+      "case_id": "I1341",
+      "yes": [0,41,42,44,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [43],
+      "all_definitions_considered": true,
+      "rationale": "A person's torso and arms sit behind a plate of meat and salad on a dining table. The red drink is in a straight drinking tumbler, so cup is yes and wine glass is no. A fork with tines enters at upper left, and a spoon's reflective oval bowl and handle are visible at the bottom. A narrow metallic fragment by the lower-left place setting might be a knife, but its blade/handle identity is unresolved, so knife is unclear. The food shows no identifiable sandwich bread or other listed food. I considered each of the 75 definitions."
+    },
+    {
+      "case_id": "I1342",
+      "yes": [33],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Multiple tangible kites and their tails fly in blue sky, including a large yellow character-shaped kite at the bottom. These are kite fabric objects, not actual birds or other animals; the distant colored flying shapes likewise occur in kite context. Distant ground features do not identify a person or vehicle. I considered all 75 definitions on the entire original crop; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1343",
+      "yes": [62],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The rounded screen and surrounding dark bezel identify an actual television. The woodland animal and trees are imagery displayed inside that screen, so they do not count as actual category animals or plants under the common rule. This is a standalone display, with no laptop base or integrated keyboard. All 75 exact definitions were considered against the original crop; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1344",
+      "yes": [11],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The red octagonal sign bears the Chinese stop character and a lower sign reads STOP, identifying an actual traffic stop sign. The gray hooded roadside camera/sensor on its bracket is not a traffic-light assembly or a parking meter. The surrounding trees are unpotted and the building windows are not screens. I considered each of the 75 frozen definitions using the original crop; no unresolved category ambiguity remains."
+    }
+  ]
+}

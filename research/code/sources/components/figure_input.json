@@ -1,0 +1,25 @@
+{
+  "geometry": {
+    "original": [
+      612,
+      612
+    ],
+    "resized": [
+      256,
+      256
+    ],
+    "box": [
+      16,
+      16,
+      240,
+      240
+    ],
+    "crop": 224
+  },
+  "image_sha256": "918ae5b0e99393fe3db3dcc89285c06ad23894b77f109ed04e965a61bd69003d",
+  "normalization_sha256": "be92e9c543dc0d75d24147c273e60ecfee2bb125eb3116973e1f243573f7b13c",
+  "image_id": 553000,
+  "features_sha256": "7ab3521969e6a684bf32c6484011f950e760f99a14c1dc4c333958e6b1cb8bce",
+  "original_shard_sha256": "e36a85a78cc6a39cd9b17a36af324afd46069cd22f64f2e3e1141d59856e0b1e",
+  "selection": "Previously selected qualitative photograph; unchanged image."
+}

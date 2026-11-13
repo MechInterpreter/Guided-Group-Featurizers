@@ -1,0 +1,22 @@
+name: Verify release
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  evidence-and-safety:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Check exact tracked bytes and reachable Git history
+        run: python scripts/check_repository.py --history
+      - name: Test the safety guard
+        run: python -m unittest discover -s scripts/tests -v
+      - name: Recount fixed research evidence
+        run: python scripts/verify_bundle.py
+        working-directory: research

@@ -1,0 +1,17 @@
+{
+  "source": "evidence/pilot4096_test/test_categories.csv",
+  "source_sha256": "cb4906a9f5b2bdc6805683af12eed8a2b01b96a4119485668bd3c09656b32731",
+  "seeds": [
+    21,
+    22,
+    23
+  ],
+  "groups": 4096,
+  "directions_per_group": 12,
+  "top_k": 32,
+  "cap": 0.6,
+  "category_count": 75,
+  "averaging": "arithmetic mean over seeds within each category",
+  "retained_all_categories": true,
+  "font_size_pt": 9.2
+}

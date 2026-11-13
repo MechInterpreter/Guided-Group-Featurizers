@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p001",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I0013",
+      "yes": [0,46],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,48,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [47,49],
+      "all_definitions_considered": true,
+      "rationale": "An actual person in dark clothing stands in front of a fruit display containing clearly recognizable bunches of bananas. The reddish round fruit above the bananas could be apples but lacks enough detail to distinguish apples from other round fruit (47 unclear); the yellow-orange round fruit at the right could be oranges but citrus identity is unresolved (49 unclear). The counter and fruit bins do not establish a dining table or bowl, and the dark clothing does not identify a backpack or handbag. I considered each of the 75 definitions against the whole crop; no other category has identifiable supporting evidence."
+    },
+    {
+      "case_id": "I0014",
+      "yes": [0,55,56,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "People's arms and torsos surround a birthday cake on an eating table, with a brown padded individual chair back behind it. The train and track around the cake are small toys/decorations, so they do not count as an actual train; the decorated green surface does not identify real plants, broccoli or animals. The small rectangular decorations and packaging do not identify books or drinking vessels. I considered every definition individually; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0015",
+      "yes": [0,3],
+      "no": [1,2,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The foreground contains an actual motorcycle with engine, fuel tank, windshield and front wheel; additional motorcycles are behind it. Human legs are visible at the top. The studded motorcycle saddlebag is an attached motorcycle accessory, not identifiable carried handbag, backpack or suitcase. The saddle is not a chair, and the windshield is not a display. Each of the 75 definitions was considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0016",
+      "yes": [16,29],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual long-haired dog lies on grass beside a blue flying disc with the shallow rim and form of a frisbee. The dog collar and hanging tag are not a necktie; the grass has no pot, and there is no human part. I checked each of the 75 exact definitions against the entire crop; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0017",
+      "yes": [10,11],
+      "no": [0,1,2,3,4,5,6,7,8,9,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A readable octagonal STOP sign and a yellow fire hydrant with identifiable cap/body and side outlet are visible. The sign pole is not a traffic signal or parking meter. The roadside trees and shrubs are unpotted, and the curved brick edging at right does not identify a bench or eating table. I considered all 75 definitions individually; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0018",
+      "yes": [15,27],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,18,19,20,21,22,23,24,25,26,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The crop shows an actual black cat wearing a white collar and a tangible patterned blue necktie with knot and hanging tie blade. The floral print on the tie does not establish a plant or vase, and the cat is not a bear or stuffed toy. The surrounding fabric lacks identifiable bed or couch structure. Each of the 75 definitions was considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0019",
+      "yes": [56,57,58,62,73],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,59,60,61,63,64,65,67,68,69,71,72,74,75,76,77,79],
+      "unclear": [41,66],
+      "all_definitions_considered": true,
+      "rationale": "A sofa fills the foreground, a separate curved chair back is visible at the desk, and a standalone monitor sits on the work desk. Bound books are stacked on the small table at left, with a tall narrow plant in a visible container beside the window. The computer desk is not an eating table, and pictures/posters do not count as their depicted objects. The small orange upright item beside the printer may be a drinking cup but its form is insufficiently resolved (41 unclear). The narrow dark/light strip below the monitor could be keyboard keys but is too indistinct for a positive identification (66 unclear). No identifiable laptop or mouse is visible. All 75 definitions were considered individually."
+    },
+    {
+      "case_id": "I0020",
+      "yes": [50,53],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,51,52,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Pizza crust with cheese/toppings is visible on baking trays, and the foreground pizza has identifiable green broccoli florets. The other green slices and yellow toppings do not establish additional named fruit or vegetable categories. The trays are not bowls or a dining table. Only part of a stovetop is visible at upper left, without identifiable conventional oven context. I considered all 75 definitions individually; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0021",
+      "yes": [0,41,55,56,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A child sits at a restaurant dining table with a slice of frosted cake on a flat plate and a large white coffee cup at right. Individual wooden chair backs are visible behind the child. The vertical printed card is a menu/sign rather than an identifiable bound book; the plate and saucer are not bowls, and no utensil has sufficiently identifiable tines, blade or spoon bowl. The red cake decoration does not identify apple or orange fruit. Each of the 75 definitions was considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0022",
+      "yes": [39,56,60,68,69,71,72],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,42,43,44,45,47,48,50,51,52,53,54,55,57,58,59,61,62,63,64,65,66,67,73,74,75,76,77,79],
+      "unclear": [41,46,49],
+      "all_definitions_considered": true,
+      "rationale": "The kitchen contains a refrigerator with a microwave above it, a conventional range/oven at left-center, and a sink/faucet assembly on the rear counter. Necked bottles stand on the left counter, while white individual chairs surround a glass dining table. The white kettle is not itself a cup. A separate small pale vessel on the left counter may be a cup but its drinking form is indistinct (41 unclear). The cropped yellow/orange food cluster at the far left may include bananas and orange fruit, but detail does not resolve those identities (46 and 49 unclear). No definite potted plant, utensil, book or other listed object can be identified. I explicitly considered all 75 definitions."
+    },
+    {
+      "case_id": "I0023",
+      "yes": [20],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The entire crop is dominated by actual elephants, with wrinkled skin, large ears, eye and raised trunk clearly identifying the animal. The smaller pale areas near the bottom are elephant tusk/animal context, not utensils or separate manufactured objects. No person or other named animal is identifiable. I considered each of the 75 exact definitions against the whole crop; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0024",
+      "yes": [74],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The crop shows an ornate masonry building with identifiable clock faces on the small tower near the top. Arched windows and architectural ornament do not identify television screens, signs, animals or people. The lower greenery consists of outdoor trees without pot evidence. I considered every one of the 75 definitions individually; no unresolved category ambiguity remains."
+    }
+  ]
+}

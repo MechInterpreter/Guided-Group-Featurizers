@@ -1,0 +1,19 @@
+{
+  "research_files_verified": 2239,
+  "research_manifest_sha256": "cba62a29d1902406c1ffc03e66e9fe3eaccf43ed248699ec720fdbaa254c1892",
+  "demo_assets": 3277,
+  "old_git_history_copied": false,
+  "paper_results_changed": false,
+  "demo_inference_math_changed": false,
+  "documented_portability_changes": [
+    {
+      "file": "research/code/bootstrap/quick_pipeline.py",
+      "before_sha256": "ec9b3434219a13073556588c8ad68eb089261e54ec9f2ce235cbf90e9c7cd004",
+      "after_sha256": "ca16b92d7220cd05014dff8dc400580fc95a40a6a59611e030cfc92e691e057b",
+      "change": "Set cfg.device from the explicit quick-check device argument.",
+      "regression_test": "research/tests/test_full_pipeline.py::FullPipelineTests::test_historical_kernels_and_width_growth_execute_on_small_cpu_fixture",
+      "research_methods_changed": false,
+      "saved_results_changed": false
+    }
+  ]
+}

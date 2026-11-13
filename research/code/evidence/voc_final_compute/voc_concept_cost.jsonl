@@ -1,0 +1,1 @@
+{"stage": "Concept_SAE_v2_calibration_training_evaluation", "wall_seconds": 13080.257618944997, "peak_allocated_bytes": 1415738880, "peak_reserved_bytes": 1589641216, "device": "Tesla T4", "scope": "This invocation including I/O/evaluation in this stage; reused computation is not charged again; not a hardware-normalized method speed comparison"}

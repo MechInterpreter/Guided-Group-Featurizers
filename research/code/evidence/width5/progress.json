@@ -1,0 +1,8 @@
+{
+  "time_utc": "2026-10-12T00:03:13Z",
+  "stage": "paired_intervals_start",
+  "experiment": "width5",
+  "seed": 23,
+  "treatment": "vanilla5",
+  "control": "vanilla4"
+}

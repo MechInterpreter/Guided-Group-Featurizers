@@ -1,0 +1,17 @@
+{
+  "kind": "synthetic explanatory schematic, not COCO measurements",
+  "seed": 73,
+  "sample_count": 180,
+  "feature_dimensions_shown": 3,
+  "actual_feature_dimensions": 768,
+  "directions_shown": 3,
+  "current_selected_directions": 4,
+  "uncentered": true,
+  "orthogonality_error": 4.440892098500626e-16,
+  "toy_energy_fractions": [
+    0.9763842002422763,
+    0.020557556020074273,
+    0.003058243737649411
+  ],
+  "arrow_lengths": "equal within each panel; independent display scale across panels"
+}

@@ -1,0 +1,18 @@
+{
+  "flow": "top to bottom; dashed training feedback loops",
+  "main_components": [
+    "Initialization",
+    "Guided Learning"
+  ],
+  "classifiers": "75 category-specific positive-affine-plus-sigmoid heads on fixed training-selected detector groups; curves are schematic",
+  "group_membership": "fixed",
+  "node_visuals": "Illustrative vector activation strips, encoder matrix, gated blocks, decoded contribution planes, gradient-descent bowl, strength targets and bounded weight sliders",
+  "initialization_geometry": "synthetic 3D illustration",
+  "loss_bowl": "illustrative only; not measured optimization landscape",
+  "linear_decoder_geometry": "schematic contribution planes; no nonlinear decoder is implied",
+  "minimum_native_font_pt": 18.0219783782959,
+  "minimum_at_text_width_pt": 9.020000178337098,
+  "labels_fit_inside_modules": true,
+  "controller": "Detached encoder gradients and loss progress; separate Adam; bounds; next-step weights",
+  "input_sha256": "58d4a13316b9b1091230729f5c04e533e11d900905d22cd11ad75d5e69390c49"
+}

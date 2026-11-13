@@ -1,0 +1,306 @@
+{
+  "study": "ggf_slics_five_seed_evaluation",
+  "version": 1,
+  "parent_run": "e8aff97082f2f0d1942306ac1cae391aca2deef1374244b2e694903be6b310ec",
+  "execution_revision_sha": "c3985e4618fb5f4d929693a3719b5a53809973ff802616a7dd68fd2c59a9e7fa",
+  "parent_source_sha": "dfed82ac09e358dd8fc5e8d6de1bb524519cc0965cfea45f1318367b7eab90cf",
+  "evaluation_protocol": {
+    "version": 4,
+    "evaluation_revision": "five-seed-scope-amendment-v1",
+    "holdout_policy": "Reuse the pinned, verified unopened predecessor reservation; never reuse an opened test cohort",
+    "holdout_reservation_sha": "af34b44ced90edaae136b8108e287c8a4aabec3cadf45cb1f147f122212c07aa",
+    "seeds": [
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "screen_seeds": [
+      21,
+      22,
+      23
+    ],
+    "groups": 75,
+    "width": 12,
+    "k": 32,
+    "cap": 0.6,
+    "current_anchor_groups": 4096,
+    "warm": 7640,
+    "guided": 3000,
+    "total": 10640,
+    "new_bsf_controls": false,
+    "new_detection_only_bsf": false,
+    "small_groups": 75,
+    "small_width": 12,
+    "small_k": 32,
+    "small_lrs": [
+      0.0001,
+      0.0003,
+      0.001
+    ],
+    "selection": "capture + 0.2 AP on the fixed development set; exact ties retain earliest checkpoint, then declared LR grid order; no MSE selector",
+    "routine_validation": "object metrics only for SLiCS; full joint reconstruction only on the frozen final holdout",
+    "checkpoint_schedule": "SLiCS: 0, every 500, 7640 and 10640; GGF guided: 0, every 500 and 3000; GGF candidates include a shared 7640-update warm-up",
+    "training_arithmetic_changed": false,
+    "secondary_joint_object_readout": false,
+    "predecessor_run": "d8a0a7c7bd2e6ffb880cee729c8fdfba2adea8ca3709f887e5c58e5ae77fb0fd",
+    "primary_contrasts": [
+      [
+        "matched_ggf",
+        "slics_object_partial"
+      ]
+    ],
+    "confirmatory_capture_AP_tests": 2,
+    "holm_family_alpha": 0.05,
+    "current_capacity_anchor_seeds": [
+      21,
+      22,
+      23
+    ],
+    "current_anchor_retraining": false,
+    "fresh_seed": 126109,
+    "fresh_images": 1500,
+    "previous_test_for_selection": false,
+    "source_control_training": false,
+    "primary_small_readouts": "fixed category slots for BOTH methods",
+    "seed_scope": "Five training orders (21\u201325), common deterministic SVD initializer and fixed data; 21\u201323 tuned the LR, 24\u201325 are additional orders.",
+    "scope": "Tests specified supervised controls; no claim to settle all possible supervised methods or guarantee acceptance.",
+    "original_seed_plan": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "omitted_seeds": [
+      26,
+      27
+    ],
+    "scope_amendment": "User reduced seven to five for compute/time before test evaluation. Not a completed seven-seed study.",
+    "headline_reporting": "Completed-training fixed-budget comparison; checkpoint-selected results and their original statistical contrast remain separately available.",
+    "training_protocol_and_fingerprints": "Retained from original run; no loss, solver threshold, budget, optimizer, data or checkpoint-selector change.",
+    "training_arithmetic_changed_on_precision_recovery_batches": true
+  },
+  "settings_sha": "008f1fc239b032f5d51ad08bd1e6483ac3266eef5dc567c4023033a82889e384",
+  "models": [
+    {
+      "seed": 21,
+      "arm": "matched_ggf",
+      "key": "small75_s21_lr10000_ggf_object",
+      "weights_sha": "8b729cd9633862d95fe63adb7384f74faaff0fce1fee6d39fa9ffc1c5db0485b",
+      "targets_sha": "7413e71824466d3f4b272e3c5916bad7b52f5fb8d8f5e6be72046fbb026fa50e",
+      "selected_total_updates": 10640,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 21,
+      "arm": "matched_ggf_final",
+      "key": "small75_s21_lr10000_ggf",
+      "weights_sha": "8b729cd9633862d95fe63adb7384f74faaff0fce1fee6d39fa9ffc1c5db0485b",
+      "targets_sha": "7413e71824466d3f4b272e3c5916bad7b52f5fb8d8f5e6be72046fbb026fa50e",
+      "selected_total_updates": 10640,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 21,
+      "arm": "slics_object_partial",
+      "key": "native_slics12_s21_object",
+      "weights_sha": "7f5be289dac6a5bfae9c4c851c41f2cd4b477d1a69c9af155f9490d9cb5ee33e",
+      "targets_sha": "ee73f885697c001128aa5a9653cb7c24e004b7fedd54420dd99775bd2585bc12",
+      "selected_total_updates": 0,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 21,
+      "arm": "slics_final_partial",
+      "key": "native_slics12_s21",
+      "weights_sha": "e766e271dcadf0ce22022b4dd20989143b7b124d38097287dfb7c81ccb60a4b7",
+      "targets_sha": "ee73f885697c001128aa5a9653cb7c24e004b7fedd54420dd99775bd2585bc12",
+      "selected_total_updates": 10640,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 21,
+      "arm": "current_ggf",
+      "key": "g4096_k32_s21_mask_lr3000_p10000_agf_g_c060",
+      "weights_sha": "7ba79ec022b8fceee1c427c9aa3088669678a145129224c0bfd6e975cd17a029",
+      "targets_sha": "50d1848a9649c7a98765d548c38a164a1e1e73ef14d02bc1838aeea4be88feaa",
+      "selected_total_updates": 10640,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 22,
+      "arm": "matched_ggf",
+      "key": "small75_s22_lr10000_ggf_object",
+      "weights_sha": "b7f8fa665ae3f3366c00ee87693a4f097356563ed9f1f573a84b8aca7e464ad7",
+      "targets_sha": "2e7a6dcc73d5b8730275c6de50ce5c558d27a7d2fdbb83ec295c200952e440ca",
+      "selected_total_updates": 10640,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 22,
+      "arm": "matched_ggf_final",
+      "key": "small75_s22_lr10000_ggf",
+      "weights_sha": "b7f8fa665ae3f3366c00ee87693a4f097356563ed9f1f573a84b8aca7e464ad7",
+      "targets_sha": "2e7a6dcc73d5b8730275c6de50ce5c558d27a7d2fdbb83ec295c200952e440ca",
+      "selected_total_updates": 10640,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 22,
+      "arm": "slics_object_partial",
+      "key": "native_slics12_s22_object",
+      "weights_sha": "7f5be289dac6a5bfae9c4c851c41f2cd4b477d1a69c9af155f9490d9cb5ee33e",
+      "targets_sha": "ee73f885697c001128aa5a9653cb7c24e004b7fedd54420dd99775bd2585bc12",
+      "selected_total_updates": 0,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 22,
+      "arm": "slics_final_partial",
+      "key": "native_slics12_s22",
+      "weights_sha": "6859d472d9d5f03e4748e7ddc7ca025c00575db19c1632eb3b936fe37083b4bd",
+      "targets_sha": "ee73f885697c001128aa5a9653cb7c24e004b7fedd54420dd99775bd2585bc12",
+      "selected_total_updates": 10640,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 22,
+      "arm": "current_ggf",
+      "key": "g4096_k32_s22_mask_lr3000_p10000_agf_g_c060",
+      "weights_sha": "d0e7072c8dfb192eadfa23fb781b7a4e1c2692f3164c083508bafdfd9fc12667",
+      "targets_sha": "ffad8356bd3f541dc0e1d5062cd6159783f7ca416909eb7594fcb93bdaedd4eb",
+      "selected_total_updates": 10640,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 23,
+      "arm": "matched_ggf",
+      "key": "small75_s23_lr10000_ggf_object",
+      "weights_sha": "748b97c2f09b978957bebdbf932ccdc551c1a0e602467fe147af592acfe5ed6e",
+      "targets_sha": "985286cfc4657698f2026879a59f1a463a9bc63476f8b46d5124af1148b2ef73",
+      "selected_total_updates": 10640,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 23,
+      "arm": "matched_ggf_final",
+      "key": "small75_s23_lr10000_ggf",
+      "weights_sha": "748b97c2f09b978957bebdbf932ccdc551c1a0e602467fe147af592acfe5ed6e",
+      "targets_sha": "985286cfc4657698f2026879a59f1a463a9bc63476f8b46d5124af1148b2ef73",
+      "selected_total_updates": 10640,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 23,
+      "arm": "slics_object_partial",
+      "key": "native_slics12_s23_object",
+      "weights_sha": "7f5be289dac6a5bfae9c4c851c41f2cd4b477d1a69c9af155f9490d9cb5ee33e",
+      "targets_sha": "ee73f885697c001128aa5a9653cb7c24e004b7fedd54420dd99775bd2585bc12",
+      "selected_total_updates": 0,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 23,
+      "arm": "slics_final_partial",
+      "key": "native_slics12_s23",
+      "weights_sha": "a3278e59bb5ba1d2c9f9305609a8ffaaf73f613080ab1102c4b754c43faaaa3b",
+      "targets_sha": "ee73f885697c001128aa5a9653cb7c24e004b7fedd54420dd99775bd2585bc12",
+      "selected_total_updates": 10640,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 23,
+      "arm": "current_ggf",
+      "key": "g4096_k32_s23_mask_lr3000_p10000_agf_g_c060",
+      "weights_sha": "5147a325efc0d491eecd1651c45c5c29cc3df3c33a073aed6f6d0a7140a52d8e",
+      "targets_sha": "aa24c1477b10660f13551e1a53d08fb669ba3459070cc0dafc663aaa789fd4f0",
+      "selected_total_updates": 10640,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 24,
+      "arm": "matched_ggf",
+      "key": "small75_s24_lr10000_ggf_object",
+      "weights_sha": "01341765942329403119c47a76cc236742e224ddcabe62f49438fdf43432c3b2",
+      "targets_sha": "ff09c7395af873514a0ff8f8ae3ceb19609af489d3ca66704fd79576ce889f8b",
+      "selected_total_updates": 10640,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 24,
+      "arm": "matched_ggf_final",
+      "key": "small75_s24_lr10000_ggf",
+      "weights_sha": "01341765942329403119c47a76cc236742e224ddcabe62f49438fdf43432c3b2",
+      "targets_sha": "ff09c7395af873514a0ff8f8ae3ceb19609af489d3ca66704fd79576ce889f8b",
+      "selected_total_updates": 10640,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 24,
+      "arm": "slics_object_partial",
+      "key": "native_slics12_s24_object",
+      "weights_sha": "7f5be289dac6a5bfae9c4c851c41f2cd4b477d1a69c9af155f9490d9cb5ee33e",
+      "targets_sha": "ee73f885697c001128aa5a9653cb7c24e004b7fedd54420dd99775bd2585bc12",
+      "selected_total_updates": 0,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 24,
+      "arm": "slics_final_partial",
+      "key": "native_slics12_s24",
+      "weights_sha": "3a0ef309627173897c48559481271fed382815c33c035abe6ea96f5a88f8f7d3",
+      "targets_sha": "ee73f885697c001128aa5a9653cb7c24e004b7fedd54420dd99775bd2585bc12",
+      "selected_total_updates": 10640,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 25,
+      "arm": "matched_ggf",
+      "key": "small75_s25_lr10000_ggf_object",
+      "weights_sha": "ee1c2be4c35e5c9efe73efecad4c02a11e3b502bb83bf66272f8d9c377727da2",
+      "targets_sha": "3df0bb14b5db3b51d585a5f833dd583c39eab37c0f82464627404c363c25225f",
+      "selected_total_updates": 10640,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 25,
+      "arm": "matched_ggf_final",
+      "key": "small75_s25_lr10000_ggf",
+      "weights_sha": "ee1c2be4c35e5c9efe73efecad4c02a11e3b502bb83bf66272f8d9c377727da2",
+      "targets_sha": "3df0bb14b5db3b51d585a5f833dd583c39eab37c0f82464627404c363c25225f",
+      "selected_total_updates": 10640,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 25,
+      "arm": "slics_object_partial",
+      "key": "native_slics12_s25_object",
+      "weights_sha": "7f5be289dac6a5bfae9c4c851c41f2cd4b477d1a69c9af155f9490d9cb5ee33e",
+      "targets_sha": "ee73f885697c001128aa5a9653cb7c24e004b7fedd54420dd99775bd2585bc12",
+      "selected_total_updates": 0,
+      "total_training_updates": 10640
+    },
+    {
+      "seed": 25,
+      "arm": "slics_final_partial",
+      "key": "native_slics12_s25",
+      "weights_sha": "9dbcb362c35e1b9043edda908e345b25af29afa0efc1ed037aa752d06277f57e",
+      "targets_sha": "ee73f885697c001128aa5a9653cb7c24e004b7fedd54420dd99775bd2585bc12",
+      "selected_total_updates": 10640,
+      "total_training_updates": 10640
+    }
+  ],
+  "holdout_plan_sha": "af34b44ced90edaae136b8108e287c8a4aabec3cadf45cb1f147f122212c07aa",
+  "numerical_versions": {
+    "numpy": "2.1.3",
+    "torch": "2.11.0+cu130",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "einops": "0.8.2"
+  },
+  "normalization_sha": "be92e9c543dc0d75d24147c273e60ecfee2bb125eb3116973e1f243573f7b13c"
+}

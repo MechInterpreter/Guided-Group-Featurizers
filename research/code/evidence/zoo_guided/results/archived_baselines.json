@@ -1,0 +1,222 @@
+{
+  "config": {
+    "version": 1,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "dimension": 128,
+    "factors": 128,
+    "groups": 256,
+    "block_rank": 4,
+    "active_factors": 4,
+    "train_rows": 300000,
+    "select_rows": 20000,
+    "calibration_rows": 20000,
+    "test_rows": 100000,
+    "normalization_rows": 50000,
+    "data_seed": 701,
+    "epochs": 200,
+    "batch": 2048,
+    "lrs": [
+      0.0004,
+      0.003
+    ],
+    "save_updates": 500,
+    "log_epochs": 5,
+    "snr": 0.0,
+    "warmup": 0.05,
+    "methods": [
+      "vanilla",
+      "grassmannian",
+      "group_lasso"
+    ],
+    "include_sae": false,
+    "no_session_limit": true,
+    "scope": "Released-code replication on reconstructed Goodfire manifold zoo; bounded configuration sweep, not exact published-result replication.",
+    "schedule": "Released trainer Adam/OneCycleLR; clean synthetic inputs"
+  },
+  "original_data_fingerprints": {
+    "train": "060cd638591961c5115af17b70f0f07b39e5181edfc287764a4e6d48a3995d47",
+    "select": "f2fc956386ac297940f66ca997306bdecff4c1a14da7f90ef3d1e7fc7448f1e1",
+    "calibration": "b3ecf090d840a0750b19e42b4928064c73fc31991150dfaecd8d20fef799d842",
+    "test": "d0fc04a2883729e30737a2f1573be2d598309187ad9b971660e39389550d4f60"
+  },
+  "original_versions": {
+    "torch": "2.11.0+cu128",
+    "numpy": "2.1.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "einops": "0.8.2"
+  },
+  "baseline_rows": [
+    {
+      "seed": 0,
+      "method": "vanilla",
+      "key": "s0_vanilla_selected",
+      "paper_mean_r2": 0.9620215322530904,
+      "heldout_mean_r2": 0.9620215322530904,
+      "ve": 0.9736770987510681,
+      "compact_count": 128,
+      "collision_excess": 10,
+      "mean_active_groups": 4.0,
+      "bounded_multiple_fraction": 0.0,
+      "sparsity_matched": true,
+      "parameters": 263168
+    },
+    {
+      "seed": 0,
+      "method": "grassmannian",
+      "key": "s0_grassmannian_selected",
+      "paper_mean_r2": 0.8657450398734466,
+      "heldout_mean_r2": 0.8657210969998614,
+      "ve": 0.9200142025947571,
+      "compact_count": 112,
+      "collision_excess": 6,
+      "mean_active_groups": 4.0,
+      "bounded_multiple_fraction": 0.0546875,
+      "sparsity_matched": true,
+      "parameters": 131328
+    },
+    {
+      "seed": 0,
+      "method": "group_lasso",
+      "key": "s0_group_lasso_selected",
+      "paper_mean_r2": 0.9481837236715727,
+      "heldout_mean_r2": 0.9481837236715727,
+      "ve": 0.9681955575942993,
+      "compact_count": 126,
+      "collision_excess": 44,
+      "mean_active_groups": 3.70656,
+      "bounded_multiple_fraction": 0.015625,
+      "sparsity_matched": true,
+      "parameters": 263424
+    },
+    {
+      "seed": 1,
+      "method": "vanilla",
+      "key": "s1_vanilla_selected",
+      "paper_mean_r2": 0.9689156078789428,
+      "heldout_mean_r2": 0.9689156078789428,
+      "ve": 0.9741688370704651,
+      "compact_count": 127,
+      "collision_excess": 7,
+      "mean_active_groups": 4.0,
+      "bounded_multiple_fraction": 0.0078125,
+      "sparsity_matched": true,
+      "parameters": 263168
+    },
+    {
+      "seed": 1,
+      "method": "grassmannian",
+      "key": "s1_grassmannian_selected",
+      "paper_mean_r2": 0.8765076570942599,
+      "heldout_mean_r2": 0.8764157412562622,
+      "ve": 0.9225165843963623,
+      "compact_count": 114,
+      "collision_excess": 4,
+      "mean_active_groups": 4.0,
+      "bounded_multiple_fraction": 0.0546875,
+      "sparsity_matched": true,
+      "parameters": 131328
+    },
+    {
+      "seed": 1,
+      "method": "group_lasso",
+      "key": "s1_group_lasso_selected",
+      "paper_mean_r2": 0.9172268155206018,
+      "heldout_mean_r2": 0.9172268155206018,
+      "ve": 0.9655741453170776,
+      "compact_count": 117,
+      "collision_excess": 34,
+      "mean_active_groups": 3.88422,
+      "bounded_multiple_fraction": 0.078125,
+      "sparsity_matched": true,
+      "parameters": 263424
+    },
+    {
+      "seed": 2,
+      "method": "vanilla",
+      "key": "s2_vanilla_selected",
+      "paper_mean_r2": 0.9725030315308728,
+      "heldout_mean_r2": 0.9725030315308728,
+      "ve": 0.9733150601387024,
+      "compact_count": 128,
+      "collision_excess": 11,
+      "mean_active_groups": 4.0,
+      "bounded_multiple_fraction": 0.0,
+      "sparsity_matched": true,
+      "parameters": 263168
+    },
+    {
+      "seed": 2,
+      "method": "grassmannian",
+      "key": "s2_grassmannian_selected",
+      "paper_mean_r2": 0.8613552755446446,
+      "heldout_mean_r2": 0.861330002061192,
+      "ve": 0.9189520478248596,
+      "compact_count": 111,
+      "collision_excess": 3,
+      "mean_active_groups": 4.0,
+      "bounded_multiple_fraction": 0.0625,
+      "sparsity_matched": true,
+      "parameters": 131328
+    },
+    {
+      "seed": 2,
+      "method": "group_lasso",
+      "key": "s2_group_lasso_selected",
+      "paper_mean_r2": 0.9334367268142183,
+      "heldout_mean_r2": 0.9334367268142183,
+      "ve": 0.9670389890670776,
+      "compact_count": 123,
+      "collision_excess": 39,
+      "mean_active_groups": 3.83257,
+      "bounded_multiple_fraction": 0.0390625,
+      "sparsity_matched": true,
+      "parameters": 263424
+    }
+  ],
+  "baseline_means": {
+    "vanilla": {
+      "paper_mean_r2": 0.967813390554302,
+      "heldout_mean_r2": 0.967813390554302,
+      "ve": 0.9737203319867452
+    },
+    "grassmannian": {
+      "paper_mean_r2": 0.8678693241707838,
+      "heldout_mean_r2": 0.8678222801057719,
+      "ve": 0.920494278271993
+    },
+    "group_lasso": {
+      "paper_mean_r2": 0.9329490886687976,
+      "heldout_mean_r2": 0.9329490886687976,
+      "ve": 0.9669362306594849
+    }
+  },
+  "class_sources": {
+    "vanilla": {
+      "module": "bsf.vanilla",
+      "file": "/content/agf_native_goodfire_source/bfdd781b84ea93bf/vendor/goodfire_bsf/bsf/vanilla.py",
+      "sha256": "2463ae99a6eb88b2204e146a5b407bcfb6a4ed38716cded4e4b12aef3f3acd98"
+    },
+    "grassmannian": {
+      "module": "bsf.grassmannian",
+      "file": "/content/agf_native_goodfire_source/bfdd781b84ea93bf/vendor/goodfire_bsf/bsf/grassmannian.py",
+      "sha256": "c27bd74df37b9d287ca4d0859a6ebf80da272dd0418f76eb754ce82eaa5aaeb8"
+    },
+    "group_lasso": {
+      "module": "bsf.group_lasso",
+      "file": "/content/agf_native_goodfire_source/bfdd781b84ea93bf/vendor/goodfire_bsf/bsf/group_lasso.py",
+      "sha256": "4a942fe3735847983c430c8095568333986e592887cbaf9ebceeba083fd2e6ea"
+    }
+  },
+  "source_summary_sha256": "da33e73680e1f21043f15ffa4024dfbe85f6c89a7ec8db95914c97816a796fce",
+  "reference_file_sha256": "94a2f59674ce8cb25072244ae756969bc0a3ee03c53bdeb1252733497bb86f18",
+  "scope": "Historical released BSFs, same reconstructed benchmark and requested capacity; archived selected checkpoints, not exact published Goodfire results. Torch CUDA build differs from the current COCO environment.",
+  "original_dataset_relative_path": "AGF_native_goodfire_replication_v1/checkpoints/20559c96e5df8f92f9f6/manifold_zoo/00000000000000000000-slot.pt",
+  "original_dataset_sha256": "42b3290642ce3e53a07a018465adfcf9d6e09c414ba5ab1d94f93198c07ed968",
+  "original_dataset_bytes": 370209965,
+  "original_dataset_found_on_Drive": true
+}

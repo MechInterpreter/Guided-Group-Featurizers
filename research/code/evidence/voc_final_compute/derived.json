@@ -1,0 +1,2380 @@
+{
+  "VOC": {
+    "cohort": "voc",
+    "means": [
+      {
+        "kind": "agf_g",
+        "label": "GGF",
+        "capture": {
+          "mean": 45.81058267738675,
+          "sd": 0.0986941990484233,
+          "ci95": [
+            45.5654126956026,
+            46.05575265917089
+          ],
+          "seeds": 3
+        },
+        "patch_AP": {
+          "mean": 95.14631334022586,
+          "sd": 0.050866689801031824,
+          "ci95": [
+            95.01995347782078,
+            95.27267320263094
+          ],
+          "seeds": 3
+        },
+        "VE": {
+          "mean": 69.95103076872817,
+          "sd": 0.12127950426255561,
+          "ci95": [
+            69.6497557785309,
+            70.25230575892544
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "kind": "released_vanilla",
+        "label": "Vanilla BSF",
+        "capture": {
+          "mean": 19.437349665696583,
+          "sd": 1.355920721811078,
+          "ci95": [
+            16.069055866543696,
+            22.80564346484947
+          ],
+          "seeds": 3
+        },
+        "patch_AP": {
+          "mean": 81.08408808301856,
+          "sd": 1.9104157381822173,
+          "ci95": [
+            76.33835230273758,
+            85.82982386329954
+          ],
+          "seeds": 3
+        },
+        "VE": {
+          "mean": 71.20881594018672,
+          "sd": 0.17743265695855512,
+          "ci95": [
+            70.76804878574538,
+            71.64958309462807
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "kind": "supervised_vanilla",
+        "label": "Supervised Vanilla",
+        "capture": {
+          "mean": 44.08939166905724,
+          "sd": 0.05430047592302679,
+          "ci95": [
+            43.95450180905253,
+            44.224281529061955
+          ],
+          "seeds": 3
+        },
+        "patch_AP": {
+          "mean": 93.78219078645138,
+          "sd": 1.0936300569965278,
+          "ci95": [
+            91.06546311919631,
+            96.49891845370645
+          ],
+          "seeds": 3
+        },
+        "VE": {
+          "mean": 70.3206037014536,
+          "sd": 0.1974605432135792,
+          "ci95": [
+            69.83008451948012,
+            70.81112288342709
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "kind": "concept_sae",
+        "label": "Concept-SAE (released; DINO/mask adaptation)",
+        "capture": {
+          "mean": 3.1194980806834667,
+          "sd": 0.0738683838502109,
+          "ci95": [
+            2.9359988426573826,
+            3.3029973187095507
+          ],
+          "seeds": 3
+        },
+        "patch_AP": {
+          "mean": 67.83714165418917,
+          "sd": 0.7311141223938901,
+          "ci95": [
+            66.02095349117977,
+            69.65332981719857
+          ],
+          "seeds": 3
+        },
+        "VE": {
+          "mean": 55.154368129914076,
+          "sd": 0.155694334874623,
+          "ci95": [
+            54.76760196115093,
+            55.54113429867722
+          ],
+          "seeds": 3
+        }
+      }
+    ],
+    "paired_metric_differences": [
+      {
+        "comparison": "GGF minus Vanilla BSF",
+        "capture": {
+          "mean": 26.37323301169016,
+          "sd": 1.3683127314383063,
+          "ci95": [
+            22.974155754098284,
+            29.772310269282038
+          ],
+          "seeds": 3
+        },
+        "patch_AP": {
+          "mean": 14.06222525720731,
+          "sd": 1.8748138104421428,
+          "ci95": [
+            9.404929568235362,
+            18.71952094617926
+          ],
+          "seeds": 3
+        },
+        "VE": {
+          "mean": -1.2577851714585624,
+          "sd": 0.18064962412461052,
+          "ci95": [
+            -1.7065437153544685,
+            -0.8090266275626563
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "comparison": "GGF minus Supervised Vanilla",
+        "capture": {
+          "mean": 1.7211910083295017,
+          "sd": 0.14446895000383683,
+          "ci95": [
+            1.362310241452445,
+            2.0800717752065583
+          ],
+          "seeds": 3
+        },
+        "patch_AP": {
+          "mean": 1.3641225537745012,
+          "sd": 1.1157253225772699,
+          "ci95": [
+            -1.40749279596015,
+            4.135737903509153
+          ],
+          "seeds": 3
+        },
+        "VE": {
+          "mean": -0.36957293272545194,
+          "sd": 0.1654363430137862,
+          "ci95": [
+            -0.7805395912949686,
+            0.04139372584406481
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "comparison": "GGF minus Concept-SAE task adaptation",
+        "capture": {
+          "mean": 42.691084596703284,
+          "sd": 0.04956058655331639,
+          "ci95": [
+            42.56796927463125,
+            42.814199918775316
+          ],
+          "seeds": 3
+        },
+        "patch_AP": {
+          "mean": 27.309171686036702,
+          "sd": 0.755799443287293,
+          "ci95": [
+            25.431661786470098,
+            29.186681585603306
+          ],
+          "seeds": 3
+        },
+        "VE": {
+          "mean": 14.796662638814093,
+          "sd": 0.08841932928627873,
+          "ci95": [
+            14.5770168484891,
+            15.016308429139086
+          ],
+          "seeds": 3
+        }
+      }
+    ],
+    "consolidation": [
+      {
+        "kind": "agf_g",
+        "label": "GGF",
+        "capture_1_2_4": [
+          {
+            "mean": 45.81058257376977,
+            "sd": 0.09869419068271679,
+            "ci95": [
+              45.5654126127672,
+              46.055752534772346
+            ],
+            "seeds": 3
+          },
+          {
+            "mean": 48.932412690611194,
+            "sd": 0.1310807817843575,
+            "ci95": [
+              48.606789977298995,
+              49.258035403923394
+            ],
+            "seeds": 3
+          },
+          {
+            "mean": 52.81030043892569,
+            "sd": 0.10281415310033039,
+            "ci95": [
+              52.55489592391065,
+              53.065704953940724
+            ],
+            "seeds": 3
+          }
+        ],
+        "target_AP_drop": {
+          "mean": 81.92658518833794,
+          "sd": 0.5584591673598006,
+          "ci95": [
+            80.53929571024396,
+            83.31387466643191
+          ],
+          "seeds": 3
+        },
+        "random_AP_drop": {
+          "mean": 0.005737731333720489,
+          "sd": 0.004176168804550922,
+          "ci95": [
+            -0.004636447084171188,
+            0.016111909751612166
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "kind": "released_vanilla",
+        "label": "Vanilla BSF",
+        "capture_1_2_4": [
+          {
+            "mean": 19.565397033054158,
+            "sd": 1.1458698403891776,
+            "ci95": [
+              16.718898549821347,
+              22.411895516286968
+            ],
+            "seeds": 3
+          },
+          {
+            "mean": 28.685198411605388,
+            "sd": 0.7522281006082104,
+            "ci95": [
+              26.816560219069366,
+              30.55383660414141
+            ],
+            "seeds": 3
+          },
+          {
+            "mean": 38.69625530376837,
+            "sd": 0.9514296248065066,
+            "ci95": [
+              36.332773092739345,
+              41.05973751479739
+            ],
+            "seeds": 3
+          }
+        ],
+        "target_AP_drop": {
+          "mean": 4.9369529240713,
+          "sd": 1.9314943453984406,
+          "ci95": [
+            0.13885498069397606,
+            9.735050867448624
+          ],
+          "seeds": 3
+        },
+        "random_AP_drop": {
+          "mean": 0.04386703558291319,
+          "sd": 0.05952537745095065,
+          "ci95": [
+            -0.1040021993473336,
+            0.19173627051315997
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "kind": "supervised_vanilla",
+        "label": "Supervised Vanilla",
+        "capture_1_2_4": [
+          {
+            "mean": 44.08939158132819,
+            "sd": 0.05430047091898605,
+            "ci95": [
+              43.9545017337542,
+              44.224281428902174
+            ],
+            "seeds": 3
+          },
+          {
+            "mean": 46.58355413142053,
+            "sd": 0.22368971283132644,
+            "ci95": [
+              46.02787808005252,
+              47.13923018278854
+            ],
+            "seeds": 3
+          },
+          {
+            "mean": 49.452954137667774,
+            "sd": 0.21456595299878303,
+            "ci95": [
+              48.919942762172454,
+              49.985965513163094
+            ],
+            "seeds": 3
+          }
+        ],
+        "target_AP_drop": {
+          "mean": 62.14259542599914,
+          "sd": 2.343378669798756,
+          "ci95": [
+            56.32132009951287,
+            67.96387075248542
+          ],
+          "seeds": 3
+        },
+        "random_AP_drop": {
+          "mean": 0.030959444275031764,
+          "sd": 0.05018367385064811,
+          "ci95": [
+            -0.09370371244999724,
+            0.15562260100006076
+          ],
+          "seeds": 3
+        }
+      }
+    ],
+    "paired_consolidation": [
+      {
+        "comparison": "GGF minus Vanilla BSF",
+        "per_seed": [
+          {
+            "seed": 21,
+            "difference_1_2_4": [
+              0.27528376642964214,
+              0.2116355878045825,
+              0.13509292422919197
+            ],
+            "image_bootstrap95": [
+              [
+                0.2682273637460726,
+                0.20594787472575682,
+                0.13030360034675678
+              ],
+              [
+                0.28180747680122487,
+                0.21735383365961086,
+                0.13969120202505758
+              ]
+            ],
+            "replicates_valid": 1000
+          },
+          {
+            "seed": 22,
+            "difference_1_2_4": [
+              0.25912181431946535,
+              0.19998284025795193,
+              0.15088065972219603
+            ],
+            "image_bootstrap95": [
+              [
+                0.25292144676629047,
+                0.19468672480749127,
+                0.1462593223919339
+              ],
+              [
+                0.26536504914482395,
+                0.20525770217835834,
+                0.15617145884602418
+              ]
+            ],
+            "replicates_valid": 1000
+          },
+          {
+            "seed": 23,
+            "difference_1_2_4": [
+              0.25294998547236086,
+              0.19579800030764008,
+              0.1374477701033319
+            ],
+            "image_bootstrap95": [
+              [
+                0.24655912222092113,
+                0.19071560045227046,
+                0.1325114213738052
+              ],
+              [
+                0.2595135551172455,
+                0.2011060024705769,
+                0.14207040953361275
+              ]
+            ],
+            "replicates_valid": 1000
+          }
+        ],
+        "paired_seed_t95": [
+          {
+            "mean": 26.245185540715614,
+            "sd": 1.153327027326753,
+            "ci95": [
+              23.380162378187826,
+              29.1102087032434
+            ],
+            "seeds": 3
+          },
+          {
+            "mean": 20.247214279005817,
+            "sd": 0.8206994867373166,
+            "ci95": [
+              18.208483734012773,
+              22.28594482399886
+            ],
+            "seeds": 3
+          },
+          {
+            "mean": 14.114045135157328,
+            "sd": 0.8517045796524773,
+            "ci95": [
+              11.998293669598365,
+              16.22979660071629
+            ],
+            "seeds": 3
+          }
+        ]
+      },
+      {
+        "comparison": "GGF minus Supervised Vanilla",
+        "per_seed": [
+          {
+            "seed": 21,
+            "difference_1_2_4": [
+              0.017451311328414976,
+              0.022076376478032345,
+              0.03402508087593382
+            ],
+            "image_bootstrap95": [
+              [
+                0.015461864826598079,
+                0.01969502722969467,
+                0.03138946087311113
+              ],
+              [
+                0.019598904595567783,
+                0.02431074228055774,
+                0.03686104160744557
+              ]
+            ],
+            "replicates_valid": 1000
+          },
+          {
+            "seed": 22,
+            "difference_1_2_4": [
+              0.015662473989052888,
+              0.023521076872529644,
+              0.034829156395993724
+            ],
+            "image_bootstrap95": [
+              [
+                0.013795397190154437,
+                0.021188301853967164,
+                0.03221624598347038
+              ],
+              [
+                0.017854047205483677,
+                0.02602518413039025,
+                0.0377389825357724
+              ]
+            ],
+            "replicates_valid": 1000
+          },
+          {
+            "seed": 23,
+            "difference_1_2_4": [
+              0.01852194445577939,
+              0.024868303425158157,
+              0.03186615176581033
+            ],
+            "image_bootstrap95": [
+              [
+                0.016796360811240564,
+                0.022719146965740143,
+                0.028945941706956413
+              ],
+              [
+                0.020424620022526468,
+                0.027103987189311972,
+                0.034524432377081665
+              ]
+            ],
+            "replicates_valid": 1000
+          }
+        ],
+        "paired_seed_t95": [
+          {
+            "mean": 1.7211909924415751,
+            "sd": 0.14446894516462247,
+            "ci95": [
+              1.3623102375857934,
+              2.080071747297357
+            ],
+            "seeds": 3
+          },
+          {
+            "mean": 2.348858559190672,
+            "sd": 0.13962470347360473,
+            "ci95": [
+              2.002011567804231,
+              2.6957055505771126
+            ],
+            "seeds": 3
+          },
+          {
+            "mean": 3.357346301257929,
+            "sd": 0.15322591590516746,
+            "ci95": [
+              2.976712025145135,
+              3.737980577370723
+            ],
+            "seeds": 3
+          }
+        ]
+      }
+    ],
+    "rank": [
+      {
+        "method": "GGF",
+        "seed": 21,
+        "slots": "concept_slots",
+        "allocated_blocks": 19,
+        "estimated_nonzero_variance": 19,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 17175.36842105263,
+        "entropy_rank": 6.435821827152313,
+        "utilization_percent": 53.631848559602616,
+        "coefficient_matrix_stable_rank": 2.3597718777477783,
+        "contribution_matrix_stable_rank": 2.3618456400058165
+      },
+      {
+        "method": "GGF",
+        "seed": 21,
+        "slots": "reserve_slots",
+        "allocated_blocks": 1005,
+        "estimated_nonzero_variance": 1005,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 474.1134328358209,
+        "entropy_rank": 5.859852183323219,
+        "utilization_percent": 48.83210152769349,
+        "coefficient_matrix_stable_rank": 2.4178009589779457,
+        "contribution_matrix_stable_rank": 2.3308404525431095
+      },
+      {
+        "method": "GGF",
+        "seed": 22,
+        "slots": "concept_slots",
+        "allocated_blocks": 19,
+        "estimated_nonzero_variance": 19,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 16564.684210526317,
+        "entropy_rank": 6.376296841507477,
+        "utilization_percent": 53.13580701256231,
+        "coefficient_matrix_stable_rank": 2.335879591930047,
+        "contribution_matrix_stable_rank": 2.345362117142982
+      },
+      {
+        "method": "GGF",
+        "seed": 22,
+        "slots": "reserve_slots",
+        "allocated_blocks": 1005,
+        "estimated_nonzero_variance": 1005,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 485.6587064676617,
+        "entropy_rank": 5.938497032099949,
+        "utilization_percent": 49.48747526749958,
+        "coefficient_matrix_stable_rank": 2.4554546894526807,
+        "contribution_matrix_stable_rank": 2.3801392754085287
+      },
+      {
+        "method": "GGF",
+        "seed": 23,
+        "slots": "concept_slots",
+        "allocated_blocks": 19,
+        "estimated_nonzero_variance": 19,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 16813.052631578947,
+        "entropy_rank": 6.378625395884272,
+        "utilization_percent": 53.15521163236892,
+        "coefficient_matrix_stable_rank": 2.326013401653728,
+        "contribution_matrix_stable_rank": 2.3323974193509507
+      },
+      {
+        "method": "GGF",
+        "seed": 23,
+        "slots": "reserve_slots",
+        "allocated_blocks": 1005,
+        "estimated_nonzero_variance": 1005,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 480.963184079602,
+        "entropy_rank": 5.927539589815951,
+        "utilization_percent": 49.396163248466266,
+        "coefficient_matrix_stable_rank": 2.423792266206329,
+        "contribution_matrix_stable_rank": 2.3452099649976494
+      },
+      {
+        "method": "Vanilla BSF",
+        "seed": 21,
+        "slots": "concept_slots",
+        "allocated_blocks": 19,
+        "estimated_nonzero_variance": 19,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 1663.842105263158,
+        "entropy_rank": 5.819835675512565,
+        "utilization_percent": 48.49863062927137,
+        "coefficient_matrix_stable_rank": 2.2859577160672417,
+        "contribution_matrix_stable_rank": 2.1035260057780776
+      },
+      {
+        "method": "Vanilla BSF",
+        "seed": 21,
+        "slots": "reserve_slots",
+        "allocated_blocks": 1005,
+        "estimated_nonzero_variance": 1005,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 767.3661691542288,
+        "entropy_rank": 6.2544109324246016,
+        "utilization_percent": 52.12009110353834,
+        "coefficient_matrix_stable_rank": 2.5606770778581724,
+        "contribution_matrix_stable_rank": 2.4419425697185075
+      },
+      {
+        "method": "Vanilla BSF",
+        "seed": 22,
+        "slots": "concept_slots",
+        "allocated_blocks": 19,
+        "estimated_nonzero_variance": 19,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 605.8947368421053,
+        "entropy_rank": 6.481280560885147,
+        "utilization_percent": 54.01067134070957,
+        "coefficient_matrix_stable_rank": 2.6432898789771304,
+        "contribution_matrix_stable_rank": 2.5336671342078487
+      },
+      {
+        "method": "Vanilla BSF",
+        "seed": 22,
+        "slots": "reserve_slots",
+        "allocated_blocks": 1005,
+        "estimated_nonzero_variance": 1005,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 787.3671641791045,
+        "entropy_rank": 6.289266906796455,
+        "utilization_percent": 52.41055755663714,
+        "coefficient_matrix_stable_rank": 2.559084694171696,
+        "contribution_matrix_stable_rank": 2.438558971893593
+      },
+      {
+        "method": "Vanilla BSF",
+        "seed": 23,
+        "slots": "concept_slots",
+        "allocated_blocks": 19,
+        "estimated_nonzero_variance": 19,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 503.2631578947368,
+        "entropy_rank": 6.001202272167199,
+        "utilization_percent": 50.01001893472664,
+        "coefficient_matrix_stable_rank": 2.4262006089393697,
+        "contribution_matrix_stable_rank": 2.3040578334769877
+      },
+      {
+        "method": "Vanilla BSF",
+        "seed": 23,
+        "slots": "reserve_slots",
+        "allocated_blocks": 1005,
+        "estimated_nonzero_variance": 1005,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 789.3074626865672,
+        "entropy_rank": 6.3214949053317735,
+        "utilization_percent": 52.67912421109811,
+        "coefficient_matrix_stable_rank": 2.5784493895064866,
+        "contribution_matrix_stable_rank": 2.4516455092273266
+      },
+      {
+        "method": "Supervised Vanilla",
+        "seed": 21,
+        "slots": "concept_slots",
+        "allocated_blocks": 19,
+        "estimated_nonzero_variance": 19,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 1471.578947368421,
+        "entropy_rank": 5.723559409457842,
+        "utilization_percent": 47.69632841214868,
+        "coefficient_matrix_stable_rank": 2.329474446021456,
+        "contribution_matrix_stable_rank": 2.1500518257436676
+      },
+      {
+        "method": "Supervised Vanilla",
+        "seed": 21,
+        "slots": "reserve_slots",
+        "allocated_blocks": 1005,
+        "estimated_nonzero_variance": 1005,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 771.0009950248756,
+        "entropy_rank": 6.1146018603535035,
+        "utilization_percent": 50.95501550294587,
+        "coefficient_matrix_stable_rank": 2.534818693046903,
+        "contribution_matrix_stable_rank": 2.4203798672945873
+      },
+      {
+        "method": "Supervised Vanilla",
+        "seed": 22,
+        "slots": "concept_slots",
+        "allocated_blocks": 19,
+        "estimated_nonzero_variance": 19,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 793.6315789473684,
+        "entropy_rank": 6.249607760857915,
+        "utilization_percent": 52.08006467381594,
+        "coefficient_matrix_stable_rank": 2.658248259789163,
+        "contribution_matrix_stable_rank": 2.5714389631298458
+      },
+      {
+        "method": "Supervised Vanilla",
+        "seed": 22,
+        "slots": "reserve_slots",
+        "allocated_blocks": 1005,
+        "estimated_nonzero_variance": 1005,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 783.8179104477612,
+        "entropy_rank": 6.117301105749227,
+        "utilization_percent": 50.97750921457689,
+        "coefficient_matrix_stable_rank": 2.531601679864872,
+        "contribution_matrix_stable_rank": 2.4140925070682875
+      },
+      {
+        "method": "Supervised Vanilla",
+        "seed": 23,
+        "slots": "concept_slots",
+        "allocated_blocks": 19,
+        "estimated_nonzero_variance": 19,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 479.7368421052632,
+        "entropy_rank": 6.095869350147244,
+        "utilization_percent": 50.79891125122703,
+        "coefficient_matrix_stable_rank": 2.4386922515287197,
+        "contribution_matrix_stable_rank": 2.3362457434249375
+      },
+      {
+        "method": "Supervised Vanilla",
+        "seed": 23,
+        "slots": "reserve_slots",
+        "allocated_blocks": 1005,
+        "estimated_nonzero_variance": 1005,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 789.7522388059701,
+        "entropy_rank": 6.23549362198419,
+        "utilization_percent": 51.96244684986826,
+        "coefficient_matrix_stable_rank": 2.5682552386160347,
+        "contribution_matrix_stable_rank": 2.4593279749507566
+      }
+    ],
+    "rank_means": [
+      {
+        "method": "GGF",
+        "slots": "concept_slots",
+        "seeds": 3,
+        "entropy_rank": {
+          "mean": 6.3969146881813534,
+          "sd": 0.03371467986724114,
+          "ci95": [
+            6.313162780484588,
+            6.480666595878119
+          ],
+          "seeds": 3
+        },
+        "utilization_percent": {
+          "mean": 53.30762240151128,
+          "sd": 0.28095566556035184,
+          "ci95": [
+            52.60968983737155,
+            54.005554965651015
+          ],
+          "seeds": 3
+        },
+        "coefficient_matrix_stable_rank": {
+          "mean": 2.340554957110518,
+          "sd": 0.017358080444744108,
+          "ci95": [
+            2.2974350948746673,
+            2.3836748193463686
+          ],
+          "seeds": 3
+        },
+        "contribution_matrix_stable_rank": {
+          "mean": 2.34653505883325,
+          "sd": 0.01475910800458459,
+          "ci95": [
+            2.30987140204772,
+            2.3831987156187804
+          ],
+          "seeds": 3
+        },
+        "mean_active_samples": {
+          "mean": 16851.035087719298,
+          "sd": 307.10877792302983,
+          "ci95": [
+            16088.134590880596,
+            17613.935584558
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "method": "GGF",
+        "slots": "reserve_slots",
+        "seeds": 3,
+        "entropy_rank": {
+          "mean": 5.908629601746373,
+          "sd": 0.04259628852813804,
+          "ci95": [
+            5.802814555034339,
+            6.014444648458407
+          ],
+          "seeds": 3
+        },
+        "utilization_percent": {
+          "mean": 49.238580014553115,
+          "sd": 0.35496907106782183,
+          "ci95": [
+            48.356787958619485,
+            50.120372070486745
+          ],
+          "seeds": 3
+        },
+        "coefficient_matrix_stable_rank": {
+          "mean": 2.432349304878985,
+          "sd": 0.020232845519105723,
+          "ci95": [
+            2.3820881303095787,
+            2.4826104794483914
+          ],
+          "seeds": 3
+        },
+        "contribution_matrix_stable_rank": {
+          "mean": 2.352063230983096,
+          "sd": 0.025353873963941925,
+          "ci95": [
+            2.2890807165310836,
+            2.4150457454351084
+          ],
+          "seeds": 3
+        },
+        "mean_active_samples": {
+          "mean": 480.2451077943615,
+          "sd": 5.806036597549852,
+          "ci95": [
+            465.82211332676405,
+            494.66810226195895
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "method": "Vanilla BSF",
+        "slots": "concept_slots",
+        "seeds": 3,
+        "entropy_rank": {
+          "mean": 6.1007728361883045,
+          "sd": 0.3417792518731903,
+          "ci95": [
+            5.251746107526819,
+            6.94979956484979
+          ],
+          "seeds": 3
+        },
+        "utilization_percent": {
+          "mean": 50.83977363490252,
+          "sd": 2.8481604322766,
+          "ci95": [
+            43.764550896056775,
+            57.91499637374827
+          ],
+          "seeds": 3
+        },
+        "coefficient_matrix_stable_rank": {
+          "mean": 2.4518160679945806,
+          "sd": 0.18003800284779237,
+          "ci95": [
+            2.0045768755777087,
+            2.8990552604114526
+          ],
+          "seeds": 3
+        },
+        "contribution_matrix_stable_rank": {
+          "mean": 2.313750324487638,
+          "sd": 0.21523430460361767,
+          "ci95": [
+            1.7790786715660594,
+            2.8484219774092163
+          ],
+          "seeds": 3
+        },
+        "mean_active_samples": {
+          "mean": 924.3333333333334,
+          "sd": 642.485974998813,
+          "ci95": [
+            -671.6903064121194,
+            2520.3569730787863
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "method": "Vanilla BSF",
+        "slots": "reserve_slots",
+        "seeds": 3,
+        "entropy_rank": {
+          "mean": 6.288390914850943,
+          "sd": 0.033550564476160394,
+          "ci95": [
+            6.205046692386235,
+            6.371735137315651
+          ],
+          "seeds": 3
+        },
+        "utilization_percent": {
+          "mean": 52.40325762375786,
+          "sd": 0.27958803730133885,
+          "ci95": [
+            51.70872243655195,
+            53.09779281096377
+          ],
+          "seeds": 3
+        },
+        "coefficient_matrix_stable_rank": {
+          "mean": 2.566070387178785,
+          "sd": 0.010750055600933879,
+          "ci95": [
+            2.539365768657423,
+            2.5927750057001466
+          ],
+          "seeds": 3
+        },
+        "contribution_matrix_stable_rank": {
+          "mean": 2.444049016946476,
+          "sd": 0.006792805369651117,
+          "ci95": [
+            2.4271747529593544,
+            2.4609232809335975
+          ],
+          "seeds": 3
+        },
+        "mean_active_samples": {
+          "mean": 781.3469320066334,
+          "sd": 12.146501019878093,
+          "ci95": [
+            751.1733507577144,
+            811.5205132555525
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "method": "Supervised Vanilla",
+        "slots": "concept_slots",
+        "seeds": 3,
+        "entropy_rank": {
+          "mean": 6.023012173487667,
+          "sd": 0.2704863086105973,
+          "ci95": [
+            5.351086933764272,
+            6.694937413211063
+          ],
+          "seeds": 3
+        },
+        "utilization_percent": {
+          "mean": 50.19176811239722,
+          "sd": 2.254052571754971,
+          "ci95": [
+            44.59239111470227,
+            55.791145110092174
+          ],
+          "seeds": 3
+        },
+        "coefficient_matrix_stable_rank": {
+          "mean": 2.475471652446446,
+          "sd": 0.16744431433685905,
+          "ci95": [
+            2.0595169165892324,
+            2.8914263883036595
+          ],
+          "seeds": 3
+        },
+        "contribution_matrix_stable_rank": {
+          "mean": 2.3525788440994835,
+          "sd": 0.21116784206375527,
+          "ci95": [
+            1.828008844126472,
+            2.877148844072495
+          ],
+          "seeds": 3
+        },
+        "mean_active_samples": {
+          "mean": 914.982456140351,
+          "sd": 506.93413476490514,
+          "ci95": [
+            -344.3117453870683,
+            2174.2766576677705
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "method": "Supervised Vanilla",
+        "slots": "reserve_slots",
+        "seeds": 3,
+        "entropy_rank": {
+          "mean": 6.15579886269564,
+          "sd": 0.06903088058957056,
+          "ci95": [
+            5.984316648949879,
+            6.327281076441401
+          ],
+          "seeds": 3
+        },
+        "utilization_percent": {
+          "mean": 51.29832385579701,
+          "sd": 0.5752573382464213,
+          "ci95": [
+            49.86930540791567,
+            52.72734230367835
+          ],
+          "seeds": 3
+        },
+        "coefficient_matrix_stable_rank": {
+          "mean": 2.54489187050927,
+          "sd": 0.020297106208089943,
+          "ci95": [
+            2.4944710635389766,
+            2.595312677479563
+          ],
+          "seeds": 3
+        },
+        "contribution_matrix_stable_rank": {
+          "mean": 2.431266783104544,
+          "sd": 0.024504195365820203,
+          "ci95": [
+            2.3703949873009664,
+            2.492138578908121
+          ],
+          "seeds": 3
+        },
+        "mean_active_samples": {
+          "mean": 781.5237147595357,
+          "sd": 9.583829413465883,
+          "ci95": [
+            757.716162690858,
+            805.3312668282133
+          ],
+          "seeds": 3
+        }
+      }
+    ],
+    "uncertainty": "SD describes variation over three seeds; t95 intervals use df2. Image bootstrap conditions on fitted models; it does not replace seed uncertainty.",
+    "previously_inspected_test": false,
+    "evaluation_scope": "VOC official validation; held out from fitting/tuning, not official test"
+  },
+  "COCO": {
+    "cohort": "coco",
+    "means": [
+      {
+        "kind": "agf_g",
+        "label": "GGF",
+        "capture": {
+          "mean": 42.53705532524009,
+          "sd": 0.2052596354539991,
+          "ci95": [
+            42.027162124115,
+            43.04694852636518
+          ],
+          "seeds": 3
+        },
+        "patch_AP": {
+          "mean": 76.38108486115601,
+          "sd": 0.23674873299680527,
+          "ci95": [
+            75.79296840531683,
+            76.9692013169952
+          ],
+          "seeds": 3
+        },
+        "VE": {
+          "mean": 71.1327950785237,
+          "sd": 0.027088493392011193,
+          "ci95": [
+            71.06550353053494,
+            71.20008662651246
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "kind": "released_vanilla",
+        "label": "Vanilla BSF",
+        "capture": {
+          "mean": 23.28808123427631,
+          "sd": 0.8352070171609679,
+          "ci95": [
+            21.213311985853956,
+            25.36285048269866
+          ],
+          "seeds": 3
+        },
+        "patch_AP": {
+          "mean": 58.71911165839046,
+          "sd": 0.32076977459740386,
+          "ci95": [
+            57.92227536453327,
+            59.51594795224765
+          ],
+          "seeds": 3
+        },
+        "VE": {
+          "mean": 73.36885021958618,
+          "sd": 0.156880771601332,
+          "ci95": [
+            72.97913677860765,
+            73.7585636605647
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "kind": "supervised_vanilla",
+        "label": "Supervised Vanilla",
+        "capture": {
+          "mean": 41.80230849173146,
+          "sd": 0.23965370307080489,
+          "ci95": [
+            41.20697569018004,
+            42.39764129328288
+          ],
+          "seeds": 3
+        },
+        "patch_AP": {
+          "mean": 65.47258939441669,
+          "sd": 0.21776232420271366,
+          "ci95": [
+            64.93163779267303,
+            66.01354099616034
+          ],
+          "seeds": 3
+        },
+        "VE": {
+          "mean": 72.48585408255731,
+          "sd": 0.10124766088333381,
+          "ci95": [
+            72.23434094993362,
+            72.737367215181
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "kind": "concept_sae",
+        "label": "Concept-SAE (released; DINO/mask adaptation)",
+        "capture": {
+          "mean": 1.1562091968324701,
+          "sd": 0.06723232319575832,
+          "ci95": [
+            0.9891948473353701,
+            1.32322354632957
+          ],
+          "seeds": 3
+        },
+        "patch_AP": {
+          "mean": 34.328653906367165,
+          "sd": 0.33016582744156786,
+          "ci95": [
+            33.50847652329848,
+            35.148831289435854
+          ],
+          "seeds": 3
+        },
+        "VE": {
+          "mean": 55.5907259969425,
+          "sd": 0.12234096911774758,
+          "ci95": [
+            55.28681418186879,
+            55.894637812016214
+          ],
+          "seeds": 3
+        }
+      }
+    ],
+    "paired_metric_differences": [
+      {
+        "comparison": "GGF minus Vanilla BSF",
+        "capture": {
+          "mean": 19.24897409096378,
+          "sd": 1.0153230071239647,
+          "ci95": [
+            16.726771919390647,
+            21.771176262536915
+          ],
+          "seeds": 3
+        },
+        "patch_AP": {
+          "mean": 17.66197320276554,
+          "sd": 0.10631835219324899,
+          "ci95": [
+            17.39786377463441,
+            17.926082630896673
+          ],
+          "seeds": 3
+        },
+        "VE": {
+          "mean": -2.236055141062469,
+          "sd": 0.16644618924546464,
+          "ci95": [
+            -2.649530396739136,
+            -1.8225798853858022
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "comparison": "GGF minus Supervised Vanilla",
+        "capture": {
+          "mean": 0.7347468335086335,
+          "sd": 0.31764253610744475,
+          "ci95": [
+            -0.0543209692821075,
+            1.5238146362993743
+          ],
+          "seeds": 3
+        },
+        "patch_AP": {
+          "mean": 10.908495466739312,
+          "sd": 0.08214475647950184,
+          "ci95": [
+            10.704436579348563,
+            11.112554354130062
+          ],
+          "seeds": 3
+        },
+        "VE": {
+          "mean": -1.3530590040336188,
+          "sd": 0.1091190775743875,
+          "ci95": [
+            -1.6241258197042052,
+            -1.0819921883630323
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "comparison": "GGF minus Concept-SAE task adaptation",
+        "capture": {
+          "mean": 41.38084612840762,
+          "sd": 0.14238317410317444,
+          "ci95": [
+            41.027146716103594,
+            41.73454554071164
+          ],
+          "seeds": 3
+        },
+        "patch_AP": {
+          "mean": 42.05243095478884,
+          "sd": 0.42029731468823384,
+          "ci95": [
+            41.00835454523734,
+            43.09650736434034
+          ],
+          "seeds": 3
+        },
+        "VE": {
+          "mean": 15.54206908158119,
+          "sd": 0.09555316316648686,
+          "ci95": [
+            15.304701865485228,
+            15.779436297677151
+          ],
+          "seeds": 3
+        }
+      }
+    ],
+    "consolidation": [
+      {
+        "kind": "agf_g",
+        "label": "GGF",
+        "capture_1_2_4": [
+          {
+            "mean": 42.537055288190054,
+            "sd": 0.20525966000660625,
+            "ci95": [
+              42.02716202607291,
+              43.0469485503072
+            ],
+            "seeds": 3
+          },
+          {
+            "mean": 46.92121589468109,
+            "sd": 0.09575974811125111,
+            "ci95": [
+              46.683335493133164,
+              47.159096296229016
+            ],
+            "seeds": 3
+          },
+          {
+            "mean": 52.138659037580645,
+            "sd": 0.29511714636797126,
+            "ci95": [
+              51.40554740491291,
+              52.87177067024838
+            ],
+            "seeds": 3
+          }
+        ],
+        "target_AP_drop": {
+          "mean": 47.170369588771955,
+          "sd": 1.0413472944509545,
+          "ci95": [
+            44.58351950362922,
+            49.75721967391469
+          ],
+          "seeds": 3
+        },
+        "random_AP_drop": {
+          "mean": 0.010902346548434779,
+          "sd": 0.021105956485314034,
+          "ci95": [
+            -0.04152775589864553,
+            0.06333244899551509
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "kind": "released_vanilla",
+        "label": "Vanilla BSF",
+        "capture_1_2_4": [
+          {
+            "mean": 23.302044302267188,
+            "sd": 0.8473533806846213,
+            "ci95": [
+              21.19710181415547,
+              25.406986790378905
+            ],
+            "seeds": 3
+          },
+          {
+            "mean": 33.641840114481845,
+            "sd": 0.7702948186352809,
+            "ci95": [
+              31.728321706367776,
+              35.55535852259592
+            ],
+            "seeds": 3
+          },
+          {
+            "mean": 44.93484134462238,
+            "sd": 0.9149717721053444,
+            "ci95": [
+              42.66192546037663,
+              47.207757228868125
+            ],
+            "seeds": 3
+          }
+        ],
+        "target_AP_drop": {
+          "mean": 6.324324609609337,
+          "sd": 1.3222522094416083,
+          "ci95": [
+            3.0396680317309466,
+            9.608981187487728
+          ],
+          "seeds": 3
+        },
+        "random_AP_drop": {
+          "mean": 0.018708690775319434,
+          "sd": 0.00884029268955786,
+          "ci95": [
+            -0.003251813677449856,
+            0.04066919522808872
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "kind": "supervised_vanilla",
+        "label": "Supervised Vanilla",
+        "capture_1_2_4": [
+          {
+            "mean": 41.80230842811829,
+            "sd": 0.23965370853953935,
+            "ci95": [
+              41.20697561298177,
+              42.3976412432548
+            ],
+            "seeds": 3
+          },
+          {
+            "mean": 45.88268812933299,
+            "sd": 0.2817037275410185,
+            "ci95": [
+              45.18289727621638,
+              46.5824789824496
+            ],
+            "seeds": 3
+          },
+          {
+            "mean": 50.81287446092875,
+            "sd": 0.3684172089573153,
+            "ci95": [
+              49.89767537851142,
+              51.72807354334607
+            ],
+            "seeds": 3
+          }
+        ],
+        "target_AP_drop": {
+          "mean": 41.098882518395676,
+          "sd": 1.3587411241671354,
+          "ci95": [
+            37.723582451387884,
+            44.47418258540347
+          ],
+          "seeds": 3
+        },
+        "random_AP_drop": {
+          "mean": 0.021372367028935513,
+          "sd": 0.024296031316563417,
+          "ci95": [
+            -0.038982320609658755,
+            0.08172705466752979
+          ],
+          "seeds": 3
+        }
+      }
+    ],
+    "paired_consolidation": [
+      {
+        "comparison": "GGF minus Vanilla BSF",
+        "per_seed": [
+          {
+            "seed": 21,
+            "difference_1_2_4": [
+              0.19646605882637186,
+              0.12695649239721918,
+              0.06315637740461155
+            ],
+            "image_bootstrap95": [
+              [
+                0.19205013485513658,
+                0.1231128853364309,
+                0.060053702190882914
+              ],
+              [
+                0.2009286834571792,
+                0.13073395904892943,
+                0.06682252227296971
+              ]
+            ],
+            "replicates_valid": 1000
+          },
+          {
+            "seed": 22,
+            "difference_1_2_4": [
+              0.1805808149629016,
+              0.1309019326389104,
+              0.08196286753603069
+            ],
+            "image_bootstrap95": [
+              [
+                0.17599532078003982,
+                0.1269323838597817,
+                0.07879624608687091
+              ],
+              [
+                0.1849144651130039,
+                0.13451534441840754,
+                0.08513086843831294
+              ]
+            ],
+            "replicates_valid": 1000
+          },
+          {
+            "seed": 23,
+            "difference_1_2_4": [
+              0.2000034557884125,
+              0.14052284836984807,
+              0.07099528584810536
+            ],
+            "image_bootstrap95": [
+              [
+                0.19570887779366766,
+                0.13668672785617553,
+                0.06753343779567844
+              ],
+              [
+                0.2047853741392402,
+                0.14425554074783783,
+                0.07479663964377456
+              ]
+            ],
+            "replicates_valid": 1000
+          }
+        ],
+        "paired_seed_t95": [
+          {
+            "mean": 19.235010985922866,
+            "sd": 1.034483064551063,
+            "ci95": [
+              16.665212593136367,
+              21.804809378709365
+            ],
+            "seeds": 3
+          },
+          {
+            "mean": 13.279375780199254,
+            "sd": 0.6978234406336175,
+            "ci95": [
+              11.545886255199399,
+              15.01286530519911
+            ],
+            "seeds": 3
+          },
+          {
+            "mean": 7.203817692958253,
+            "sd": 0.9446519683018704,
+            "ci95": [
+              4.85717211404948,
+              9.550463271867027
+            ],
+            "seeds": 3
+          }
+        ]
+      },
+      {
+        "comparison": "GGF minus Supervised Vanilla",
+        "per_seed": [
+          {
+            "seed": 21,
+            "difference_1_2_4": [
+              0.00689992691026632,
+              0.008420383694175993,
+              0.011246531340316659
+            ],
+            "image_bootstrap95": [
+              [
+                0.004714241391388044,
+                0.00599517748541923,
+                0.008968084953338576
+              ],
+              [
+                0.008887821448636288,
+                0.01053872561266389,
+                0.014080511034104883
+              ]
+            ],
+            "replicates_valid": 1000
+          },
+          {
+            "seed": 22,
+            "difference_1_2_4": [
+              0.0044185489707763625,
+              0.010442385485693227,
+              0.01943587761283154
+            ],
+            "image_bootstrap95": [
+              [
+                0.0019935884436634893,
+                0.008001796614059493,
+                0.016992647210974387
+              ],
+              [
+                0.006612485539298789,
+                0.012548741733593263,
+                0.021656053298449336
+              ]
+            ],
+            "replicates_valid": 1000
+          },
+          {
+            "seed": 23,
+            "difference_1_2_4": [
+              0.010723929921110358,
+              0.012293063780573463,
+              0.009091128346408168
+            ],
+            "image_bootstrap95": [
+              [
+                0.00862917107769153,
+                0.010273753141063212,
+                0.006755649974187905
+              ],
+              [
+                0.012658218921709033,
+                0.0142928464850486,
+                0.011684139701687161
+              ]
+            ],
+            "replicates_valid": 1000
+          }
+        ],
+        "paired_seed_t95": [
+          {
+            "mean": 0.7347468600717679,
+            "sd": 0.3176425255806873,
+            "ci95": [
+              -0.05432091656905791,
+              1.5238146367125938
+            ],
+            "seeds": 3
+          },
+          {
+            "mean": 1.0385277653480893,
+            "sd": 0.19369715385802327,
+            "ci95": [
+              0.5573573607966307,
+              1.519698169899548
+            ],
+            "seeds": 3
+          },
+          {
+            "mean": 1.325784576651879,
+            "sd": 0.5457792469220346,
+            "ci95": [
+              -0.030006232901041097,
+              2.6815753862047993
+            ],
+            "seeds": 3
+          }
+        ]
+      }
+    ],
+    "rank": [
+      {
+        "method": "GGF",
+        "seed": 21,
+        "slots": "concept_slots",
+        "allocated_blocks": 75,
+        "estimated_nonzero_variance": 75,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 5584.1466666666665,
+        "entropy_rank": 6.162070164433283,
+        "utilization_percent": 51.3505847036107,
+        "coefficient_matrix_stable_rank": 2.251889657622505,
+        "contribution_matrix_stable_rank": 2.153178246129614
+      },
+      {
+        "method": "GGF",
+        "seed": 21,
+        "slots": "reserve_slots",
+        "allocated_blocks": 949,
+        "estimated_nonzero_variance": 949,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 404.6417281348788,
+        "entropy_rank": 6.016167015869978,
+        "utilization_percent": 50.13472513224983,
+        "coefficient_matrix_stable_rank": 2.475448670536202,
+        "contribution_matrix_stable_rank": 2.370814730813993
+      },
+      {
+        "method": "GGF",
+        "seed": 22,
+        "slots": "concept_slots",
+        "allocated_blocks": 75,
+        "estimated_nonzero_variance": 75,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 5495.28,
+        "entropy_rank": 6.220378225360131,
+        "utilization_percent": 51.83648521133443,
+        "coefficient_matrix_stable_rank": 2.2703300228545236,
+        "contribution_matrix_stable_rank": 2.164397942191722
+      },
+      {
+        "method": "GGF",
+        "seed": 22,
+        "slots": "reserve_slots",
+        "allocated_blocks": 949,
+        "estimated_nonzero_variance": 949,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 411.6649104320337,
+        "entropy_rank": 5.9288698460577285,
+        "utilization_percent": 49.407248717147745,
+        "coefficient_matrix_stable_rank": 2.4342487103915698,
+        "contribution_matrix_stable_rank": 2.3356934415845694
+      },
+      {
+        "method": "GGF",
+        "seed": 23,
+        "slots": "concept_slots",
+        "allocated_blocks": 75,
+        "estimated_nonzero_variance": 75,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 5554.346666666666,
+        "entropy_rank": 6.1309083468391545,
+        "utilization_percent": 51.090902890326284,
+        "coefficient_matrix_stable_rank": 2.2429595816081456,
+        "contribution_matrix_stable_rank": 2.1422418254768947
+      },
+      {
+        "method": "GGF",
+        "seed": 23,
+        "slots": "reserve_slots",
+        "allocated_blocks": 949,
+        "estimated_nonzero_variance": 949,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 406.9968387776607,
+        "entropy_rank": 5.863778585103649,
+        "utilization_percent": 48.864821542530414,
+        "coefficient_matrix_stable_rank": 2.4209531767238794,
+        "contribution_matrix_stable_rank": 2.321802425666595
+      },
+      {
+        "method": "Vanilla BSF",
+        "seed": 21,
+        "slots": "concept_slots",
+        "allocated_blocks": 75,
+        "estimated_nonzero_variance": 75,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 643.68,
+        "entropy_rank": 6.441774106786096,
+        "utilization_percent": 53.68145088988414,
+        "coefficient_matrix_stable_rank": 2.6108140384939102,
+        "contribution_matrix_stable_rank": 2.434584528891268
+      },
+      {
+        "method": "Vanilla BSF",
+        "seed": 21,
+        "slots": "reserve_slots",
+        "allocated_blocks": 949,
+        "estimated_nonzero_variance": 949,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 795.0895679662802,
+        "entropy_rank": 6.396613076392889,
+        "utilization_percent": 53.305108969940754,
+        "coefficient_matrix_stable_rank": 2.597487550715293,
+        "contribution_matrix_stable_rank": 2.427884478676829
+      },
+      {
+        "method": "Vanilla BSF",
+        "seed": 22,
+        "slots": "concept_slots",
+        "allocated_blocks": 75,
+        "estimated_nonzero_variance": 75,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 497.88,
+        "entropy_rank": 6.358663726617303,
+        "utilization_percent": 52.98886438847753,
+        "coefficient_matrix_stable_rank": 2.55398887554016,
+        "contribution_matrix_stable_rank": 2.4422502517374443
+      },
+      {
+        "method": "Vanilla BSF",
+        "seed": 22,
+        "slots": "reserve_slots",
+        "allocated_blocks": 949,
+        "estimated_nonzero_variance": 949,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 806.6122233930453,
+        "entropy_rank": 6.398202962907188,
+        "utilization_percent": 53.318358024226576,
+        "coefficient_matrix_stable_rank": 2.5972238759908555,
+        "contribution_matrix_stable_rank": 2.4252346691969917
+      },
+      {
+        "method": "Vanilla BSF",
+        "seed": 23,
+        "slots": "concept_slots",
+        "allocated_blocks": 75,
+        "estimated_nonzero_variance": 75,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 708.7733333333333,
+        "entropy_rank": 6.470369141449941,
+        "utilization_percent": 53.919742845416174,
+        "coefficient_matrix_stable_rank": 2.5778822456196324,
+        "contribution_matrix_stable_rank": 2.4151016938559375
+      },
+      {
+        "method": "Vanilla BSF",
+        "seed": 23,
+        "slots": "reserve_slots",
+        "allocated_blocks": 949,
+        "estimated_nonzero_variance": 949,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 789.945205479452,
+        "entropy_rank": 6.280932494832744,
+        "utilization_percent": 52.3411041236062,
+        "coefficient_matrix_stable_rank": 2.5486737516559814,
+        "contribution_matrix_stable_rank": 2.3972196297875947
+      },
+      {
+        "method": "Supervised Vanilla",
+        "seed": 21,
+        "slots": "concept_slots",
+        "allocated_blocks": 75,
+        "estimated_nonzero_variance": 75,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 704.8,
+        "entropy_rank": 6.352048285722315,
+        "utilization_percent": 52.93373571435262,
+        "coefficient_matrix_stable_rank": 2.616831531321592,
+        "contribution_matrix_stable_rank": 2.457876415082754
+      },
+      {
+        "method": "Supervised Vanilla",
+        "seed": 21,
+        "slots": "reserve_slots",
+        "allocated_blocks": 949,
+        "estimated_nonzero_variance": 948,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 1,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 790.259220231823,
+        "entropy_rank": 6.288928352728311,
+        "utilization_percent": 52.40773627273592,
+        "coefficient_matrix_stable_rank": 2.583042195442535,
+        "contribution_matrix_stable_rank": 2.4227537177780216
+      },
+      {
+        "method": "Supervised Vanilla",
+        "seed": 22,
+        "slots": "concept_slots",
+        "allocated_blocks": 75,
+        "estimated_nonzero_variance": 75,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 471.6666666666667,
+        "entropy_rank": 6.139406206551294,
+        "utilization_percent": 51.161718387927465,
+        "coefficient_matrix_stable_rank": 2.5097951506153207,
+        "contribution_matrix_stable_rank": 2.413611758828914
+      },
+      {
+        "method": "Supervised Vanilla",
+        "seed": 22,
+        "slots": "reserve_slots",
+        "allocated_blocks": 949,
+        "estimated_nonzero_variance": 949,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 808.6838777660696,
+        "entropy_rank": 6.260810282230537,
+        "utilization_percent": 52.17341901858781,
+        "coefficient_matrix_stable_rank": 2.575901539081218,
+        "contribution_matrix_stable_rank": 2.4147909696048333
+      },
+      {
+        "method": "Supervised Vanilla",
+        "seed": 23,
+        "slots": "concept_slots",
+        "allocated_blocks": 75,
+        "estimated_nonzero_variance": 75,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 833.76,
+        "entropy_rank": 6.37794879257283,
+        "utilization_percent": 53.14957327144027,
+        "coefficient_matrix_stable_rank": 2.5779354046468046,
+        "contribution_matrix_stable_rank": 2.422899788029093
+      },
+      {
+        "method": "Supervised Vanilla",
+        "seed": 23,
+        "slots": "reserve_slots",
+        "allocated_blocks": 949,
+        "estimated_nonzero_variance": 949,
+        "inactive_blocks": 0,
+        "insufficient_sample_blocks": 0,
+        "zero_variance_blocks": 0,
+        "mean_active_samples": 780.0674394099052,
+        "entropy_rank": 6.118369951738307,
+        "utilization_percent": 50.986416264485904,
+        "coefficient_matrix_stable_rank": 2.5113285364495797,
+        "contribution_matrix_stable_rank": 2.366901735290646
+      }
+    ],
+    "rank_means": [
+      {
+        "method": "GGF",
+        "slots": "concept_slots",
+        "seeds": 3,
+        "entropy_rank": {
+          "mean": 6.171118912210855,
+          "sd": 0.045416127839085545,
+          "ci95": [
+            6.058298996325507,
+            6.283938828096203
+          ],
+          "seeds": 3
+        },
+        "utilization_percent": {
+          "mean": 51.425990935090475,
+          "sd": 0.37846773199238276,
+          "ci95": [
+            50.48582496937923,
+            52.36615690080172
+          ],
+          "seeds": 3
+        },
+        "coefficient_matrix_stable_rank": {
+          "mean": 2.2550597540283914,
+          "sd": 0.013957879384860629,
+          "ci95": [
+            2.2203864594728264,
+            2.2897330485839564
+          ],
+          "seeds": 3
+        },
+        "contribution_matrix_stable_rank": {
+          "mean": 2.153272671266077,
+          "sd": 0.011078360169721005,
+          "ci95": [
+            2.125752498984461,
+            2.1807928435476924
+          ],
+          "seeds": 3
+        },
+        "mean_active_samples": {
+          "mean": 5544.59111111111,
+          "sd": 45.22940701865616,
+          "ci95": [
+            5432.235035457354,
+            5656.947186764866
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "method": "GGF",
+        "slots": "reserve_slots",
+        "seeds": 3,
+        "entropy_rank": {
+          "mean": 5.936271815677119,
+          "sd": 0.0764633920483574,
+          "ci95": [
+            5.746326219923798,
+            6.12621741143044
+          ],
+          "seeds": 3
+        },
+        "utilization_percent": {
+          "mean": 49.46893179730933,
+          "sd": 0.6371949337363155,
+          "ci95": [
+            47.886051832698314,
+            51.05181176192035
+          ],
+          "seeds": 3
+        },
+        "coefficient_matrix_stable_rank": {
+          "mean": 2.443550185883884,
+          "sd": 0.02841351432351895,
+          "ci95": [
+            2.372967103430347,
+            2.514133268337421
+          ],
+          "seeds": 3
+        },
+        "contribution_matrix_stable_rank": {
+          "mean": 2.3427701993550527,
+          "sd": 0.0252608766548588,
+          "ci95": [
+            2.2800187030256223,
+            2.405521695684483
+          ],
+          "seeds": 3
+        },
+        "mean_active_samples": {
+          "mean": 407.7678257815244,
+          "sd": 3.5745052965218234,
+          "ci95": [
+            398.88826237369324,
+            416.6473891893555
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "method": "Vanilla BSF",
+        "slots": "concept_slots",
+        "seeds": 3,
+        "entropy_rank": {
+          "mean": 6.423602324951115,
+          "sd": 0.05802745183985418,
+          "ci95": [
+            6.279454143520743,
+            6.567750506381486
+          ],
+          "seeds": 3
+        },
+        "utilization_percent": {
+          "mean": 53.53001937459262,
+          "sd": 0.4835620986654484,
+          "ci95": [
+            52.32878452933953,
+            54.73125421984571
+          ],
+          "seeds": 3
+        },
+        "coefficient_matrix_stable_rank": {
+          "mean": 2.5808950532179007,
+          "sd": 0.028532131771008797,
+          "ci95": [
+            2.5100173086897866,
+            2.651772797746015
+          ],
+          "seeds": 3
+        },
+        "contribution_matrix_stable_rank": {
+          "mean": 2.4306454914948836,
+          "sd": 0.013996358828958659,
+          "ci95": [
+            2.3958766087011085,
+            2.4654143742886587
+          ],
+          "seeds": 3
+        },
+        "mean_active_samples": {
+          "mean": 616.7777777777777,
+          "sd": 107.98979896953915,
+          "ci95": [
+            348.51624567653295,
+            885.0393098790225
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "method": "Vanilla BSF",
+        "slots": "reserve_slots",
+        "seeds": 3,
+        "entropy_rank": {
+          "mean": 6.3585828447109405,
+          "sd": 0.0672518740403332,
+          "ci95": [
+            6.191519928223536,
+            6.525645761198345
+          ],
+          "seeds": 3
+        },
+        "utilization_percent": {
+          "mean": 52.98819037259117,
+          "sd": 0.5604322836694478,
+          "ci95": [
+            51.59599940186279,
+            54.38038134331955
+          ],
+          "seeds": 3
+        },
+        "coefficient_matrix_stable_rank": {
+          "mean": 2.581128392787377,
+          "sd": 0.028106852888856382,
+          "ci95": [
+            2.5113070995684152,
+            2.6509496860063386
+          ],
+          "seeds": 3
+        },
+        "contribution_matrix_stable_rank": {
+          "mean": 2.416779592553805,
+          "sd": 0.016991158881356862,
+          "ci95": [
+            2.374571214010808,
+            2.458987971096802
+          ],
+          "seeds": 3
+        },
+        "mean_active_samples": {
+          "mean": 797.2156656129258,
+          "sd": 8.534494122987798,
+          "ci95": [
+            776.014806911563,
+            818.4165243142886
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "method": "Supervised Vanilla",
+        "slots": "concept_slots",
+        "seeds": 3,
+        "entropy_rank": {
+          "mean": 6.289801094948814,
+          "sd": 0.1308880281227241,
+          "ci95": [
+            5.964657208276547,
+            6.614944981621081
+          ],
+          "seeds": 3
+        },
+        "utilization_percent": {
+          "mean": 52.41500912457345,
+          "sd": 1.090733567689365,
+          "ci95": [
+            49.705476735637895,
+            55.12454151350901
+          ],
+          "seeds": 3
+        },
+        "coefficient_matrix_stable_rank": {
+          "mean": 2.5681873621945726,
+          "sd": 0.05417993122376913,
+          "ci95": [
+            2.4335969518232363,
+            2.702777772565909
+          ],
+          "seeds": 3
+        },
+        "contribution_matrix_stable_rank": {
+          "mean": 2.4314626539802537,
+          "sd": 0.023341635617300283,
+          "ci95": [
+            2.373478816690102,
+            2.4894464912704053
+          ],
+          "seeds": 3
+        },
+        "mean_active_samples": {
+          "mean": 670.0755555555555,
+          "sd": 183.52720722713727,
+          "ci95": [
+            214.16869895605583,
+            1125.9824121550553
+          ],
+          "seeds": 3
+        }
+      },
+      {
+        "method": "Supervised Vanilla",
+        "slots": "reserve_slots",
+        "seeds": 3,
+        "entropy_rank": {
+          "mean": 6.222702862232385,
+          "sd": 0.09144218737132975,
+          "ci95": [
+            5.99554787614114,
+            6.44985784832363
+          ],
+          "seeds": 3
+        },
+        "utilization_percent": {
+          "mean": 51.855857185269876,
+          "sd": 0.7620182280944066,
+          "ci95": [
+            49.962898967842854,
+            53.7488154026969
+          ],
+          "seeds": 3
+        },
+        "coefficient_matrix_stable_rank": {
+          "mean": 2.5567574236577775,
+          "sd": 0.03950424139315896,
+          "ci95": [
+            2.458623447840159,
+            2.654891399475396
+          ],
+          "seeds": 3
+        },
+        "contribution_matrix_stable_rank": {
+          "mean": 2.401482140891167,
+          "sd": 0.030211002602360086,
+          "ci95": [
+            2.326433850017787,
+            2.4765304317645467
+          ],
+          "seeds": 3
+        },
+        "mean_active_samples": {
+          "mean": 793.0035124692658,
+          "sd": 14.504257683914972,
+          "ci95": [
+            756.9729389761546,
+            829.034085962377
+          ],
+          "seeds": 3
+        }
+      }
+    ],
+    "uncertainty": "SD describes variation over three seeds; t95 intervals use df2. Image bootstrap conditions on fitted models; it does not replace seed uncertainty.",
+    "previously_inspected_test": true,
+    "evaluation_scope": "Previously inspected COCO audit"
+  },
+  "VOC_resources": [
+    {
+      "method": "Vanilla BSF",
+      "parameters_M": 18.886656,
+      "loop_min_mean": 7.50231278988399,
+      "loop_min_SD": 0.016713200110121857,
+      "allocated_GiB": 0.7442965507507324,
+      "reserved_GiB": 0.853515625,
+      "invocations": 3
+    },
+    {
+      "method": "Supervised Vanilla",
+      "parameters_M": 18.886694,
+      "loop_min_mean": 11.320134646073484,
+      "loop_min_SD": 0.027789940841534626,
+      "allocated_GiB": 0.8667244911193848,
+      "reserved_GiB": 2.103515625,
+      "invocations": 3
+    },
+    {
+      "method": "GGF",
+      "parameters_M": 18.886696,
+      "loop_min_mean": 11.70078991697165,
+      "loop_min_SD": 0.04251909935356955,
+      "allocated_GiB": 1.0419459342956543,
+      "reserved_GiB": 2.2109375,
+      "invocations": 4
+    },
+    {
+      "method": "Concept-SAE",
+      "parameters_M": 92.000983,
+      "loop_min_mean": 19.46864148393868,
+      "loop_min_SD": 0.6617843713886878,
+      "allocated_GiB": 1.318509578704834,
+      "reserved_GiB": 1.48046875,
+      "invocations": 1
+    }
+  ],
+  "VOC_parameter_ratio": 4.871205794809214,
+  "COCO_parameter_ratio": 9.272367411158095,
+  "VOC_loop_ratio_Concept_to_GGF": 1.663874116370553,
+  "resource_scope": "T4 implementation timings under each method protocol; BSF timers exclude pre-loop batch/noise preparation while Concept timers include internal microbatch handling. Both exclude validation, checkpointing, feature extraction and hyperparameter search. Shared Vanilla warm-up is charged to both individual methods; selected fixed-weight candidate only. Peaks are observed allocated high-water marks over logged fit invocations, not standardized memory/inference benchmarks.",
+  "SLiCS_comparison_resources": [
+    {
+      "method": "SLiCS",
+      "parameters": 691200,
+      "loop_min_mean": 126.96293885729919,
+      "loop_min_SD": 1.6305251003155685
+    },
+    {
+      "method": "GGF",
+      "parameters": 1383452,
+      "loop_min_mean": 8.655255269806638,
+      "loop_min_SD": 0.3322218319354031
+    }
+  ],
+  "hashes": {
+    "coco_concept_cost.jsonl": "33712886912f023e098b0ee243968596a96dc92b1be0dd004cccd6bd2b2ff7b5",
+    "coco_cost.jsonl": "e2b393046e69c0f6fff97451a274870e19374dc70aaac7cb924709c72cf41703",
+    "coco_CS21.json": "c1e8243fca2242fb13b063930529e6ae67780cf3e64e0f744ddcfae6203f488d",
+    "coco_CS22.json": "579b42ac0d86d268f72644c445271ce38a825f941f785413e6692657320a313a",
+    "coco_CS23.json": "8285a72a269ae73609ff3432b54210f5de4210646265d6e5ab5711dea60298c3",
+    "coco_events.jsonl": "20e8293f67d21f7650f7af2ba2d8005bfa982350648217595400810474a3a93a",
+    "coco_per_run.csv": "06991ddd8b33023b1106cf81508d7de31eea7c3f195e41bed500afd57d2d679c",
+    "coco_summary.json": "bf08d6f18dc10bdad853da53dd069404e7e9e3cc5d944af8ce1311443bffdb0b",
+    "completion.json": "d04b087c89ed6431e3388b490ad0f6e527924d4440522e853cc647233e86df96",
+    "hardware.json": "7b56d71659f3da1a1e78c71ff09cd20580ebf6ac41f1b1180a66b38aca4d4153",
+    "slics_compute_receipts.json": "f61e58a3487037b78620dee48386137f718250554f300308fde816a7e431e10d",
+    "slics_means.csv": "ec258ff3d738787b378076a770e28075dab59cdc0d7eaeec2a9b98c2bc6b1731",
+    "slics_runtime.json": "8d1ce7bb57167e22d342cbff5ead816dd092d495a467503830f92ca13ef425bd",
+    "slics_training_receipts.json": "f32dc9e240dbef92fd57e954cb542f608e986f99c074cb4b992dfe4d4dd33f5a",
+    "voc_concept_cost.jsonl": "afb7062d533d69bbcd3c9637352ed2f26e3537f3dab0862381fbd721b381aa63",
+    "voc_cost.jsonl": "58febbfc0662876d5ff746e760280ee582ee9f84f600cd30916c0998528f1995",
+    "voc_CS21.json": "59c2f2fd211183b863a8f9e3fe120337579f3f96cdab37cf09dd07811e640e63",
+    "voc_CS22.json": "1a7d8431cbcaa641a87877b7a9ff32056bca5b3d75c1db091c476cd24eed21f4",
+    "voc_CS23.json": "276ef6d462b08d5eeef1817e79527c5d58d59492dc55b7d8842c32c12adc16d9",
+    "voc_events.jsonl": "9cbed764f5c6de47da344b454c3715263f7d4a6d7a28d4c3766ce49bdba65668",
+    "voc_per_run.csv": "9af56159fa3d0e5a5f7125947cdf803001aa8cfbeaec927387b183eadde61fe7",
+    "voc_summary.json": "b8daa5516314be304824adbc97f35a773163e23abeffcf8e002732d406bfed13"
+  }
+}

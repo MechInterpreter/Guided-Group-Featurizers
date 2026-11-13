@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p107",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I1285",
+      "yes": [56,59,63,66,73],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,60,61,62,65,67,68,69,71,72,74,75,76,77,79],
+      "unclear": [39,41,64],
+      "all_definitions_considered": true,
+      "rationale": "The bedroom contains a bed with pillows and quilt, a single desk chair, an open laptop with visible keyboard, and identifiable stacked books at the left. The desk is a work surface and the round bedside stand is not identifiable as a dining table. Small clear objects on the bedside stand could be a bottle and drinking cup, but their forms are too small to distinguish reliably from decorative objects; bottle and cup remain unclear. The small dark oval at the front left of the desk could be a computer mouse but lacks sufficient detail, so mouse is unclear. Framed pictures do not supply actual people or other depicted objects. All 75 definitions were individually considered over the whole crop."
+    },
+    {
+      "case_id": "I1286",
+      "yes": [0,4],
+      "no": [1,2,3,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual airplane with cockpit, wings, propeller and landing wheels occupies the airfield. A standing human with dark upper body and light trousers is visible beneath the left side of its wing. The background consists of hangar/building structures and airfield equipment; the airplane wheels are not road vehicles. All 75 definitions were individually considered, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1287",
+      "yes": [23],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Two actual giraffes are identifiable by long necks, heads, spotted bodies and legs. The palms, ground plants, rocks and elevated feeding structure supply no additional defined objects; the vegetation has no pot/container context. All 75 definitions were individually considered across the crop, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1288",
+      "yes": [0,14,39,72],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A person opens a refrigerator, and a real white cockatoo perches above it. The illuminated refrigerator interior contains identifiable capped narrow-neck bottles. Its other storage vessels are jars, tubs or a pitcher rather than identifiable drinking cups, wine glasses or bowls. The wooden cabinet and refrigerator compartments are not ovens or microwaves. All 75 definitions were individually considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1289",
+      "yes": [76],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Open scissors show paired metal blades and two black handle loops on a craft/work surface. The surrounding metallic findings, packaged pieces, black oval accessories and red strip do not have the defining structure of utensils, mouse, remote, phone or toothbrush. The work surface lacks dining-table context. All 75 definitions were individually considered, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1290",
+      "yes": [0,58,65,72],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,59,60,61,62,63,64,66,67,68,69,71,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Two people hold white handheld game remote controls with visible control bodies and use context. A refrigerator with attached magnets stands at the left, with a leafy plant in a dark container above it; additional plant foliage appears above the right cabinet. The glass-front cabinet is furniture rather than a display or cooking appliance, and the wrist straps are not bags or neckties. All 75 definitions were individually considered, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1291",
+      "yes": [],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [55],
+      "all_definitions_considered": true,
+      "rationale": "A close view shows a baked fruit dessert covered with powdered sugar and halved reddish-purple stone fruits. Those fruits are not identifiable apples or oranges, and the dessert is not a donut, sandwich or pizza. Cake is unclear because the crop does not resolve whether the pale baked base is cake or a tart/pie-style pastry, which the frozen cake definition excludes. All 75 definitions were individually considered across the crop."
+    },
+    {
+      "case_id": "I1292",
+      "yes": [0,8,29],
+      "no": [1,2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A person sits in an actual canoe on the water and holds a blue flying disc. The hull, gunwale and canoe interior establish boat identity, and the round disc has clear frisbee form. The paddle is neither a racket nor a surfboard, and the canoe's built-in seating does not identify a separate chair. All 75 definitions were individually considered, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1293",
+      "yes": [61,71],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,62,63,64,65,66,67,68,69,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Through the doorway an actual toilet bowl, seat and cistern are visible beside a wall-mounted washbasin with faucet and plumbing. The tissue box and bathroom storage/brush stand do not count as books, bottles or toothbrushes, and the sink is not a portable bowl. All 75 definitions were individually considered, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1294",
+      "yes": [0,1,8],
+      "no": [2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Two people are accompanied by actual pedal bicycles, with visible frames, handlebars and wheels. A large moored boat is identifiable by its hull, deck and rigging. The black rear bicycle carrier is attached luggage rather than an identifiable backpack or suitcase; dock railings and structures do not establish bench or chair presence. All 75 definitions were individually considered, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1295",
+      "yes": [22],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,18,19,20,21,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [17],
+      "all_definitions_considered": true,
+      "rationale": "Actual zebras show unmistakable black-and-white striped bodies, heads and legs. A brown equid-like torso and partial rising neck appear behind them at the upper right, but the head and diagnostic details are cropped out; horse remains unclear because another equid cannot be excluded. The unpotted trees and enclosure ground add no defined objects. All 75 definitions were individually considered."
+    },
+    {
+      "case_id": "I1296",
+      "yes": [0,62,64,66],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,63,65,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A person's bare legs and socked/shod feet rest on a computer work desk. Behind the feet are a standalone monitor and a separate computer keyboard, with a computer mouse at the right. This is desktop equipment rather than an integrated laptop; the desk is not a dining table, and objects shown on the display do not count as actual objects. All 75 definitions were individually considered, with no unresolved category ambiguity."
+    }
+  ]
+}

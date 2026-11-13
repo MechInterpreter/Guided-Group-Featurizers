@@ -1,0 +1,119 @@
+{
+  "upstream_commit": "219f121ea82d2b19200d1dac918396e6058d7eb9",
+  "tree_truncated": false,
+  "tree": [
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "assets/figure_1.png",
+    "assets/goodfire_logo.png",
+    "bsf/__init__.py",
+    "bsf/base.py",
+    "bsf/data.py",
+    "bsf/grassmannian.py",
+    "bsf/group_lasso.py",
+    "bsf/kernels.py",
+    "bsf/pos_mean.npy",
+    "bsf/train.py",
+    "bsf/vanilla.py",
+    "bsf/viz.py",
+    "pyproject.toml",
+    "rabbit.npz",
+    "requirements.txt",
+    "starters/01_grassmannian.ipynb",
+    "starters/02_group_lasso.ipynb",
+    "starters/03_vanilla.ipynb"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "305357500852f2c0673926a96a7fbf91e9f6a43c0ee14c1dddfb691ac7c4f49c",
+      "bytes": 5942,
+      "hits": []
+    },
+    {
+      "path": "bsf/__init__.py",
+      "sha256": "a37e245dbff59f451a47dd934fc5f899de79210a1c75f524063dbbc6cfe0bcc8",
+      "bytes": 860,
+      "hits": []
+    },
+    {
+      "path": "bsf/base.py",
+      "sha256": "4d873a68093462dcc0e16bfcd6ddadc6d00e97960d61d0e7460fb093fa14df80",
+      "bytes": 2533,
+      "hits": []
+    },
+    {
+      "path": "bsf/data.py",
+      "sha256": "ef005e2dc9962e0c94a5b502768c627fb7ab5fd0434674ffef5e14fb5facc338",
+      "bytes": 2296,
+      "hits": []
+    },
+    {
+      "path": "bsf/grassmannian.py",
+      "sha256": "c27bd74df37b9d287ca4d0859a6ebf80da272dd0418f76eb754ce82eaa5aaeb8",
+      "bytes": 1830,
+      "hits": []
+    },
+    {
+      "path": "bsf/group_lasso.py",
+      "sha256": "4a942fe3735847983c430c8095568333986e592887cbaf9ebceeba083fd2e6ea",
+      "bytes": 5914,
+      "hits": []
+    },
+    {
+      "path": "bsf/kernels.py",
+      "sha256": "78e44559ac81863825d31dc47dbf1c943c5b7f06a08516a2d8a1b099e9d48b43",
+      "bytes": 2299,
+      "hits": []
+    },
+    {
+      "path": "bsf/train.py",
+      "sha256": "d36b897f45d517acf5c82b3701230eff0fb1a21184e396ccaa1fc070740af6f1",
+      "bytes": 2791,
+      "hits": []
+    },
+    {
+      "path": "bsf/vanilla.py",
+      "sha256": "2463ae99a6eb88b2204e146a5b407bcfb6a4ed38716cded4e4b12aef3f3acd98",
+      "bytes": 1339,
+      "hits": []
+    },
+    {
+      "path": "bsf/viz.py",
+      "sha256": "862da8c021b0d64383822acb260c1cbd9eb5c78ea8568a661b7ec7ad18413566",
+      "bytes": 8316,
+      "hits": []
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "db0c115c8d9e0e2c431ff5495ba662d03acf1d075c74b6e599c605af8a68ff0d",
+      "bytes": 689,
+      "hits": []
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "9a9e8d9d34cf5a2c6672f6fba6b1e9fab9588aa2497b3d902181b73a350797dc",
+      "bytes": 56,
+      "hits": []
+    },
+    {
+      "path": "starters/01_grassmannian.ipynb",
+      "sha256": "5f42ab934b27f77e7008220b435d00875bd6ff637ff7148d2a5af259e49f4151",
+      "bytes": 4632198,
+      "hits": []
+    },
+    {
+      "path": "starters/02_group_lasso.ipynb",
+      "sha256": "07438540f65ce5092f6dcb720e2098119b178497dd6127640f3bec33e1c2833b",
+      "bytes": 3839366,
+      "hits": []
+    },
+    {
+      "path": "starters/03_vanilla.ipynb",
+      "sha256": "bd2283b143b93c2c65b2ebf2d82dbb1d38f0646a9ba1c3a354373d740c64ab04",
+      "bytes": 4027125,
+      "hits": []
+    }
+  ]
+}

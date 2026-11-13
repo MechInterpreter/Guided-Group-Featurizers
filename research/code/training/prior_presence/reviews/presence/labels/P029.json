@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p029",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I0349",
+      "yes": [0],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [31],
+      "all_definitions_considered": true,
+      "rationale": "People are visible among the ski racks and at the snowy slope base. The foreground equipment includes identifiable paired narrow skis and poles, which do not satisfy snowboard. Some overlapping wider equipment and bindings cannot be resolved well enough to exclude a snowboard, so category 31 remains unclear. The lift structures and railings do not establish an identifiable chair or bench seat. The canopy is a small roof structure rather than an umbrella. Every other definition was considered and no corresponding identifiable actual object is visible."
+    },
+    {
+      "case_id": "I0350",
+      "yes": [0,59],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A man's face and torso rest on a white bed pillow and bedding. The long Sony electronic unit beside his face has recorder-style controls, including a red record control, rather than an identifiable mobile-phone handset; it is also not a computer keyboard, remote-control unit, or standalone TV. The white fabric is supported by the resting-head and pillow context as bedding. All 75 definitions were considered; there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0351",
+      "yes": [0,35],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The batter, crouching catcher, and background people are actual humans. The catcher holds a clearly visible tan fielding mitt, satisfying baseball glove; the batter's hand coverings are not the basis for that judgment. The long raised object is a baseball bat, not a tennis racket, knife, or board. All 75 definitions were considered and no other category object or unresolved category ambiguity is visible."
+    },
+    {
+      "case_id": "I0352",
+      "yes": [16],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Two actual golden long-haired dogs occupy the pavement, one lying down and one lowering its head toward the other. The standing dog's yellow garment is a vest, not a backpack, handbag, necktie, or animal costume establishing a person. The pale blue-and-white material is at the dog's leg and does not identify a human. All 75 definitions were considered, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0353",
+      "yes": [],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77],
+      "unclear": [79],
+      "all_definitions_considered": true,
+      "rationale": "This is a tight close-up of a white cylindrical item with a rounded gray perforated end and pale projections behind it against a red background. The handle-and-head-like structure and possible bristle remnants leave toothbrush (79) plausible, but the visible end lacks sufficiently resolved bristles to identify it confidently. The holes merely resemble a face and do not establish a person, animal, or plush bear. There is no identifiable sink basin or tap assembly. Every other definition was explicitly considered and rejected on the saved crop."
+    },
+    {
+      "case_id": "I0354",
+      "yes": [76],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Small dark scissors at the top have paired blades and two handle loops. The remaining objects are decorative tags/cards, beads, ribbon, and metal charms. The printed small figure is not an actual person, loose tags are not bound books, decorative bows are not worn neckties, and the narrow scissors blades do not create a separate knife. The wood background is not established as a dining table. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0355",
+      "yes": [0,43,44,45,50],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,46,47,48,49,52,53,54,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [51,60],
+      "all_definitions_considered": true,
+      "rationale": "A human hand appears at the top. Broccoli florets and stalk pieces lie on the wooden preparation surface beside a large knife with blade and handle. A metal spoon bowl is visible at the right edge, and the translucent round food-storage bowl has a recognizable bowl body and rim despite its lid. The seasoning vessels are wide-mouth jars rather than bottles, and the circular perforated metal object is a grater, not a flying disc or food. Small orange fragments among the greens are insufficiently detailed to confirm carrot (51). The wooden surface could be a preparation counter or a table; eating-table identity (60) remains unclear. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0356",
+      "yes": [0],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Several small actual people work among rows of cultivated soil on the rocky hillside. Their upright or bent bodies and clothing are identifiable. Green crops are planted directly in soil without pots, and the rocky forms do not identify animals. No specific listed food such as broccoli or carrot is recognizable in the growing rows. All 75 definitions were considered; there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0357",
+      "yes": [4],
+      "no": [1,2,3,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [0],
+      "all_definitions_considered": true,
+      "rationale": "The riveted military aircraft fuselage and canopy clearly identify an actual airplane. The dark small shape at the rear/right of the cockpit could be a helmeted occupant or seat/cockpit equipment; no sufficiently resolved human feature decides person (0), so it remains unclear. The naval emblem is a painted graphic and does not count as actual depicted objects. The exterior lamps are aircraft fittings, not traffic signals. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0358",
+      "yes": [15,74],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual tabby-and-white cat with pointed ears, whiskered face, and fur occupies the lower crop. Above it is a round analog time-of-day clock with numerals and hands. The cat is not a bear or plush teddy bear. The dark supporting surface does not provide identifiable sofa, chair, bed, or dining-table structure. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0359",
+      "yes": [56,58,60,68,73],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,59,61,62,63,64,65,66,67,72,74,75,76,77,79],
+      "unclear": [39,41,69,71],
+      "all_definitions_considered": true,
+      "rationale": "The foreground contains a small square dining table and individual white chairs; dark chairs also stand by the glass table at right. Rear shelving contains bound book spines and a compact microwave with a dark rectangular door and control-side structure. A leafy plant in a small light pot is visible on the rear counter. Tiny rear vessels leave bottle (39) and drinking-cup (41) identities unresolved. The narrow built-in appliance on the left lacks enough detail to decide conventional oven (69), and the small pale fitting at the rear counter could be a sink faucet but does not establish sink (71) confidently. Cabinets do not establish a refrigerator, and dark chair backs are not TV screens. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0360",
+      "yes": [0,31],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A snow-covered snowboard deck with cyan/yellow edge graphics, binding straps, and a fitted boot fills the crop. The person's booted lower leg extends through the top edge in wearing context. The broad deck and snow binding distinguish snowboard from skateboard, surfboard, or a separate vehicle. All 75 definitions were considered; no unresolved category ambiguity remains."
+    }
+  ]
+}

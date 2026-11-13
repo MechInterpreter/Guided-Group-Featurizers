@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p012",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I0145",
+      "yes": [0,35],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The batter, catcher, and a small person portion at the left edge are actual people. The catcher visibly wears an open brown fielding mitt, so baseball glove is present. The bat, helmets, baseball, grass, and field markings do not meet any other listed category definition. No unresolved category ambiguity remains after considering each definition."
+    },
+    {
+      "case_id": "I0146",
+      "yes": [40,41,46,49,60],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,42,43,44,45,47,48,50,51,52,53,54,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Orange wedges and a whole banana sit on flat plates on a cloth-covered eating table. The rear contains a dark drink in a handleless drinking glass and a stemmed glass with visible stem and foot, supporting cup and wine glass respectively. The dishes are plates rather than bowls; fruit color alone is not evidence for apple or carrot. No other listed object is identifiable, and no unresolved category ambiguity remains after considering every definition."
+    },
+    {
+      "case_id": "I0147",
+      "yes": [41,43,54,60],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,44,45,46,47,48,49,50,51,52,53,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [42],
+      "all_definitions_considered": true,
+      "rationale": "Several sugared ring and filled doughnuts are in a basket on the eating table; a large handled mug is at lower right, and a riveted-handled table knife lies beside the butter plate on the left. The tiny cropped silver utensil along the upper edge could be a fork, but its tines are insufficiently resolved, so fork remains unclear. Flat saucers are not bowls. The rose has no visible vase or plant pot; printed packaging images are excluded. Every other definition was considered without additional supported objects."
+    },
+    {
+      "case_id": "I0148",
+      "yes": [0,77],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Two women are clearly visible with white bear-shaped plush toys, including a furry bear head with dark eye and muzzle at left. These are teddy bears, not actual bear animals. The small metallic beverage container between the women is a can rather than an identifiable bottle or drinking cup. Clothing, plush limbs, background structures, and printed graphics supply no further category objects. No unresolved category ambiguity remains after considering all definitions."
+    },
+    {
+      "case_id": "I0149",
+      "yes": [0,31],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual person in helmet, patterned jacket, blue trousers, and gloves is airborne with a snowboard secured beneath the boots. The broad rounded board and binding context support snowboard rather than skateboard or surfboard. Helmet decorations and board graphics do not constitute actual depicted objects. The concrete enclosure and snow fragments contain no other listed object. No unresolved category ambiguity remains after considering every definition."
+    },
+    {
+      "case_id": "I0150",
+      "yes": [39,48,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,41,42,43,44,45,46,47,49,50,51,52,53,54,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [0],
+      "all_definitions_considered": true,
+      "rationale": "Filled small rolls and sliced-bread sandwiches sit on a flat serving plate above the eating-table surface. A narrow-necked capped bottle is visible along the right edge. The blurred gray-and-blue background resembles a clothed seated torso, but no clear body contour or exposed human part establishes a person, so person remains unclear. The plate and tiered serving stand are not bowls; the filled rolls are sandwiches rather than plain bread, cake, or hot dogs. Each remaining category definition was considered without supporting evidence."
+    },
+    {
+      "case_id": "I0151",
+      "yes": [0,39,41],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,72,73,74,75,76,77,79],
+      "unclear": [71],
+      "all_definitions_considered": true,
+      "rationale": "A chef stands at a commercial kitchen work counter. The rear ledge holds narrow-neck bottles and small drinking-glass/cup vessels. At the far left a cropped dark recess and metal rim could be an inset sink basin, but the crop does not resolve the basin or tap assembly enough to identify it, leaving sink unclear. Large lidded cooking vessels are not bowls, and the metal under-counter fronts do not identify an oven or refrigerator. The preparation counter is not a dining table. Every remaining definition was considered without an additional supported object."
+    },
+    {
+      "case_id": "I0152",
+      "yes": [0,1,26],
+      "no": [3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [2],
+      "all_definitions_considered": true,
+      "rationale": "A woman rides a pedal bicycle, with additional parked bicycles visible on both sides. A soft brown shoulder bag with a long strap is a handbag rather than backpack or rigid suitcase. A tiny light-colored shape down the street may be a passenger car but is too small and occluded to identify, so car remains unclear. The downward arrow and no-entry signs are not stop signs, and the blue bicycle sign is a depiction rather than another actual bicycle. Each other definition was considered without additional visible evidence."
+    },
+    {
+      "case_id": "I0153",
+      "yes": [6],
+      "no": [0,1,2,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Two actual rail vehicles occupy the railway tracks, with a locomotive front and an adjacent blue rail carriage clearly visible. Their lamps and circular front fittings are not identifiable time-of-day clocks or traffic signal heads. No person is identifiable through the dark windows. Buildings, rail infrastructure, distant vegetation, and ordinary lamps supply no other listed object, including no plant in a pot. No unresolved category ambiguity remains after considering every definition."
+    },
+    {
+      "case_id": "I0154",
+      "yes": [10,14],
+      "no": [0,1,2,3,4,5,6,7,8,9,11,12,13,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual gull stands prominently on the grass. A red fire hydrant in the rear has its recognizable upright capped body and lateral outlets despite background blur. The house and unpotted trees do not establish any furniture, potted plant, or other listed object. No unresolved category ambiguity remains after considering each definition."
+    },
+    {
+      "case_id": "I0155",
+      "yes": [0,4,28],
+      "no": [1,2,3,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [27],
+      "all_definitions_considered": true,
+      "rationale": "Several actual people walk on an airfield with full-size airplanes behind them. The nearer walkers carry rigid rectangular handled luggage cases with structured sides, supporting suitcase rather than soft handbag or backpack. Small dark strips at the shirt collars may be neckties, but their shape is too small and obscured to distinguish confidently, leaving tie unclear. No road vehicle or other listed object is identifiable among the aircraft and ground equipment. All definitions were considered."
+    },
+    {
+      "case_id": "I0156",
+      "yes": [20],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [39,41],
+      "all_definitions_considered": true,
+      "rationale": "An actual elephant with visible head, trunk, tusk, and legs stands beside a tree. A small discarded white object in the lower foreground has a dark opening and vessel-like body, but its crushed or partly hidden shape does not distinguish bottle from drinking cup (or establish either), so both bottle and cup remain unclear. Scattered plant debris, logs, cloth tied around a pipe, and unpotted trees do not meet the remaining definitions. Every definition was considered."
+    }
+  ]
+}

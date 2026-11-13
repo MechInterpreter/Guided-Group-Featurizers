@@ -1,0 +1,9 @@
+{
+  "primary_question": "Do the strongest responses share a recognizable concept, object proxy, part, or visual property?",
+  "primary_score": "group",
+  "pca_role": "Descriptive supporting evidence only. No within-concept variation is required for semantic coherence.",
+  "exclude_from_final_summary": ["variation"],
+  "reason": "The original PCA interpretation conflated interpretable geometry with semantic coherence. These are distinct questions. Earlier numeric variation ratings are retained only as an audit trail and will not enter coherence scores or method rankings.",
+  "scope": "Selected groups and displayed examples only. A group score does not establish all-group consolidation, exclusivity, causal semantics, or independent human agreement.",
+  "reviewer": "AI assisted preliminary review for author verification"
+}

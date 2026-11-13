@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p007",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I0085",
+      "yes": [0,2,5,9,25],
+      "no": [1,3,4,6,8,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [7],
+      "all_definitions_considered": true,
+      "rationale": "The wet street contains a large road bus at left, recognizable passenger cars in the road, a person at the right edge, an umbrella canopy, and traffic signal heads above the road. A small light-colored vehicle in the distant center is too indistinct to resolve whether a truck body is present, so truck remains unclear. The dark curbside container is a bin, not a parking meter; trees have no pot context. All 75 definitions were considered across the crop."
+    },
+    {
+      "case_id": "I0086",
+      "yes": [0,65],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,63,64,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [62],
+      "all_definitions_considered": true,
+      "rationale": "A real person's torso, arms and hands occupy the left panel. The small white handheld controller and the swinging pose beside a tennis video game support an actual electronic remote. The right panel shows rendered tennis characters and a racket, which are excluded as actual people or sports equipment. A physical standalone display cannot be established from the game panel without a clear bezel or display body, so TV is unclear. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0087",
+      "yes": [53],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The crop is a close view of a pizza with a browned crust, melted topping, seafood pieces and scattered herbs. The white rounds and orange seafood are not identifiable apple, orange, carrot, or other listed produce; the herbs are not broccoli. No actual utensils, vessels, furniture, or other listed objects are visible. All 75 definitions were considered; there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0088",
+      "yes": [39,69,71],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,42,43,44,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,72,73,74,75,76,77,79],
+      "unclear": [41,45,68],
+      "all_definitions_considered": true,
+      "rationale": "The kitchen has an identifiable metal sink and tap, narrow-neck cleaning bottles beside it, and the partly cropped range/oven at the right with a front handle and hanging towel. Small partly obscured vessels by the draining area do not resolve cup versus bowl, so both remain unclear. The dark rectangular appliance portion above the range is insufficiently detailed to establish a microwave, which remains unclear. Wooden cabinets alone do not establish a refrigerator; the counter is not a dining table. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0089",
+      "yes": [0,2,25],
+      "no": [3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [1],
+      "all_definitions_considered": true,
+      "rationale": "Large tangible floral and patterned umbrella canopies cover the top and left, with a person in a hat and jacket beneath them. A cropped passenger car is visible along the lower-left street. The dark person and wheel/handlebar-like fragments at the lower-right edge leave bicycle identity unresolved. Printed flowers and leaves on the umbrellas are not actual plants. No other category remains unresolved after considering all 75 definitions."
+    },
+    {
+      "case_id": "I0090",
+      "yes": [0,79],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual bare-chested person is visible in the bathroom mirror. Several narrow-handled toothbrushes with clearly bristled heads stand at the right. Their white holder is a toiletry container, without drinking-cup identity; the small cropped shaving item at the bottom does not establish a sink or faucet assembly. All 75 definitions were considered; there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0091",
+      "yes": [5,11],
+      "no": [0,1,2,3,4,6,7,8,9,10,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The crop clearly shows the yellow body and windows of a full-size school bus and its extended red STOP sign with readable text. The red lamps are part of the school-bus stop assembly, not a separate traffic-control signal head. The dark service panel and its printed information are not a display or bound book. All 75 definitions were considered; no category ambiguity remains."
+    },
+    {
+      "case_id": "I0092",
+      "yes": [41,44,45,48,60],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,42,43,46,47,49,50,51,52,53,54,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A filled round bread sandwich sits on the food tray, alongside clearly open bowls of beans and yellow soup or porridge. Black spoons project from the bowls, and the branded cylindrical beverage vessels at the top have drinking-cup form. The meal and drinks rest on a visible eating-table surface around the tray. Beans and yellow soup do not identify any of the listed produce or hot-dog categories. All 75 definitions were considered; no category ambiguity remains."
+    },
+    {
+      "case_id": "I0093",
+      "yes": [],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [0,16],
+      "all_definitions_considered": true,
+      "rationale": "Most of the crop contains an empty narrow road, unpotted roadside greenery and a dark waste bin. A very small white-and-dark rounded fragment at the bottom edge could be the top of a dog's head or a worn helmet/head fragment, but lacks enough detail to establish either dog or person; both remain unclear. It supplies no identifiable bicycle parts or distinctive horse anatomy. Every one of the 75 definitions was considered."
+    },
+    {
+      "case_id": "I0094",
+      "yes": [0,23,26],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,24,25,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual giraffe's patterned head and neck reach toward the hand of a person at the right. Additional people stand behind the railing and on the path. A dark carried shoulder handbag with strap and bag body hangs at the right person's hip. The railing is not a bench, and background trees lack pots. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0095",
+      "yes": [0,35],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "People are playing baseball on the diamond, with a crouched catcher and standing players near home plate. The broad fielding mitt visible with the catcher/player has glove form rather than an ordinary thin hand covering. The field, fencing and small buildings do not supply another listed object; a baseball scene alone was not used to infer equipment. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0096",
+      "yes": [0,1,19,25,56],
+      "no": [2,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,20,21,22,23,24,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [3],
+      "all_definitions_considered": true,
+      "rationale": "The foreground animal has identifiable cattle body, head and horns. Several real people stand by the shops; pedal-bicycle wheels and frames are visible to the left behind the cow. White plastic individual chairs stand near the central people, and a small canopy with umbrella structure appears at the right. The partly occluded two-wheel vehicle at the far right does not resolve a motorcycle versus other cycle/cart structure, so motorcycle remains unclear. Shop signs are printed matter, not actual books or displayed objects. All 75 definitions were considered."
+    }
+  ]
+}

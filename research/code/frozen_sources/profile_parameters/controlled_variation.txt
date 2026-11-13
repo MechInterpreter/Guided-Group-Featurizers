@@ -1,0 +1,253 @@
+# Historical notebook parameter and execution cells. Reference only, not a one-click script.
+# Source payloads are omitted; materialize with tools/materialize_frozen.py.
+# Personal paths and private download locations are replaced with placeholders.
+# Supply equivalent local caches and saved runs; GPU finish profiles require their recorded prior state.
+
+# Cell 2
+import os, sys, json, hashlib, re, importlib.util, importlib.metadata, subprocess
+from pathlib import Path
+from google.colab import drive, files
+if not os.path.ismount('/content/drive'):
+    drive.mount('/content/drive')
+if not os.path.ismount('/content/drive') or not Path('/content/drive/MyDrive').is_dir():
+    raise OSError('Drive is not mounted. Mount it before continuing.')
+DRIVE=Path('/content/drive/MyDrive')
+PARENT_OUTPUT=DRIVE/'AGF_COCO_capacity_sweep_v1'
+ACTIVATION_OUTPUT=DRIVE/'AGF_COCO_stratified_confirmation_v1'
+STRONG_OUTPUT=DRIVE/'AGF_COCO_strong_mask_regroup_v1'
+SOURCE_RANK_OUTPUT=DRIVE/'AGF_COCO_capacity_effective_rank_v1'
+TWELVE_OUTPUT=DRIVE/'AGF_COCO_12D_followup_v1'
+SOURCE_OUTPUT=DRIVE/'AGF_COCO_scale_study_v1'
+OUTPUT=DRIVE/'GGF_semantic_coherence_supervised_v3'
+LOCAL=Path('/content/ggf_semantic_coherence_supervised_local')
+CACHE_LOCAL=Path('/content/ggf_width_balance_local')
+PARENT_RUN='2921b057f824362ab83e76e7fb35645f94c376fadf8b86f4f22d1a2311105b9e'
+manifests=[]
+for path in (PARENT_OUTPUT/'results').glob('*/manifest.json'):
+    candidate=json.loads(path.read_text())
+    if candidate.get('run_id')==PARENT_RUN:manifests.append(candidate)
+if len(manifests)!=1:
+    raise FileNotFoundError('Expected the completed capacity source manifest at '+str(PARENT_OUTPUT))
+manifest=manifests[0]
+if hashlib.sha256(json.dumps(manifest['config'],sort_keys=True,allow_nan=False).encode()).hexdigest()!=manifest['run_id']:
+    raise ValueError('Source manifest identity is invalid')
+EXPECTED={k:manifest['config']['versions'][k] for k in ('numpy','torch','scipy','scikit-learn','einops')}
+different=[]
+for name,target in EXPECTED.items():
+    try:actual=importlib.metadata.version(name)
+    except importlib.metadata.PackageNotFoundError:actual=None
+    if actual!=target:different.append(dict(package=name,installed=actual,required=target))
+constraints=Path('/content/agf_scale_study_numeric_constraints.txt')
+constraints.write_text(''.join(name+'=='+target+'\n' for name,target in EXPECTED.items()))
+if different:
+    print('Installing the actual source versions:',different,flush=True)
+    if any(r['package']=='torch' for r in different):
+        target=EXPECTED['torch'];suffix=target.split('+',1)[1] if '+' in target else None
+        args=[sys.executable,'-m','pip','install','-q','torch=='+target]
+        if suffix is not None:
+            if not re.fullmatch(r'cu[0-9]+',suffix):raise ValueError('Unsupported source CUDA wheel suffix: '+suffix)
+            args+=['--index-url','https://download.pytorch.org/whl/'+suffix]
+        subprocess.check_call(args)
+    subprocess.check_call([sys.executable,'-m','pip','install','-q','-c',str(constraints),
+        *[k+'=='+v for k,v in EXPECTED.items() if k!='torch']])
+deps={'PIL':'pillow','matplotlib':'matplotlib','pandas':'pandas','requests':'requests','threadpoolctl':'threadpoolctl','pytest':'pytest'}
+missing=[p for m,p in deps.items() if importlib.util.find_spec(m) is None]
+if missing:subprocess.check_call([sys.executable,'-m','pip','install','-q','-c',str(constraints),*missing])
+installed={name:importlib.metadata.version(name) for name in EXPECTED}
+if installed!=EXPECTED:raise RuntimeError('Package installation did not match the saved versions: '+str(installed))
+print('Packages are ready. The experiment uses a fresh Python worker; no kernel restart is needed.')
+print('Numerical packages match the source:',EXPECTED)
+
+
+PATHS=dict(capacity=PARENT_OUTPUT,original=ACTIVATION_OUTPUT,strong=STRONG_OUTPUT,rank=SOURCE_RANK_OUTPUT,twelve=TWELVE_OUTPUT)
+if manifest['config']['source_sha']!='6f9138f8885fdbb2d5971f30ab0c5d744d4c8fa914e1c191491c895d5ca8cd79':raise ValueError('Wrong completed capacity source')
+
+# Both choices were authorized when this notebook was prepared.
+BASELINES='both'
+VERIFY_BACKBONE_ACCESS=True
+OUTPUT.mkdir(parents=True,exist_ok=True)
+extraction_lock=SOURCE_OUTPUT/'extraction_packages.json'
+if not extraction_lock.exists():raise FileNotFoundError('Restore the saved extraction lock: '+str(extraction_lock))
+locked=json.loads(extraction_lock.read_text());needed=[]
+for name,version in locked.items():
+    try:actual=importlib.metadata.version(name)
+    except importlib.metadata.PackageNotFoundError:actual=None
+    if actual!=version:needed.append(name+'=='+version)
+if needed:subprocess.check_call([sys.executable,'-m','pip','install','-q','-c',str(constraints),*needed])
+if {name:importlib.metadata.version(name) for name in EXPECTED}!=EXPECTED:raise RuntimeError('Extraction installation changed numerical packages')
+if {name:importlib.metadata.version(name) for name in locked}!=locked:raise RuntimeError('Saved extraction dependency lock differs')
+from google.colab import userdata
+if VERIFY_BACKBONE_ACCESS:
+    try:_secret=userdata.get('HF_TOKEN')
+    except Exception:_secret=None
+    if _secret:os.environ['HF_TOKEN']=_secret
+    del _secret
+    if not os.environ.get('HF_TOKEN') and not (SOURCE_OUTPUT/'input_assets/dinov3/verified.json').exists():
+        raise ValueError('Add HF_TOKEN in Colab Secrets and grant this notebook access before Run All. It needs access to the pinned DINOv3 weights; no token will be printed or requested later.')
+print('Extraction versions locked:',locked)
+
+
+print('Frozen COCO checkpoint analysis only: GGF, supervised Vanilla, unsupervised Vanilla, SLiCS and Concept-SAE. No featurizer training.')
+print('Frozen COCO checkpoint analysis only: GGF, supervised Vanilla, unsupervised Vanilla, SLiCS and Concept-SAE. No featurizer training.')
+
+
+# Cell 4
+#@title Verify bundled source (no edits needed)
+#@title Verify bundled sources (automatic)
+import base64,zipfile,io
+from pathlib import PurePosixPath
+SOURCE_SHA='8a29854a50c94420686f9b904f7eaecd88f9324bcf2b016c1ce6ad4057aa0b9c'
+SOURCE_B64='SOURCE_PAYLOAD_OMITTED_USE_MATERIALIZER'
+source_bytes=base64.b64decode(SOURCE_B64,validate=True)
+if hashlib.sha256(source_bytes).hexdigest()!=SOURCE_SHA:raise ValueError('Embedded source hash mismatch')
+SOURCE=Path('/content/agf_scale_study_source')/SOURCE_SHA[:16]
+SOURCE.mkdir(parents=True,exist_ok=True)
+SOURCE_ZIP=SOURCE.parent/(SOURCE_SHA+'.zip');SOURCE_ZIP.write_bytes(source_bytes)
+with zipfile.ZipFile(io.BytesIO(source_bytes)) as z:
+    if z.testzip() is not None:raise OSError('Embedded source ZIP CRC failure')
+    names=z.namelist();hashes=json.loads(z.read('FILE_HASHES.json'))
+    if len(names)!=len(set(names)) or set(names)!=set(hashes)|{'FILE_HASHES.json'}:raise ValueError('Source inventory mismatch')
+    for name in names:
+        p=PurePosixPath(name);dest=(SOURCE/name).resolve()
+        if p.is_absolute() or '..' in p.parts or ':' in name or '\\' in name or SOURCE.resolve() not in dest.parents:
+            raise ValueError('Unsafe source path: '+name)
+        if name!='FILE_HASHES.json' and hashlib.sha256(z.read(name)).hexdigest()!=hashes[name]:raise ValueError('Source file checksum mismatch: '+name)
+    z.extractall(SOURCE)
+for name,h in hashes.items():
+    if hashlib.sha256((SOURCE/name).read_bytes()).hexdigest()!=h:raise ValueError('Extracted source checksum mismatch: '+name)
+
+WRAPPER_SHA='dfc6ea55dec76c700dcd625c7d2b3649e250c466ef8a4bc43a9a8c313c38b240'
+WRAPPER_B64='SOURCE_PAYLOAD_OMITTED_USE_MATERIALIZER'
+raw=base64.b64decode(WRAPPER_B64,validate=True)
+if hashlib.sha256(raw).hexdigest()!=WRAPPER_SHA:raise ValueError('Experiment source checksum differs')
+LOCAL.mkdir(parents=True,exist_ok=True)
+WRAPPER=LOCAL/'source'/WRAPPER_SHA[:16];WRAPPER.mkdir(parents=True,exist_ok=True)
+WRAPPER_ZIP=LOCAL/('ggf_checklist_evidence_'+WRAPPER_SHA[:12]+'_source.zip');WRAPPER_ZIP.write_bytes(raw)
+with zipfile.ZipFile(io.BytesIO(raw)) as z:
+    names=z.namelist();hashes=json.loads(z.read('FILE_HASHES.json'))
+    if z.testzip() is not None or len(names)!=len(set(names)) or set(names)!=set(hashes)|{'FILE_HASHES.json'}:raise ValueError('Experiment source inventory differs')
+    for name in names:
+        p=PurePosixPath(name);dest=(WRAPPER/name).resolve()
+        if p.is_absolute() or '..' in p.parts or ':' in name or '\\' in name or WRAPPER.resolve() not in dest.parents:raise ValueError('Unsafe experiment source path')
+        content=z.read(name)
+        if name!='FILE_HASHES.json' and hashlib.sha256(content).hexdigest()!=hashes[name]:raise ValueError('Experiment file checksum differs')
+        dest.parent.mkdir(parents=True,exist_ok=True);dest.write_bytes(content)
+for name,digest in hashes.items():
+    if hashlib.sha256((WRAPPER/name).read_bytes()).hexdigest()!=digest:raise ValueError('Extracted file checksum differs')
+CONFIG=LOCAL/'options.json';RECEIPT=LOCAL/'completion.json'
+options=dict(paths={k:str(v) for k,v in PATHS.items()},output=str(OUTPUT),local=str(LOCAL),cache_local=str(CACHE_LOCAL),
+    source_sha=SOURCE_SHA,source_zip=str(SOURCE_ZIP),expected_versions=EXPECTED,baselines='both',fresh=True,
+    source_output=str(SOURCE_OUTPUT),wrapper_sha=WRAPPER_SHA,wrapper_zip=str(WRAPPER_ZIP),receipt=str(RECEIPT))
+options['concept_source']=str(OUTPUT/'input_assets'/'Concept-SAE'/'956d19b32baccd9c355b5ada9b281898ca998a16'/'replace_model.py')
+CONFIG.write_text(json.dumps(options,indent=2))
+del SOURCE_B64,WRAPPER_B64,source_bytes,raw
+ENV=dict(os.environ,PYTHONPATH=os.pathsep.join([str(WRAPPER),str(SOURCE)]),OMP_NUM_THREADS='1',MKL_NUM_THREADS='1')
+print('Verified pinned core:',SOURCE_SHA,'; experiment:',WRAPPER_SHA)
+
+
+# Cell 7
+#@title Verify analysis bundle and run CPU preflight checks
+import base64,io,zipfile,hashlib
+ANALYSIS_SHA='d7014975f5cbbbf0e464973519593fb3881cdb60091106fe40c734958ced86fd'
+ANALYSIS_B64='SOURCE_PAYLOAD_OMITTED_USE_MATERIALIZER'
+raw=base64.b64decode(ANALYSIS_B64)
+assert hashlib.sha256(raw).hexdigest()==ANALYSIS_SHA
+EXECUTION=LOCAL/'controlled_analysis'/ANALYSIS_SHA[:16]
+EXECUTION.mkdir(parents=True,exist_ok=True)
+with zipfile.ZipFile(io.BytesIO(raw)) as z:
+    assert set(z.namelist())=={'cv_math.py', 'report_resume.py', 'test_report_resume.py', 'test_native.py', 'native_sources.py', 'test_cv.py', 'semantic_math.py', 'semantic_review.py', 'resume_weights.py', 'semantic_study.py', 'native_coherence.py', 'legacy_cache.py', 'native_units.py', 'test_semantic.py', 'lighting_math.py', 'lighting_study.py', 'render_lighting.py', 'cv_study.py', 'test_endpoint_restore.py'}
+    for name in z.namelist():(EXECUTION/name).write_bytes(z.read(name))
+options.update(study_source=str(DRIVE/'GGF_checklist_evidence_v1'),analysis_sha=ANALYSIS_SHA,
+    slics_source=str(DRIVE/'GGF_COCO_supervised_comparison_v1'),
+    concept_source_root=str(DRIVE/'GGF_checklist_evidence_v1'/'concept_sae_protocol_v2'),
+    concept_source=str(LOCAL/'pinned_concept_source.py'),
+    legacy_output=str(DRIVE/'GGF_semantic_coherence_v2'),
+    receipt=str(LOCAL/'controlled_variation_receipt.json'))
+# Reuse the interrupted run's verified computation identities. The actual
+# repaired execution bundle remains independently checksummed above.
+sys.path.insert(0,str(EXECUTION))
+from report_resume import cache_identity
+options['execution_sha']=ANALYSIS_SHA
+options['analysis_sha']=cache_identity(options['output'],ANALYSIS_SHA)
+print('REPORT REPAIR: model seed and renderer seed are separate fields.')
+print('Cache computation identity:',options['analysis_sha'])
+(OUTPUT/'report_repair_execution.json').write_text(json.dumps(dict(
+    execution_sha=ANALYSIS_SHA,cache_computation_sha=options['analysis_sha'],
+    change='Separate model seed from renderer seed in all_lighting_points.csv',
+    scientific_analysis_unchanged=True),indent=2))
+CONFIG=LOCAL/'controlled_variation_run.json'
+CONFIG.write_text(json.dumps(options,indent=2))
+ENV=dict(ENV,PYTHONPATH=os.pathsep.join([str(EXECUTION),str(WRAPPER),str(SOURCE)]),PYTHONUNBUFFERED='1')
+subprocess.check_call([sys.executable,'-m','pytest',str(EXECUTION/'test_cv.py'),str(EXECUTION/'test_semantic.py'),str(EXECUTION/'test_native.py'),str(EXECUTION/'test_endpoint_restore.py'),str(EXECUTION/'test_report_resume.py'),'-q','--basetemp',str(LOCAL/'analysis_preflight_tests')],env=ENV,cwd=EXECUTION)
+print('Analysis tests passed. Original checkpoints are read-only. New output:',OUTPUT)
+del ANALYSIS_B64,raw
+
+
+# Cell 9
+import queue,threading,time,signal
+receipt=Path(options['receipt'])
+receipt.unlink(missing_ok=True)
+worker=subprocess.Popen([sys.executable,'-u',str(EXECUTION/'cv_study.py'),'--config',str(CONFIG)],env=ENV,cwd=EXECUTION,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,bufsize=1)
+q=queue.Queue()
+def reader():
+    for line in worker.stdout:q.put(line)
+thread=threading.Thread(target=reader,daemon=True);thread.start()
+start=time.monotonic();last=start
+print('Live analysis worker PID',worker.pid,'| completed per-object caches survive reconnects',flush=True)
+try:
+    while worker.poll() is None or not q.empty():
+        try:print(q.get(timeout=.5),end='',flush=True)
+        except queue.Empty:pass
+        now=time.monotonic()
+        if now-last>=30:
+            print('[heartbeat] worker alive:',worker.poll() is None,'| elapsed minutes:',round((now-start)/60,1),flush=True);last=now
+except KeyboardInterrupt:
+    worker.send_signal(signal.SIGINT)
+    print('Stop requested. Reconnect and Run All to reuse committed objects; the current unfinished object may repeat.')
+    raise
+if worker.returncode:raise RuntimeError('Analysis stopped with code '+str(worker.returncode)+'. Read the traceback above; no model retraining fallback is used.')
+if not receipt.exists():raise RuntimeError('Worker exited without a verified completion receipt')
+RESULT=json.loads(receipt.read_text());assert RESULT['complete'];print(json.dumps(RESULT,indent=2))
+
+
+# Cell 11
+from google.colab import files
+files.download(RESULT['archive'])
+
+
+# Cell 13
+# CPU-only scoring: run this cell directly in a new CPU session if needed
+import base64,hashlib,io,json,os,subprocess,sys,zipfile,importlib.util
+from pathlib import Path
+from google.colab import drive
+drive.mount('/content/drive')
+deps=[n for n in ['numpy','scipy','pandas'] if importlib.util.find_spec(n) is None]
+if deps:subprocess.check_call([sys.executable,'-m','pip','install','-q',*deps])
+CPU_RAW=base64.b64decode('SOURCE_PAYLOAD_OMITTED_USE_MATERIALIZER')
+assert hashlib.sha256(CPU_RAW).hexdigest()=='7a76cdbb6c61b9bf4f2c47fc6fb95ce08aee504a869bd4328b79323255b75994'
+CPU_EXEC=Path('/content/ggf_semantic_review_cpu');CPU_EXEC.mkdir(exist_ok=True)
+with zipfile.ZipFile(io.BytesIO(CPU_RAW)) as z:
+    assert set(z.namelist())=={'semantic_math.py','semantic_review.py'}
+    for name in z.namelist():(CPU_EXEC/name).write_bytes(z.read(name))
+del CPU_RAW
+
+# Human ratings are never synthesized by this notebook.
+from pathlib import Path
+import sys,json,subprocess
+base=Path('/content/drive/MyDrive/GGF_semantic_coherence_supervised_v3/analysis/results')
+choices=[p.parent.parent for p in base.glob('*/semantic_coherence/private/review_key.json')]
+if len(choices)!=1:raise RuntimeError('Expected exactly one completed coherence review; choose the intended run explicitly if multiple exist')
+ROOT_REVIEW=choices[0]
+completion=ROOT_REVIEW/'completion.json'
+if not completion.exists() or not json.loads(completion.read_text()).get('automated_complete'):raise RuntimeError('The automated coherence audit has not finished')
+# Give only blinded_review_public.zip to the two reviewers. Save their
+# completed sheets at these paths after each reviewer has rated all cards.
+RATER_A=ROOT_REVIEW/'rater_A_completed.csv'
+RATER_B=ROOT_REVIEW/'rater_B_completed.csv'
+if RATER_A.exists() and RATER_B.exists():
+    subprocess.check_call([sys.executable,str(CPU_EXEC/'semantic_review.py'),'--root',str(ROOT_REVIEW),'--rater-a',str(RATER_A),'--rater-b',str(RATER_B)],env=dict(os.environ,PYTHONPATH=str(CPU_EXEC)),cwd=CPU_EXEC)
+    print('Independent review scored:',ROOT_REVIEW/'review_results')
+else:
+    print('Automated study complete. Human semantic ratings are not yet assessed.')
+    print('Send only this anonymous pack:',ROOT_REVIEW/'blinded_review_public.zip')
+    print('After independent review, save both completed CSVs and rerun this CPU-only cell.')

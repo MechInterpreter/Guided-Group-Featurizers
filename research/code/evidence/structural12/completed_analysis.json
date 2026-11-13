@@ -1,0 +1,691 @@
+{
+  "summary": {
+    "complete": true,
+    "seeds": [
+      {
+        "seed": 21,
+        "attempted": 8,
+        "accepted": 0,
+        "root_sha": "7fc1207dbc1ed0bb8337f6ed931530e02362b0fabc8df1a444279d9474b418f9",
+        "final_sha": "7fc1207dbc1ed0bb8337f6ed931530e02362b0fabc8df1a444279d9474b418f9",
+        "native_root_eligible": true,
+        "native_final_eligible": true,
+        "strict_original_action": "run_exchanges",
+        "native_reference_mse": 0.3471993869772565,
+        "native_limit_mse": 0.35414337471680163,
+        "new_gradient_updates": 0,
+        "total_training_updates": 19640,
+        "before_capture_pct": 43.970511065428255,
+        "before_patch_AP_pct": 79.75346940078063,
+        "before_VE_pct": 69.10696314447594,
+        "after_capture_pct": 43.970511065428255,
+        "after_patch_AP_pct": 79.75346940078063,
+        "after_VE_pct": 69.10696314447594,
+        "capture_pct_gain_pp": 0,
+        "patch_AP_pct_gain_pp": 0,
+        "VE_pct_gain_pp": 0
+      },
+      {
+        "seed": 22,
+        "attempted": 8,
+        "accepted": 0,
+        "root_sha": "7eedcd59843894b8a975a5bc0d0cfdc67b9337e52a6c4fba3196aa172d492ebc",
+        "final_sha": "7eedcd59843894b8a975a5bc0d0cfdc67b9337e52a6c4fba3196aa172d492ebc",
+        "native_root_eligible": true,
+        "native_final_eligible": true,
+        "strict_original_action": "run_exchanges",
+        "native_reference_mse": 0.3465155937120031,
+        "native_limit_mse": 0.35344590558624317,
+        "new_gradient_updates": 0,
+        "total_training_updates": 19640,
+        "before_capture_pct": 44.03107894048918,
+        "before_patch_AP_pct": 79.58437017049808,
+        "before_VE_pct": 68.92888107786672,
+        "after_capture_pct": 44.03107894048918,
+        "after_patch_AP_pct": 79.58437017049808,
+        "after_VE_pct": 68.92888107786672,
+        "capture_pct_gain_pp": 0,
+        "patch_AP_pct_gain_pp": 0,
+        "VE_pct_gain_pp": 0
+      },
+      {
+        "seed": 23,
+        "attempted": 8,
+        "accepted": 0,
+        "root_sha": "062ff7bee5b27d6a03f6793f12c69e5b0acd6933bf7ecca7e4797b87c6cee6fc",
+        "final_sha": "062ff7bee5b27d6a03f6793f12c69e5b0acd6933bf7ecca7e4797b87c6cee6fc",
+        "native_root_eligible": true,
+        "native_final_eligible": true,
+        "strict_original_action": "run_exchanges",
+        "native_reference_mse": 0.3465870599811409,
+        "native_limit_mse": 0.35351880118076373,
+        "new_gradient_updates": 0,
+        "total_training_updates": 19640,
+        "before_capture_pct": 43.943325383955,
+        "before_patch_AP_pct": 79.75749434678302,
+        "before_VE_pct": 69.1375433287846,
+        "after_capture_pct": 43.943325383955,
+        "after_patch_AP_pct": 79.75749434678302,
+        "after_VE_pct": 69.1375433287846,
+        "capture_pct_gain_pp": 0,
+        "patch_AP_pct_gain_pp": 0,
+        "VE_pct_gain_pp": 0
+      }
+    ],
+    "means": {
+      "before": {
+        "capture_pct": 43.981638463290814,
+        "patch_AP_pct": 79.69844463935391,
+        "VE_pct": 69.05779585037575
+      },
+      "after": {
+        "capture_pct": 43.981638463290814,
+        "patch_AP_pct": 79.69844463935391,
+        "VE_pct": 69.05779585037575
+      },
+      "difference_pp": {
+        "capture_pct": 0,
+        "patch_AP_pct": 0,
+        "VE_pct": 0
+      }
+    },
+    "test_features_opened": false,
+    "new_gradient_updates": 0,
+    "accepted_total": 0,
+    "interpretation": "Bounded Exchanges on the paper 12D parents, using ALL original acceptance and native-eligibility checks. A finite shortlist cannot establish that no useful exchange exists."
+  },
+  "protocol": {
+    "recipe": {
+      "version": 1,
+      "study": "quick_paper12d_original_rule_exchanges",
+      "seeds": [
+        21,
+        22,
+        23
+      ],
+      "groups": 1024,
+      "block_rank": 12,
+      "active_groups": 16,
+      "screening_images": 512,
+      "training_seed": 107011,
+      "shard_images": 25,
+      "top_incoming": 5,
+      "candidate_pool": 64,
+      "per_category_pool": 2,
+      "screen_per_policy": 8,
+      "max_attempts": 8,
+      "max_accepted": 5,
+      "positive_epsilon": 1e-10,
+      "max_ap_drop": 0.001,
+      "max_ve_drop": 0.001,
+      "max_mse_growth": 0.02,
+      "max_category_drop": 0.01,
+      "proposal_score_scale": 0.005,
+      "bootstrap": 200,
+      "gradient_updates": 0,
+      "new_warmups": 0,
+      "readout_reassignment": false,
+      "original_native_limit": "Original stored same-seed native MSE x1.02, required at entry and for selection.",
+      "acceptance": "Positive target and mean capture on TRAIN; positive mean capture and AP/VE/MSE/per-category preservation versus current and root on both historical development sets; original native-MSE limit on selection.",
+      "ordering": "TRAIN-only dependency shortlist of eight, then exact standalone TRAIN gain order; no development/test reranking.",
+      "test_previously_inspected": true,
+      "scope": "One bounded pass per seed; no claim of optimal search or independent generalization.",
+      "profile_checkpoint_images": 256
+    },
+    "source_sha": "6a6377389fabe00d84955d2c999842b5bab22801f38a90e05b588bd1aee867e2",
+    "core_sha": "8a29854a50c94420686f9b904f7eaecd88f9324bcf2b016c1ce6ad4057aa0b9c",
+    "parent_run": "385b9aeacddfa4d3db6b82f7054ffc513ce25dd42dde915a0d4ae483b02ed581",
+    "parent_cohort": "paper12d",
+    "diagnostic": false,
+    "versions": {
+      "numpy": "2.1.3",
+      "torch": "2.11.0+cu130",
+      "scipy": "1.16.3",
+      "scikit-learn": "1.6.1",
+      "einops": "0.8.2"
+    },
+    "starting_models": [
+      {
+        "seed": 21,
+        "weights_sha": "7fc1207dbc1ed0bb8337f6ed931530e02362b0fabc8df1a444279d9474b418f9",
+        "targets_sha": "fbc62453d91234cd0ca82f9e0d9c45a7b5d50f395626af64038ff6964bea9332"
+      },
+      {
+        "seed": 22,
+        "weights_sha": "7eedcd59843894b8a975a5bc0d0cfdc67b9337e52a6c4fba3196aa172d492ebc",
+        "targets_sha": "a4f099bd0ca9c998d0772136133e39999ee2525898979568859ac03192bd4b96"
+      },
+      {
+        "seed": 23,
+        "weights_sha": "062ff7bee5b27d6a03f6793f12c69e5b0acd6933bf7ecca7e4797b87c6cee6fc",
+        "targets_sha": "3e5937e86f6be35c95352c82c082e014059d6f7e1c9aba870edbeedf6b4280d3"
+      }
+    ],
+    "native_references": {
+      "21": 0.3471993869772565,
+      "22": 0.3465155937120031,
+      "23": 0.3465870599811409
+    },
+    "gradient_updates": 0,
+    "test_features_opened": false
+  },
+  "steps": [
+    {
+      "seed": 21,
+      "category": "dog",
+      "reason": "training_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.0004704673685874683,
+        "target_capture": 0.035265570861209294
+      },
+      "training_failures": [
+        "current_category_16_ap",
+        "cumulative_root_category_16_ap"
+      ],
+      "training_failed_margins": {
+        "current_category_16_ap": -0.038188897942805895,
+        "cumulative_root_category_16_ap": -0.038188897942805895
+      },
+      "development": {}
+    },
+    {
+      "seed": 21,
+      "category": "cake",
+      "reason": "training_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.00046863292546084345,
+        "target_capture": 0.034914771325586846
+      },
+      "training_failures": [
+        "current_category_55_ap",
+        "cumulative_root_category_55_ap"
+      ],
+      "training_failed_margins": {
+        "current_category_55_ap": -0.01597734111065175,
+        "cumulative_root_category_55_ap": -0.01597734111065175
+      },
+      "development": {}
+    },
+    {
+      "seed": 21,
+      "category": "dog",
+      "reason": "training_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.0004636238858342079,
+        "target_capture": 0.034732717538471625
+      },
+      "training_failures": [
+        "current_category_16_ap",
+        "cumulative_root_category_16_ap"
+      ],
+      "training_failed_margins": {
+        "current_category_16_ap": -0.03846723287755683,
+        "cumulative_root_category_16_ap": -0.03846723287755683
+      },
+      "development": {}
+    },
+    {
+      "seed": 21,
+      "category": "dog",
+      "reason": "training_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.0004609357351331722,
+        "target_capture": 0.034534496255337443
+      },
+      "training_failures": [
+        "current_category_16_ap",
+        "cumulative_root_category_16_ap"
+      ],
+      "training_failed_margins": {
+        "current_category_16_ap": -0.041004743271956474,
+        "cumulative_root_category_16_ap": -0.041004743271956474
+      },
+      "development": {}
+    },
+    {
+      "seed": 21,
+      "category": "dog",
+      "reason": "training_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.00045834436421510194,
+        "target_capture": 0.034325504777151905
+      },
+      "training_failures": [
+        "current_category_16_ap",
+        "cumulative_root_category_16_ap"
+      ],
+      "training_failed_margins": {
+        "current_category_16_ap": -0.03990028702640381,
+        "cumulative_root_category_16_ap": -0.03990028702640381
+      },
+      "development": {}
+    },
+    {
+      "seed": 21,
+      "category": "cake",
+      "reason": "training_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.00044549848167674266,
+        "target_capture": 0.0332015146409117
+      },
+      "training_failures": [
+        "current_category_55_ap",
+        "cumulative_root_category_55_ap"
+      ],
+      "training_failed_margins": {
+        "current_category_55_ap": -0.017034173509432045,
+        "cumulative_root_category_55_ap": -0.017034173509432045
+      },
+      "development": {}
+    },
+    {
+      "seed": 21,
+      "category": "cake",
+      "reason": "training_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.00044173706720318506,
+        "target_capture": 0.03279466064752534
+      },
+      "training_failures": [
+        "current_category_55_ap",
+        "cumulative_root_category_55_ap"
+      ],
+      "training_failed_margins": {
+        "current_category_55_ap": -0.015670320959672253,
+        "cumulative_root_category_55_ap": -0.015670320959672253
+      },
+      "development": {}
+    },
+    {
+      "seed": 21,
+      "category": "dog",
+      "reason": "training_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.00042595463789152355,
+        "target_capture": 0.031900433836872466
+      },
+      "training_failures": [
+        "current_category_16_ap",
+        "cumulative_root_category_16_ap"
+      ],
+      "training_failed_margins": {
+        "current_category_16_ap": -0.03907126092067959,
+        "cumulative_root_category_16_ap": -0.03907126092067959
+      },
+      "development": {}
+    },
+    {
+      "seed": 22,
+      "category": "cake",
+      "reason": "training_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.0004167817540917662,
+        "target_capture": 0.031216993656804526
+      },
+      "training_failures": [
+        "current_category_55_ap",
+        "cumulative_root_category_55_ap"
+      ],
+      "training_failed_margins": {
+        "current_category_55_ap": -0.01121851702822175,
+        "cumulative_root_category_55_ap": -0.01121851702822175
+      },
+      "development": {}
+    },
+    {
+      "seed": 22,
+      "category": "cake",
+      "reason": "training_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.00040153306048240633,
+        "target_capture": 0.03009271102938149
+      },
+      "training_failures": [
+        "current_category_55_ap",
+        "cumulative_root_category_55_ap"
+      ],
+      "training_failed_margins": {
+        "current_category_55_ap": -0.011702053643052332,
+        "cumulative_root_category_55_ap": -0.011702053643052332
+      },
+      "development": {}
+    },
+    {
+      "seed": 22,
+      "category": "suitcase",
+      "reason": "development_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.000391151145226698,
+        "target_capture": 0.02927570104821653
+      },
+      "training_failures": [],
+      "training_failed_margins": {},
+      "development": {
+        "select": {
+          "gains": {
+            "mean_capture": -0.00012327893839847448
+          },
+          "failures": [
+            "positive_mean_capture"
+          ],
+          "negative_margins": {
+            "positive_mean_capture": -0.0001232790383984745
+          }
+        },
+        "confirm": {
+          "gains": {
+            "mean_capture": 2.1980516913988613e-05
+          },
+          "failures": [],
+          "negative_margins": {}
+        }
+      }
+    },
+    {
+      "seed": 22,
+      "category": "dog",
+      "reason": "development_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.0003750565004156936,
+        "target_capture": 0.028008394615581356
+      },
+      "training_failures": [],
+      "training_failed_margins": {},
+      "development": {
+        "select": {
+          "gains": {
+            "mean_capture": 3.746054605630045e-05
+          },
+          "failures": [
+            "current_category_16_ap",
+            "cumulative_root_category_16_ap"
+          ],
+          "negative_margins": {
+            "current_category_16_ap": -0.015440405312384784,
+            "cumulative_root_category_16_ap": -0.015440405312384784
+          }
+        },
+        "confirm": {
+          "gains": {
+            "mean_capture": 9.765136570760724e-05
+          },
+          "failures": [],
+          "negative_margins": {}
+        }
+      }
+    },
+    {
+      "seed": 22,
+      "category": "suitcase",
+      "reason": "development_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.00036422927209445177,
+        "target_capture": 0.027225144615523167
+      },
+      "training_failures": [],
+      "training_failed_margins": {},
+      "development": {
+        "select": {
+          "gains": {
+            "mean_capture": -0.00016204752315857052
+          },
+          "failures": [
+            "current_category_28_capture",
+            "cumulative_root_category_28_capture",
+            "positive_mean_capture"
+          ],
+          "negative_margins": {
+            "current_category_28_capture": -0.002179961110560633,
+            "cumulative_root_category_28_capture": -0.002179961110560633,
+            "positive_mean_capture": -0.00016204762315857052
+          }
+        },
+        "confirm": {
+          "gains": {
+            "mean_capture": 1.4394557509456174e-05
+          },
+          "failures": [],
+          "negative_margins": {}
+        }
+      }
+    },
+    {
+      "seed": 22,
+      "category": "cake",
+      "reason": "training_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.00036174510512732017,
+        "target_capture": 0.02699363693791057
+      },
+      "training_failures": [
+        "current_category_55_ap",
+        "cumulative_root_category_55_ap"
+      ],
+      "training_failed_margins": {
+        "current_category_55_ap": -0.013063550008643019,
+        "cumulative_root_category_55_ap": -0.013063550008643019
+      },
+      "development": {}
+    },
+    {
+      "seed": 22,
+      "category": "dog",
+      "reason": "development_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.0003597197086653292,
+        "target_capture": 0.02680664404204358
+      },
+      "training_failures": [],
+      "training_failed_margins": {},
+      "development": {
+        "select": {
+          "gains": {
+            "mean_capture": -5.935672827178662e-05
+          },
+          "failures": [
+            "current_category_16_ap",
+            "cumulative_root_category_16_ap",
+            "positive_mean_capture"
+          ],
+          "negative_margins": {
+            "current_category_16_ap": -0.012847159820650664,
+            "cumulative_root_category_16_ap": -0.012847159820650664,
+            "positive_mean_capture": -5.935682827178662e-05
+          }
+        },
+        "confirm": {
+          "gains": {
+            "mean_capture": -3.29304608470693e-05
+          },
+          "failures": [
+            "positive_mean_capture"
+          ],
+          "negative_margins": {
+            "positive_mean_capture": -3.29305608470693e-05
+          }
+        }
+      }
+    },
+    {
+      "seed": 22,
+      "category": "dog",
+      "reason": "development_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.00034798831439564193,
+        "target_capture": 0.025890683145165183
+      },
+      "training_failures": [],
+      "training_failed_margins": {},
+      "development": {
+        "select": {
+          "gains": {
+            "mean_capture": 3.550875818952859e-05
+          },
+          "failures": [
+            "current_category_16_ap",
+            "cumulative_root_category_16_ap"
+          ],
+          "negative_margins": {
+            "current_category_16_ap": -0.01401337184311092,
+            "cumulative_root_category_16_ap": -0.01401337184311092
+          }
+        },
+        "confirm": {
+          "gains": {
+            "mean_capture": 4.7910473928103325e-05
+          },
+          "failures": [],
+          "negative_margins": {}
+        }
+      }
+    },
+    {
+      "seed": 23,
+      "category": "dog",
+      "reason": "training_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.0008089479329084215,
+        "target_capture": 0.060446778121054257
+      },
+      "training_failures": [
+        "current_category_16_ap",
+        "cumulative_root_category_16_ap"
+      ],
+      "training_failed_margins": {
+        "current_category_16_ap": -0.02021569303760907,
+        "cumulative_root_category_16_ap": -0.02021569303760907
+      },
+      "development": {}
+    },
+    {
+      "seed": 23,
+      "category": "dog",
+      "reason": "training_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.0007745393560888436,
+        "target_capture": 0.05780455348916824
+      },
+      "training_failures": [
+        "current_category_16_ap",
+        "cumulative_root_category_16_ap"
+      ],
+      "training_failed_margins": {
+        "current_category_16_ap": -0.02245993999268315,
+        "cumulative_root_category_16_ap": -0.02245993999268315
+      },
+      "development": {}
+    },
+    {
+      "seed": 23,
+      "category": "dog",
+      "reason": "training_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.0007689545753347682,
+        "target_capture": 0.057474484006626025
+      },
+      "training_failures": [
+        "current_category_16_ap",
+        "cumulative_root_category_16_ap"
+      ],
+      "training_failed_margins": {
+        "current_category_16_ap": -0.025350489538094496,
+        "cumulative_root_category_16_ap": -0.025350489538094496
+      },
+      "development": {}
+    },
+    {
+      "seed": 23,
+      "category": "dog",
+      "reason": "training_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.0007374713290511092,
+        "target_capture": 0.055062950806891164
+      },
+      "training_failures": [
+        "current_category_16_ap",
+        "cumulative_root_category_16_ap"
+      ],
+      "training_failed_margins": {
+        "current_category_16_ap": -0.020601909548873316,
+        "cumulative_root_category_16_ap": -0.020601909548873316
+      },
+      "development": {}
+    },
+    {
+      "seed": 23,
+      "category": "dog",
+      "reason": "training_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.0007363688999258988,
+        "target_capture": 0.05499982436248663
+      },
+      "training_failures": [
+        "current_category_16_ap",
+        "cumulative_root_category_16_ap"
+      ],
+      "training_failed_margins": {
+        "current_category_16_ap": -0.017246934418521327,
+        "cumulative_root_category_16_ap": -0.017246934418521327
+      },
+      "development": {}
+    },
+    {
+      "seed": 23,
+      "category": "dog",
+      "reason": "training_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.000705363756837385,
+        "target_capture": 0.052700481659768705
+      },
+      "training_failures": [
+        "current_category_16_ap",
+        "cumulative_root_category_16_ap"
+      ],
+      "training_failed_margins": {
+        "current_category_16_ap": -0.022818145126510266,
+        "cumulative_root_category_16_ap": -0.022818145126510266
+      },
+      "development": {}
+    },
+    {
+      "seed": 23,
+      "category": "dog",
+      "reason": "training_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.0006966299635309259,
+        "target_capture": 0.05203233554528197
+      },
+      "training_failures": [
+        "current_category_16_ap",
+        "cumulative_root_category_16_ap"
+      ],
+      "training_failed_margins": {
+        "current_category_16_ap": -0.01719031394053084,
+        "cumulative_root_category_16_ap": -0.01719031394053084
+      },
+      "development": {}
+    },
+    {
+      "seed": 23,
+      "category": "dog",
+      "reason": "training_gain_or_preservation_failed",
+      "training_gains": {
+        "mean_capture": 0.0005887447790385858,
+        "target_capture": 0.043716078153821725
+      },
+      "training_failures": [
+        "current_category_16_ap",
+        "cumulative_root_category_16_ap"
+      ],
+      "training_failed_margins": {
+        "current_category_16_ap": -0.01879365244286669,
+        "cumulative_root_category_16_ap": -0.01879365244286669
+      },
+      "development": {}
+    }
+  ],
+  "source_urls": [
+    "LOCAL_INPUTS/a9ce2469fcf0/view",
+    "LOCAL_INPUTS/211a4384bbe9/1Wtb8uVcxDcUwpAlVjb9u1MxdldaFHL0g"
+  ]
+}

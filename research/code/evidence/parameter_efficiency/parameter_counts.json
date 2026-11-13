@@ -1,0 +1,18 @@
+{
+  "scope": "COCO comparison; frozen shared DINO backbone and evaluation-only probes excluded; all parameters learned across native stages included regardless of final-stage freezing",
+  "GGF": {
+    "featurizer": 18886656,
+    "training_heads": 150,
+    "controller": 2,
+    "total": 18886808
+  },
+  "Concept_SAE": {
+    "concept_module": 111327375,
+    "free_module": 63798048,
+    "total": 175125423
+  },
+  "ratio_Concept_to_GGF": 9.272367411158095,
+  "GGF_fraction_of_Concept": 0.10784732265857254,
+  "source_commit": "956d19b32baccd9c355b5ada9b281898ca998a16",
+  "pinned_Concept_source_SHA256": "8323fe5aebc108d3c5929f106446998d14a7b0e0129aa51f00d8d61b24ad6593"
+}

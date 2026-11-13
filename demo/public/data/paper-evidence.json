@@ -1,0 +1,443 @@
+{
+  "version": 1,
+  "trainingOrders": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "groups": 75,
+  "directions": 12,
+  "reviewers": {
+    "gpt": {
+      "name": "GPT majority (three contexts)",
+      "scores": {
+        "all": [
+          {
+            "method": "ggf",
+            "name": "GGF",
+            "meaning": {
+              "mean": 93.4,
+              "sd": 1.6
+            },
+            "visual": {
+              "mean": 86.0,
+              "sd": 5.2
+            },
+            "whole": {
+              "mean": 99.4,
+              "sd": 1.5
+            }
+          },
+          {
+            "method": "slics",
+            "name": "SLiCS",
+            "meaning": {
+              "mean": 83.4,
+              "sd": 2.5
+            },
+            "visual": {
+              "mean": 80.4,
+              "sd": 4.3
+            },
+            "whole": {
+              "mean": 97.1,
+              "sd": 1.4
+            }
+          },
+          {
+            "method": "supervised_vanilla",
+            "name": "Supervised Vanilla",
+            "meaning": {
+              "mean": 67.9,
+              "sd": 3.1
+            },
+            "visual": {
+              "mean": 62.9,
+              "sd": 2.4
+            },
+            "whole": {
+              "mean": 70.7,
+              "sd": 5.3
+            }
+          },
+          {
+            "method": "vanilla",
+            "name": "Vanilla BSF",
+            "meaning": {
+              "mean": 59.9,
+              "sd": 4.6
+            },
+            "visual": {
+              "mean": 54.7,
+              "sd": 1.8
+            },
+            "whole": {
+              "mean": 66.1,
+              "sd": 4.4
+            }
+          }
+        ],
+        "split": [
+          {
+            "method": "ggf",
+            "name": "GGF",
+            "meaning": {
+              "mean": 79.9,
+              "sd": 1.7
+            },
+            "visual": {
+              "mean": 74.0,
+              "sd": 4.3
+            },
+            "whole": {
+              "mean": 82.8,
+              "sd": 2.4
+            }
+          },
+          {
+            "method": "supervised_vanilla",
+            "name": "Supervised Vanilla",
+            "meaning": {
+              "mean": 72.8,
+              "sd": 3.1
+            },
+            "visual": {
+              "mean": 68.0,
+              "sd": 5.0
+            },
+            "whole": {
+              "mean": 75.4,
+              "sd": 4.1
+            }
+          },
+          {
+            "method": "vanilla",
+            "name": "Vanilla BSF",
+            "meaning": {
+              "mean": 60.4,
+              "sd": 4.4
+            },
+            "visual": {
+              "mean": 57.2,
+              "sd": 3.5
+            },
+            "whole": {
+              "mean": 64.4,
+              "sd": 6.5
+            }
+          }
+        ]
+      }
+    },
+    "gemini": {
+      "name": "Gemini 3.5 Flash-Lite (one pass)",
+      "apiId": "google/gemini-3.5-flash-lite",
+      "scores": {
+        "all": [
+          {
+            "method": "ggf",
+            "name": "GGF",
+            "meaning": {
+              "mean": 79.37,
+              "sd": 2.86
+            },
+            "visual": {
+              "mean": 69.59,
+              "sd": 3.41
+            },
+            "whole": {
+              "mean": 92.38,
+              "sd": 2.14
+            },
+            "discriminating": {
+              "mean": 92.38,
+              "sd": 2.14
+            },
+            "rejected": [
+              0,
+              1
+            ]
+          },
+          {
+            "method": "slics",
+            "name": "SLiCS",
+            "meaning": {
+              "mean": 69.84,
+              "sd": 1.65
+            },
+            "visual": {
+              "mean": 62.79,
+              "sd": 3.63
+            },
+            "whole": {
+              "mean": 86.48,
+              "sd": 5.68
+            },
+            "discriminating": {
+              "mean": 86.1,
+              "sd": 6.1
+            },
+            "rejected": [
+              2,
+              8
+            ]
+          },
+          {
+            "method": "supervised_vanilla",
+            "name": "Supervised Vanilla",
+            "meaning": {
+              "mean": 51.62,
+              "sd": 3.36
+            },
+            "visual": {
+              "mean": 47.17,
+              "sd": 2.77
+            },
+            "whole": {
+              "mean": 58.29,
+              "sd": 2.74
+            },
+            "discriminating": {
+              "mean": 57.9,
+              "sd": 2.97
+            },
+            "rejected": [
+              0,
+              18
+            ]
+          },
+          {
+            "method": "vanilla",
+            "name": "Vanilla BSF",
+            "meaning": {
+              "mean": 43.43,
+              "sd": 4.83
+            },
+            "visual": {
+              "mean": 41.33,
+              "sd": 4.22
+            },
+            "whole": {
+              "mean": 49.33,
+              "sd": 3.77
+            },
+            "discriminating": {
+              "mean": 48.57,
+              "sd": 4.34
+            },
+            "rejected": [
+              3,
+              27
+            ]
+          }
+        ],
+        "split": [
+          {
+            "method": "ggf",
+            "name": "GGF",
+            "meaning": {
+              "mean": 64.13,
+              "sd": 1.24
+            },
+            "visual": {
+              "mean": 58.63,
+              "sd": 1.75
+            },
+            "whole": {
+              "mean": 72.0,
+              "sd": 2.52
+            },
+            "discriminating": {
+              "mean": 71.81,
+              "sd": 2.66
+            },
+            "rejected": [
+              3,
+              25
+            ]
+          },
+          {
+            "method": "supervised_vanilla",
+            "name": "Supervised Vanilla",
+            "meaning": {
+              "mean": 59.4,
+              "sd": 2.98
+            },
+            "visual": {
+              "mean": 54.89,
+              "sd": 2.53
+            },
+            "whole": {
+              "mean": 65.62,
+              "sd": 5.5
+            },
+            "discriminating": {
+              "mean": 65.43,
+              "sd": 5.6
+            },
+            "rejected": [
+              3,
+              27
+            ]
+          },
+          {
+            "method": "vanilla",
+            "name": "Vanilla BSF",
+            "meaning": {
+              "mean": 47.17,
+              "sd": 5.06
+            },
+            "visual": {
+              "mean": 45.02,
+              "sd": 5.06
+            },
+            "whole": {
+              "mean": 51.62,
+              "sd": 3.33
+            },
+            "discriminating": {
+              "mean": 51.05,
+              "sd": 3.75
+            },
+            "rejected": [
+              5,
+              25
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "concentration": {
+    "all": [
+      {
+        "method": "ggf",
+        "name": "GGF",
+        "coverage": {
+          "mean": 90.62,
+          "sd": 0.1
+        },
+        "falsePositive": {
+          "mean": 5.05,
+          "sd": 0.07
+        },
+        "precision": {
+          "mean": 33.79,
+          "sd": 0.27
+        }
+      },
+      {
+        "method": "slics",
+        "name": "SLiCS",
+        "coverage": {
+          "mean": 79.6,
+          "sd": 0.79
+        },
+        "falsePositive": {
+          "mean": 4.66,
+          "sd": 0.11
+        },
+        "precision": {
+          "mean": 32.76,
+          "sd": 0.61
+        }
+      },
+      {
+        "method": "supervised_vanilla",
+        "name": "Supervised Vanilla",
+        "coverage": {
+          "mean": 62.59,
+          "sd": 1.83
+        },
+        "falsePositive": {
+          "mean": 4.97,
+          "sd": 0.17
+        },
+        "precision": {
+          "mean": 26.22,
+          "sd": 1.16
+        }
+      },
+      {
+        "method": "vanilla",
+        "name": "Vanilla BSF",
+        "coverage": {
+          "mean": 55.11,
+          "sd": 1.77
+        },
+        "falsePositive": {
+          "mean": 4.97,
+          "sd": 0.12
+        },
+        "precision": {
+          "mean": 23.82,
+          "sd": 1.17
+        }
+      }
+    ],
+    "split": [
+      {
+        "method": "ggf",
+        "name": "GGF",
+        "coverage": {
+          "mean": 66.13,
+          "sd": 1.87
+        },
+        "falsePositive": {
+          "mean": 5.09,
+          "sd": 0.14
+        },
+        "precision": {
+          "mean": 26.93,
+          "sd": 0.91
+        }
+      },
+      {
+        "method": "supervised_vanilla",
+        "name": "Supervised Vanilla",
+        "coverage": {
+          "mean": 59.2,
+          "sd": 1.76
+        },
+        "falsePositive": {
+          "mean": 5.27,
+          "sd": 0.23
+        },
+        "precision": {
+          "mean": 24.21,
+          "sd": 0.84
+        }
+      },
+      {
+        "method": "vanilla",
+        "name": "Vanilla BSF",
+        "coverage": {
+          "mean": 57.15,
+          "sd": 1.99
+        },
+        "falsePositive": {
+          "mean": 5.22,
+          "sd": 0.1
+        },
+        "precision": {
+          "mean": 23.62,
+          "sd": 0.93
+        }
+      }
+    ]
+  },
+  "sources": [
+    {
+      "file": "table_matched75_coherence.tex",
+      "sha256": "657312b61c082309edb69fe03c33fc41cbdac221e6a4ae786680700e9c1a9fbf"
+    },
+    {
+      "file": "supp_matched75.tex",
+      "sha256": "06d0d355e085033ee37086e72a0b3cec7d96d2161ea3f857bbd3804e788f4ac0"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "factor_sum_max_error": 2.50304309501459e-08,
+  "train_squared_norm": 1.0000000000156994,
+  "fingerprints": {
+    "train": "060cd638591961c5115af17b70f0f07b39e5181edfc287764a4e6d48a3995d47",
+    "select": "f2fc956386ac297940f66ca997306bdecff4c1a14da7f90ef3d1e7fc7448f1e1",
+    "calibration": "b3ecf090d840a0750b19e42b4928064c73fc31991150dfaecd8d20fef799d842",
+    "test": "d0fc04a2883729e30737a2f1573be2d598309187ad9b971660e39389550d4f60"
+  },
+  "global_centering": false,
+  "one_training_scale_for_all_splits": true,
+  "correlation_recipe_exactly_published": true
+}

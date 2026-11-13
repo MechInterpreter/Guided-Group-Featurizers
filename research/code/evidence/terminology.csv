@@ -1,0 +1,23 @@
+legacy_display_name,paper_display_name,meaning
+GGF,GGF,Guided model; initialization is stated separately
+Mask GGF,GGF,Initialization + Guided Learning
+Final AGF,GGF+X,Guided checkpoint after checked Exchanges
+AGF (legacy model arm),GGF+X,Exchanged endpoint; three directions in the main structural experiment
+AGF (framework),GGF,Initialization and Guided Learning; Exchanges are an appendix ablation
+mask4_balanced / cap040,GGF 4: cap 0.40,Four-direction guided result; no Exchanges
+ggf_continue,GGF 4: continued,Guided Learning continuation
+ggf_pcgrad,GGF 4: encoder PCGrad,Experimental Guided Learning continuation
+vanilla_continue,Vanilla BSF 4: continued,Reconstruction continuation
+mask5,GGF 5: cap 0.40,Five-direction mask-initialized guided checkpoint; no Exchanges
+vanilla5,Vanilla BSF 5,Five-direction matched reconstruction-only control
+guided5_continue,GGF 5: ordinary continuation,Five-direction reference before capacity follow-ups
+vanilla5_continue,Vanilla BSF 5: continued,Matched reconstruction control
+pcgrad5_both,GGF 5: projection ablation,Unadopted optimization trial
+agf_6d16,GGF 6D,Expanded six-direction guided model; no Exchanges
+agf_8d16,GGF 8D,Expanded eight-direction guided model; no Exchanges
+agf_12d16,GGF 12D,Expanded twelve-direction guided model at19640updates; no Exchanges
+agfx5,GGF+X 5D,Bounded Exchanges follow-up accepted zero edits
+AGF (main method),GGF,Initialization and Guided Learning only; group membership fixed
+agf_g / GGF (saved guided arms),GGF,Main-model display name; saved keys unchanged
+agf_x / Final AGF (saved structural arms),GGF+X (appendix only),Historical exchanged descendants; excluded from main method
+AGF (previous manuscript name),GGF,Guided Group Featurizers; Initialization and Guided Learning. Saved model IDs and paths stay unchanged.

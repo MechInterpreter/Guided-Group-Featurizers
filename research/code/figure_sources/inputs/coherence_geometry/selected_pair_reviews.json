@@ -1,0 +1,338 @@
+[
+  {
+    "context": "context1",
+    "original_labels_path": "original frozen coherence labels/context1.json",
+    "original_labels_sha256": "e4fc28a98b32d456ec64ab61c343a67db296acdcde8b03cf90df3f09d7c8717c",
+    "original_reviewer": "Blinded context1; raw contexts preserved",
+    "cases": [
+      {
+        "case_id": "G0068",
+        "pairs": [
+          {
+            "pair": 0,
+            "semantic": "yes",
+            "visual": "yes",
+            "shared_meaning": "A child's facial region around the nose and eyes; rounded skin contours and small dark eye/nose features recur.",
+            "exceptions": "Expression, lighting and viewing angle differ, and some boxes include adjacent cheek skin."
+          },
+          {
+            "pair": 1,
+            "semantic": "no",
+            "visual": "no",
+            "shared_meaning": "No specific shared meaning: plush toy/soft bedding regions versus colored umbrella panels.",
+            "exceptions": "Rounded fuzzy brown folds differ from the taut saturated triangular panels."
+          },
+          {
+            "pair": 2,
+            "semantic": "no",
+            "visual": "no",
+            "shared_meaning": "No specific shared meaning: a child's upper face versus patterned bedcover at the bottom of a bed.",
+            "exceptions": "Skin contours do not match the pale folded patterned textile."
+          }
+        ]
+      },
+      {
+        "case_id": "G0461",
+        "pairs": [
+          {
+            "pair": 0,
+            "semantic": "no",
+            "visual": "no",
+            "shared_meaning": "No single specific shared meaning or visual motif across the marks: uniform trousers versus a mixture of trousers and sandy ground.",
+            "exceptions": "One mark in view 2 touches the pitcher's trousers, but several others lie on the infield; the trousers alone do not account for the marked evidence."
+          },
+          {
+            "pair": 1,
+            "semantic": "no",
+            "visual": "no",
+            "shared_meaning": "No shared specific meaning or visual structure: white cat fur versus pizza cheese/pepperoni.",
+            "exceptions": "The cat's soft fur and the pizza's mottled baked surface differ."
+          },
+          {
+            "pair": 2,
+            "semantic": "no",
+            "visual": "no",
+            "shared_meaning": "No shared specific meaning or visual motif: sink basin/drain patches versus a baseball-field boundary and infield.",
+            "exceptions": "The dark edge marks in view 6 do not establish a sink-like form."
+          }
+        ]
+      },
+      {
+        "case_id": "G0617",
+        "pairs": [
+          {
+            "pair": 0,
+            "semantic": "no",
+            "visual": "no",
+            "shared_meaning": "No specific shared meaning or visual structure.",
+            "exceptions": "View 1 includes racket mesh and pavement; view 2 marks a smooth ceiling."
+          },
+          {
+            "pair": 1,
+            "semantic": "yes",
+            "visual": "yes",
+            "shared_meaning": "Tennis racket head and fine strings, showing crossed mesh bounded by a curved rim.",
+            "exceptions": "Some view 4 marks also include striped clothing."
+          },
+          {
+            "pair": 2,
+            "semantic": "no",
+            "visual": "no",
+            "shared_meaning": "No specific shared meaning or visual structure.",
+            "exceptions": "View 5 includes racket strings; view 6 marks dark background beside the pitcher."
+          }
+        ]
+      },
+      {
+        "case_id": "G0622",
+        "pairs": [
+          {
+            "pair": 0,
+            "semantic": "yes",
+            "visual": "yes",
+            "shared_meaning": "Baseball glove leather and lacing, with folded padded surfaces and stitched seams.",
+            "exceptions": "Glove color differs."
+          },
+          {
+            "pair": 1,
+            "semantic": "yes",
+            "visual": "yes",
+            "shared_meaning": "Baseball glove surfaces and lacing, with curved padded sections and seams.",
+            "exceptions": "The glove in view 3 is lighter brown."
+          },
+          {
+            "pair": 2,
+            "semantic": "yes",
+            "visual": "yes",
+            "shared_meaning": "Baseball glove leather, showing dark curved padded folds, seams and laces.",
+            "exceptions": "Some marks are near the glove-background boundary."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "context2",
+    "original_labels_path": "original frozen coherence labels/context2.json",
+    "original_labels_sha256": "345f1b0bef06af6300e26ad79e59296bb8579b6842c3bbf18cbe1a8541c7b449",
+    "original_reviewer": "Blinded context2; raw contexts preserved",
+    "cases": [
+      {
+        "case_id": "G0068",
+        "pairs": [
+          {
+            "pair": 0,
+            "semantic": "yes",
+            "visual": "yes",
+            "shared_meaning": "Child facial region around the eye, nose and cheek, with dark eye detail against smooth skin.",
+            "exceptions": "View 1 also marks forehead; view 2 reaches the mouth-side cheek."
+          },
+          {
+            "pair": 1,
+            "semantic": "no",
+            "visual": "no",
+            "shared_meaning": "No specific shared meaning: soft brown bedding or plush-toy surfaces versus umbrella panels.",
+            "exceptions": "The cloth surfaces have different forms and local patterns."
+          },
+          {
+            "pair": 2,
+            "semantic": "no",
+            "visual": "no",
+            "shared_meaning": "No specific shared meaning: a child's eye and nose region versus patterned bed linen.",
+            "exceptions": "The face contours do not recur in the marked bedding."
+          }
+        ]
+      },
+      {
+        "case_id": "G0461",
+        "pairs": [
+          {
+            "pair": 0,
+            "semantic": "yes",
+            "visual": "yes",
+            "shared_meaning": "Baseball uniform trousers; pale cloth with bent creases and seams.",
+            "exceptions": "View 2 also has marked dirt patches beyond the trousers; view 1 includes a boundary against a red sock."
+          },
+          {
+            "pair": 1,
+            "semantic": "no",
+            "visual": "no",
+            "shared_meaning": "No specific shared meaning established.",
+            "exceptions": "View 3 marks the pale sink or basin around a cat; view 4 marks pizza and cheese."
+          },
+          {
+            "pair": 2,
+            "semantic": "no",
+            "visual": "no",
+            "shared_meaning": "No specific shared meaning established.",
+            "exceptions": "View 5 marks a white sink basin; view 6 marks peripheral dark and tan portions of the baseball scene."
+          }
+        ]
+      },
+      {
+        "case_id": "G0617",
+        "pairs": [
+          {
+            "pair": 0,
+            "semantic": "no",
+            "visual": "no",
+            "shared_meaning": "No shared object or specific visual structure: tennis-racket strings versus plain interior ceiling/wall/floor patches.",
+            "exceptions": "The interior patches do not show a comparable string lattice."
+          },
+          {
+            "pair": 1,
+            "semantic": "yes",
+            "visual": "yes",
+            "shared_meaning": "Tennis-racket strings and frame portions; a fine crossing mesh with a curved contrasting rim.",
+            "exceptions": "Several fourth-view marks also include the striped shirt behind the racket."
+          },
+          {
+            "pair": 2,
+            "semantic": "no",
+            "visual": "no",
+            "shared_meaning": "No shared meaning or specific visual form: racket mesh versus dark stadium background.",
+            "exceptions": "The sixth-view marked patches are largely smooth dark background."
+          }
+        ]
+      },
+      {
+        "case_id": "G0622",
+        "pairs": [
+          {
+            "pair": 0,
+            "semantic": "yes",
+            "visual": "yes",
+            "shared_meaning": "Baseball gloves; thick leather pockets, finger sections and visible lacing or seams.",
+            "exceptions": "Black leather versus orange-brown leather."
+          },
+          {
+            "pair": 1,
+            "semantic": "yes",
+            "visual": "yes",
+            "shared_meaning": "Baseball gloves; padded curved leather sections with contrasting stitched/laced divisions.",
+            "exceptions": "Tan versus gray-black leather, and different glove orientations."
+          },
+          {
+            "pair": 2,
+            "semantic": "yes",
+            "visual": "yes",
+            "shared_meaning": "Baseball gloves; dark leather fingers and webbing with pale seam/lacing lines.",
+            "exceptions": "The sixth glove is extended outward and partly edge-on."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "context3",
+    "original_labels_path": "original frozen coherence labels/context3.json",
+    "original_labels_sha256": "3aff7d89d267e7c122fd62ad51bf1713f77be7f3ee0b49a8927e0119d09800c3",
+    "original_reviewer": "Blinded context3; raw contexts preserved",
+    "cases": [
+      {
+        "case_id": "G0068",
+        "pairs": [
+          {
+            "pair": 0,
+            "semantic": "yes",
+            "visual": "yes",
+            "shared_meaning": "Child facial regions around the eyes and nose, with dark facial details set in softly shaded skin.",
+            "exceptions": "The marks cover slightly different portions of the eye and nose."
+          },
+          {
+            "pair": 1,
+            "semantic": "no",
+            "visual": "no",
+            "shared_meaning": "No shared specific concept: soft stuffed-toy folds versus brightly colored umbrella panels.",
+            "exceptions": "The cat and boy are outside the marked evidence."
+          },
+          {
+            "pair": 2,
+            "semantic": "no",
+            "visual": "no",
+            "shared_meaning": "No shared marked meaning: a child's eye and nose region versus pale patterned bedding.",
+            "exceptions": "The cat in view 6 is outside the marks."
+          }
+        ]
+      },
+      {
+        "case_id": "G0461",
+        "pairs": [
+          {
+            "pair": 0,
+            "semantic": "no",
+            "visual": "no",
+            "shared_meaning": "No consistent specific shared meaning or visual structure spans the marked regions.",
+            "exceptions": "White baseball trousers occur at some marks, but view 2 also marks bare infield dirt; view 1 includes red sock and uniform boundaries."
+          },
+          {
+            "pair": 1,
+            "semantic": "no",
+            "visual": "no",
+            "shared_meaning": "No specific shared meaning or visual structure is established.",
+            "exceptions": "The pale dish or background beside the cat differs from the pizza's cheese, pepperoni, and edge."
+          },
+          {
+            "pair": 2,
+            "semantic": "no",
+            "visual": "no",
+            "shared_meaning": "No specific shared meaning or visual structure is established.",
+            "exceptions": "White sink-bowl and drain areas differ from the marked field edge and infield dirt."
+          }
+        ]
+      },
+      {
+        "case_id": "G0617",
+        "pairs": [
+          {
+            "pair": 0,
+            "semantic": "no",
+            "visual": "no",
+            "shared_meaning": "No specific shared meaning or visual structure is evident.",
+            "exceptions": "View 1 marks racket mesh and paving; view 2 marks a smooth ceiling."
+          },
+          {
+            "pair": 1,
+            "semantic": "yes",
+            "visual": "yes",
+            "shared_meaning": "Tennis racket heads and strings; fine intersecting string lines within a dark rim.",
+            "exceptions": "Several marks instead touch clay court in view 3 or a striped shirt in view 4."
+          },
+          {
+            "pair": 2,
+            "semantic": "no",
+            "visual": "no",
+            "shared_meaning": "No specific shared meaning or visual structure is evident.",
+            "exceptions": "View 5 includes racket strings and dark background; view 6 marks a dark background band without identifiable racket structure."
+          }
+        ]
+      },
+      {
+        "case_id": "G0622",
+        "pairs": [
+          {
+            "pair": 0,
+            "semantic": "yes",
+            "visual": "yes",
+            "shared_meaning": "Baseball gloves; thick folded leather sections with seams and lacing around a pocket.",
+            "exceptions": "Leather color differs substantially."
+          },
+          {
+            "pair": 1,
+            "semantic": "yes",
+            "visual": "yes",
+            "shared_meaning": "Baseball gloves; padded finger sections and laced or stitched leather edges.",
+            "exceptions": "View 3 is tan while view 4 is dark."
+          },
+          {
+            "pair": 2,
+            "semantic": "yes",
+            "visual": "yes",
+            "shared_meaning": "Baseball gloves; folded padded leather, finger divisions, and contrasting lacing or seams.",
+            "exceptions": "The glove orientation differs."
+          }
+        ]
+      }
+    ]
+  }
+]

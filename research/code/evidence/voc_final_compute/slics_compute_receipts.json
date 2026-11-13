@@ -1,0 +1,292 @@
+{
+  "rows": [
+    {
+      "seed": 21,
+      "arm": "matched_ggf",
+      "method": "released_vanilla",
+      "training_updates": 10640,
+      "selected_updates": 10640,
+      "weights_sha": "8b729cd9633862d95fe63adb7384f74faaff0fce1fee6d39fa9ffc1c5db0485b",
+      "key": "small75_s21_lr10000_ggf_object"
+    },
+    {
+      "seed": 21,
+      "arm": "matched_ggf_final",
+      "method": "released_vanilla",
+      "training_updates": 10640,
+      "selected_updates": 10640,
+      "weights_sha": "8b729cd9633862d95fe63adb7384f74faaff0fce1fee6d39fa9ffc1c5db0485b",
+      "key": "small75_s21_lr10000_ggf"
+    },
+    {
+      "seed": 21,
+      "arm": "slics_object_partial",
+      "method": "native_slics",
+      "training_seconds": 7733.284350983911,
+      "training_updates": 10640,
+      "selected_updates": 0,
+      "weights_sha": "7f5be289dac6a5bfae9c4c851c41f2cd4b477d1a69c9af155f9490d9cb5ee33e",
+      "key": "native_slics12_s21_object"
+    },
+    {
+      "seed": 21,
+      "arm": "slics_final_partial",
+      "method": "native_slics",
+      "training_seconds": 7733.284350983911,
+      "training_updates": 10640,
+      "selected_updates": 10640,
+      "weights_sha": "e766e271dcadf0ce22022b4dd20989143b7b124d38097287dfb7c81ccb60a4b7",
+      "key": "native_slics12_s21"
+    },
+    {
+      "seed": 21,
+      "arm": "current_ggf",
+      "method": "released_vanilla",
+      "training_updates": 10640,
+      "selected_updates": 10640,
+      "weights_sha": "7ba79ec022b8fceee1c427c9aa3088669678a145129224c0bfd6e975cd17a029",
+      "key": "g4096_k32_s21_mask_lr3000_p10000_agf_g_c060"
+    },
+    {
+      "seed": 22,
+      "arm": "matched_ggf",
+      "method": "released_vanilla",
+      "training_updates": 10640,
+      "selected_updates": 10640,
+      "weights_sha": "b7f8fa665ae3f3366c00ee87693a4f097356563ed9f1f573a84b8aca7e464ad7",
+      "key": "small75_s22_lr10000_ggf_object"
+    },
+    {
+      "seed": 22,
+      "arm": "matched_ggf_final",
+      "method": "released_vanilla",
+      "training_updates": 10640,
+      "selected_updates": 10640,
+      "weights_sha": "b7f8fa665ae3f3366c00ee87693a4f097356563ed9f1f573a84b8aca7e464ad7",
+      "key": "small75_s22_lr10000_ggf"
+    },
+    {
+      "seed": 22,
+      "arm": "slics_object_partial",
+      "method": "native_slics",
+      "training_seconds": 7647.292061456886,
+      "training_updates": 10640,
+      "selected_updates": 0,
+      "weights_sha": "7f5be289dac6a5bfae9c4c851c41f2cd4b477d1a69c9af155f9490d9cb5ee33e",
+      "key": "native_slics12_s22_object"
+    },
+    {
+      "seed": 22,
+      "arm": "slics_final_partial",
+      "method": "native_slics",
+      "training_seconds": 7647.292061456886,
+      "training_updates": 10640,
+      "selected_updates": 10640,
+      "weights_sha": "6859d472d9d5f03e4748e7ddc7ca025c00575db19c1632eb3b936fe37083b4bd",
+      "key": "native_slics12_s22"
+    },
+    {
+      "seed": 22,
+      "arm": "current_ggf",
+      "method": "released_vanilla",
+      "training_updates": 10640,
+      "selected_updates": 10640,
+      "weights_sha": "d0e7072c8dfb192eadfa23fb781b7a4e1c2692f3164c083508bafdfd9fc12667",
+      "key": "g4096_k32_s22_mask_lr3000_p10000_agf_g_c060"
+    },
+    {
+      "seed": 23,
+      "arm": "matched_ggf",
+      "method": "released_vanilla",
+      "training_updates": 10640,
+      "selected_updates": 10640,
+      "weights_sha": "748b97c2f09b978957bebdbf932ccdc551c1a0e602467fe147af592acfe5ed6e",
+      "key": "small75_s23_lr10000_ggf_object"
+    },
+    {
+      "seed": 23,
+      "arm": "matched_ggf_final",
+      "method": "released_vanilla",
+      "training_updates": 10640,
+      "selected_updates": 10640,
+      "weights_sha": "748b97c2f09b978957bebdbf932ccdc551c1a0e602467fe147af592acfe5ed6e",
+      "key": "small75_s23_lr10000_ggf"
+    },
+    {
+      "seed": 23,
+      "arm": "slics_object_partial",
+      "method": "native_slics",
+      "training_seconds": 7463.69542736889,
+      "training_updates": 10640,
+      "selected_updates": 0,
+      "weights_sha": "7f5be289dac6a5bfae9c4c851c41f2cd4b477d1a69c9af155f9490d9cb5ee33e",
+      "key": "native_slics12_s23_object"
+    },
+    {
+      "seed": 23,
+      "arm": "slics_final_partial",
+      "method": "native_slics",
+      "training_seconds": 7463.69542736889,
+      "training_updates": 10640,
+      "selected_updates": 10640,
+      "weights_sha": "a3278e59bb5ba1d2c9f9305609a8ffaaf73f613080ab1102c4b754c43faaaa3b",
+      "key": "native_slics12_s23"
+    },
+    {
+      "seed": 23,
+      "arm": "current_ggf",
+      "method": "released_vanilla",
+      "training_updates": 10640,
+      "selected_updates": 10640,
+      "weights_sha": "5147a325efc0d491eecd1651c45c5c29cc3df3c33a073aed6f6d0a7140a52d8e",
+      "key": "g4096_k32_s23_mask_lr3000_p10000_agf_g_c060"
+    },
+    {
+      "seed": 24,
+      "arm": "matched_ggf",
+      "method": "released_vanilla",
+      "training_updates": 10640,
+      "selected_updates": 10640,
+      "weights_sha": "01341765942329403119c47a76cc236742e224ddcabe62f49438fdf43432c3b2",
+      "key": "small75_s24_lr10000_ggf_object"
+    },
+    {
+      "seed": 24,
+      "arm": "matched_ggf_final",
+      "method": "released_vanilla",
+      "training_updates": 10640,
+      "selected_updates": 10640,
+      "weights_sha": "01341765942329403119c47a76cc236742e224ddcabe62f49438fdf43432c3b2",
+      "key": "small75_s24_lr10000_ggf"
+    },
+    {
+      "seed": 24,
+      "arm": "slics_object_partial",
+      "method": "native_slics",
+      "training_seconds": 7634.321404833982,
+      "training_updates": 10640,
+      "selected_updates": 0,
+      "weights_sha": "7f5be289dac6a5bfae9c4c851c41f2cd4b477d1a69c9af155f9490d9cb5ee33e",
+      "key": "native_slics12_s24_object"
+    },
+    {
+      "seed": 24,
+      "arm": "slics_final_partial",
+      "method": "native_slics",
+      "training_seconds": 7634.321404833982,
+      "training_updates": 10640,
+      "selected_updates": 10640,
+      "weights_sha": "3a0ef309627173897c48559481271fed382815c33c035abe6ea96f5a88f8f7d3",
+      "key": "native_slics12_s24"
+    },
+    {
+      "seed": 25,
+      "arm": "matched_ggf",
+      "method": "released_vanilla",
+      "training_updates": 10640,
+      "selected_updates": 10640,
+      "weights_sha": "ee1c2be4c35e5c9efe73efecad4c02a11e3b502bb83bf66272f8d9c377727da2",
+      "key": "small75_s25_lr10000_ggf_object"
+    },
+    {
+      "seed": 25,
+      "arm": "matched_ggf_final",
+      "method": "released_vanilla",
+      "training_updates": 10640,
+      "selected_updates": 10640,
+      "weights_sha": "ee1c2be4c35e5c9efe73efecad4c02a11e3b502bb83bf66272f8d9c377727da2",
+      "key": "small75_s25_lr10000_ggf"
+    },
+    {
+      "seed": 25,
+      "arm": "slics_object_partial",
+      "method": "native_slics",
+      "training_seconds": 7610.288412546093,
+      "training_updates": 10640,
+      "selected_updates": 0,
+      "weights_sha": "7f5be289dac6a5bfae9c4c851c41f2cd4b477d1a69c9af155f9490d9cb5ee33e",
+      "key": "native_slics12_s25_object"
+    },
+    {
+      "seed": 25,
+      "arm": "slics_final_partial",
+      "method": "native_slics",
+      "training_seconds": 7610.288412546093,
+      "training_updates": 10640,
+      "selected_updates": 10640,
+      "weights_sha": "9dbcb362c35e1b9043edda908e345b25af29afa0efc1ed037aa752d06277f57e",
+      "key": "native_slics12_s25"
+    }
+  ],
+  "source_drive_id": "17haMVvoQrKde1hf5NLeVNO-qdmNTBzn0",
+  "execution": {
+    "revision": "62a1f6a65dd8427c55049e0c831a805437c00caf90e8f740d07c2e0c297aae16",
+    "run_id": "a9c638e1ec0bd97434d7cda7217d46ee46334c10820b393e038775d89e716822",
+    "gpu": "Tesla T4",
+    "versions": {
+      "numpy": "2.1.3",
+      "torch": "2.11.0+cu130",
+      "scipy": "1.16.3",
+      "einops": "0.8.2",
+      "scikit-learn": "1.6.1"
+    },
+    "full_dictionary": true,
+    "KKT_tolerance": 0.00001,
+    "fallback_maxiter": 20000,
+    "training": false,
+    "cohort_changed": false,
+    "existing_image_prefixes_retained": true,
+    "solver": "Float32 batched FISTA, certified-row compaction, cached float64 active-set refinement, full SciPy fallback",
+    "note": "Execution solver differs. All rows require original-space float64 KKT; nonunique coefficients/activity may differ. Prior verified CPU/GPU prefixes remain in final totals."
+  },
+  "joint_reconstruction": [
+    {
+      "time_utc": "2026-10-19T02:08:12Z",
+      "stage": "final_joint_reconstruction",
+      "images_completed": 1500,
+      "images_total": 1500,
+      "seconds": 946.0305166590097,
+      "weights_sha": "7f5be289dac6a5bfae9c4c851c41f2cd4b477d1a69c9af155f9490d9cb5ee33e"
+    },
+    {
+      "time_utc": "2026-10-19T05:05:41Z",
+      "stage": "final_joint_reconstruction",
+      "images_completed": 1500,
+      "images_total": 1500,
+      "seconds": 2941.05006671599,
+      "weights_sha": "e766e271dcadf0ce22022b4dd20989143b7b124d38097287dfb7c81ccb60a4b7"
+    },
+    {
+      "time_utc": "2026-10-19T05:13:38Z",
+      "stage": "final_joint_reconstruction",
+      "images_completed": 1500,
+      "images_total": 1500,
+      "seconds": 447.5726172260081,
+      "weights_sha": "6859d472d9d5f03e4748e7ddc7ca025c00575db19c1632eb3b936fe37083b4bd"
+    },
+    {
+      "time_utc": "2026-10-19T05:24:02Z",
+      "stage": "final_joint_reconstruction",
+      "images_completed": 1500,
+      "images_total": 1500,
+      "seconds": 589.633485838001,
+      "weights_sha": "a3278e59bb5ba1d2c9f9305609a8ffaaf73f613080ab1102c4b754c43faaaa3b"
+    },
+    {
+      "time_utc": "2026-10-19T05:29:58Z",
+      "stage": "final_joint_reconstruction",
+      "images_completed": 1500,
+      "images_total": 1500,
+      "seconds": 326.88694614099995,
+      "weights_sha": "3a0ef309627173897c48559481271fed382815c33c035abe6ea96f5a88f8f7d3"
+    },
+    {
+      "time_utc": "2026-10-19T06:22:33Z",
+      "stage": "final_joint_reconstruction",
+      "images_completed": 1500,
+      "images_total": 1500,
+      "seconds": 3104.901278129005,
+      "weights_sha": "9dbcb362c35e1b9043edda908e345b25af29afa0efc1ed037aa752d06277f57e"
+    }
+  ]
+}

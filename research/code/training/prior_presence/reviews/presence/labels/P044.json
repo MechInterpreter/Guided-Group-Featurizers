@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p044",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I0529",
+      "yes": [0,21],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Two actual black bears occupy the lower enclosure, with rounded ears, dark fur and bear bodies; these are animals rather than teddy bears. Actual human spectators are visible above the concrete wall. The remaining scene is enclosure masonry, ground, water, vegetation and tires; spectators' small belongings do not establish any additional defined object. I considered all 75 definitions, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0530",
+      "yes": [0,38],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual tennis player in pink is serving, with a visibly strung racket head and handle behind her raised arm. The green playing surface and distant advertising/scoreboard do not supply other defined objects; scoreboard match information is not an identifiable time-of-day clock. I considered all 75 definitions, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0531",
+      "yes": [0,62,79],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,63,64,65,66,67,68,69,71,72,74,75,76,77],
+      "unclear": [73],
+      "all_definitions_considered": true,
+      "rationale": "A person holds a narrow-handled toothbrush against his teeth, with its brush head at the mouth. A framed standalone television/monitor screen is visible at upper left. The cropped stack of thin rectangular items at lower left, and tiny items at the right edge, lack enough page/spine detail to distinguish bound books from media cases or papers, so book is unclear. His glasses and the other room surfaces are outside the definitions. I explicitly considered all 75 definitions."
+    },
+    {
+      "case_id": "I0532",
+      "yes": [0,26,56,67],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,60,61,62,63,64,65,66,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A seated person looks at a handheld mobile phone in his right hand. Individual high-backed seats are visible behind him. A black carried shoulder-style bag rests across his lap, with bag body, closure and strap context; the white handled shopping bag is also present. These are not rigid suitcases or identifiable backpacks. The central large object is a microphone, not a bottle or other listed object. The travel-style seating alone does not identify a particular rail or road vehicle. I considered all 75 definitions, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0533",
+      "yes": [0,13,29],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A person's head, arms and torso enter from lower right, reaching toward an airborne orange flying disc at upper left. A long outdoor slatted bench with back and shared seat stands at lower left. Trees grow directly from the landscape rather than identifiable pots. No other defined objects are supported. I considered all 75 definitions, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0534",
+      "yes": [16],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual pug dog stands on grass with a forepaw on a patterned soccer ball. Its short muzzle, curled tail and body identify dog, not any other animal or stuffed toy. The round inflated ball is not a frisbee and is outside these 75 definitions. The collar is not a necktie. I considered all 75 definitions, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0535",
+      "yes": [2,3,12],
+      "no": [0,1,4,5,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A red motor scooter with engine body, saddle and small wheels fills the foreground, qualifying as motorcycle rather than pedal bicycle. Actual passenger cars are parked behind it and cropped at right. A gray parking-meter head on its narrow pole stands behind the scooter near the curb. Storefronts, pavement and street markings do not identify additional defined objects. I considered all 75 definitions, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0536",
+      "yes": [0,20],
+      "no": [1,3,4,5,6,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [2,7],
+      "all_definitions_considered": true,
+      "rationale": "An actual elephant with wrinkled body, large ear and trunk stands immediately outside the vehicle. A person's hand and forearm hold a camera at lower right; the camera is not a cell phone. The foreground contains roof/window supports and a vehicle side panel, but this limited open safari-vehicle interior does not settle passenger car versus truck, so car and truck remain unclear. It does not support other vehicle identities. I explicitly considered all 75 definitions."
+    },
+    {
+      "case_id": "I0537",
+      "yes": [6,13,77],
+      "no": [0,1,2,3,4,5,7,8,9,10,11,12,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The metal carriage interior, large sliding door/window structures and transit partition identify a rail carriage. The orange upholstered long seat has a shared base for two occupants, qualifying as bench rather than an individual chair or domestic couch. A small patterned stuffed bear lies on that seat, with rounded bear ears, muzzle and plush limbs; it is a teddy bear rather than a live bear. I considered all 75 definitions, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0538",
+      "yes": [0,17,58],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual helmeted rider is mounted on an actual dark horse, whose head, mane, body and legs are clearly visible. At lower right, flowers and foliage grow from visible terracotta pots beside the show-jump fence, supporting potted plant rather than cut flowers in vases. The white peaked structures are event tents, not umbrellas. Saddle, helmet and colored jump rails do not establish other listed categories. I considered all 75 definitions, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0539",
+      "yes": [0,16,29],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual black-and-white dog jumps with a yellow flying disc in its mouth. An actual person is cropped along the right edge and holds more yellow discs. The background consists of grass, trees, boundary tape and an orange sports cone, which is neither a traffic signal nor a hydrant. I considered all 75 definitions, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0540",
+      "yes": [2,12],
+      "no": [0,1,3,4,5,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A large actual pay-parking meter occupies the center, identifiable by its parking instructions, payment slots, buttons and display. Real passenger cars flank it, with the left front wheel/body and right rear lamp/body clearly visible. The meter's small integrated information display is not a standalone television, laptop or time-of-day clock. Background building windows and signs do not establish any other defined object. I considered all 75 definitions, with no unresolved category ambiguity."
+    }
+  ]
+}

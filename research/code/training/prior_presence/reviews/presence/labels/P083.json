@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p083",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I0997",
+      "yes": [0],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual person stands in snow wearing ski gear and holding poles. The two separate narrow skis are not a snowboard; the poles and straps are not the defined bags or sports objects. Trees and mountain scenery contain no identifiable additional category object. I considered each of the 75 frozen definitions; no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0998",
+      "yes": [0,2,3,9,25],
+      "no": [1,4,5,6,7,8,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The street crop shows people, passenger cars, a motor scooter/motorcycle with rider in the road, and a traffic signal head on the foreground pole. The light canopy above the clothing stand at right has umbrella structure. The yellow payment apparatus and parking signs are not an identifiable parking-meter head/body; signs and street lamps are not stop signs or traffic lights. Hanging garments do not establish bags or ties. I considered every frozen definition, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0999",
+      "yes": [15,64],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A real tabby cat rests its head immediately beside a silver and black computer mouse with recognizable buttons and scroll control. The mouse is an input device, not the animal or a remote. No keyboard, computer display or other category object is visible. I considered all 75 definitions; no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1000",
+      "yes": [0,45,76],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Visible human hands and torso use large scissors to cut leafy herbs into a white bowl whose curved rim and body are visible. The paired pivoting blades and handle identify scissors rather than a knife. The greens are herbs, not identifiable broccoli; the background metal vessel does not establish a sink or appliance. Shirt graphics are excluded depictions. Each of the 75 definitions was considered; no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1001",
+      "yes": [0,41,58,62],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,59,60,61,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [56,57,63],
+      "all_definitions_considered": true,
+      "rationale": "Human legs and a bare foot are visible. A recognizable drinking tumbler sits on an upholstered ottoman, a plant grows from a visible light pot at left, and a standalone television sits above the console. The cropped foreground screen could be a laptop display or tablet; without an integrated base its laptop identity remains unclear (63). The partial seating at right does not resolve individual armchair versus couch (56,57). The ottoman and media console are not dining tables, and no keyboard is identifiable. I considered each of all 75 definitions."
+    },
+    {
+      "case_id": "I1002",
+      "yes": [0,38,56],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "People are visible on the tennis court and in the stands. The foreground player holds an identifiable tennis racket with its oval head beside the ball; rows of individual green stadium seats provide chair backs and seats. The court equipment and balls do not match any additional listed sports category. Advertisements depict logos rather than actual objects. Every one of the 75 definitions was considered; no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1003",
+      "yes": [22],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,20,21,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [19],
+      "all_definitions_considered": true,
+      "rationale": "A clearly striped living zebra occupies the foreground; it is not a horse. The small dark ungulate cut off at the right background lacks sufficient head and body detail to resolve cattle versus another bovid, so cow (19) remains unclear. Its visible silhouette does not support bear, elephant, giraffe or a second horse identity. Grass and distant landscape do not establish other category objects. I explicitly considered all 75 definitions."
+    },
+    {
+      "case_id": "I1004",
+      "yes": [],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [62,63],
+      "all_definitions_considered": true,
+      "rationale": "The crop shows a wooden floor behind glazing and hanging vertical blinds. The dark upright rectangular object on the floor has too little detail to resolve a small standalone display versus a laptop screen/base or another object, leaving tv (62) and laptop (63) unclear. No keys, mouse or remote are identifiable. Reflected building windows and vague reflected shapes do not identify additional actual category objects. I considered all 75 frozen definitions."
+    },
+    {
+      "case_id": "I1005",
+      "yes": [45,56,63,64,66],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,46,47,48,49,50,51,52,53,54,55,57,58,59,60,61,62,65,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The workspace has an open laptop with integrated keyboard, a white computer mouse on the black mat, and part of an office chair at lower left. The cropped round glass fishbowl at upper left supplies identifiable bowl body/rim context. The upright units are loudspeakers and an audio controller, not standalone monitors or remotes. The surface is a computer desk rather than a dining table; objects shown on the laptop screen do not count as actual scene objects. I considered all 75 definitions; no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1006",
+      "yes": [25,56],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Several folding single-person beach chairs have identifiable metal frames and fabric seats/backs. The tilted blue canopy has radiating umbrella ribs and umbrella form. The yellow hanging fabric is not a person or bag. Sand, ocean and sky do not contain an identifiable boat, animal or further listed object. I considered every one of the 75 definitions; no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1007",
+      "yes": [0,42,43,44,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,45,46,47,48,49,50,51,52,53,54,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [55],
+      "all_definitions_considered": true,
+      "rationale": "A human hand and torso appear above a table set for eating. The foreground fork shows tines and a handle, and the utensils at upper left include a knife and spoon. Plates hold eggs, meat, potatoes and pancakes; pancakes are explicitly excluded from cake. The central chocolate-drizzled, whipped-cream-topped dessert has a ridged baked outer form that may be a waffle vessel, but its construction is insufficiently resolved to exclude cake confidently, so cake (55) is unclear. The vessels are plates rather than bowls, and the foods do not establish sandwiches, hot dogs or the listed fruit/vegetables. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I1008",
+      "yes": [54,68],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,55,56,57,58,59,60,61,62,63,64,65,66,67,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A chocolate-frosted ring donut with pale dough sits on a flat plate inside an open microwave cavity with a glass turntable and microwave door surround. It is a donut rather than a plain bagel or cake. The plate is not a bowl, and the appliance is a microwave rather than a conventional oven. I considered each of the 75 definitions; no unresolved category ambiguity."
+    }
+  ]
+}

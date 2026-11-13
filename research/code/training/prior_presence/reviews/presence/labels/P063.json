@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p063",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I0757",
+      "yes": [0],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The crop clearly shows an actual baseball player with face, torso and hands. The held object is a bat, outside these categories; no fielding mitt is visible. The thin necklace is not a necktie, and the helmet and shirt do not establish any additional category. I considered all 75 definitions across the whole crop; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0758",
+      "yes": [0,39,41,45,69],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,42,43,44,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,72,73,74,75,76,77,79],
+      "unclear": [71],
+      "all_definitions_considered": true,
+      "rationale": "An actual person bends over an open conventional oven with its cavity, racks and lowered door visible. Countertop objects include narrow-neck bottles, a patterned handled cup and a blue open mixing bowl. The pan on the stovetop does not independently count as a bowl. The pale inset-looking area at the far right of the counter is too incomplete to determine whether it is a sink, so sink is unclear. The counter is not an eating table; standing kitchen implements do not reveal identifiable fork tines, a knife blade or spoon bowl. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0759",
+      "yes": [0,77],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,62,63,64,65,66,67,68,69,72,73,74,75,76,79],
+      "unclear": [61,71],
+      "all_definitions_considered": true,
+      "rationale": "An actual girl is visible beside a bathroom surround, with another person's lower body visible in the mirror. Bear-shaped stuffed toys, including the small tan bear and black-and-white plush bear, support teddy bear, not actual bear. The large recessed bathing area and curtain do not establish a sink. A partly obscured white ceramic fixture behind the girl leaves sink versus toilet identity unresolved, so both are unclear. The framed item is not an actual book or display, and loose fabric does not establish a bed or couch. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0760",
+      "yes": [0,39,61,71],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,62,63,64,65,66,67,68,69,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The actual child leans on an identifiable toilet, with its cistern, seat and pedestal visible. The right edge contains a white pedestal sink with its basin rim, and a partly cropped cleaning bottle has a translucent body and orange spray top. The laundry basket is neither a bowl nor furniture, and the toilet basin is excluded from bowl. No toothbrush, drinking vessel or additional defined object is identifiable. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0761",
+      "yes": [62,66],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,63,65,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [64],
+      "all_definitions_considered": true,
+      "rationale": "A desktop computer keyboard occupies the foreground, and the separate monitor's bezel, screen and stand are visible at upper right; that standalone display meets the frozen TV definition. This is not an integrated laptop. A narrow curved white object cut off by the bottom boundary could be a computer mouse, but too little body is visible for a determinate identity, so mouse is unclear. The surface is a computer desk rather than a dining table. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0762",
+      "yes": [0,6,40,56,60],
+      "no": [1,2,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,41,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [42,43],
+      "all_definitions_considered": true,
+      "rationale": "The windows, long rail-car interior and dining-car furnishings identify an actual train interior. A person's head is cropped at the bottom. Individual padded chair backs surround cloth-covered eating tables, and small stemmed glasses with bowls and feet are visible on the nearer table. Thin place-setting implements are too small to resolve fork tines versus knife blades, leaving fork and knife unclear. Plates and folded napkins do not establish bowls or cups. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0763",
+      "yes": [16],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [47],
+      "all_definitions_considered": true,
+      "rationale": "The white animal has an identifiable dog's head, pointed ears, muzzle, collar and body. Green fruits hang among the leaves, but their small rounded-to-elongated forms do not settle apple versus another tree fruit, so apple is unclear. Their appearance does not support orange or banana. The tree is unpotted, and the fence and foliage contain no other identifiable defined object. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0764",
+      "yes": [0,39,41,42,43,53,56,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,44,45,46,47,48,49,50,51,52,54,55,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Actual diners and their hands surround a dining table; a slatted individual chair back is visible behind the diner at right. Brown glass bottles have identifiable narrow necks, and the clear straight-sided drinking glass at left is a cup. Table forks and knives show their utensil forms. The food includes pizza portions with crust and topping, while leafy salad is not identifiable broccoli. Flat plates and the central metal pitcher/ice-bucket-type container do not establish a bowl, and no stemmed wine glass is present. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0765",
+      "yes": [0],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual baseball batter is visible with a helmet, uniform, legs and hands holding a bat. The bat is outside the frozen set, and any hand coverings are batting equipment rather than a fielding mitt; no baseball glove is visible. The remaining crop contains field grass, dirt, chalk lines and painted markings rather than additional defined objects. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0766",
+      "yes": [11],
+      "no": [0,1,3,4,5,6,8,9,10,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [2,7],
+      "all_definitions_considered": true,
+      "rationale": "The red octagonal sign has readable STOP lettering and is an actual traffic stop sign. The green street-name sign and poles are not traffic lights or parking meters. Small distant road vehicles at the left are partly occluded and too low-detail to distinguish passenger car from truck, so those two categories remain unclear. The rest is fence, sidewalk and unpotted vegetation without identifiable additional defined objects. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0767",
+      "yes": [0,7,18],
+      "no": [1,2,3,4,5,6,8,9,10,11,12,13,14,15,16,17,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A woolly actual sheep grazes in the left foreground, and multiple actual people stand behind it. The red vehicle has an identifiable pickup cab/body, supporting truck rather than passenger car. The broad green foreground structure is fabric covering a display/platform, with no identifiable umbrella frame or dining-table context. Banner lettering does not create additional animals or objects. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0768",
+      "yes": [0,74],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,75,76,77,79],
+      "unclear": [24],
+      "all_definitions_considered": true,
+      "rationale": "Actual people fill the lower station entrance, and the large ornate clock has a clear time-of-day face and hands. A small partially cut-off colored object on a foreground person's back could be a backpack, but its body and straps are insufficiently visible, so backpack is unclear. Station architecture and signage alone do not show an actual train or standalone electronic display. Carved architectural figures are excluded from actual animals and persons. All 75 definitions were considered."
+    }
+  ]
+}

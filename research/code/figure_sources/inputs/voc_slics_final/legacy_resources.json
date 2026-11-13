@@ -1,0 +1,45 @@
+{
+  "voc_T4": {
+    "Vanilla BSF": {
+      "parameters": 18886656,
+      "minutes": 7.5,
+      "sd": 0.02,
+      "allocated": 0.74,
+      "reserved": 0.85
+    },
+    "Supervised Vanilla": {
+      "parameters": 18886694,
+      "minutes": 11.32,
+      "sd": 0.03,
+      "allocated": 0.87,
+      "reserved": 2.1
+    },
+    "GGF": {
+      "parameters": 18886696,
+      "minutes": 11.7,
+      "sd": 0.04,
+      "allocated": 1.04,
+      "reserved": 2.21
+    },
+    "Concept-SAE": {
+      "parameters": 92000983,
+      "minutes": 19.47,
+      "sd": 0.66,
+      "allocated": 1.32,
+      "reserved": 1.48
+    }
+  },
+  "coco75_T4": {
+    "GGF": {
+      "parameters": 1383452,
+      "minutes": 8.66,
+      "sd": 0.33
+    },
+    "SLiCS": {
+      "parameters": 691200,
+      "minutes": 126.96,
+      "sd": 1.63
+    }
+  },
+  "source": "Previously verified manuscript Table 2 and Appendix H. Historical timing and peaks retain their published rounding. VOC/A100 data remain separate."
+}

@@ -1,0 +1,10 @@
+{
+  "fix": "match_seed_master_protocol_and_frozen_hashes_v1",
+  "selected_runs": {
+    "LOCAL_INPUTS/8eba64433eab": "fd8c968608b3d37b4f6d2f8ac6d60ce3588d05c81f2a1b610dfe0b86f7707f72",
+    "LOCAL_INPUTS/324fcdfc5b73": "4461a0d3cd6343990fb34771fe1a675db372b189788533c0e75973d4bdfca2f2",
+    "LOCAL_INPUTS/441d596f5f05": "e0a3fbad93c47ff0ff438d23234224cfbdfbc7a9e48fabc3b10ddb9aa1b2a751"
+  },
+  "numerical_changes": false,
+  "retraining": false
+}

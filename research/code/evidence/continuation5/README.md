@@ -1,0 +1,1 @@
+Verified complete run 371d2d1d81ea. Current method: guided5_continue; 3 seeds; no new Exchanges. Original artifact IDs and unadopted PCGrad outcomes are preserved. Source SHA256: 4e2f00da8b218512d5a0d06241176819e14f884eeca1ac3269977a057594858b. Test cohort previously inspected.

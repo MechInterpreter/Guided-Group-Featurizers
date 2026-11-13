@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p096",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I1153",
+      "yes": [43,44,51,60],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,45,46,47,48,49,50,52,53,54,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The meal on a white flat plate shows distinct orange carrot pieces, roast meat and potatoes. A spoon bowl is visible at the upper edge and a table knife extends diagonally at lower right; the wooden surface with the plated meal supports dining-table context. The plate is not a bowl, and the potatoes and meat do not establish any other defined food category. I considered each of the 75 frozen definitions over the whole crop; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1154",
+      "yes": [0,41,48,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,42,43,44,45,46,47,49,50,51,52,53,54,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A woman holds a hamburger with a sesame bun and visible fillings, and another actual person sits behind her. A bright green drinking cup and a brown dining tabletop appear at the right background. Her beads are a necklace rather than a tie; the cropped blue edge at lower right does not identify a chair or bag, and the background wall does not establish a bench or couch. I considered every frozen definition individually; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1155",
+      "yes": [16,29],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual black dog is jumping upright toward the cropped red-rimmed flying disc at the upper border. The curved rim and pale disc surface in this play context identify a frisbee. The surrounding lake, scrub, hills and bare branches do not contain an identifiable boat, bird, person or other defined object. I considered all 75 exact definitions; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1156",
+      "yes": [79],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The crop is filled by actual toothbrush heads with colored bristle rows and narrow molded handles. These are bristled toothbrushes rather than scissors, cutlery or generic thin handles. No person, sink or container is identifiable within the saved crop. I considered each of the 75 frozen definitions; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1157",
+      "yes": [0,59,73],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,60,61,62,63,64,66,68,69,71,72,74,75,76,77,79],
+      "unclear": [65,67],
+      "all_definitions_considered": true,
+      "rationale": "An actual person reclines on a made bed beneath pillows and a headboard, holding an open bound book; more book spines appear on the left bedside shelf. The small dark silver-edged device beside the person's right hip is too small to distinguish confidently between a cell phone and a remote, so both categories remain unclear. The bedside lamp is not a vase or clock. I explicitly considered all 75 definitions; all other categories have no supported visible instance."
+    },
+    {
+      "case_id": "I1158",
+      "yes": [0,40,41,42,43,48,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,44,45,46,47,49,50,51,52,53,54,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Actual diners' hands and torsos surround a round dining table. The central beer vessel has a bowl, stem and foot and qualifies as a wine-glass form; the foreground tumbler and right beer drinking vessel qualify as cups. A fork with tines sits beside the bread basket, and a knife lies diagonally across the lower-left plate, where bread supports egg, lettuce and tomato sandwich filling. The woven bread basket is not an identifiable bowl, plain bread pieces are not separate sandwiches, and yellow food alone does not identify a defined fruit. I considered all 75 frozen definitions; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1159",
+      "yes": [23],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Several actual giraffes have identifiable long necks, small horned heads and patch-patterned bodies, including partially cropped animals at both sides. The pattern and anatomy support giraffe rather than horse, zebra or cattle. The surrounding shrubs are unpotted vegetation. I considered every one of the 75 frozen definitions; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1160",
+      "yes": [0,40,41,68],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual woman poses beside a microwave whose dark door, right keypad and time display are visible. Clear drinking tumblers and stemmed bowl-and-foot glassware are visible on the shelf, supporting cup and wine-glass form. The microwave is not a conventional oven or TV, its display is an appliance timer rather than a clock object, and the dark lower surface is a kitchen counter rather than a dining table. Small greenery lacks visible pot evidence and does not establish a potted plant. I considered all 75 definitions; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1161",
+      "yes": [48],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Two actual filled bread-roll sandwiches sit in cardboard serving boxes. The visible shredded meat-like filling does not identify a frankfurter, so these support sandwich rather than hot dog. The printed building illustration on the box is excluded from actual-object judgments, and the packaging is not a book or bowl. The pale supporting surface does not identify a dining table. I considered all 75 frozen definitions; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1162",
+      "yes": [62,63,64,66],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,65,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The wooden work desk holds a standalone computer monitor, an open laptop with integrated keyboard, a separate white keyboard and a white computer mouse on a blue pad. The standalone monitor counts as TV under the frozen definition, while the integrated screen counts as laptop. The brown pencil holder does not identify a drinking cup, and the work desk is excluded from dining table. Screen content is not judged as actual objects. I considered each of the 75 frozen definitions; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1163",
+      "yes": [2,9,74],
+      "no": [1,3,4,6,8,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,75,76,77,79],
+      "unclear": [0,5,7],
+      "all_definitions_considered": true,
+      "rationale": "A large freestanding analog street clock has a legible dial and hands. Traffic signal heads show colored signal lamps beside the street, and low passenger-car bodies are identifiable among the roadway light streaks. Other long blurred vehicle forms do not resolve whether a bus or truck is present, so those identities remain unclear. Tiny dark sidewalk forms could be people but lack enough detail for a definite person judgment. Street lamps and banners are not traffic signs or additional category objects. I considered all 75 definitions; uncertainty is limited to the stated person and vehicle distinctions."
+    },
+    {
+      "case_id": "I1164",
+      "yes": [45,50,51],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,46,47,48,49,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [44],
+      "all_definitions_considered": true,
+      "rationale": "The patterned ceramic bowl contains recognizable green broccoli florets and orange carrot pieces together with baby corn, mushrooms and pale vegetables. The corn and other vegetables are not additional defined food categories. A curved metallic form at upper left could be the bowl of a serving spoon, but its handle is obscured and its identity is unresolved, so spoon remains unclear. The tight background does not identify a dining table. I explicitly considered all 75 frozen definitions; all remaining categories have no supported instance."
+    }
+  ]
+}

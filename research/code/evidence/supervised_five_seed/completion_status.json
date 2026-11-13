@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "settings_frozen": true,
+  "all_models_frozen": true,
+  "test_complete": true,
+  "object_metrics_complete": true,
+  "reconstruction_complete": true,
+  "bsfs_trained": 0,
+  "modified_bsf_control": false
+}

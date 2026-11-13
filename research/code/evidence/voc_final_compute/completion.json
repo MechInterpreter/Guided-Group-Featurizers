@@ -1,0 +1,14 @@
+{
+  "scope": "COCO-and-VOC-supervised-comparisons",
+  "complete": true,
+  "original_full_study_complete": false,
+  "omitted_supporting_variants": [
+    "released_grassmannian",
+    "released_group_lasso",
+    "paper_grassmannian",
+    "paper_group_lasso"
+  ],
+  "omission_reason": "Requested scope ends after COCO and VOC supervised comparisons; historical BSF comparisons remain separate evidence.",
+  "training_selection_evaluation_unchanged": true,
+  "cohort": "voc"
+}

@@ -1,0 +1,18 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+*.ipynb -text
+*.zip -text
+*.gz -text
+*.npz -text
+*.npy -text
+*.pdf -text
+*.png -text
+*.jpg -text
+*.webp -text
+/research/** -text
+/demo/public/** -text
+/.githooks/* text eol=lf

@@ -1,0 +1,151 @@
+{
+  "schema": "ggf-browsable-release-verification-v1",
+  "source_presentation_files": 170,
+  "source_presentation_ast_equivalence": true,
+  "source_sensitive_originals_preserved": 4,
+  "formatted_maintained_files": 212,
+  "unit_and_cpu_contract_tests": 81,
+  "unit_and_cpu_contract_tests_passed": true,
+  "python_modules_compiled": 1302,
+  "historical_profiles": 6,
+  "historical_files_physically_verified": 1079,
+  "exact_historical_archives_verified": 7,
+  "appendix_paths_verified": 13,
+  "coherence_groups": 4725,
+  "matched_banks": 63,
+  "training_orders": 7,
+  "numeric_rows_verified": 32,
+  "concentration_summaries_verified": 360,
+  "VOC_endpoints_verified": 6,
+  "execution_profiles_verified": 17,
+  "supporting_headroom_original_formula_checked": true,
+  "anonymity_scan": {
+    "counts": {
+      "unique_payloads": 13796,
+      "archives": 13,
+      "pdfs": 8
+    },
+    "identity_or_secret_scan_hits": [],
+    "scan_skips_or_errors": [],
+    "retained_exact_archives_scanned": 7
+  },
+  "all_method_sources_directly_present": true,
+  "restore_step_required": false,
+  "paper_results_changed": false,
+  "full_fresh_CUDA_retraining_validated": false,
+  "all_supporting_studies_cache_free_replay_validated": false,
+  "new_paid_API_calls_made": false,
+  "clean_room_diagnostic": {
+    "cpu_guard_tests_passed": 5,
+    "GPU_smoke_executed": true,
+    "public_input_only": true,
+    "full_reproduction_gaps_closed": false,
+    "guide": "docs/CLEAN_ROOM_VALIDATION.md",
+    "public_input_workers_cover_full_paper": true
+  },
+  "notebook_setup": {
+    "automatic_zip_upload_in_colab": true,
+    "archive_hashes_verified_before_extraction": true,
+    "tests_passed": 6
+  },
+  "fresh_synthetic": {
+    "source": "code/bootstrap/fresh_zoo.py",
+    "CPU_contracts_passed": 5,
+    "full_GPU_study_executed": false
+  },
+  "notebook_diagnostics": {
+    "streamed_stdout_and_stderr": true,
+    "failure_tail_in_exception": true,
+    "separate_attempt_logs": true,
+    "separate_smoke_output_directory": true,
+    "CPU_contracts_passed": 2,
+    "original_Colab_failure_diagnosed": true
+  },
+  "evidence_frozen_source_vendor_reviews_and_figure_PDF_baseline_files_byte_unchanged": 1792,
+  "fresh_voc19": {
+    "source": "code/bootstrap/fresh_voc.py",
+    "CPU_contracts_passed": 6,
+    "public_data_extraction_executed": true,
+    "full_GPU_training_executed": false,
+    "execution_profiles_reconstructed": false,
+    "extraction_validation_scope": "Four-image public-input check in the supplied Colab log; full fitting not validated."
+  },
+  "paper_alignment": {
+    "calibration_split_clarified": true,
+    "resource_group_counts_and_hardware_clarified": true,
+    "results_changed": false,
+    "main_pages": 10,
+    "main_content_pages": 8,
+    "supplement_pages": 41,
+    "preprint_pages": 50,
+    "clean_source_builds_passed": true
+  },
+  "notebook_environment": {
+    "matched_Torch_family_wheels": "2.11.0+cu130 / torchvision 0.26.0+cu130 / torchaudio 2.11.0+cu130",
+    "compiled_image_operator_and_transformers_probe": true,
+    "CPU_setup_contracts_passed": 3,
+    "Colab_GPU_retry_passed": true,
+    "GPU_retry_evidence": "User-supplied Colab output: pinned DINOv3 tensor hash matched and SMOKE_COMPLETE.json reported."
+  },
+  "single_notebook": {
+    "path": "notebooks/reproduce_paper.ipynb",
+    "default_mode": "quick",
+    "CPU_quick_sections_passed": [
+      "fits",
+      "native",
+      "concept",
+      "analysis",
+      "presence",
+      "synthetic",
+      "historical",
+      "compute",
+      "figures"
+    ],
+    "real_COCO_card_layout_passed": true,
+    "complete_expanded_Colab_run_passed": false,
+    "completion_gate_contracts_passed": 3,
+    "prior_edition_Colab_quick_passed": true,
+    "current_edition_full_Colab_execution_validated": false,
+    "default_workflow_requires_Blender": false,
+    "full_mode_planner": "code/bootstrap/full_pipeline.py"
+  },
+  "fresh_public_input_workers_available": true,
+  "historical_reproduction": {
+    "entrypoint": "code/bootstrap/full_pipeline.py",
+    "original_Drive_caches_required": false,
+    "original_checkpoints_required": false,
+    "original_numerical_kernels_preserved": true,
+    "original_allocation_gates_preserved": true,
+    "full_GPU_retraining_executed": false,
+    "new_review_inference_executed": false,
+    "nonpaper_renderer_modules_excluded": 4,
+    "validation": "CPU kernels, source/receipt guards, full dependency ordering and review-denominator contracts."
+  },
+  "source_presentation_functional_revisions": 1,
+  "feature_extraction_memory_fix": {
+    "full_array_shape": [
+      2000,
+      196,
+      768
+    ],
+    "array_only_probe": {
+      "shape": [
+        2000,
+        196,
+        768
+      ],
+      "dtype": "float32",
+      "train_sha": "28f15e5f7dd87b229b3f5b7a698001dcd9e89a5e9aa1cbfb816bd6ad5ce73cc5",
+      "normalized_sha": "e93590bdb168ada7cc0e1dfb5f1e4444fa956cca2d144ae844a3e433b92d6197",
+      "scale": 1.0003001687093864,
+      "complete": true,
+      "peak_process_rss_bytes": 2443821056,
+      "elapsed_seconds": 20.8,
+      "scope": "2000x196x768 feature assembly/statistics/normalization/hash workload; no GPU, COCO annotations or model loaded"
+    },
+    "reference_normalization_bitwise_tests_passed": true,
+    "original_training_and_results_changed": false,
+    "GPU_reproduction_verified": false,
+    "compatible_feature_only_import": true
+  }
+}

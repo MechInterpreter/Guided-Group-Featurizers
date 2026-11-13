@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p094",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I1129",
+      "yes": [0,35],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The crop shows actual baseball players, including the foreground pitcher and two fielders, and identifiable leather fielding mitts on the pitcher and left fielder. The distant advertising and scoreboard are signage, not actual depicted category objects or a time-of-day clock. Grass, dirt and the stadium boundary contain no other identifiable defined objects. All 75 definitions considered; no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1130",
+      "yes": [0,23,24],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,25,26,27,28,29,31,33,35,36,37,38,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [39],
+      "all_definitions_considered": true,
+      "rationale": "An actual person reaches toward a giraffe whose head, neck and patterned body are visible; another patterned giraffe portion appears behind. The person wears an identifiable green backpack with shoulder straps and pack body, rather than a handbag or suitcase. A small blue item along the backpack's right side could be a bottle, but its neck/opening is insufficiently resolved, so bottle remains unclear. The surrounding rockwork and barrier do not identify other defined objects. All 75 definitions considered."
+    },
+    {
+      "case_id": "I1131",
+      "yes": [0,41,62],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,63,64,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [65],
+      "all_definitions_considered": true,
+      "rationale": "A silhouetted actual person stands beside a standalone television. The people and sporting objects on its screen are excluded depictions. A printed takeaway drinking cup is visible on the foreground low table. The small dark/light control-shaped object near the back of that table is insufficiently detailed to distinguish a remote from gaming equipment, so remote is unclear. The low table lacks dining-table context; the lamp and electronic stand do not belong to other defined categories. All 75 definitions considered."
+    },
+    {
+      "case_id": "I1132",
+      "yes": [0],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Actual baseball players occupy the foreground and background. The batter holds a bat, which is outside these 75 categories; his handwear is batting gloves and therefore does not count as a baseball fielding glove. The chain-link fence, clothing and helmet do not identify additional category objects. All 75 definitions considered; no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1133",
+      "yes": [62],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,63,64,65,66,67,68,69,71,72,74,75,76,77,79],
+      "unclear": [73],
+      "all_definitions_considered": true,
+      "rationale": "The actual object dominating the crop is a standalone television resting on a media cabinet. All the visible people are inside the television image and are excluded. The right lower cubby contains stacked rectangular printed or case-like items, but their detail does not reliably distinguish bound books from magazines or media cases, so book is unclear. The cabinet and media players are not a dining table, microwave or other listed appliance. All 75 definitions considered."
+    },
+    {
+      "case_id": "I1134",
+      "yes": [25,26,41,42,43,44,48,56,58,60],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,27,28,29,31,33,35,36,37,38,40,45,46,47,49,50,51,52,53,54,55,57,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [39],
+      "all_definitions_considered": true,
+      "rationale": "An outdoor dining table holds a cut sandwich with filling between bread, a handled drinking cup on a saucer, a fork at the plate's left, a long table knife and a spoon with a visible bowl beside the cup. The plates and saucer are flat rather than bowls. A large zippered shoulder bag and long carrying strap sit behind the food. Background patio chairs, umbrella canopy/post structure and plants in identifiable pots are visible. Tiny upright containers on distant tables could include a bottle, but neck/opening detail is inadequate, so bottle is unclear. The printed menu/paper is not an identifiable bound book; no actual person is identifiable. All 75 definitions considered."
+    },
+    {
+      "case_id": "I1135",
+      "yes": [41,56,62,63,64,66],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,60,61,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [39,65,67],
+      "all_definitions_considered": true,
+      "rationale": "The work desk has two standalone monitors, open laptops including the partly cropped one at left, computer keyboards, a visible computer mouse and an office chair. A small dark handled mug sits toward the back of the desk. The adjacent narrow upright container is too small to establish bottle anatomy, so bottle is unclear. An upright dark rectangular desktop device near the right laptop could be a phone or remote, but neither identity is resolved, so both cell phone and remote are unclear. This is a computer desk rather than a dining table; the right appliance is a printer, and the car and greenery on the walls are pictures. All 75 definitions considered."
+    },
+    {
+      "case_id": "I1136",
+      "yes": [0],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual batter fills the crop, with another person partly visible at the upper right. The bat and the rack of bats behind him are outside the defined categories. No fielding mitt is visible, and his hands around the bat do not establish a baseball glove. The remaining scene is field surface and fencing, with no other identifiable listed object. All 75 definitions considered; no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1137",
+      "yes": [15],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [56],
+      "all_definitions_considered": true,
+      "rationale": "A fluffy actual cat with pointed ears, feline face and paws lies on a wooden furniture surface. The wooden seat-like edge and surrounding supports suggest a chair, but the tight crop does not resolve the furniture structure sufficiently, so chair is unclear. There is no dining/eating context to identify a dining table, and the cloth at left does not establish a person, bed or couch. No other defined object is identifiable. All 75 definitions considered."
+    },
+    {
+      "case_id": "I1138",
+      "yes": [0],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Several actual people are visible on a snowy slope, including the central skier and cropped people at both edges. Ski poles and ski equipment do not establish a snowboard; no identifiable snowboard deck or binding is visible. Clothing does not show a distinct backpack or handbag. Snow and distant mountains contain no other identifiable category objects. All 75 definitions considered; no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1139",
+      "yes": [6,9],
+      "no": [0,1,2,3,4,5,7,8,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual rail train faces the camera on tracks beside a platform. The red illuminated railway signal at left is an identifiable traffic-control signal head, satisfying the traffic-light definition. Platform number signs, rail infrastructure and canopy supports are not clocks, stop signs or parking meters. No person or other defined object is identifiable. All 75 definitions considered; no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1140",
+      "yes": [15,28,39,56,60],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,18,19,20,21,22,23,24,25,26,27,29,31,33,35,36,37,38,40,42,43,44,45,46,47,48,50,51,52,53,54,55,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [41,49],
+      "all_definitions_considered": true,
+      "rationale": "An actual black-and-white cat stands on a structured rolling suitcase with handle and zippered front. Wooden dining chairs and a dining table are visible behind it. A narrow transparent bottle with a neck/body distinction stands at the table's far right. The small white vessel fragment at the extreme right could be a cup, but too little is visible to establish it, so cup is unclear. The orange sphere on the floor could be orange fruit or a ball; orange fruit identity is unresolved and remains unclear. The tabletop's other small clutter does not identify a remote, phone or book. All 75 definitions considered."
+    }
+  ]
+}

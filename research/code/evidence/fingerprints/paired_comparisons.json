@@ -1,0 +1,314 @@
+[
+  {
+    "comparator": "supervised_vanilla",
+    "metric": "fixed_readout_capture",
+    "GGF_minus_comparator_mean": 0.0109453914435003,
+    "sample_SD": 0.0032393978318817408,
+    "seed_differences": [
+      0.012033140081562255,
+      0.007302113877310945,
+      0.0135009203716277
+    ],
+    "GGF_higher_seeds": 3
+  },
+  {
+    "comparator": "supervised_vanilla",
+    "metric": "fixed_readout_AP",
+    "GGF_minus_comparator_mean": 0.1791096009484808,
+    "sample_SD": 0.011382568099319038,
+    "seed_differences": [
+      0.18775103676627258,
+      0.16621234254875328,
+      0.18336542353041652
+    ],
+    "GGF_higher_seeds": 3
+  },
+  {
+    "comparator": "supervised_vanilla",
+    "metric": "AP_profile_reproducibility",
+    "GGF_minus_comparator_mean": 0.032865725592489535,
+    "sample_SD": 0.010724124643566708,
+    "seed_differences": [
+      0.026756420817036664,
+      0.026592240666624023,
+      0.04524851529380791
+    ],
+    "GGF_higher_seeds": 3
+  },
+  {
+    "comparator": "supervised_vanilla",
+    "metric": "capture_profile_reproducibility",
+    "GGF_minus_comparator_mean": -0.004307496898994567,
+    "sample_SD": 0.003084996214040827,
+    "seed_differences": [
+      -0.005097226766847207,
+      -0.000904402137991811,
+      -0.0069208617921446836
+    ],
+    "GGF_higher_seeds": 0
+  },
+  {
+    "comparator": "supervised_vanilla",
+    "metric": "AP_profile_intended_category_share",
+    "GGF_minus_comparator_mean": 0.13232465995221623,
+    "sample_SD": 0.012663585496457939,
+    "seed_differences": [
+      0.14694545141621107,
+      0.12521610661141025,
+      0.12481242182902741
+    ],
+    "GGF_higher_seeds": 3
+  },
+  {
+    "comparator": "supervised_vanilla",
+    "metric": "utility_direction_grouping_lift",
+    "GGF_minus_comparator_mean": -0.10274381072460659,
+    "sample_SD": 0.01075058118804089,
+    "seed_differences": [
+      -0.0911780540147814,
+      -0.11243180747433246,
+      -0.1046215706847059
+    ],
+    "GGF_higher_seeds": 0
+  },
+  {
+    "comparator": "supervised_vanilla",
+    "metric": "response_direction_grouping_lift",
+    "GGF_minus_comparator_mean": -0.08849289462908638,
+    "sample_SD": 0.010183643187566017,
+    "seed_differences": [
+      -0.07882866204563954,
+      -0.09912660940755835,
+      -0.08752341243406125
+    ],
+    "GGF_higher_seeds": 0
+  },
+  {
+    "comparator": "released_vanilla",
+    "metric": "fixed_readout_capture",
+    "GGF_minus_comparator_mean": 0.1942650862164493,
+    "sample_SD": 0.01085528052200849,
+    "seed_differences": [
+      0.19956760359427175,
+      0.18177769021124796,
+      0.2014499648438282
+    ],
+    "GGF_higher_seeds": 3
+  },
+  {
+    "comparator": "released_vanilla",
+    "metric": "fixed_readout_AP",
+    "GGF_minus_comparator_mean": 0.2814094702840516,
+    "sample_SD": 0.019676236634817865,
+    "seed_differences": [
+      0.2959195491118858,
+      0.2590135095832089,
+      0.28929535215706015
+    ],
+    "GGF_higher_seeds": 3
+  },
+  {
+    "comparator": "released_vanilla",
+    "metric": "AP_profile_reproducibility",
+    "GGF_minus_comparator_mean": 0.05030010403930777,
+    "sample_SD": 0.02089743182065164,
+    "seed_differences": [
+      0.07428147022132503,
+      0.03599140159294789,
+      0.0406274403036504
+    ],
+    "GGF_higher_seeds": 3
+  },
+  {
+    "comparator": "released_vanilla",
+    "metric": "capture_profile_reproducibility",
+    "GGF_minus_comparator_mean": 0.004758436027932318,
+    "sample_SD": 0.0037241854461224607,
+    "seed_differences": [
+      0.006369772327701861,
+      0.007405629551195503,
+      0.0004999062048995917
+    ],
+    "GGF_higher_seeds": 3
+  },
+  {
+    "comparator": "released_vanilla",
+    "metric": "AP_profile_intended_category_share",
+    "GGF_minus_comparator_mean": 0.17302478234863009,
+    "sample_SD": 0.019867507304564398,
+    "seed_differences": [
+      0.19446621280685472,
+      0.15523889610773345,
+      0.1693692381313021
+    ],
+    "GGF_higher_seeds": 3
+  },
+  {
+    "comparator": "released_vanilla",
+    "metric": "utility_direction_grouping_lift",
+    "GGF_minus_comparator_mean": -0.08954820871712273,
+    "sample_SD": 0.009929901701851752,
+    "seed_differences": [
+      -0.07828647203910044,
+      -0.09331282062825375,
+      -0.09704533348401401
+    ],
+    "GGF_higher_seeds": 0
+  },
+  {
+    "comparator": "released_vanilla",
+    "metric": "response_direction_grouping_lift",
+    "GGF_minus_comparator_mean": -0.08433671007729293,
+    "sample_SD": 0.008162335325722345,
+    "seed_differences": [
+      -0.07574122000008587,
+      -0.08528604045832922,
+      -0.0919828697734637
+    ],
+    "GGF_higher_seeds": 0
+  },
+  {
+    "comparator": "slics",
+    "metric": "fixed_readout_capture",
+    "GGF_minus_comparator_mean": 0.16553390020075073,
+    "sample_SD": 0.005088339027762695,
+    "seed_differences": [
+      0.15987122313737456,
+      0.1697223534727567,
+      0.16700812399212098
+    ],
+    "GGF_higher_seeds": 3
+  },
+  {
+    "comparator": "slics",
+    "metric": "fixed_readout_AP",
+    "GGF_minus_comparator_mean": 0.2766683572141307,
+    "sample_SD": 0.01609791551836482,
+    "seed_differences": [
+      0.2852200912629146,
+      0.2866856272703646,
+      0.2580993531091128
+    ],
+    "GGF_higher_seeds": 3
+  },
+  {
+    "comparator": "slics",
+    "metric": "AP_profile_reproducibility",
+    "GGF_minus_comparator_mean": 0.07011976761594789,
+    "sample_SD": 0.016202019865785885,
+    "seed_differences": [
+      0.08502569265926752,
+      0.07245789781591638,
+      0.052875712372659756
+    ],
+    "GGF_higher_seeds": 3
+  },
+  {
+    "comparator": "slics",
+    "metric": "capture_profile_reproducibility",
+    "GGF_minus_comparator_mean": 0.0005621863892626422,
+    "sample_SD": 0.0003521090342148332,
+    "seed_differences": [
+      0.00039882344240604883,
+      0.0009663041861277533,
+      0.0003214315392541245
+    ],
+    "GGF_higher_seeds": 3
+  },
+  {
+    "comparator": "slics",
+    "metric": "AP_profile_intended_category_share",
+    "GGF_minus_comparator_mean": 0.306144579730239,
+    "sample_SD": 0.01594097127227791,
+    "seed_differences": [
+      0.3048087899507111,
+      0.3227114152876157,
+      0.29091353395239017
+    ],
+    "GGF_higher_seeds": 3
+  },
+  {
+    "comparator": "slics",
+    "metric": "utility_direction_grouping_lift",
+    "GGF_minus_comparator_mean": 0.31191204841880915,
+    "sample_SD": 0.0016286758556400354,
+    "seed_differences": [
+      0.3137682719768986,
+      0.31072238240152666,
+      0.31124549087800224
+    ],
+    "GGF_higher_seeds": 3
+  },
+  {
+    "comparator": "slics",
+    "metric": "response_direction_grouping_lift",
+    "GGF_minus_comparator_mean": 0.4785922761830094,
+    "sample_SD": 0.0026661618715733155,
+    "seed_differences": [
+      0.48109512779935915,
+      0.47578836222179344,
+      0.4788933385278756
+    ],
+    "GGF_higher_seeds": 3
+  },
+  {
+    "comparator": "concept_sae",
+    "metric": "fixed_readout_capture",
+    "GGF_minus_comparator_mean": 0.40443501409969135,
+    "sample_SD": 0.000976928637596843,
+    "seed_differences": [
+      0.40538107571238335,
+      0.40342989765014514,
+      0.40449406893654555
+    ],
+    "GGF_higher_seeds": 3
+  },
+  {
+    "comparator": "concept_sae",
+    "metric": "fixed_readout_AP",
+    "GGF_minus_comparator_mean": 0.4818998656360316,
+    "sample_SD": 0.007668125157634348,
+    "seed_differences": [
+      0.4742265333700153,
+      0.4895627730558158,
+      0.4819102904822637
+    ],
+    "GGF_higher_seeds": 3
+  },
+  {
+    "comparator": "concept_sae",
+    "metric": "AP_profile_reproducibility",
+    "GGF_minus_comparator_mean": 0.17753813890672365,
+    "sample_SD": 0.0019324267377482628,
+    "seed_differences": [
+      0.17785127780612908,
+      0.1792948731754681,
+      0.17546826573857377
+    ],
+    "GGF_higher_seeds": 3
+  },
+  {
+    "comparator": "concept_sae",
+    "metric": "capture_profile_reproducibility",
+    "GGF_minus_comparator_mean": 0.4107769296180687,
+    "sample_SD": 0.008039290897026676,
+    "seed_differences": [
+      0.41067293917737013,
+      0.41886771129025246,
+      0.4027901383865834
+    ],
+    "GGF_higher_seeds": 3
+  },
+  {
+    "comparator": "concept_sae",
+    "metric": "AP_profile_intended_category_share",
+    "GGF_minus_comparator_mean": 0.2177325681488784,
+    "sample_SD": 0.01005678611053424,
+    "seed_differences": [
+      0.2078298226122698,
+      0.22793662308926566,
+      0.21743125874509972
+    ],
+    "GGF_higher_seeds": 3
+  }
+]

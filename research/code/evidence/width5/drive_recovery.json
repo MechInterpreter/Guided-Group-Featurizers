@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "local_checkpoint_updates": 50,
+  "drive_checkpoint_updates": 250,
+  "completed_phases_saved_to_drive": true,
+  "remote_attempts": 4,
+  "numerical_settings_changed": false,
+  "source_archive_unchanged": true,
+  "note": "Drive transport patch; local two-slot checkpoints and SHA read-back remain intact."
+}

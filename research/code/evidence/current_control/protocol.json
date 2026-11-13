@@ -1,0 +1,78 @@
+{
+  "checklist_revision": "2026-10-19-fixed-supervision-VOC-training-consolidation",
+  "study": "ggf_checklist_evidence_v1",
+  "protocol": {
+    "version": 2,
+    "seeds": [
+      21,
+      22,
+      23
+    ],
+    "groups": 1024,
+    "width": 12,
+    "top_k": 16,
+    "cap": 0.4,
+    "warm_updates": 7640,
+    "guided_updates": 3000,
+    "total_updates": 10640,
+    "lr": 0.0003,
+    "methods": [
+      "agf_g",
+      "released_vanilla",
+      "supervised_vanilla",
+      "released_grassmannian",
+      "released_group_lasso",
+      "paper_grassmannian",
+      "paper_group_lasso"
+    ],
+    "supervised_vanilla": "Random warm-up; contrast+detection; same scalar heads; fixed loss pair selected on seed21 development; no controller or mask initialization",
+    "fixed_weight_candidates": [
+      [
+        0.05,
+        0.01
+      ],
+      [
+        0.2,
+        0.2
+      ],
+      [
+        0.4,
+        0.4
+      ]
+    ],
+    "extra_variants": "Both released and paper-equation unsupervised adapters, COCO supporting stage",
+    "train_mapping": "Same TRAIN-only group selection policy after reconstruction warm-up; category slots not hardwired into supervision",
+    "endpoints": "Fixed 10640 updates; fixed-weight hyperparameter selection on development only, not endpoint cherry-picking",
+    "baseline_settings": "Three full-budget fixed-weight candidates; extra unsupervised variants at common Adam LR0.0003 and paper lasso coefficient0.001, NOT tuned or native ImageNet replication",
+    "evaluation": "Previously inspected COCO1500 audit; independently trained VOC2012 models evaluated on official validation",
+    "voc": "Official train partitioned FIT/development by fixed hash; own FIT-only normalization, mask initialization and mappings; COCO architecture/cap/update defaults; no GGF VOC sweep",
+    "interpretability": "TRAIN-selected 1/2/4 native contribution groups; held-out capture, same-group AP, fixed linear-probe removal with activity/RMS-neighbor random controls; active coefficient/contribution rank and direction atlas",
+    "additional_supervised": "Pinned released Concept-SAE task adaptation, all three stages/three seeds on COCO and VOC; separate native budget/parameter count",
+    "uncertainty": "Seed SD and Student-t95; paired whole-image bootstrap1000 and seed differences; retain all declared categories",
+    "order": "COCO primary+analysis, VOC training+analysis, Concept-SAE, supporting unsupervised variants",
+    "no_exchanges": true,
+    "no_capacity_sweep": true,
+    "no_time_limit": true
+  },
+  "wrapper_sha": "dfc6ea55dec76c700dcd625c7d2b3649e250c466ef8a4bc43a9a8c313c38b240",
+  "source_sha": "8a29854a50c94420686f9b904f7eaecd88f9324bcf2b016c1ce6ad4057aa0b9c",
+  "source_run": "bd3eb87f9fb5ffc0a41963b4e8154c881e32b96cb44b8c40e8730665a72fff32",
+  "versions": {
+    "numpy": "2.1.3",
+    "torch": "2.11.0+cu130",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "einops": "0.8.2"
+  },
+  "normalization_sha": "be92e9c543dc0d75d24147c273e60ecfee2bb125eb3116973e1f243573f7b13c",
+  "training_identity": "f23e4922ae6fd9ba0b29d558c2c8f36d741df6f907f40ccde5003a2ebb5395ff",
+  "selection_identity": "19dfc4cf926be8b485819aa86cba99dd60c94f0921b9bafc50dabd988de62412",
+  "implementation_differences": {
+    "released_vanilla": "Pinned released unit-atom normalization; reconstruction only; no AuxK.",
+    "released_grassmannian": "Pinned released QR on forward and one gamma per group; no AuxK.",
+    "released_group_lasso": "Pinned released hard BlockJumpReLU, dual L0 penalty and tracked bandwidth; no shrinkage/AuxK.",
+    "paper_vanilla": "Free maps, Frobenius unit-ball decoder blocks, Top-k and AuxK coefficient 1/k.",
+    "paper_grassmannian": "Tied decoder, one positive shared gamma, QR projection every 20 updates and AuxK.",
+    "paper_group_lasso": "Soft block shrinkage, learned thresholds, excess-activity L2,1 and AuxK. Unspecified penalty details are explicit adapters; coefficient0.001 is FIXED, not tuned in this job."
+  }
+}

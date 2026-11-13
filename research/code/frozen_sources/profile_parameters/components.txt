@@ -1,0 +1,157 @@
+# Historical notebook parameter and execution cells. Reference only, not a one-click script.
+# Source payloads are omitted; materialize with tools/materialize_frozen.py.
+# Personal paths and private download locations are replaced with placeholders.
+# Supply equivalent local caches and saved runs; GPU finish profiles require their recorded prior state.
+
+# Cell 2
+import os, sys, json, hashlib, re, importlib.util, importlib.metadata, subprocess
+from pathlib import Path
+from google.colab import drive, files
+if not os.path.ismount('/content/drive'):
+    drive.mount('/content/drive')
+if not os.path.ismount('/content/drive') or not Path('/content/drive/MyDrive').is_dir():
+    raise OSError('Drive is not mounted. Mount it before continuing.')
+DRIVE=Path('/content/drive/MyDrive')
+PARENT_OUTPUT=DRIVE/'AGF_COCO_capacity_sweep_v1'
+ACTIVATION_OUTPUT=DRIVE/'AGF_COCO_stratified_confirmation_v1'
+STRONG_OUTPUT=DRIVE/'AGF_COCO_strong_mask_regroup_v1'
+SOURCE_RANK_OUTPUT=DRIVE/'AGF_COCO_capacity_effective_rank_v1'
+TWELVE_OUTPUT=DRIVE/'AGF_COCO_12D_followup_v1'
+PILOT_OUTPUT=DRIVE/'AGF_COCO_scale_study_v1'
+CONTROL_OUTPUT=DRIVE/'AGF_COCO_priority_4096_test_v1'
+OUTPUT=DRIVE/'GGF_COCO_components_v1'
+LOCAL=Path('/content/ggf_components_local')
+CACHE_LOCAL=Path('/content/ggf_width_balance_local')
+PARENT_RUN='2921b057f824362ab83e76e7fb35645f94c376fadf8b86f4f22d1a2311105b9e'
+manifests=[]
+for path in (PARENT_OUTPUT/'results').glob('*/manifest.json'):
+    candidate=json.loads(path.read_text())
+    if candidate.get('run_id')==PARENT_RUN:manifests.append(candidate)
+if len(manifests)!=1:
+    raise FileNotFoundError('Expected the completed capacity source manifest at '+str(PARENT_OUTPUT))
+manifest=manifests[0]
+if hashlib.sha256(json.dumps(manifest['config'],sort_keys=True,allow_nan=False).encode()).hexdigest()!=manifest['run_id']:
+    raise ValueError('Source manifest identity is invalid')
+EXPECTED={k:manifest['config']['versions'][k] for k in ('numpy','torch','scipy','scikit-learn','einops')}
+different=[]
+for name,target in EXPECTED.items():
+    try:actual=importlib.metadata.version(name)
+    except importlib.metadata.PackageNotFoundError:actual=None
+    if actual!=target:different.append(dict(package=name,installed=actual,required=target))
+constraints=Path('/content/ggf_components_constraints.txt')
+constraints.write_text(''.join(name+'=='+target+'\n' for name,target in EXPECTED.items()))
+if different:
+    print('Installing the actual source versions:',different,flush=True)
+    if any(r['package']=='torch' for r in different):
+        target=EXPECTED['torch'];suffix=target.split('+',1)[1] if '+' in target else None
+        args=[sys.executable,'-m','pip','install','-q','torch=='+target]
+        if suffix is not None:
+            if not re.fullmatch(r'cu[0-9]+',suffix):raise ValueError('Unsupported source CUDA wheel suffix: '+suffix)
+            args+=['--index-url','https://download.pytorch.org/whl/'+suffix]
+        subprocess.check_call(args)
+    subprocess.check_call([sys.executable,'-m','pip','install','-q','-c',str(constraints),
+        *[k+'=='+v for k,v in EXPECTED.items() if k!='torch']])
+deps={'PIL':'pillow','matplotlib':'matplotlib','pandas':'pandas','requests':'requests','threadpoolctl':'threadpoolctl','pytest':'pytest'}
+missing=[p for m,p in deps.items() if importlib.util.find_spec(m) is None]
+if missing:subprocess.check_call([sys.executable,'-m','pip','install','-q','-c',str(constraints),*missing])
+installed={name:importlib.metadata.version(name) for name in EXPECTED}
+if installed!=EXPECTED:raise RuntimeError('Package installation did not match the saved versions: '+str(installed))
+print('Packages are ready. The experiment uses a fresh Python worker; no kernel restart is needed.')
+print('Numerical packages match the source:',EXPECTED)
+
+
+PATHS=dict(capacity=PARENT_OUTPUT,original=ACTIVATION_OUTPUT,strong=STRONG_OUTPUT,rank=SOURCE_RANK_OUTPUT,twelve=TWELVE_OUTPUT)
+if manifest['config']['source_sha']!='6f9138f8885fdbb2d5971f30ab0c5d744d4c8fa914e1c191491c895d5ca8cd79':raise ValueError('Wrong completed capacity source')
+
+
+BASELINES='both'
+FRESH_HOLDOUT=False
+print('Current Figure1 first, then six new component fits. Saved warm-ups and six controls are reused.')
+
+
+# Cell 4
+import base64,zipfile,io
+from pathlib import PurePosixPath
+SOURCE_SHA='8a29854a50c94420686f9b904f7eaecd88f9324bcf2b016c1ce6ad4057aa0b9c'
+SOURCE_B64='SOURCE_PAYLOAD_OMITTED_USE_MATERIALIZER'
+source_bytes=base64.b64decode(SOURCE_B64,validate=True)
+if hashlib.sha256(source_bytes).hexdigest()!=SOURCE_SHA:raise ValueError('Embedded source hash mismatch')
+SOURCE=Path('/content/agf_scale_study_source')/SOURCE_SHA[:16]
+SOURCE.mkdir(parents=True,exist_ok=True)
+SOURCE_ZIP=SOURCE.parent/(SOURCE_SHA+'.zip');SOURCE_ZIP.write_bytes(source_bytes)
+with zipfile.ZipFile(io.BytesIO(source_bytes)) as z:
+    if z.testzip() is not None:raise OSError('Embedded source ZIP CRC failure')
+    names=z.namelist();hashes=json.loads(z.read('FILE_HASHES.json'))
+    if len(names)!=len(set(names)) or set(names)!=set(hashes)|{'FILE_HASHES.json'}:raise ValueError('Source inventory mismatch')
+    for name in names:
+        p=PurePosixPath(name);dest=(SOURCE/name).resolve()
+        if p.is_absolute() or '..' in p.parts or ':' in name or '\\' in name or SOURCE.resolve() not in dest.parents:
+            raise ValueError('Unsafe source path: '+name)
+        if name!='FILE_HASHES.json' and hashlib.sha256(z.read(name)).hexdigest()!=hashes[name]:raise ValueError('Source file checksum mismatch: '+name)
+    z.extractall(SOURCE)
+for name,h in hashes.items():
+    if hashlib.sha256((SOURCE/name).read_bytes()).hexdigest()!=h:raise ValueError('Extracted source checksum mismatch: '+name)
+LOCAL.mkdir(parents=True,exist_ok=True)
+CONFIG=LOCAL/'worker_config.json';RECEIPT=LOCAL/'completion.json'
+# A stale receipt cannot represent this run's completion.
+RECEIPT.unlink(missing_ok=True)
+options=dict(paths={k:str(v) for k,v in PATHS.items()},output=str(OUTPUT),local=str(LOCAL),cache_local=str(CACHE_LOCAL),
+    source_sha=SOURCE_SHA,source_zip=str(SOURCE_ZIP),expected_versions=EXPECTED,receipt=str(RECEIPT),baselines=BASELINES,fresh=FRESH_HOLDOUT)
+CONFIG.write_text(json.dumps(options,indent=2))
+del SOURCE_B64,source_bytes
+print('Verified self-contained scale-study source:',SOURCE_SHA)
+
+COMPONENT_SHA='8b5846e0d5bb8234d62247524ac0619f9f0690c808fc4f404228c9785e278721'
+COMPONENT_B64='SOURCE_PAYLOAD_OMITTED_USE_MATERIALIZER'
+raw=base64.b64decode(COMPONENT_B64,validate=True)
+if hashlib.sha256(raw).hexdigest()!=COMPONENT_SHA:raise ValueError('Component source archive SHA mismatch')
+COMPONENT_SOURCE=LOCAL/'component_source'/COMPONENT_SHA[:16];COMPONENT_SOURCE.mkdir(parents=True,exist_ok=True)
+COMPONENT_ZIP=LOCAL/('ggf_components_'+COMPONENT_SHA[:12]+'_source.zip');COMPONENT_ZIP.write_bytes(raw)
+with zipfile.ZipFile(COMPONENT_ZIP) as z:
+    if z.testzip() is not None or set(z.namelist())!={'test_components.py', 'figure_input.json', 'figure_current.py', 'figure_input.npz', 'pilot_inputs.py', 'plant_vase.jpg', 'components.py', 'FILE_HASHES.json', 'PROTOCOL.md'}:raise ValueError('Unexpected source inventory')
+    for name,h in json.loads(z.read('FILE_HASHES.json')).items():
+        content=z.read(name)
+        if hashlib.sha256(content).hexdigest()!=h:raise ValueError('Source file hash mismatch')
+        (COMPONENT_SOURCE/name).write_bytes(content)
+COMPONENT_CONFIG=LOCAL/'component_options.json';COMPONENT_RECEIPT=LOCAL/'component_receipt.json'
+COMPONENT_RECEIPT.unlink(missing_ok=True)
+component_options=dict(options,wrapper_sha=COMPONENT_SHA,wrapper_zip=str(COMPONENT_ZIP),pilot_output=str(PILOT_OUTPUT),
+    control_output=str(CONTROL_OUTPUT),core_source=str(SOURCE),receipt=str(COMPONENT_RECEIPT),fresh=False,figure_only=False)
+COMPONENT_CONFIG.write_text(json.dumps(component_options,indent=2))
+del COMPONENT_B64,raw
+print('Verified component source:',COMPONENT_SHA)
+
+
+# Cell 6
+import signal
+from IPython.display import display, Image, FileLink
+env=dict(os.environ,PYTHONPATH=os.pathsep.join([str(COMPONENT_SOURCE),str(SOURCE)]),OMP_NUM_THREADS='1',MKL_NUM_THREADS='1')
+process=subprocess.Popen([sys.executable,'-u',str(COMPONENT_SOURCE/'components.py'),'--config',str(COMPONENT_CONFIG)],
+ cwd=COMPONENT_SOURCE,env=env,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,bufsize=1)
+try:
+    for line in process.stdout:
+        print(line,end='',flush=True)
+        if line.startswith('FIGURE_READY '):
+            path=Path(line.strip().split(' ',1)[1]);display(Image(filename=str(path)))
+            print('Figure1 is saved before training. Its separate ZIP is in MyDrive/GGF_COCO_components_v1/ggf_figure1_current.zip')
+    status=process.wait()
+except KeyboardInterrupt:
+    print('Stopping. Wait for the verified durable save and partial evidence before disconnecting.',flush=True)
+    process.send_signal(signal.SIGINT)
+    try:process.wait(timeout=120)
+    except subprocess.TimeoutExpired:process.terminate();process.wait()
+    raise
+finally:process.stdout.close()
+if status:raise RuntimeError('Worker stopped with code '+str(status)+'. Resolve the reported issue, then Run All unchanged to resume.')
+receipt=json.loads(COMPONENT_RECEIPT.read_text())
+if not receipt['complete'] or receipt['wrapper_sha']!=COMPONENT_SHA or receipt['new_fits']!=6 or receipt['new_warmups']!=0 or receipt['reused_controls']!=6 or receipt['seven_seed_study']:
+    raise ValueError('Component completion identity mismatch')
+RESULTS=Path(receipt['results']);RESULT_ZIP=Path(receipt['result_zip'])
+import pandas as pd
+for n in ['test_means.csv','test_models.csv','component_paired_images.csv','component_paired_seeds.csv']:display(pd.read_csv(RESULTS/n))
+display(Image(filename=str(RESULTS/'figures/component_comparison.png')))
+print('Complete. No larger study follows. ZIP:',RESULT_ZIP)
+
+
+# Cell 8
+files.download(str(RESULT_ZIP))

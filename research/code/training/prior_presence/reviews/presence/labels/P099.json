@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p099",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I1189",
+      "yes": [41,46],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,42,43,44,45,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The crop contains a bunch of green and yellow bananas and a tall purple drinking tumbler at the left edge. The tumbler has no stem and is a cup, not a wine glass or bottle. The beige support surface is not identifiable as a dining table. I considered all 75 definitions across the whole crop; the remaining categories have no supported object or part. No unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1190",
+      "yes": [0,38],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual person in a long coat stands on a tennis court holding an oval strung tennis racket by its handle. The court net and wall are not furniture or any other listed object; the coat collar does not identify a necktie. I considered all 75 definitions across the crop, with no supported remaining category and no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1191",
+      "yes": [0,25,37],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,26,27,28,29,31,33,35,36,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Three people stand on sand alongside tall rounded surfboards, including a green board and pale boards on both sides. A pink beach umbrella canopy is visible behind them with umbrella structure. The board graphics are printed imagery rather than actual depicted objects. I considered all 75 definitions, including the other board types and carried accessories; none of the remaining categories is supported. No unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1192",
+      "yes": [2,7],
+      "no": [0,1,3,4,5,6,8,9,10,11,12,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [13,56],
+      "all_definitions_considered": true,
+      "rationale": "Parked road vehicles include a green pickup with visible tailgate and bed and a pale passenger vehicle behind it, supporting truck and car. The giraffe-shaped object is a rigid garden sculpture on a base and is excluded from actual giraffe presence. The greenery is landscaped with no identifiable plant pot. At the right background a small pale slatted seating-like structure is too distant and partly obscured to distinguish an individual chair from a bench, so both chair and bench remain unclear. I considered all 75 definitions; no other listed object is supported."
+    },
+    {
+      "case_id": "I1193",
+      "yes": [0,31],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A person in patterned winter clothing stands sideways on snow; the binding at the boot and the board portion extending along the lower edge identify a snowboard in snowboarding context. The worn gloves are ordinary winter gloves, not a baseball fielding mitt. Distant upright structures are not identifiable listed objects. I considered all 75 definitions across the crop; no other category is supported and there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1194",
+      "yes": [56,62,63,64,66,73],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,27,28,29,31,33,35,36,37,38,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,60,61,65,67,68,69,71,72,74,75,76,77,79],
+      "unclear": [26,41],
+      "all_definitions_considered": true,
+      "rationale": "The office scene contains an office chair, an open laptop with its integrated keyboard, a separate desktop monitor and a white computer mouse. Small stacked bound volumes on the shelves support book. The work desk is excluded from dining table, and framed shelf objects are not actual screens. A tiny cylindrical shelf object cannot be resolved as a drinking cup versus another holder, leaving cup unclear. The partially visible black soft case on the floor could be a carried shoulder/laptop bag, but its carrying structure is obscured, leaving handbag unclear; it does not show suitcase or backpack structure. I considered all 75 definitions, with no other supported category."
+    },
+    {
+      "case_id": "I1195",
+      "yes": [16,26,29],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,27,28,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A small actual dog lies in an open red-and-black sports duffel with carrying straps, which meets the carried shoulder-bag definition. A blue flying disc with a raised circular rim rests at the upper left. The sports bag does not have backpack or suitcase structure, and the dog's collar/tag is not a necktie. The disc's printed drawing is not another actual object. I considered all 75 definitions and found no other supported category or unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1196",
+      "yes": [0,66],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,49,50,51,52,53,55,56,57,58,59,60,61,62,63,65,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [48,54,64],
+      "all_definitions_considered": true,
+      "rationale": "A person's face, hand and arm are visible while eating a rounded browned bread or pastry item, with a computer keyboard across the foreground. The cropped food and pale exposed material do not clearly distinguish a filled bread sandwich from a doughnut or plain bagel-like item, so sandwich and donut remain unclear rather than asserting a filling or doughnut identity. The partly cropped domed green object at the lower left could be a mouse-like desktop device or a decorative object; its identity is unresolved, so mouse is unclear. The surface is a computer work surface, not an identifiable dining table. I considered all 75 definitions; no other category has supported evidence."
+    },
+    {
+      "case_id": "I1197",
+      "yes": [0,35],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Several actual people in baseball uniforms stand on grass. A broad dark fielding mitt is visibly hanging from the foreground player's hand, and another glove is held near the left player's waist, supporting baseball glove rather than ordinary clothing gloves. The outfield advertising and boundary are not actual depicted objects. I considered all 75 definitions; no other category is supported and there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1198",
+      "yes": [23],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A large actual giraffe occupies the foreground with additional giraffes behind it. Their bodies, necks, heads and patterned coats identify giraffes. The horizontal rails are enclosure fencing, not benches; the central thatched supported structure is a fixed shelter roof rather than an umbrella. The trees are unpotted. I considered all 75 definitions over the whole crop and found no other supported category or unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1199",
+      "yes": [0,33],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A human silhouette holds a kite-control assembly while a patterned curved kite flies at the upper left. The canopy and flight/control context identify an actual kite; its printed pattern does not establish any depicted actual category object. The textured sky and horizon contain no identifiable further listed objects. I considered all 75 definitions, with no supported remaining category and no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1200",
+      "yes": [41,44,71],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,43,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,63,64,65,66,67,69,72,73,74,76,77,79],
+      "unclear": [39,42,45,62,68,75],
+      "all_definitions_considered": true,
+      "rationale": "The kitchen crop shows a sink basin at lower left and recognizable drinking mugs in the dish rack. Oval spoon heads on long handles are visible in the utensil holders above the right appliance. A tiny pronged/slotted utensil head is insufficient to distinguish an eating/serving fork from a slotted cooking tool, so fork is unclear. The red and pale dishes are partly occluded or edge-on, leaving bowl versus plate unclear. Tall clear narrow vessels holding utensils do not decisively distinguish bottles from flower-vase forms, leaving bottle and vase unclear. The black glass-fronted appliance at right has its controls cropped away and cannot be resolved confidently as a microwave versus a standalone display, leaving microwave and TV unclear. The lower white appliance does not show refrigerator or oven identity, and the counters are not dining tables. I considered all 75 definitions; no other category is supported."
+    }
+  ]
+}

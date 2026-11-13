@@ -1,0 +1,18 @@
+{
+  "ACTIVE_MANIFEST.json": "49749d81e30a06509c5dcaf49f824c78b7fce261148777af6638aee640d89f84",
+  "FIVE_MANIFEST.json": "21d9f09d1380c30dd02e72ad794d49fbb8bc67f0361bd1987f98cae0d6348063",
+  "cpu_finish_worker.py": "166b86e9c9768f6267a20970af0771c74f267a16dda278c1b803c13b0d229178",
+  "five_seed.py": "fbae09c9a16577e4e57555cef3de20f97f1f977e8cf6e7b17161f4c96e9a1871",
+  "five_seed_worker.py": "c2c7c8a47311f66b34669d98187e04d3c4d34235f8728bac701f9dc91be47ae4",
+  "objects_first.py": "6c909ccab27c7e0b437313a4829ac3592a54b25cf5d7b2365fbd38b49b762be6",
+  "objects_first_worker.py": "3a82e1d933cc935acc8d67e9f1cac3690df4a550c3ba659b0bf479fa28c6c41a",
+  "precision_retry.py": "f7b238e6e5c7a86288fa8d06a5d1249cb8f621b31d84ca8559d2cdb5af9c461a",
+  "test_five_seed.py": "8b03b9facebbbeb5d9da120ebcf5d11250d7028bc2d1998fcf03020b9b95ebab",
+  "test_objects_first.py": "f8bd01181de478695efbedc26f3576ffc54037d2f438e86f36ad074d530a06c0",
+  "test_precision_retry.py": "61f958018757219f0078fee8ea7c97eded26ae01c1c4f01f82c0eb10ccf8a0dc",
+  "test_training_precision.py": "d371b761dd4b1d542ce32a7f73524a236d670e9b9a1f37d2501a3cf543127f9d",
+  "training_precision.py": "af59662e3508bfe507825ebfff8d9850df0077652351b38e6f48efd20b9b693c",
+  "gpu_joint_nnls.py": "f6ce828a742c4dc36271dd8b4f9c2910ad866a0963e2e026be1e9a2a28f5ed8f",
+  "gpu_finish_worker.py": "804ad86a7c79fd79933260678088233f875b616f530c5350097bd1208cdd7172",
+  "test_gpu_joint_nnls.py": "902efd2e211e9efe4acb4afd87c4fb111bd1afec87301c9be1df90befa3afef4"
+}

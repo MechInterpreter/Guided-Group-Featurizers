@@ -1,0 +1,120 @@
+{
+  "preview_only": true,
+  "paper_changed": false,
+  "measured_PCA_receipt_sha256": "b12529a5a9159c2b93047954c1cd06361e6eac75b7665a1b1cf86dde0f6677ff",
+  "figure_inches": [
+    7.2,
+    5.9
+  ],
+  "panels": [
+    {
+      "method": "ggf",
+      "case_id": "G0622",
+      "group": 32,
+      "specific_pair_majorities": [
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "specific_pairs_yes": 3,
+      "whole_high_fit_counts": [
+        6,
+        6,
+        6
+      ],
+      "colors_by_view": [
+        "#09715d",
+        "#09715d",
+        "#09715d",
+        "#09715d",
+        "#09715d",
+        "#09715d"
+      ],
+      "crop_rule": "96x96 original pixels around the strongest original marked 16x16 patch, clamped to the 224x224 reviewed crop",
+      "all_four_marked_points_plotted": true,
+      "all_six_views_displayed": true
+    },
+    {
+      "method": "slics",
+      "case_id": "G0068",
+      "group": 56,
+      "specific_pair_majorities": [
+        "yes",
+        "no",
+        "no"
+      ],
+      "specific_pairs_yes": 1,
+      "whole_high_fit_counts": [
+        3,
+        3,
+        3
+      ],
+      "colors_by_view": [
+        "#09715d",
+        "#09715d",
+        "#bc713d",
+        "#8261a7",
+        "#09715d",
+        "#3e7fa2"
+      ],
+      "crop_rule": "96x96 original pixels around the strongest original marked 16x16 patch, clamped to the 224x224 reviewed crop",
+      "all_four_marked_points_plotted": true,
+      "all_six_views_displayed": true
+    },
+    {
+      "method": "supervised_vanilla",
+      "case_id": "G0617",
+      "group": 30,
+      "specific_pair_majorities": [
+        "no",
+        "yes",
+        "no"
+      ],
+      "specific_pairs_yes": 1,
+      "whole_high_fit_counts": [
+        4,
+        4,
+        4
+      ],
+      "colors_by_view": [
+        "#09715d",
+        "#bc713d",
+        "#09715d",
+        "#09715d",
+        "#09715d",
+        "#8261a7"
+      ],
+      "crop_rule": "96x96 original pixels around the strongest original marked 16x16 patch, clamped to the 224x224 reviewed crop",
+      "all_four_marked_points_plotted": true,
+      "all_six_views_displayed": true
+    },
+    {
+      "method": "vanilla",
+      "case_id": "G0461",
+      "group": 23,
+      "specific_pair_majorities": [
+        "no",
+        "no",
+        "no"
+      ],
+      "specific_pairs_yes": 0,
+      "whole_high_fit_counts": [
+        2,
+        3,
+        2
+      ],
+      "colors_by_view": [
+        "#09715d",
+        "#bc713d",
+        "#3e7fa2",
+        "#8261a7",
+        "#3e7fa2",
+        "#bc713d"
+      ],
+      "crop_rule": "96x96 original pixels around the strongest original marked 16x16 patch, clamped to the 224x224 reviewed crop",
+      "all_four_marked_points_plotted": true,
+      "all_six_views_displayed": true
+    }
+  ],
+  "PDF_sha256": "143fbf8e301f372574b49058f6568c9690b17747e2f16455f22f658edc098a51"
+}

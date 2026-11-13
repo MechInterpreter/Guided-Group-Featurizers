@@ -1,0 +1,49 @@
+{
+  "name": "ggf-concept-atlas",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "node scripts/run-framework.mjs dev --host 127.0.0.1",
+    "build": "node scripts/verify-demo-assets.mjs && node scripts/run-framework.mjs build",
+    "start": "wrangler dev --config dist/server/wrangler.json --local --ip 127.0.0.1 --inspector-port 0",
+    "live": "node scripts/start-live.mjs",
+    "verify": "node scripts/verify-demo-assets.mjs",
+    "typecheck": "tsc --noEmit",
+    "test:pairs": "node --experimental-strip-types tests/pair-walkthrough-browser.mjs",
+    "test:uploads": "node tests/upload-session-browser.mjs",
+    "test:coactivation": "node --experimental-strip-types tests/coactivation.mjs && node --experimental-strip-types tests/patch-coactivation.mjs"
+  },
+  "dependencies": {
+    "next": "16.3.4",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "lucide-react": "^1.31.0",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.37.1",
+    "@cloudflare/workers-types": "4.20260515.1",
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@types/three": "0.180.0",
+    "@vitejs/plugin-rsc": "0.5.26",
+    "react-server-dom-webpack": "19.2.6",
+    "typescript": "5.9.3",
+    "tailwindcss": "4.2.1",
+    "vite": "8.0.13",
+    "vinext": "1.0.0-beta.5",
+    "wrangler": "4.92.0",
+    "playwright-core": "1.56.1"
+  },
+  "overrides": {
+    "miniflare": {
+      "sharp": "0.35.4"
+    }
+  }
+}

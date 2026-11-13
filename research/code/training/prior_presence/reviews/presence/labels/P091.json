@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p091",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I1093",
+      "yes": [3,11],
+      "no": [0,1,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [2],
+      "all_definitions_considered": true,
+      "rationale": "The red two-wheeled motor vehicle has a motor, motorcycle frame and seat, so motorcycle is present and bicycle is excluded. A small actual octagonal stop-sign face is visible in the street reflection at left. A dark low shape in that reflection might be part of a passenger car, but the detail is insufficient, so car remains unclear. The large coffee vessels, fruit and leaves on the windows are printed advertising, not actual cups, bottles, fruit or plants. I considered all 75 frozen definitions across the whole crop; no other category has supported visible identity."
+    },
+    {
+      "case_id": "I1094",
+      "yes": [56,60,75],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,76,77,79],
+      "unclear": [41],
+      "all_definitions_considered": true,
+      "rationale": "Cut flowers are arranged in a pink vessel used as a vase on the wooden dining tabletop, with a curved metal dining-chair back visible behind them at left. The arrangement is cut stems in a vase, not a potted plant. At the bottom left, a partly cropped white patterned cylindrical vessel could be a drinking cup, but its opening and full form are not adequately visible, so cup is unclear. The pink floral container is not a bottle or stemmed wine glass. I explicitly considered every frozen definition; no other category is identifiable."
+    },
+    {
+      "case_id": "I1095",
+      "yes": [0,39,41,42,43,53,56,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,44,46,47,48,49,50,51,52,54,55,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [45],
+      "all_definitions_considered": true,
+      "rationale": "People sit on individual dining chairs around eating tables. The foreground pizza has a topped crust on a round tray. Drinking tumblers and a handled mug are visible, along with narrow-neck drink bottles farther back. A fork with tines is visible at the pizza's left edge and a flat metal knife lies diagonally across the foreground. The shallow dish containing greens behind the pizza is partly obscured, leaving bowl versus plate/container unresolved, so bowl is unclear. The glassware does not establish a stemmed wine-glass form, and the food fragments do not identify broccoli, carrot or another listed fruit. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I1096",
+      "yes": [0,39,41,42,52,56,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,43,44,45,46,47,48,49,50,51,53,54,55,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Actual people are eating at a dining table with individual metal chairs. Condiment squeeze bottles have bottle bodies and necks, a striped paper drinking cup is at lower right, and a white plastic fork with tines is at lower left. The boys hold elongated coated hot-dog/corn-dog food items, supporting hot dog rather than sandwich. The shallow disposable eating dishes are plates, and the other fried pieces do not identify any additional frozen food category. After considering all 75 definitions there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I1097",
+      "yes": [0,56,77],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,79],
+      "unclear": [59],
+      "all_definitions_considered": true,
+      "rationale": "A girl sits in a wooden single-person rocking chair beside a large stuffed bear, so person, chair and teddy bear are present. The bear's plush construction excludes actual bear. The broad floral-cloth-covered support beneath the teddy could be a bed, but the crop does not clearly separate bedding/mattress from a draped table or similar support; bed is unclear. There is no eating-table context for dining table. Small framed pictures at left do not establish additional actual people or bound books. All 75 frozen definitions were considered."
+    },
+    {
+      "case_id": "I1098",
+      "yes": [0,27,67],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [26],
+      "all_definitions_considered": true,
+      "rationale": "Two people are visible. The man wears a patterned necktie and holds a small silver-and-black mobile handset with an elongated upper portion in his hands, supporting cell phone. The woman's diagonal black shoulder strap could belong to a handbag, but the bag body is outside the crop and the strap alone cannot resolve its identity, so handbag is unclear. It does not establish a backpack or suitcase. No other object meets a frozen definition after explicit consideration of all 75."
+    },
+    {
+      "case_id": "I1099",
+      "yes": [5,9],
+      "no": [1,2,3,4,6,7,8,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [0],
+      "all_definitions_considered": true,
+      "rationale": "An actual full-size green road bus with passenger windows and wheels is displayed indoors, and actual red/green traffic-signal heads stand in front of it. The bus is not a train or toy vehicle. A faint humanlike form behind the bus glazing is too small and obscured to distinguish an actual person from an exhibit figure or reflection, so person is unclear. Printed exhibit pictures do not supply actual depicted objects. I considered every frozen definition and found no other supported category identity."
+    },
+    {
+      "case_id": "I1100",
+      "yes": [0,26,27,40,41],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,28,29,31,33,35,36,37,38,39,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Three actual people fill the crop. The foreground man wears a pale necktie. The woman holds a stemmed wine glass near her face and a purple purse at her waist; the striped-shirt man behind her holds a straight-sided drinking tumbler, which meets cup rather than wine glass. The purple carried purse is not a backpack or rigid suitcase, and no drink bottle is identified. All 75 definitions were explicitly considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1101",
+      "yes": [0,2,33],
+      "no": [1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "People are visible standing on the grass, and a real passenger car is parked at lower left. Several actual flying kites have visible canopies/bodies in the sky, including the large yellow human-shaped kite and the red form at right. Large black-and-white character inflatables/kites on the ground do not establish real bears, birds, other animals or plush teddy bears. The flying yellow character is not an actual airborne person. All 75 frozen definitions were considered across the saved crop; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I1102",
+      "yes": [0,27,55,60,75],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,28,29,31,33,35,36,37,38,39,40,41,44,45,46,47,48,49,50,51,52,53,54,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,76,77,79],
+      "unclear": [42,43],
+      "all_definitions_considered": true,
+      "rationale": "The actual bride and groom stand behind a tiered wedding cake on a cloth-covered eating/serving table with plates. The groom wears a necktie. Cut flowers at left stand in a transparent vase, not a plant pot. Small metal utensils next to the plates have insufficient detail to resolve a fork's tines or a knife blade versus a cake-serving utensil, so fork and knife remain unclear; there is no visible spoon bowl. The dishes are flat plates rather than drinking cups or bowls, and the cake-top figures do not count as actual people. Every one of the 75 definitions was considered."
+    },
+    {
+      "case_id": "I1103",
+      "yes": [35],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [0],
+      "all_definitions_considered": true,
+      "rationale": "A large leather baseball fielding glove is identifiable from its deep pocket, padded fingers and lacing. It supports a cap and sunglasses, which are outside the frozen category list. Tiny skin-colored/humanlike forms in and around the sunglasses' mirrored reflections do not resolve whether an actual visible person or body part is present, so person remains unclear. The cap alone does not establish a wearer. I considered all 75 frozen definitions; no other category object is identifiable."
+    },
+    {
+      "case_id": "I1104",
+      "yes": [0,11],
+      "no": [1,3,4,5,6,8,9,10,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [2,7],
+      "all_definitions_considered": true,
+      "rationale": "The actual red octagonal traffic sign has clearly readable STOP lettering. A person's head and clothing are partly visible along the left edge behind it. At the extreme right edge, a narrow strip of a real wheeled road vehicle is visible, but too little of the body remains to distinguish a passenger car from a truck/van-like vehicle, so car and truck are unclear. The sign itself is not a traffic light, and its pole does not establish another street-fixture category. All 75 frozen definitions were explicitly considered."
+    }
+  ]
+}

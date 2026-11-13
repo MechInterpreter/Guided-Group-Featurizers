@@ -1,0 +1,17 @@
+{
+  "matching_definition": "Appendix C.4 states stable rank of per-block code covariance: sum(lambda^2)/max(lambda)^2",
+  "verification_limit": "Current released repository at 219f121ea82d2b19200d1dac918396e6058d7eb9 contains no stable-rank analysis or figure-generation implementation in its 15 text/source/notebook files. Actual Figure 8/22 implementation could not be verified.",
+  "paper_main_text": "Section 3.4 instead describes stable rank of per-block code, leaving a code-matrix versus covariance ambiguity when compared with Appendix C.4.",
+  "aggregation": "Within each seed, unweighted mean of group-specific ranks; then equal-weight mean over seeds 21,22,23. Not the rank of a pooled covariance or an activity-weighted average.",
+  "cohort": "Same 2000 cached TRAIN images / 392000 patches. Centered unbiased coefficient covariance conditional on nonzero gated activity. At least 32 active patches.",
+  "slot_scope": "AGF first 75 slots are mask-initialized category slots; Vanilla first 75 slots are positional controls.",
+  "new_training_updates": 0,
+  "new_model_inference": false,
+  "test_data_opened": false,
+  "sources": [
+    "capacity_rank_means.csv (included in this evidence folder)",
+    "LOCAL_INPUTS/27eb15805efa/view",
+    "https://arxiv.org/html/2606.25234v1",
+    "https://github.com/goodfire-ai/block-sparse-featurizer/tree/219f121ea82d2b19200d1dac918396e6058d7eb9"
+  ]
+}

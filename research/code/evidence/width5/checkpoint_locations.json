@@ -1,0 +1,26 @@
+{
+  "width_balance": {
+    "run": "e4aeabc90db740daf7d9fc59183d7ecfe5e4c9cece99acea0aa334e6016c073a",
+    "checkpoints": "LOCAL_INPUTS/62e29d71c335/e4aeabc90db740daf7d9"
+  },
+  "cap040": {
+    "run": "842bd916b90c62d783787b26000dc57a844c1346b4f21ead8480101cd646040f",
+    "checkpoints": "LOCAL_INPUTS/04c26a58e148/842bd916b90c62d78378"
+  },
+  "original": {
+    "run": "35196154aba794047bf8d1bbed231c35de7f76e2bdffb5a450ccae9abe3dfebd",
+    "checkpoints": "LOCAL_INPUTS/ebce9950be14/35196154aba794047bf8"
+  },
+  "strong": {
+    "run": "0995cf6f6f1a454751af538d431fd006b55c11a2d463ff327e7036fe7b9b5f94",
+    "checkpoints": "LOCAL_INPUTS/4b2c1b124866/0995cf6f6f1a454751af"
+  },
+  "previous": {
+    "run": "32dcb7bd6e9ccc3ad24fa9744a9e390229af6b2eea773fff813a4efdeabe0f41",
+    "checkpoints": "LOCAL_INPUTS/cb0769bc3192/32dcb7bd6e9ccc3ad24f"
+  },
+  "current": {
+    "run": "95fbab1d48bff58545543e390b89e28c87c8cc8612db4fc25e9759489407befb",
+    "checkpoints": "LOCAL_INPUTS/37e2e4c4c250/95fbab1d48bff5854554"
+  }
+}

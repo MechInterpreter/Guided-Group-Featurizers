@@ -1,0 +1,18 @@
+{
+  "seeds": [
+    21,
+    22,
+    23
+  ],
+  "reporting": "Mean plus/minus sample standard deviation across three RUN-level scores; ddof=1. Never SD over AI raters, categories, folds or images.",
+  "aggregation": "Coherence: combine equal-size 75-group folds within each run, shared Vanilla once. Concentration/AP: preserve equal-category macro averaging within each run after fold aggregation; 73/75 presence-supported targets, 75/75 AP targets.",
+  "units": "All means/SDs below are unit-interval rates; multiply BOTH by100 for percentage-point presentation.",
+  "limits": [
+    "Shared initialization and image pools; descriptive training-order SD, not model-population uncertainty or a significance test.",
+    "Coherence reviewers are AI contexts, not independent humans. Pair semantic/visual and whole endpoints remain separate.",
+    "Category split excludes annotations from featurizer guidance; excluded objects may be present in training images. Readout calibration may use their labels after fitting.",
+    "Category-split whole/pair coherence scores every native group, not only withheld-category readouts.",
+    "Concentration is around75 predefined targets; it does not establish consolidation of every discovered concept.",
+    "Human validation, independent visual target alignment and genuinely new-image tests remain outstanding."
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p062",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I0745",
+      "yes": [0,33],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual person holds a large yellow patterned kite with long streamers and visible line/structure. This is a kite rather than an umbrella; the blue flag in the background is not an animal. The fence, grass, poles and trees contain no identifiable additional category object. All 75 definitions were considered against the whole original crop; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0746",
+      "yes": [41,45,48,60],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,42,44,46,47,49,50,51,52,53,54,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [43],
+      "all_definitions_considered": true,
+      "rationale": "The plate holds a meat-filled toasted sandwich, with onion rings beside it. A dark beverage is in a recognizable drinking mug/glass at the upper edge, and the small open sauce ramekin is a bowl. The eating setting identifies the supporting surface as a dining table. A partly covered metallic utensil near the lower-left sandwich edge could be a table knife, but its blade/handle identity is insufficiently exposed, so knife remains unclear; no fork tines or spoon bowl are identifiable. Onion rings are not donuts and the meat filling does not identify a hot dog. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0747",
+      "yes": [4],
+      "no": [0,1,2,3,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Full-sized parked aircraft have recognizable fuselages, cockpit/cabin windows, wings and landing gear. Their metal boarding steps are not chairs or benches, and the aircraft wheels are not road vehicles. No identifiable person or other listed object appears in the grass, trees or equipment around the planes. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0748",
+      "yes": [0,59],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A person lies on a bed with a pillow and bedding visible behind the head and along the body. The respiratory tube and attached medical leads are neither drinking vessels nor toothbrushes or electronics in the listed device definitions. No other listed object is identifiable. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0749",
+      "yes": [0,44,45,55],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,42,46,47,48,49,50,51,52,53,54,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [41,43],
+      "all_definitions_considered": true,
+      "rationale": "This cooking-process collage shows actual hands, several mixing/ingredient bowls, a spoon over a metal bowl, and baked cake layers with a red fruit topping. The berries are not identifiable apples or oranges, and the red-topped round cake is not pizza. Mixer beaters are not forks. A small white vessel pouring liquid is insufficiently clear to establish a drinking cup, leaving cup unclear; the tiny implement near the butter/ingredient area is insufficiently resolved to establish a knife, leaving knife unclear. The preparation surface lacks dining-table context. All 75 definitions were considered across every panel."
+    },
+    {
+      "case_id": "I0750",
+      "yes": [0],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A barefoot person is visible at the right, with another person's arm/hand at the left edge. Their playing posture does not by itself establish a frisbee or other sporting object, none of which is visible in the saved crop. The paved area, grass, railings, ruins and shrubs show no identifiable additional listed objects or potted-plant containers. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0751",
+      "yes": [0,28],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,25,27,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [24,26],
+      "all_definitions_considered": true,
+      "rationale": "A person stands behind multiple large travel cases; the upright structured luggage at the center has recognizable suitcase fronts and travel-case construction. Additional black soft bags at both sides have partially visible bodies and straps, but backpack versus carried shoulder-bag identity is unresolved, so backpack and handbag remain unclear. The cardboard carton is not luggage by itself, and the metal wheeled trolley is not a chair, bicycle or road vehicle. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0752",
+      "yes": [46,64,66],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,65,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A banana, computer mouse and computer keyboards are plainly visible on a wooden work desk. The marker, pen and keys are not toothbrushes, knives or scissors; the headset at the right is not a cell phone or remote. Loose notes and paper are not bound books. The computer-work setting identifies a desk, excluding dining table. No screen or integrated laptop body is visible. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0753",
+      "yes": [79],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77],
+      "unclear": [41],
+      "all_definitions_considered": true,
+      "rationale": "Numerous toothbrushes have narrow handles and exposed bristled heads, including loose brushes on the ground. They sit in a tall yellow labeled open container that could be a repurposed storage tub or a large cup; drinking-cup identity remains unclear. Its broad open mouth excludes bottle, and it does not have bowl form. The partial containers at the upper edge do not show a plant growing in a pot or identifiable vase context. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0754",
+      "yes": [0,35],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The batter, crouching catcher and partially visible umpire are people. The catcher holds an unmistakable brown fielding mitt with its open pocket toward the batter, satisfying baseball glove rather than merely batting gloves. The green bat is not a racket or listed board. Fence, field and background structures contain no identifiable additional listed object. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0755",
+      "yes": [0,41,46,49,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,42,43,44,45,47,48,50,51,52,53,54,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [39],
+      "all_definitions_considered": true,
+      "rationale": "People gather around an outdoor food-serving/eating table. Whole bananas and cut orange wedges are clearly visible in the foreground, and transparent disposable drinking cups are stacked near the center-right. The shallow rectangular food trays are not identifiable bowls. A small pale upright object deeper among the supplies may be a drink bottle, but neck/body detail is inadequate, leaving bottle unclear. Helmets and cycling clothing do not establish an actual bicycle in this crop. No identifiable sandwich, hot dog or other listed food is established by the more distant food piles. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0756",
+      "yes": [20],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A group of actual elephants stands at the water, with large ears, trunks, thick legs and elephant bodies visible. The water reflections do not create additional object identities. Pale shapes on the distant shoreline are insufficient to identify birds, and no actual bird body or other listed animal is visible. Trees and bushes have no pot context. All 75 definitions were considered; no unresolved category ambiguity remains."
+    }
+  ]
+}

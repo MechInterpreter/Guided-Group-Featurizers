@@ -1,0 +1,3645 @@
+{
+  "numpy": "2.1.3",
+  "torch": "2.11.0+cu128",
+  "data": {
+    "factor_sum_max_error": 2.50304309501459e-08,
+    "train_squared_norm": 1.0000000000156994,
+    "fingerprints": {
+      "train": "f428cd44c90a089f543d146db4cf4d2defe61a7f4caf24ec7609494b3e475747",
+      "select": "f2fc956386ac297940f66ca997306bdecff4c1a14da7f90ef3d1e7fc7448f1e1",
+      "calibration": "b3ecf090d840a0750b19e42b4928064c73fc31991150dfaecd8d20fef799d842",
+      "test": "7cd80b65399e1d38627b63bcaf8dd1f39b33bfc3ea64048cce4295e0ee0062be"
+    },
+    "global_centering": false,
+    "one_training_scale_for_all_splits": true,
+    "correlation_recipe_exactly_published": true
+  },
+  "original_fingerprints": {
+    "train": "060cd638591961c5115af17b70f0f07b39e5181edfc287764a4e6d48a3995d47",
+    "select": "f2fc956386ac297940f66ca997306bdecff4c1a14da7f90ef3d1e7fc7448f1e1",
+    "calibration": "b3ecf090d840a0750b19e42b4928064c73fc31991150dfaecd8d20fef799d842",
+    "test": "d0fc04a2883729e30737a2f1573be2d598309187ad9b971660e39389550d4f60"
+  },
+  "regeneration_note": "Same generator, seeds, geometry and split sizes. Floating-point platform differences prevent byte-identical regeneration; comparison below checks original seed-0 scores. Used for visualization only; published metric tables unchanged.",
+  "model_seed": 0,
+  "factor_selection": "First indexed factor of each non-segment family, independent of all model scores.",
+  "point_selection": "Uniform fixed sample, seed 48714, at most 700 present-factor observations. Gate-zero points retained.",
+  "models": {
+    "vanilla": {
+      "recovery": 0.9620215322577744,
+      "ve": 0.973677109926939,
+      "weights_sha": "6fec155afa4b91967393b90e1405b43dc82a0aeb257db0e0fc806272d9bd1c13",
+      "rows": [
+        {
+          "factor": 0,
+          "kind": "segment",
+          "group": 46,
+          "r2": 0.9570703938260537,
+          "n": 2976
+        },
+        {
+          "factor": 1,
+          "kind": "segment",
+          "group": 43,
+          "r2": 0.9755914493668019,
+          "n": 3041
+        },
+        {
+          "factor": 2,
+          "kind": "segment",
+          "group": 197,
+          "r2": 0.948296491754635,
+          "n": 3122
+        },
+        {
+          "factor": 3,
+          "kind": "segment",
+          "group": 45,
+          "r2": 0.9651576821465301,
+          "n": 3141
+        },
+        {
+          "factor": 4,
+          "kind": "segment",
+          "group": 252,
+          "r2": 0.9792149458061189,
+          "n": 3044
+        },
+        {
+          "factor": 5,
+          "kind": "segment",
+          "group": 68,
+          "r2": 0.977656365708108,
+          "n": 3089
+        },
+        {
+          "factor": 6,
+          "kind": "segment",
+          "group": 197,
+          "r2": 0.8963706028427849,
+          "n": 3105
+        },
+        {
+          "factor": 7,
+          "kind": "segment",
+          "group": 116,
+          "r2": 0.9633569493867628,
+          "n": 3159
+        },
+        {
+          "factor": 8,
+          "kind": "segment",
+          "group": 80,
+          "r2": 0.974495171887884,
+          "n": 3061
+        },
+        {
+          "factor": 9,
+          "kind": "segment",
+          "group": 182,
+          "r2": 0.9772236443730701,
+          "n": 3033
+        },
+        {
+          "factor": 10,
+          "kind": "segment",
+          "group": 40,
+          "r2": 0.9785174826650602,
+          "n": 3039
+        },
+        {
+          "factor": 11,
+          "kind": "segment",
+          "group": 53,
+          "r2": 0.9408979544257798,
+          "n": 3097
+        },
+        {
+          "factor": 12,
+          "kind": "segment",
+          "group": 183,
+          "r2": 0.9788379786653048,
+          "n": 3181
+        },
+        {
+          "factor": 13,
+          "kind": "segment",
+          "group": 73,
+          "r2": 0.9798264660458299,
+          "n": 3128
+        },
+        {
+          "factor": 14,
+          "kind": "segment",
+          "group": 39,
+          "r2": 0.9596208688878959,
+          "n": 3080
+        },
+        {
+          "factor": 15,
+          "kind": "segment",
+          "group": 147,
+          "r2": 0.9513393952817264,
+          "n": 3119
+        },
+        {
+          "factor": 16,
+          "kind": "segment",
+          "group": 93,
+          "r2": 0.9748716904840077,
+          "n": 3166
+        },
+        {
+          "factor": 17,
+          "kind": "segment",
+          "group": 142,
+          "r2": 0.9709831094397514,
+          "n": 3032
+        },
+        {
+          "factor": 18,
+          "kind": "segment",
+          "group": 44,
+          "r2": 0.9710135704162641,
+          "n": 3104
+        },
+        {
+          "factor": 19,
+          "kind": "segment",
+          "group": 174,
+          "r2": 0.977606052277609,
+          "n": 3151
+        },
+        {
+          "factor": 20,
+          "kind": "segment",
+          "group": 219,
+          "r2": 0.9767721357115463,
+          "n": 3166
+        },
+        {
+          "factor": 21,
+          "kind": "segment",
+          "group": 104,
+          "r2": 0.9736285050061416,
+          "n": 3042
+        },
+        {
+          "factor": 22,
+          "kind": "segment",
+          "group": 49,
+          "r2": 0.9789627797048791,
+          "n": 3176
+        },
+        {
+          "factor": 23,
+          "kind": "segment",
+          "group": 38,
+          "r2": 0.9783367022839201,
+          "n": 3028
+        },
+        {
+          "factor": 24,
+          "kind": "segment",
+          "group": 64,
+          "r2": 0.9271241818965369,
+          "n": 3172
+        },
+        {
+          "factor": 25,
+          "kind": "segment",
+          "group": 178,
+          "r2": 0.972005206292542,
+          "n": 3223
+        },
+        {
+          "factor": 26,
+          "kind": "segment",
+          "group": 30,
+          "r2": 0.9449748934590682,
+          "n": 3051
+        },
+        {
+          "factor": 27,
+          "kind": "segment",
+          "group": 204,
+          "r2": 0.9615933200559037,
+          "n": 3161
+        },
+        {
+          "factor": 28,
+          "kind": "segment",
+          "group": 11,
+          "r2": 0.9830818618651918,
+          "n": 3106
+        },
+        {
+          "factor": 29,
+          "kind": "segment",
+          "group": 35,
+          "r2": 0.9752439146859865,
+          "n": 3230
+        },
+        {
+          "factor": 30,
+          "kind": "segment",
+          "group": 223,
+          "r2": 0.9770727548662974,
+          "n": 3172
+        },
+        {
+          "factor": 31,
+          "kind": "segment",
+          "group": 114,
+          "r2": 0.9695588566741457,
+          "n": 3091
+        },
+        {
+          "factor": 32,
+          "kind": "segment",
+          "group": 53,
+          "r2": 0.9362750866863098,
+          "n": 3133
+        },
+        {
+          "factor": 33,
+          "kind": "segment",
+          "group": 150,
+          "r2": 0.9829885130091249,
+          "n": 3159
+        },
+        {
+          "factor": 34,
+          "kind": "segment",
+          "group": 206,
+          "r2": 0.9415194204080456,
+          "n": 3183
+        },
+        {
+          "factor": 35,
+          "kind": "segment",
+          "group": 57,
+          "r2": 0.9604647127824578,
+          "n": 3200
+        },
+        {
+          "factor": 36,
+          "kind": "segment",
+          "group": 36,
+          "r2": 0.980586375436016,
+          "n": 3044
+        },
+        {
+          "factor": 37,
+          "kind": "segment",
+          "group": 189,
+          "r2": 0.9672178455614371,
+          "n": 3169
+        },
+        {
+          "factor": 38,
+          "kind": "segment",
+          "group": 196,
+          "r2": 0.9756093299903419,
+          "n": 3205
+        },
+        {
+          "factor": 39,
+          "kind": "segment",
+          "group": 15,
+          "r2": 0.9543186124231028,
+          "n": 3088
+        },
+        {
+          "factor": 40,
+          "kind": "segment",
+          "group": 133,
+          "r2": 0.9533419776521292,
+          "n": 3156
+        },
+        {
+          "factor": 41,
+          "kind": "segment",
+          "group": 79,
+          "r2": 0.9739010950923581,
+          "n": 3116
+        },
+        {
+          "factor": 42,
+          "kind": "segment",
+          "group": 230,
+          "r2": 0.9607376790553542,
+          "n": 3224
+        },
+        {
+          "factor": 43,
+          "kind": "segment",
+          "group": 237,
+          "r2": 0.9775665187049216,
+          "n": 3142
+        },
+        {
+          "factor": 44,
+          "kind": "segment",
+          "group": 164,
+          "r2": 0.9160902423755359,
+          "n": 3090
+        },
+        {
+          "factor": 45,
+          "kind": "segment",
+          "group": 46,
+          "r2": 0.9476571347201482,
+          "n": 3135
+        },
+        {
+          "factor": 46,
+          "kind": "segment",
+          "group": 157,
+          "r2": 0.9757680309480443,
+          "n": 3056
+        },
+        {
+          "factor": 47,
+          "kind": "segment",
+          "group": 94,
+          "r2": 0.9799863465074009,
+          "n": 3159
+        },
+        {
+          "factor": 48,
+          "kind": "segment",
+          "group": 227,
+          "r2": 0.968279439715954,
+          "n": 3080
+        },
+        {
+          "factor": 49,
+          "kind": "segment",
+          "group": 233,
+          "r2": 0.9785672252243122,
+          "n": 3142
+        },
+        {
+          "factor": 50,
+          "kind": "segment",
+          "group": 149,
+          "r2": 0.9759554798567626,
+          "n": 3151
+        },
+        {
+          "factor": 51,
+          "kind": "segment",
+          "group": 128,
+          "r2": 0.9461371444054926,
+          "n": 3166
+        },
+        {
+          "factor": 52,
+          "kind": "segment",
+          "group": 5,
+          "r2": 0.9772705784560964,
+          "n": 3088
+        },
+        {
+          "factor": 53,
+          "kind": "segment",
+          "group": 192,
+          "r2": 0.977840443780877,
+          "n": 3068
+        },
+        {
+          "factor": 54,
+          "kind": "segment",
+          "group": 147,
+          "r2": 0.9576102981053709,
+          "n": 3194
+        },
+        {
+          "factor": 55,
+          "kind": "segment",
+          "group": 206,
+          "r2": 0.9401768319090489,
+          "n": 3146
+        },
+        {
+          "factor": 56,
+          "kind": "segment",
+          "group": 205,
+          "r2": 0.9785792384533322,
+          "n": 3228
+        },
+        {
+          "factor": 57,
+          "kind": "segment",
+          "group": 215,
+          "r2": 0.972952025446262,
+          "n": 3177
+        },
+        {
+          "factor": 58,
+          "kind": "segment",
+          "group": 226,
+          "r2": 0.9780055643492708,
+          "n": 3229
+        },
+        {
+          "factor": 59,
+          "kind": "segment",
+          "group": 191,
+          "r2": 0.9131335444597788,
+          "n": 3158
+        },
+        {
+          "factor": 60,
+          "kind": "segment",
+          "group": 123,
+          "r2": 0.9585536490839625,
+          "n": 3087
+        },
+        {
+          "factor": 61,
+          "kind": "segment",
+          "group": 231,
+          "r2": 0.9704384970362357,
+          "n": 3067
+        },
+        {
+          "factor": 62,
+          "kind": "segment",
+          "group": 87,
+          "r2": 0.9819957329573089,
+          "n": 3076
+        },
+        {
+          "factor": 63,
+          "kind": "segment",
+          "group": 56,
+          "r2": 0.9801875887517351,
+          "n": 3098
+        },
+        {
+          "factor": 64,
+          "kind": "circle",
+          "group": 65,
+          "r2": 0.9007717286488581,
+          "n": 3128
+        },
+        {
+          "factor": 65,
+          "kind": "disk",
+          "group": 131,
+          "r2": 0.9754099808459945,
+          "n": 3094
+        },
+        {
+          "factor": 66,
+          "kind": "sphere",
+          "group": 71,
+          "r2": 0.957077246436879,
+          "n": 3067
+        },
+        {
+          "factor": 67,
+          "kind": "torus",
+          "group": 83,
+          "r2": 0.9600630567310129,
+          "n": 3115
+        },
+        {
+          "factor": 68,
+          "kind": "mobius",
+          "group": 170,
+          "r2": 0.9498882318825308,
+          "n": 3082
+        },
+        {
+          "factor": 69,
+          "kind": "swiss_roll",
+          "group": 128,
+          "r2": 0.9289128322403442,
+          "n": 3133
+        },
+        {
+          "factor": 70,
+          "kind": "helix",
+          "group": 85,
+          "r2": 0.9572386497317635,
+          "n": 3091
+        },
+        {
+          "factor": 71,
+          "kind": "circle",
+          "group": 253,
+          "r2": 0.9737015066552829,
+          "n": 3115
+        },
+        {
+          "factor": 72,
+          "kind": "disk",
+          "group": 243,
+          "r2": 0.962624532307137,
+          "n": 3155
+        },
+        {
+          "factor": 73,
+          "kind": "sphere",
+          "group": 229,
+          "r2": 0.9624346409138953,
+          "n": 3169
+        },
+        {
+          "factor": 74,
+          "kind": "torus",
+          "group": 202,
+          "r2": 0.9637459981785057,
+          "n": 3187
+        },
+        {
+          "factor": 75,
+          "kind": "mobius",
+          "group": 193,
+          "r2": 0.9656683702875479,
+          "n": 3121
+        },
+        {
+          "factor": 76,
+          "kind": "swiss_roll",
+          "group": 22,
+          "r2": 0.9703903631568694,
+          "n": 3071
+        },
+        {
+          "factor": 77,
+          "kind": "helix",
+          "group": 242,
+          "r2": 0.9604171661413671,
+          "n": 2985
+        },
+        {
+          "factor": 78,
+          "kind": "circle",
+          "group": 181,
+          "r2": 0.9707390935222939,
+          "n": 3207
+        },
+        {
+          "factor": 79,
+          "kind": "disk",
+          "group": 66,
+          "r2": 0.9693297127218654,
+          "n": 3203
+        },
+        {
+          "factor": 80,
+          "kind": "sphere",
+          "group": 245,
+          "r2": 0.9682055100964019,
+          "n": 3126
+        },
+        {
+          "factor": 81,
+          "kind": "torus",
+          "group": 119,
+          "r2": 0.9620622138291878,
+          "n": 3112
+        },
+        {
+          "factor": 82,
+          "kind": "mobius",
+          "group": 145,
+          "r2": 0.9628966916619636,
+          "n": 3194
+        },
+        {
+          "factor": 83,
+          "kind": "swiss_roll",
+          "group": 27,
+          "r2": 0.9464408482517365,
+          "n": 3112
+        },
+        {
+          "factor": 84,
+          "kind": "helix",
+          "group": 217,
+          "r2": 0.959969006979165,
+          "n": 3120
+        },
+        {
+          "factor": 85,
+          "kind": "circle",
+          "group": 164,
+          "r2": 0.9354861947151132,
+          "n": 3161
+        },
+        {
+          "factor": 86,
+          "kind": "disk",
+          "group": 141,
+          "r2": 0.9758323540290892,
+          "n": 3155
+        },
+        {
+          "factor": 87,
+          "kind": "sphere",
+          "group": 134,
+          "r2": 0.9670598574657057,
+          "n": 3183
+        },
+        {
+          "factor": 88,
+          "kind": "torus",
+          "group": 55,
+          "r2": 0.9624838238376581,
+          "n": 3126
+        },
+        {
+          "factor": 89,
+          "kind": "mobius",
+          "group": 137,
+          "r2": 0.957498387278225,
+          "n": 3188
+        },
+        {
+          "factor": 90,
+          "kind": "swiss_roll",
+          "group": 32,
+          "r2": 0.9723503815341485,
+          "n": 3015
+        },
+        {
+          "factor": 91,
+          "kind": "helix",
+          "group": 110,
+          "r2": 0.9440215334343527,
+          "n": 3198
+        },
+        {
+          "factor": 92,
+          "kind": "circle",
+          "group": 12,
+          "r2": 0.974435213379785,
+          "n": 3066
+        },
+        {
+          "factor": 93,
+          "kind": "disk",
+          "group": 130,
+          "r2": 0.9738881152402304,
+          "n": 3105
+        },
+        {
+          "factor": 94,
+          "kind": "sphere",
+          "group": 89,
+          "r2": 0.9539077147500449,
+          "n": 3070
+        },
+        {
+          "factor": 95,
+          "kind": "torus",
+          "group": 184,
+          "r2": 0.959407072804664,
+          "n": 3092
+        },
+        {
+          "factor": 96,
+          "kind": "mobius",
+          "group": 6,
+          "r2": 0.9646252009641407,
+          "n": 3014
+        },
+        {
+          "factor": 97,
+          "kind": "swiss_roll",
+          "group": 20,
+          "r2": 0.9621487980439257,
+          "n": 3083
+        },
+        {
+          "factor": 98,
+          "kind": "helix",
+          "group": 72,
+          "r2": 0.9532867700711563,
+          "n": 3032
+        },
+        {
+          "factor": 99,
+          "kind": "circle",
+          "group": 76,
+          "r2": 0.9732461375546202,
+          "n": 3146
+        },
+        {
+          "factor": 100,
+          "kind": "disk",
+          "group": 186,
+          "r2": 0.9581025899087181,
+          "n": 3039
+        },
+        {
+          "factor": 101,
+          "kind": "sphere",
+          "group": 234,
+          "r2": 0.9657205975694821,
+          "n": 3165
+        },
+        {
+          "factor": 102,
+          "kind": "torus",
+          "group": 240,
+          "r2": 0.9691909395254231,
+          "n": 3130
+        },
+        {
+          "factor": 103,
+          "kind": "mobius",
+          "group": 58,
+          "r2": 0.9570209942258179,
+          "n": 3225
+        },
+        {
+          "factor": 104,
+          "kind": "swiss_roll",
+          "group": 214,
+          "r2": 0.97277608561082,
+          "n": 3069
+        },
+        {
+          "factor": 105,
+          "kind": "helix",
+          "group": 30,
+          "r2": 0.9246065536217167,
+          "n": 3154
+        },
+        {
+          "factor": 106,
+          "kind": "circle",
+          "group": 153,
+          "r2": 0.9644974938347155,
+          "n": 3150
+        },
+        {
+          "factor": 107,
+          "kind": "disk",
+          "group": 91,
+          "r2": 0.970880617294806,
+          "n": 3120
+        },
+        {
+          "factor": 108,
+          "kind": "sphere",
+          "group": 251,
+          "r2": 0.9491075679270644,
+          "n": 3159
+        },
+        {
+          "factor": 109,
+          "kind": "torus",
+          "group": 65,
+          "r2": 0.9005061925866134,
+          "n": 3165
+        },
+        {
+          "factor": 110,
+          "kind": "mobius",
+          "group": 166,
+          "r2": 0.9502709923675456,
+          "n": 3195
+        },
+        {
+          "factor": 111,
+          "kind": "swiss_roll",
+          "group": 86,
+          "r2": 0.9643807418258873,
+          "n": 3168
+        },
+        {
+          "factor": 112,
+          "kind": "helix",
+          "group": 161,
+          "r2": 0.9538068435997926,
+          "n": 3029
+        },
+        {
+          "factor": 113,
+          "kind": "circle",
+          "group": 105,
+          "r2": 0.9654036561903054,
+          "n": 3095
+        },
+        {
+          "factor": 114,
+          "kind": "disk",
+          "group": 70,
+          "r2": 0.9755487145332329,
+          "n": 3142
+        },
+        {
+          "factor": 115,
+          "kind": "sphere",
+          "group": 97,
+          "r2": 0.9483672223231695,
+          "n": 3163
+        },
+        {
+          "factor": 116,
+          "kind": "torus",
+          "group": 185,
+          "r2": 0.9744006826417031,
+          "n": 3135
+        },
+        {
+          "factor": 117,
+          "kind": "mobius",
+          "group": 203,
+          "r2": 0.9422661098042822,
+          "n": 3198
+        },
+        {
+          "factor": 118,
+          "kind": "swiss_roll",
+          "group": 52,
+          "r2": 0.9708191250338004,
+          "n": 3117
+        },
+        {
+          "factor": 119,
+          "kind": "helix",
+          "group": 246,
+          "r2": 0.9498805966712932,
+          "n": 3151
+        },
+        {
+          "factor": 120,
+          "kind": "circle",
+          "group": 126,
+          "r2": 0.9758305741008848,
+          "n": 3141
+        },
+        {
+          "factor": 121,
+          "kind": "disk",
+          "group": 102,
+          "r2": 0.9523655168758745,
+          "n": 3152
+        },
+        {
+          "factor": 122,
+          "kind": "sphere",
+          "group": 23,
+          "r2": 0.9605829040371319,
+          "n": 3134
+        },
+        {
+          "factor": 123,
+          "kind": "torus",
+          "group": 207,
+          "r2": 0.9718862042673744,
+          "n": 3094
+        },
+        {
+          "factor": 124,
+          "kind": "mobius",
+          "group": 154,
+          "r2": 0.969436854446308,
+          "n": 3056
+        },
+        {
+          "factor": 125,
+          "kind": "swiss_roll",
+          "group": 50,
+          "r2": 0.972183220403223,
+          "n": 3185
+        },
+        {
+          "factor": 126,
+          "kind": "helix",
+          "group": 31,
+          "r2": 0.9573287625349208,
+          "n": 3168
+        },
+        {
+          "factor": 127,
+          "kind": "circle",
+          "group": 15,
+          "r2": 0.9379072573750952,
+          "n": 3180
+        }
+      ],
+      "archived_score_max_abs_difference": 1.1175870895385742e-08
+    },
+    "grass": {
+      "recovery": 0.8657210975529951,
+      "ve": 0.9200142249464989,
+      "weights_sha": "ab0e85cb41aeea55a8479658113e503b27579a2a9fc4507bb02a5c7fc0972c23",
+      "rows": [
+        {
+          "factor": 0,
+          "kind": "segment",
+          "group": 127,
+          "r2": 0.8977069266106582,
+          "n": 2976
+        },
+        {
+          "factor": 1,
+          "kind": "segment",
+          "group": 212,
+          "r2": 0.9418227893691369,
+          "n": 3041
+        },
+        {
+          "factor": 2,
+          "kind": "segment",
+          "group": 111,
+          "r2": 0.9494982636697177,
+          "n": 3122
+        },
+        {
+          "factor": 3,
+          "kind": "segment",
+          "group": 204,
+          "r2": 0.9398732279052401,
+          "n": 3141
+        },
+        {
+          "factor": 4,
+          "kind": "segment",
+          "group": 92,
+          "r2": 0.9547334520468217,
+          "n": 3044
+        },
+        {
+          "factor": 5,
+          "kind": "segment",
+          "group": 233,
+          "r2": 0.947310632555493,
+          "n": 3089
+        },
+        {
+          "factor": 6,
+          "kind": "segment",
+          "group": 241,
+          "r2": 0.9359743888821519,
+          "n": 3105
+        },
+        {
+          "factor": 7,
+          "kind": "segment",
+          "group": 139,
+          "r2": 0.9525456085795359,
+          "n": 3159
+        },
+        {
+          "factor": 8,
+          "kind": "segment",
+          "group": 194,
+          "r2": 0.9488817874100628,
+          "n": 3061
+        },
+        {
+          "factor": 9,
+          "kind": "segment",
+          "group": 200,
+          "r2": 0.9495894483987607,
+          "n": 3033
+        },
+        {
+          "factor": 10,
+          "kind": "segment",
+          "group": 98,
+          "r2": 0.9591640743525869,
+          "n": 3039
+        },
+        {
+          "factor": 11,
+          "kind": "segment",
+          "group": 196,
+          "r2": 0.9521476709789225,
+          "n": 3097
+        },
+        {
+          "factor": 12,
+          "kind": "segment",
+          "group": 161,
+          "r2": 0.9497100118777294,
+          "n": 3181
+        },
+        {
+          "factor": 13,
+          "kind": "segment",
+          "group": 61,
+          "r2": 0.9314228538738242,
+          "n": 3128
+        },
+        {
+          "factor": 14,
+          "kind": "segment",
+          "group": 15,
+          "r2": 0.9277590049311805,
+          "n": 3080
+        },
+        {
+          "factor": 15,
+          "kind": "segment",
+          "group": 118,
+          "r2": 0.9319850459882018,
+          "n": 3119
+        },
+        {
+          "factor": 16,
+          "kind": "segment",
+          "group": 246,
+          "r2": 0.9448147846726803,
+          "n": 3166
+        },
+        {
+          "factor": 17,
+          "kind": "segment",
+          "group": 154,
+          "r2": 0.9425461694269651,
+          "n": 3032
+        },
+        {
+          "factor": 18,
+          "kind": "segment",
+          "group": 207,
+          "r2": 0.9465109594061456,
+          "n": 3104
+        },
+        {
+          "factor": 19,
+          "kind": "segment",
+          "group": 17,
+          "r2": 0.9486079016151584,
+          "n": 3151
+        },
+        {
+          "factor": 20,
+          "kind": "segment",
+          "group": 186,
+          "r2": 0.9570672244666646,
+          "n": 3166
+        },
+        {
+          "factor": 21,
+          "kind": "segment",
+          "group": 66,
+          "r2": 0.9431159587918545,
+          "n": 3042
+        },
+        {
+          "factor": 22,
+          "kind": "segment",
+          "group": 79,
+          "r2": 0.902611966929057,
+          "n": 3176
+        },
+        {
+          "factor": 23,
+          "kind": "segment",
+          "group": 90,
+          "r2": 0.9483532236628466,
+          "n": 3028
+        },
+        {
+          "factor": 24,
+          "kind": "segment",
+          "group": 167,
+          "r2": 0.9461587877361031,
+          "n": 3172
+        },
+        {
+          "factor": 25,
+          "kind": "segment",
+          "group": 116,
+          "r2": 0.9101669197602847,
+          "n": 3223
+        },
+        {
+          "factor": 26,
+          "kind": "segment",
+          "group": 11,
+          "r2": 0.9503036619693916,
+          "n": 3051
+        },
+        {
+          "factor": 27,
+          "kind": "segment",
+          "group": 57,
+          "r2": 0.924240575477155,
+          "n": 3161
+        },
+        {
+          "factor": 28,
+          "kind": "segment",
+          "group": 157,
+          "r2": 0.9542697602029645,
+          "n": 3106
+        },
+        {
+          "factor": 29,
+          "kind": "segment",
+          "group": 187,
+          "r2": 0.9509643837692767,
+          "n": 3230
+        },
+        {
+          "factor": 30,
+          "kind": "segment",
+          "group": 109,
+          "r2": 0.9520501185814191,
+          "n": 3172
+        },
+        {
+          "factor": 31,
+          "kind": "segment",
+          "group": 199,
+          "r2": 0.9475728351915139,
+          "n": 3091
+        },
+        {
+          "factor": 32,
+          "kind": "segment",
+          "group": 91,
+          "r2": 0.9425441486507755,
+          "n": 3133
+        },
+        {
+          "factor": 33,
+          "kind": "segment",
+          "group": 32,
+          "r2": 0.9526095251732187,
+          "n": 3159
+        },
+        {
+          "factor": 34,
+          "kind": "segment",
+          "group": 151,
+          "r2": 0.9381530259483144,
+          "n": 3183
+        },
+        {
+          "factor": 35,
+          "kind": "segment",
+          "group": 137,
+          "r2": 0.9424160028532899,
+          "n": 3200
+        },
+        {
+          "factor": 36,
+          "kind": "segment",
+          "group": 116,
+          "r2": 0.9106595982199716,
+          "n": 3044
+        },
+        {
+          "factor": 37,
+          "kind": "segment",
+          "group": 254,
+          "r2": 0.9434081525262081,
+          "n": 3169
+        },
+        {
+          "factor": 38,
+          "kind": "segment",
+          "group": 131,
+          "r2": 0.9211428375827597,
+          "n": 3205
+        },
+        {
+          "factor": 39,
+          "kind": "segment",
+          "group": 5,
+          "r2": 0.9502997200841533,
+          "n": 3088
+        },
+        {
+          "factor": 40,
+          "kind": "segment",
+          "group": 105,
+          "r2": 0.951241464437343,
+          "n": 3156
+        },
+        {
+          "factor": 41,
+          "kind": "segment",
+          "group": 120,
+          "r2": 0.9425021137011066,
+          "n": 3116
+        },
+        {
+          "factor": 42,
+          "kind": "segment",
+          "group": 63,
+          "r2": 0.9464035436319356,
+          "n": 3224
+        },
+        {
+          "factor": 43,
+          "kind": "segment",
+          "group": 112,
+          "r2": 0.9476589329070053,
+          "n": 3142
+        },
+        {
+          "factor": 44,
+          "kind": "segment",
+          "group": 163,
+          "r2": 0.9458013712404083,
+          "n": 3090
+        },
+        {
+          "factor": 45,
+          "kind": "segment",
+          "group": 184,
+          "r2": 0.9476071158685437,
+          "n": 3135
+        },
+        {
+          "factor": 46,
+          "kind": "segment",
+          "group": 4,
+          "r2": 0.9262609525540897,
+          "n": 3056
+        },
+        {
+          "factor": 47,
+          "kind": "segment",
+          "group": 158,
+          "r2": 0.9488893278104671,
+          "n": 3159
+        },
+        {
+          "factor": 48,
+          "kind": "segment",
+          "group": 235,
+          "r2": 0.9146430622751277,
+          "n": 3080
+        },
+        {
+          "factor": 49,
+          "kind": "segment",
+          "group": 58,
+          "r2": 0.9510222071169305,
+          "n": 3142
+        },
+        {
+          "factor": 50,
+          "kind": "segment",
+          "group": 7,
+          "r2": 0.9357288565999119,
+          "n": 3151
+        },
+        {
+          "factor": 51,
+          "kind": "segment",
+          "group": 210,
+          "r2": 0.9465938832071107,
+          "n": 3166
+        },
+        {
+          "factor": 52,
+          "kind": "segment",
+          "group": 67,
+          "r2": 0.9483682852343628,
+          "n": 3088
+        },
+        {
+          "factor": 53,
+          "kind": "segment",
+          "group": 126,
+          "r2": 0.9482019958605741,
+          "n": 3068
+        },
+        {
+          "factor": 54,
+          "kind": "segment",
+          "group": 235,
+          "r2": 0.9222576166856646,
+          "n": 3194
+        },
+        {
+          "factor": 55,
+          "kind": "segment",
+          "group": 230,
+          "r2": 0.9462455947830496,
+          "n": 3146
+        },
+        {
+          "factor": 56,
+          "kind": "segment",
+          "group": 103,
+          "r2": 0.9544952969805001,
+          "n": 3228
+        },
+        {
+          "factor": 57,
+          "kind": "segment",
+          "group": 145,
+          "r2": 0.9468875587344381,
+          "n": 3177
+        },
+        {
+          "factor": 58,
+          "kind": "segment",
+          "group": 72,
+          "r2": 0.9458053900573479,
+          "n": 3229
+        },
+        {
+          "factor": 59,
+          "kind": "segment",
+          "group": 113,
+          "r2": 0.8943287311145681,
+          "n": 3158
+        },
+        {
+          "factor": 60,
+          "kind": "segment",
+          "group": 89,
+          "r2": 0.9379069018058979,
+          "n": 3087
+        },
+        {
+          "factor": 61,
+          "kind": "segment",
+          "group": 240,
+          "r2": 0.953874430384386,
+          "n": 3067
+        },
+        {
+          "factor": 62,
+          "kind": "segment",
+          "group": 134,
+          "r2": 0.9547012143585639,
+          "n": 3076
+        },
+        {
+          "factor": 63,
+          "kind": "segment",
+          "group": 39,
+          "r2": 0.9418702975974568,
+          "n": 3098
+        },
+        {
+          "factor": 64,
+          "kind": "circle",
+          "group": 148,
+          "r2": 0.9365027036433377,
+          "n": 3128
+        },
+        {
+          "factor": 65,
+          "kind": "disk",
+          "group": 41,
+          "r2": 0.9290847826085,
+          "n": 3094
+        },
+        {
+          "factor": 66,
+          "kind": "sphere",
+          "group": 44,
+          "r2": 0.9040258741599676,
+          "n": 3067
+        },
+        {
+          "factor": 67,
+          "kind": "torus",
+          "group": 234,
+          "r2": 0.9175673902931742,
+          "n": 3115
+        },
+        {
+          "factor": 68,
+          "kind": "mobius",
+          "group": 176,
+          "r2": 0.9145521820682544,
+          "n": 3082
+        },
+        {
+          "factor": 69,
+          "kind": "swiss_roll",
+          "group": 168,
+          "r2": 0.9159719398602848,
+          "n": 3133
+        },
+        {
+          "factor": 70,
+          "kind": "helix",
+          "group": 102,
+          "r2": 0.9102153199316962,
+          "n": 3091
+        },
+        {
+          "factor": 71,
+          "kind": "circle",
+          "group": 117,
+          "r2": 0.3291882037770477,
+          "n": 3115
+        },
+        {
+          "factor": 72,
+          "kind": "disk",
+          "group": 149,
+          "r2": 0.9140615097725331,
+          "n": 3155
+        },
+        {
+          "factor": 73,
+          "kind": "sphere",
+          "group": 213,
+          "r2": 0.897869302714525,
+          "n": 3169
+        },
+        {
+          "factor": 74,
+          "kind": "torus",
+          "group": 226,
+          "r2": 0.895545247854342,
+          "n": 3187
+        },
+        {
+          "factor": 75,
+          "kind": "mobius",
+          "group": 19,
+          "r2": 0.9066248516464722,
+          "n": 3121
+        },
+        {
+          "factor": 76,
+          "kind": "swiss_roll",
+          "group": 125,
+          "r2": 0.9163170673765547,
+          "n": 3071
+        },
+        {
+          "factor": 77,
+          "kind": "helix",
+          "group": 123,
+          "r2": 0.9046759544441523,
+          "n": 2985
+        },
+        {
+          "factor": 78,
+          "kind": "circle",
+          "group": 18,
+          "r2": 0.9291386237189507,
+          "n": 3207
+        },
+        {
+          "factor": 79,
+          "kind": "disk",
+          "group": 160,
+          "r2": 0.4163884442667726,
+          "n": 3203
+        },
+        {
+          "factor": 80,
+          "kind": "sphere",
+          "group": 40,
+          "r2": 0.9126137410606161,
+          "n": 3126
+        },
+        {
+          "factor": 81,
+          "kind": "torus",
+          "group": 81,
+          "r2": 0.9112554858260163,
+          "n": 3112
+        },
+        {
+          "factor": 82,
+          "kind": "mobius",
+          "group": 208,
+          "r2": 0.9213368990123878,
+          "n": 3194
+        },
+        {
+          "factor": 83,
+          "kind": "swiss_roll",
+          "group": 144,
+          "r2": 0.4570149445494862,
+          "n": 3112
+        },
+        {
+          "factor": 84,
+          "kind": "helix",
+          "group": 9,
+          "r2": 0.9103101718685812,
+          "n": 3120
+        },
+        {
+          "factor": 85,
+          "kind": "circle",
+          "group": 146,
+          "r2": 0.8889690582637437,
+          "n": 3161
+        },
+        {
+          "factor": 86,
+          "kind": "disk",
+          "group": 23,
+          "r2": 0.4004778333254184,
+          "n": 3155
+        },
+        {
+          "factor": 87,
+          "kind": "sphere",
+          "group": 127,
+          "r2": 0.8834565071561177,
+          "n": 3183
+        },
+        {
+          "factor": 88,
+          "kind": "torus",
+          "group": 21,
+          "r2": 0.9157213222987137,
+          "n": 3126
+        },
+        {
+          "factor": 89,
+          "kind": "mobius",
+          "group": 114,
+          "r2": 0.9137483184671731,
+          "n": 3188
+        },
+        {
+          "factor": 90,
+          "kind": "swiss_roll",
+          "group": 70,
+          "r2": 0.4769996764323149,
+          "n": 3015
+        },
+        {
+          "factor": 91,
+          "kind": "helix",
+          "group": 48,
+          "r2": 0.5196220057884438,
+          "n": 3198
+        },
+        {
+          "factor": 92,
+          "kind": "circle",
+          "group": 122,
+          "r2": 0.9420924104055955,
+          "n": 3066
+        },
+        {
+          "factor": 93,
+          "kind": "disk",
+          "group": 238,
+          "r2": 0.41720212827249115,
+          "n": 3105
+        },
+        {
+          "factor": 94,
+          "kind": "sphere",
+          "group": 203,
+          "r2": 0.910987229471526,
+          "n": 3070
+        },
+        {
+          "factor": 95,
+          "kind": "torus",
+          "group": 215,
+          "r2": 0.43302397980754004,
+          "n": 3092
+        },
+        {
+          "factor": 96,
+          "kind": "mobius",
+          "group": 244,
+          "r2": 0.9170825484507161,
+          "n": 3014
+        },
+        {
+          "factor": 97,
+          "kind": "swiss_roll",
+          "group": 178,
+          "r2": 0.9114655856662118,
+          "n": 3083
+        },
+        {
+          "factor": 98,
+          "kind": "helix",
+          "group": 33,
+          "r2": 0.9075010561446843,
+          "n": 3032
+        },
+        {
+          "factor": 99,
+          "kind": "circle",
+          "group": 79,
+          "r2": 0.9053586289529845,
+          "n": 3146
+        },
+        {
+          "factor": 100,
+          "kind": "disk",
+          "group": 190,
+          "r2": 0.40131909090188767,
+          "n": 3039
+        },
+        {
+          "factor": 101,
+          "kind": "sphere",
+          "group": 146,
+          "r2": 0.5234333465383424,
+          "n": 3165
+        },
+        {
+          "factor": 102,
+          "kind": "torus",
+          "group": 251,
+          "r2": 0.9160021980669275,
+          "n": 3130
+        },
+        {
+          "factor": 103,
+          "kind": "mobius",
+          "group": 113,
+          "r2": 0.8788823565719253,
+          "n": 3225
+        },
+        {
+          "factor": 104,
+          "kind": "swiss_roll",
+          "group": 135,
+          "r2": 0.36088938738487886,
+          "n": 3069
+        },
+        {
+          "factor": 105,
+          "kind": "helix",
+          "group": 206,
+          "r2": 0.9069244798796902,
+          "n": 3154
+        },
+        {
+          "factor": 106,
+          "kind": "circle",
+          "group": 124,
+          "r2": 0.9281393619290995,
+          "n": 3150
+        },
+        {
+          "factor": 107,
+          "kind": "disk",
+          "group": 56,
+          "r2": 0.42067408517234395,
+          "n": 3120
+        },
+        {
+          "factor": 108,
+          "kind": "sphere",
+          "group": 191,
+          "r2": 0.912186573544142,
+          "n": 3159
+        },
+        {
+          "factor": 109,
+          "kind": "torus",
+          "group": 14,
+          "r2": 0.9236236120775243,
+          "n": 3165
+        },
+        {
+          "factor": 110,
+          "kind": "mobius",
+          "group": 252,
+          "r2": 0.9108060198372888,
+          "n": 3195
+        },
+        {
+          "factor": 111,
+          "kind": "swiss_roll",
+          "group": 46,
+          "r2": 0.8744373472404176,
+          "n": 3168
+        },
+        {
+          "factor": 112,
+          "kind": "helix",
+          "group": 49,
+          "r2": 0.8747886536477603,
+          "n": 3029
+        },
+        {
+          "factor": 113,
+          "kind": "circle",
+          "group": 185,
+          "r2": 0.942427992370441,
+          "n": 3095
+        },
+        {
+          "factor": 114,
+          "kind": "disk",
+          "group": 65,
+          "r2": 0.4259185773181875,
+          "n": 3142
+        },
+        {
+          "factor": 115,
+          "kind": "sphere",
+          "group": 221,
+          "r2": 0.9088773801340511,
+          "n": 3163
+        },
+        {
+          "factor": 116,
+          "kind": "torus",
+          "group": 75,
+          "r2": 0.9323995816000266,
+          "n": 3135
+        },
+        {
+          "factor": 117,
+          "kind": "mobius",
+          "group": 104,
+          "r2": 0.9008509404560228,
+          "n": 3198
+        },
+        {
+          "factor": 118,
+          "kind": "swiss_roll",
+          "group": 86,
+          "r2": 0.45153000808348254,
+          "n": 3117
+        },
+        {
+          "factor": 119,
+          "kind": "helix",
+          "group": 54,
+          "r2": 0.9141983604861619,
+          "n": 3151
+        },
+        {
+          "factor": 120,
+          "kind": "circle",
+          "group": 8,
+          "r2": 0.9414718816470048,
+          "n": 3141
+        },
+        {
+          "factor": 121,
+          "kind": "disk",
+          "group": 43,
+          "r2": 0.42596483249429307,
+          "n": 3152
+        },
+        {
+          "factor": 122,
+          "kind": "sphere",
+          "group": 76,
+          "r2": 0.9086342072842049,
+          "n": 3134
+        },
+        {
+          "factor": 123,
+          "kind": "torus",
+          "group": 87,
+          "r2": 0.922805156206186,
+          "n": 3094
+        },
+        {
+          "factor": 124,
+          "kind": "mobius",
+          "group": 46,
+          "r2": 0.8503285044929724,
+          "n": 3056
+        },
+        {
+          "factor": 125,
+          "kind": "swiss_roll",
+          "group": 78,
+          "r2": 0.38580974887552877,
+          "n": 3185
+        },
+        {
+          "factor": 126,
+          "kind": "helix",
+          "group": 22,
+          "r2": 0.8971800196858535,
+          "n": 3168
+        },
+        {
+          "factor": 127,
+          "kind": "circle",
+          "group": 64,
+          "r2": 0.9378182784244079,
+          "n": 3180
+        }
+      ],
+      "archived_score_max_abs_difference": 2.2351741790771484e-08
+    },
+    "lasso": {
+      "recovery": 0.9481837236715727,
+      "ve": 0.9681955575942993,
+      "weights_sha": "5fa90850c004cd5394821a1a7af8a44e378d5b52c291040d87d89b605676d23f",
+      "rows": [
+        {
+          "factor": 0,
+          "kind": "segment",
+          "group": 120,
+          "r2": 0.9496710363263415,
+          "n": 2976
+        },
+        {
+          "factor": 1,
+          "kind": "segment",
+          "group": 50,
+          "r2": 0.9415496395657199,
+          "n": 3041
+        },
+        {
+          "factor": 2,
+          "kind": "segment",
+          "group": 197,
+          "r2": 0.9305876723787665,
+          "n": 3122
+        },
+        {
+          "factor": 3,
+          "kind": "segment",
+          "group": 18,
+          "r2": 0.9756373982948527,
+          "n": 3141
+        },
+        {
+          "factor": 4,
+          "kind": "segment",
+          "group": 214,
+          "r2": 0.982945143399823,
+          "n": 3044
+        },
+        {
+          "factor": 5,
+          "kind": "segment",
+          "group": 68,
+          "r2": 0.9234629295879431,
+          "n": 3089
+        },
+        {
+          "factor": 6,
+          "kind": "segment",
+          "group": 197,
+          "r2": 0.92346894998598,
+          "n": 3105
+        },
+        {
+          "factor": 7,
+          "kind": "segment",
+          "group": 40,
+          "r2": 0.9272140631510016,
+          "n": 3159
+        },
+        {
+          "factor": 8,
+          "kind": "segment",
+          "group": 88,
+          "r2": 0.9208619591152505,
+          "n": 3061
+        },
+        {
+          "factor": 9,
+          "kind": "segment",
+          "group": 247,
+          "r2": 0.9859452282061838,
+          "n": 3033
+        },
+        {
+          "factor": 10,
+          "kind": "segment",
+          "group": 40,
+          "r2": 0.9315919240135219,
+          "n": 3039
+        },
+        {
+          "factor": 11,
+          "kind": "segment",
+          "group": 53,
+          "r2": 0.9836626894429632,
+          "n": 3097
+        },
+        {
+          "factor": 12,
+          "kind": "segment",
+          "group": 200,
+          "r2": 0.9524799758297978,
+          "n": 3181
+        },
+        {
+          "factor": 13,
+          "kind": "segment",
+          "group": 66,
+          "r2": 0.9466502884871024,
+          "n": 3128
+        },
+        {
+          "factor": 14,
+          "kind": "segment",
+          "group": 32,
+          "r2": 0.938486381811283,
+          "n": 3080
+        },
+        {
+          "factor": 15,
+          "kind": "segment",
+          "group": 165,
+          "r2": 0.9776835184621613,
+          "n": 3119
+        },
+        {
+          "factor": 16,
+          "kind": "segment",
+          "group": 198,
+          "r2": 0.9773686170586112,
+          "n": 3166
+        },
+        {
+          "factor": 17,
+          "kind": "segment",
+          "group": 0,
+          "r2": 0.9488748417988023,
+          "n": 3032
+        },
+        {
+          "factor": 18,
+          "kind": "segment",
+          "group": 125,
+          "r2": 0.9801079155729582,
+          "n": 3104
+        },
+        {
+          "factor": 19,
+          "kind": "segment",
+          "group": 68,
+          "r2": 0.9312890309408864,
+          "n": 3151
+        },
+        {
+          "factor": 20,
+          "kind": "segment",
+          "group": 219,
+          "r2": 0.9454661758605121,
+          "n": 3166
+        },
+        {
+          "factor": 21,
+          "kind": "segment",
+          "group": 5,
+          "r2": 0.9426789211081308,
+          "n": 3042
+        },
+        {
+          "factor": 22,
+          "kind": "segment",
+          "group": 209,
+          "r2": 0.9429048252350009,
+          "n": 3176
+        },
+        {
+          "factor": 23,
+          "kind": "segment",
+          "group": 197,
+          "r2": 0.9305163704680542,
+          "n": 3028
+        },
+        {
+          "factor": 24,
+          "kind": "segment",
+          "group": 162,
+          "r2": 0.9492877499544723,
+          "n": 3172
+        },
+        {
+          "factor": 25,
+          "kind": "segment",
+          "group": 178,
+          "r2": 0.9388912420104855,
+          "n": 3223
+        },
+        {
+          "factor": 26,
+          "kind": "segment",
+          "group": 83,
+          "r2": 0.9433495474703674,
+          "n": 3051
+        },
+        {
+          "factor": 27,
+          "kind": "segment",
+          "group": 29,
+          "r2": 0.9789226308969722,
+          "n": 3161
+        },
+        {
+          "factor": 28,
+          "kind": "segment",
+          "group": 188,
+          "r2": 0.9818024823114017,
+          "n": 3106
+        },
+        {
+          "factor": 29,
+          "kind": "segment",
+          "group": 35,
+          "r2": 0.9472678408713731,
+          "n": 3230
+        },
+        {
+          "factor": 30,
+          "kind": "segment",
+          "group": 242,
+          "r2": 0.947357868322153,
+          "n": 3172
+        },
+        {
+          "factor": 31,
+          "kind": "segment",
+          "group": 114,
+          "r2": 0.9475435593325363,
+          "n": 3091
+        },
+        {
+          "factor": 32,
+          "kind": "segment",
+          "group": 88,
+          "r2": 0.9103837894235423,
+          "n": 3133
+        },
+        {
+          "factor": 33,
+          "kind": "segment",
+          "group": 78,
+          "r2": 0.9590010009588684,
+          "n": 3159
+        },
+        {
+          "factor": 34,
+          "kind": "segment",
+          "group": 206,
+          "r2": 0.9807354167564419,
+          "n": 3183
+        },
+        {
+          "factor": 35,
+          "kind": "segment",
+          "group": 137,
+          "r2": 0.974126029557197,
+          "n": 3200
+        },
+        {
+          "factor": 36,
+          "kind": "segment",
+          "group": 36,
+          "r2": 0.9489549203368082,
+          "n": 3044
+        },
+        {
+          "factor": 37,
+          "kind": "segment",
+          "group": 26,
+          "r2": 0.944921335162042,
+          "n": 3169
+        },
+        {
+          "factor": 38,
+          "kind": "segment",
+          "group": 196,
+          "r2": 0.9834220204364993,
+          "n": 3205
+        },
+        {
+          "factor": 39,
+          "kind": "segment",
+          "group": 177,
+          "r2": 0.9813544839013197,
+          "n": 3088
+        },
+        {
+          "factor": 40,
+          "kind": "segment",
+          "group": 147,
+          "r2": 0.946401169765215,
+          "n": 3156
+        },
+        {
+          "factor": 41,
+          "kind": "segment",
+          "group": 134,
+          "r2": 0.9624273036757875,
+          "n": 3116
+        },
+        {
+          "factor": 42,
+          "kind": "segment",
+          "group": 230,
+          "r2": 0.9853036231372959,
+          "n": 3224
+        },
+        {
+          "factor": 43,
+          "kind": "segment",
+          "group": 37,
+          "r2": 0.9767906664849766,
+          "n": 3142
+        },
+        {
+          "factor": 44,
+          "kind": "segment",
+          "group": 164,
+          "r2": 0.9515477547239521,
+          "n": 3090
+        },
+        {
+          "factor": 45,
+          "kind": "segment",
+          "group": 2,
+          "r2": 0.9514397027947148,
+          "n": 3135
+        },
+        {
+          "factor": 46,
+          "kind": "segment",
+          "group": 157,
+          "r2": 0.9417461055133384,
+          "n": 3056
+        },
+        {
+          "factor": 47,
+          "kind": "segment",
+          "group": 94,
+          "r2": 0.946133472457578,
+          "n": 3159
+        },
+        {
+          "factor": 48,
+          "kind": "segment",
+          "group": 117,
+          "r2": 0.9410148170887261,
+          "n": 3080
+        },
+        {
+          "factor": 49,
+          "kind": "segment",
+          "group": 158,
+          "r2": 0.9447234097367802,
+          "n": 3142
+        },
+        {
+          "factor": 50,
+          "kind": "segment",
+          "group": 149,
+          "r2": 0.9375768430812524,
+          "n": 3151
+        },
+        {
+          "factor": 51,
+          "kind": "segment",
+          "group": 128,
+          "r2": 0.9434865215668307,
+          "n": 3166
+        },
+        {
+          "factor": 52,
+          "kind": "segment",
+          "group": 34,
+          "r2": 0.9392394520042192,
+          "n": 3088
+        },
+        {
+          "factor": 53,
+          "kind": "segment",
+          "group": 78,
+          "r2": 0.9517227779867448,
+          "n": 3068
+        },
+        {
+          "factor": 54,
+          "kind": "segment",
+          "group": 146,
+          "r2": 0.9876254277260877,
+          "n": 3194
+        },
+        {
+          "factor": 55,
+          "kind": "segment",
+          "group": 144,
+          "r2": 0.9465205850561142,
+          "n": 3146
+        },
+        {
+          "factor": 56,
+          "kind": "segment",
+          "group": 62,
+          "r2": 0.9391768114417645,
+          "n": 3228
+        },
+        {
+          "factor": 57,
+          "kind": "segment",
+          "group": 181,
+          "r2": 0.9823323756131003,
+          "n": 3177
+        },
+        {
+          "factor": 58,
+          "kind": "segment",
+          "group": 212,
+          "r2": 0.9489650185961692,
+          "n": 3229
+        },
+        {
+          "factor": 59,
+          "kind": "segment",
+          "group": 0,
+          "r2": 0.9329482292881277,
+          "n": 3158
+        },
+        {
+          "factor": 60,
+          "kind": "segment",
+          "group": 212,
+          "r2": 0.9412106345750362,
+          "n": 3087
+        },
+        {
+          "factor": 61,
+          "kind": "segment",
+          "group": 231,
+          "r2": 0.9852059316817062,
+          "n": 3067
+        },
+        {
+          "factor": 62,
+          "kind": "segment",
+          "group": 87,
+          "r2": 0.9430613221467355,
+          "n": 3076
+        },
+        {
+          "factor": 63,
+          "kind": "segment",
+          "group": 56,
+          "r2": 0.9471830340838159,
+          "n": 3098
+        },
+        {
+          "factor": 64,
+          "kind": "circle",
+          "group": 5,
+          "r2": 0.9514925497817316,
+          "n": 3128
+        },
+        {
+          "factor": 65,
+          "kind": "disk",
+          "group": 114,
+          "r2": 0.9453480791888732,
+          "n": 3094
+        },
+        {
+          "factor": 66,
+          "kind": "sphere",
+          "group": 57,
+          "r2": 0.9722302046887488,
+          "n": 3067
+        },
+        {
+          "factor": 67,
+          "kind": "torus",
+          "group": 178,
+          "r2": 0.934695000156025,
+          "n": 3115
+        },
+        {
+          "factor": 68,
+          "kind": "mobius",
+          "group": 162,
+          "r2": 0.9386008486875714,
+          "n": 3082
+        },
+        {
+          "factor": 69,
+          "kind": "swiss_roll",
+          "group": 128,
+          "r2": 0.9347069502253559,
+          "n": 3133
+        },
+        {
+          "factor": 70,
+          "kind": "helix",
+          "group": 113,
+          "r2": 0.9669561129773456,
+          "n": 3091
+        },
+        {
+          "factor": 71,
+          "kind": "circle",
+          "group": 147,
+          "r2": 0.9468721366365414,
+          "n": 3115
+        },
+        {
+          "factor": 72,
+          "kind": "disk",
+          "group": 176,
+          "r2": 0.9318384619694998,
+          "n": 3155
+        },
+        {
+          "factor": 73,
+          "kind": "sphere",
+          "group": 117,
+          "r2": 0.9396063857368763,
+          "n": 3169
+        },
+        {
+          "factor": 74,
+          "kind": "torus",
+          "group": 202,
+          "r2": 0.9717975283698371,
+          "n": 3187
+        },
+        {
+          "factor": 75,
+          "kind": "mobius",
+          "group": 175,
+          "r2": 0.803673122972671,
+          "n": 3121
+        },
+        {
+          "factor": 76,
+          "kind": "swiss_roll",
+          "group": 209,
+          "r2": 0.9365915011357409,
+          "n": 3071
+        },
+        {
+          "factor": 77,
+          "kind": "helix",
+          "group": 23,
+          "r2": 0.9715173663642842,
+          "n": 2985
+        },
+        {
+          "factor": 78,
+          "kind": "circle",
+          "group": 119,
+          "r2": 0.9373923753558921,
+          "n": 3207
+        },
+        {
+          "factor": 79,
+          "kind": "disk",
+          "group": 211,
+          "r2": 0.9694358110461571,
+          "n": 3203
+        },
+        {
+          "factor": 80,
+          "kind": "sphere",
+          "group": 145,
+          "r2": 0.973742880113423,
+          "n": 3126
+        },
+        {
+          "factor": 81,
+          "kind": "torus",
+          "group": 119,
+          "r2": 0.905552278875687,
+          "n": 3112
+        },
+        {
+          "factor": 82,
+          "kind": "mobius",
+          "group": 2,
+          "r2": 0.9464386806867251,
+          "n": 3194
+        },
+        {
+          "factor": 83,
+          "kind": "swiss_roll",
+          "group": 68,
+          "r2": 0.8967434379965248,
+          "n": 3112
+        },
+        {
+          "factor": 84,
+          "kind": "helix",
+          "group": 35,
+          "r2": 0.9433755930449502,
+          "n": 3120
+        },
+        {
+          "factor": 85,
+          "kind": "circle",
+          "group": 208,
+          "r2": 0.9745617447160693,
+          "n": 3161
+        },
+        {
+          "factor": 86,
+          "kind": "disk",
+          "group": 175,
+          "r2": 0.949808430480341,
+          "n": 3155
+        },
+        {
+          "factor": 87,
+          "kind": "sphere",
+          "group": 87,
+          "r2": 0.9388061379301325,
+          "n": 3183
+        },
+        {
+          "factor": 88,
+          "kind": "torus",
+          "group": 226,
+          "r2": 0.9729606835356559,
+          "n": 3126
+        },
+        {
+          "factor": 89,
+          "kind": "mobius",
+          "group": 133,
+          "r2": 0.969613114225863,
+          "n": 3188
+        },
+        {
+          "factor": 90,
+          "kind": "swiss_roll",
+          "group": 158,
+          "r2": 0.9404371567869948,
+          "n": 3015
+        },
+        {
+          "factor": 91,
+          "kind": "helix",
+          "group": 32,
+          "r2": 0.9365910177448076,
+          "n": 3198
+        },
+        {
+          "factor": 92,
+          "kind": "circle",
+          "group": 12,
+          "r2": 0.9810807872165681,
+          "n": 3066
+        },
+        {
+          "factor": 93,
+          "kind": "disk",
+          "group": 47,
+          "r2": 0.9781865657871975,
+          "n": 3105
+        },
+        {
+          "factor": 94,
+          "kind": "sphere",
+          "group": 89,
+          "r2": 0.9704336562535584,
+          "n": 3070
+        },
+        {
+          "factor": 95,
+          "kind": "torus",
+          "group": 36,
+          "r2": 0.9387553088441496,
+          "n": 3092
+        },
+        {
+          "factor": 96,
+          "kind": "mobius",
+          "group": 94,
+          "r2": 0.9422067375155707,
+          "n": 3014
+        },
+        {
+          "factor": 97,
+          "kind": "swiss_roll",
+          "group": 157,
+          "r2": 0.9254611020061931,
+          "n": 3083
+        },
+        {
+          "factor": 98,
+          "kind": "helix",
+          "group": 72,
+          "r2": 0.9705997235178351,
+          "n": 3032
+        },
+        {
+          "factor": 99,
+          "kind": "circle",
+          "group": 26,
+          "r2": 0.9520030000637593,
+          "n": 3146
+        },
+        {
+          "factor": 100,
+          "kind": "disk",
+          "group": 164,
+          "r2": 0.9451734989958411,
+          "n": 3039
+        },
+        {
+          "factor": 101,
+          "kind": "sphere",
+          "group": 110,
+          "r2": 0.9718098901436149,
+          "n": 3165
+        },
+        {
+          "factor": 102,
+          "kind": "torus",
+          "group": 134,
+          "r2": 0.7877309071739531,
+          "n": 3130
+        },
+        {
+          "factor": 103,
+          "kind": "mobius",
+          "group": 58,
+          "r2": 0.9754747291280783,
+          "n": 3225
+        },
+        {
+          "factor": 104,
+          "kind": "swiss_roll",
+          "group": 200,
+          "r2": 0.9449889466585284,
+          "n": 3069
+        },
+        {
+          "factor": 105,
+          "kind": "helix",
+          "group": 30,
+          "r2": 0.9716319199210022,
+          "n": 3154
+        },
+        {
+          "factor": 106,
+          "kind": "circle",
+          "group": 144,
+          "r2": 0.9521957394363727,
+          "n": 3150
+        },
+        {
+          "factor": 107,
+          "kind": "disk",
+          "group": 140,
+          "r2": 0.9314598991012177,
+          "n": 3120
+        },
+        {
+          "factor": 108,
+          "kind": "sphere",
+          "group": 62,
+          "r2": 0.930183229420207,
+          "n": 3159
+        },
+        {
+          "factor": 109,
+          "kind": "torus",
+          "group": 83,
+          "r2": 0.9426053442444929,
+          "n": 3165
+        },
+        {
+          "factor": 110,
+          "kind": "mobius",
+          "group": 40,
+          "r2": 0.8626562256747975,
+          "n": 3195
+        },
+        {
+          "factor": 111,
+          "kind": "swiss_roll",
+          "group": 199,
+          "r2": 0.9745051823518303,
+          "n": 3168
+        },
+        {
+          "factor": 112,
+          "kind": "helix",
+          "group": 34,
+          "r2": 0.9308434325522748,
+          "n": 3029
+        },
+        {
+          "factor": 113,
+          "kind": "circle",
+          "group": 105,
+          "r2": 0.9803170780637651,
+          "n": 3095
+        },
+        {
+          "factor": 114,
+          "kind": "disk",
+          "group": 50,
+          "r2": 0.9464489387780491,
+          "n": 3142
+        },
+        {
+          "factor": 115,
+          "kind": "sphere",
+          "group": 219,
+          "r2": 0.9332858731520618,
+          "n": 3163
+        },
+        {
+          "factor": 116,
+          "kind": "torus",
+          "group": 235,
+          "r2": 0.9808382408563935,
+          "n": 3135
+        },
+        {
+          "factor": 117,
+          "kind": "mobius",
+          "group": 242,
+          "r2": 0.9411021161431145,
+          "n": 3198
+        },
+        {
+          "factor": 118,
+          "kind": "swiss_roll",
+          "group": 140,
+          "r2": 0.9330097541647899,
+          "n": 3117
+        },
+        {
+          "factor": 119,
+          "kind": "helix",
+          "group": 246,
+          "r2": 0.9709759414437757,
+          "n": 3151
+        },
+        {
+          "factor": 120,
+          "kind": "circle",
+          "group": 56,
+          "r2": 0.9509965693807456,
+          "n": 3141
+        },
+        {
+          "factor": 121,
+          "kind": "disk",
+          "group": 176,
+          "r2": 0.9352424475736837,
+          "n": 3152
+        },
+        {
+          "factor": 122,
+          "kind": "sphere",
+          "group": 120,
+          "r2": 0.943155084861912,
+          "n": 3134
+        },
+        {
+          "factor": 123,
+          "kind": "torus",
+          "group": 207,
+          "r2": 0.9765293752040922,
+          "n": 3094
+        },
+        {
+          "factor": 124,
+          "kind": "mobius",
+          "group": 88,
+          "r2": 0.8433738169438347,
+          "n": 3056
+        },
+        {
+          "factor": 125,
+          "kind": "swiss_roll",
+          "group": 38,
+          "r2": 0.9771714929333334,
+          "n": 3185
+        },
+        {
+          "factor": 126,
+          "kind": "helix",
+          "group": 66,
+          "r2": 0.9467044075576734,
+          "n": 3168
+        },
+        {
+          "factor": 127,
+          "kind": "circle",
+          "group": 149,
+          "r2": 0.9447836714365102,
+          "n": 3180
+        }
+      ],
+      "archived_score_max_abs_difference": 0.0
+    },
+    "ggf": {
+      "recovery": 0.982305425776144,
+      "ve": 0.9795879349112511,
+      "weights_sha": "e84e92c3930957586a0617c65418360c9501f8fb76ac9abb3d01882768743c1d",
+      "rows": [
+        {
+          "factor": 0,
+          "kind": "segment",
+          "group": 0,
+          "r2": 0.9904063842686341,
+          "n": 2976
+        },
+        {
+          "factor": 1,
+          "kind": "segment",
+          "group": 1,
+          "r2": 0.9856465538695403,
+          "n": 3041
+        },
+        {
+          "factor": 2,
+          "kind": "segment",
+          "group": 2,
+          "r2": 0.9894921064462513,
+          "n": 3122
+        },
+        {
+          "factor": 3,
+          "kind": "segment",
+          "group": 3,
+          "r2": 0.9857456468344828,
+          "n": 3141
+        },
+        {
+          "factor": 4,
+          "kind": "segment",
+          "group": 4,
+          "r2": 0.9896658831173017,
+          "n": 3044
+        },
+        {
+          "factor": 5,
+          "kind": "segment",
+          "group": 5,
+          "r2": 0.9886643925386995,
+          "n": 3089
+        },
+        {
+          "factor": 6,
+          "kind": "segment",
+          "group": 6,
+          "r2": 0.9837095986690911,
+          "n": 3105
+        },
+        {
+          "factor": 7,
+          "kind": "segment",
+          "group": 7,
+          "r2": 0.987696788998682,
+          "n": 3159
+        },
+        {
+          "factor": 8,
+          "kind": "segment",
+          "group": 8,
+          "r2": 0.9864105124180438,
+          "n": 3061
+        },
+        {
+          "factor": 9,
+          "kind": "segment",
+          "group": 9,
+          "r2": 0.9910268657885808,
+          "n": 3033
+        },
+        {
+          "factor": 10,
+          "kind": "segment",
+          "group": 10,
+          "r2": 0.992520484191722,
+          "n": 3039
+        },
+        {
+          "factor": 11,
+          "kind": "segment",
+          "group": 11,
+          "r2": 0.9908720778874007,
+          "n": 3097
+        },
+        {
+          "factor": 12,
+          "kind": "segment",
+          "group": 12,
+          "r2": 0.9911536006531253,
+          "n": 3181
+        },
+        {
+          "factor": 13,
+          "kind": "segment",
+          "group": 13,
+          "r2": 0.9883038704818048,
+          "n": 3128
+        },
+        {
+          "factor": 14,
+          "kind": "segment",
+          "group": 14,
+          "r2": 0.9888953269269427,
+          "n": 3080
+        },
+        {
+          "factor": 15,
+          "kind": "segment",
+          "group": 15,
+          "r2": 0.9900056758620318,
+          "n": 3119
+        },
+        {
+          "factor": 16,
+          "kind": "segment",
+          "group": 16,
+          "r2": 0.987447356093311,
+          "n": 3166
+        },
+        {
+          "factor": 17,
+          "kind": "segment",
+          "group": 17,
+          "r2": 0.9894238253625746,
+          "n": 3032
+        },
+        {
+          "factor": 18,
+          "kind": "segment",
+          "group": 18,
+          "r2": 0.9874728525353346,
+          "n": 3104
+        },
+        {
+          "factor": 19,
+          "kind": "segment",
+          "group": 19,
+          "r2": 0.9901939504157364,
+          "n": 3151
+        },
+        {
+          "factor": 20,
+          "kind": "segment",
+          "group": 20,
+          "r2": 0.9921175743533533,
+          "n": 3166
+        },
+        {
+          "factor": 21,
+          "kind": "segment",
+          "group": 21,
+          "r2": 0.9868876260307643,
+          "n": 3042
+        },
+        {
+          "factor": 22,
+          "kind": "segment",
+          "group": 22,
+          "r2": 0.9864422206388969,
+          "n": 3176
+        },
+        {
+          "factor": 23,
+          "kind": "segment",
+          "group": 23,
+          "r2": 0.9894399269515275,
+          "n": 3028
+        },
+        {
+          "factor": 24,
+          "kind": "segment",
+          "group": 24,
+          "r2": 0.9891626123700119,
+          "n": 3172
+        },
+        {
+          "factor": 25,
+          "kind": "segment",
+          "group": 25,
+          "r2": 0.9855869046862676,
+          "n": 3223
+        },
+        {
+          "factor": 26,
+          "kind": "segment",
+          "group": 26,
+          "r2": 0.9882194410560438,
+          "n": 3051
+        },
+        {
+          "factor": 27,
+          "kind": "segment",
+          "group": 27,
+          "r2": 0.9873920953803867,
+          "n": 3161
+        },
+        {
+          "factor": 28,
+          "kind": "segment",
+          "group": 28,
+          "r2": 0.9892866991125336,
+          "n": 3106
+        },
+        {
+          "factor": 29,
+          "kind": "segment",
+          "group": 29,
+          "r2": 0.9890923214245296,
+          "n": 3230
+        },
+        {
+          "factor": 30,
+          "kind": "segment",
+          "group": 30,
+          "r2": 0.9913087165604137,
+          "n": 3172
+        },
+        {
+          "factor": 31,
+          "kind": "segment",
+          "group": 31,
+          "r2": 0.9883278573364133,
+          "n": 3091
+        },
+        {
+          "factor": 32,
+          "kind": "segment",
+          "group": 32,
+          "r2": 0.985430563632532,
+          "n": 3133
+        },
+        {
+          "factor": 33,
+          "kind": "segment",
+          "group": 33,
+          "r2": 0.9909402547542865,
+          "n": 3159
+        },
+        {
+          "factor": 34,
+          "kind": "segment",
+          "group": 34,
+          "r2": 0.9870503118421711,
+          "n": 3183
+        },
+        {
+          "factor": 35,
+          "kind": "segment",
+          "group": 35,
+          "r2": 0.9843484079180173,
+          "n": 3200
+        },
+        {
+          "factor": 36,
+          "kind": "segment",
+          "group": 36,
+          "r2": 0.9921907554234953,
+          "n": 3044
+        },
+        {
+          "factor": 37,
+          "kind": "segment",
+          "group": 37,
+          "r2": 0.9857968147321351,
+          "n": 3169
+        },
+        {
+          "factor": 38,
+          "kind": "segment",
+          "group": 38,
+          "r2": 0.9895493159603177,
+          "n": 3205
+        },
+        {
+          "factor": 39,
+          "kind": "segment",
+          "group": 39,
+          "r2": 0.9894964131824976,
+          "n": 3088
+        },
+        {
+          "factor": 40,
+          "kind": "segment",
+          "group": 40,
+          "r2": 0.9893548243765065,
+          "n": 3156
+        },
+        {
+          "factor": 41,
+          "kind": "segment",
+          "group": 41,
+          "r2": 0.98606262637522,
+          "n": 3116
+        },
+        {
+          "factor": 42,
+          "kind": "segment",
+          "group": 42,
+          "r2": 0.9897503351869362,
+          "n": 3224
+        },
+        {
+          "factor": 43,
+          "kind": "segment",
+          "group": 43,
+          "r2": 0.9875943130828251,
+          "n": 3142
+        },
+        {
+          "factor": 44,
+          "kind": "segment",
+          "group": 44,
+          "r2": 0.9879429802684284,
+          "n": 3090
+        },
+        {
+          "factor": 45,
+          "kind": "segment",
+          "group": 45,
+          "r2": 0.990690053860516,
+          "n": 3135
+        },
+        {
+          "factor": 46,
+          "kind": "segment",
+          "group": 46,
+          "r2": 0.9884756349990739,
+          "n": 3056
+        },
+        {
+          "factor": 47,
+          "kind": "segment",
+          "group": 47,
+          "r2": 0.9893803100468854,
+          "n": 3159
+        },
+        {
+          "factor": 48,
+          "kind": "segment",
+          "group": 48,
+          "r2": 0.9895479220250814,
+          "n": 3080
+        },
+        {
+          "factor": 49,
+          "kind": "segment",
+          "group": 49,
+          "r2": 0.9883678023489135,
+          "n": 3142
+        },
+        {
+          "factor": 50,
+          "kind": "segment",
+          "group": 50,
+          "r2": 0.9846962744475255,
+          "n": 3151
+        },
+        {
+          "factor": 51,
+          "kind": "segment",
+          "group": 51,
+          "r2": 0.9877387205722152,
+          "n": 3166
+        },
+        {
+          "factor": 52,
+          "kind": "segment",
+          "group": 52,
+          "r2": 0.9877879651996406,
+          "n": 3088
+        },
+        {
+          "factor": 53,
+          "kind": "segment",
+          "group": 53,
+          "r2": 0.9882085516168866,
+          "n": 3068
+        },
+        {
+          "factor": 54,
+          "kind": "segment",
+          "group": 54,
+          "r2": 0.9924615710269291,
+          "n": 3194
+        },
+        {
+          "factor": 55,
+          "kind": "segment",
+          "group": 55,
+          "r2": 0.9876828945561728,
+          "n": 3146
+        },
+        {
+          "factor": 56,
+          "kind": "segment",
+          "group": 56,
+          "r2": 0.9902827211352907,
+          "n": 3228
+        },
+        {
+          "factor": 57,
+          "kind": "segment",
+          "group": 57,
+          "r2": 0.9886573210163005,
+          "n": 3177
+        },
+        {
+          "factor": 58,
+          "kind": "segment",
+          "group": 58,
+          "r2": 0.9897945594832038,
+          "n": 3229
+        },
+        {
+          "factor": 59,
+          "kind": "segment",
+          "group": 59,
+          "r2": 0.9806032138793752,
+          "n": 3158
+        },
+        {
+          "factor": 60,
+          "kind": "segment",
+          "group": 60,
+          "r2": 0.9832953851788293,
+          "n": 3087
+        },
+        {
+          "factor": 61,
+          "kind": "segment",
+          "group": 61,
+          "r2": 0.9910628335734947,
+          "n": 3067
+        },
+        {
+          "factor": 62,
+          "kind": "segment",
+          "group": 62,
+          "r2": 0.9898011916390385,
+          "n": 3076
+        },
+        {
+          "factor": 63,
+          "kind": "segment",
+          "group": 63,
+          "r2": 0.9878849378963775,
+          "n": 3098
+        },
+        {
+          "factor": 64,
+          "kind": "circle",
+          "group": 64,
+          "r2": 0.9825321080116816,
+          "n": 3128
+        },
+        {
+          "factor": 65,
+          "kind": "disk",
+          "group": 65,
+          "r2": 0.9839674630821902,
+          "n": 3094
+        },
+        {
+          "factor": 66,
+          "kind": "sphere",
+          "group": 66,
+          "r2": 0.9736400056883265,
+          "n": 3067
+        },
+        {
+          "factor": 67,
+          "kind": "torus",
+          "group": 67,
+          "r2": 0.9727227368017257,
+          "n": 3115
+        },
+        {
+          "factor": 68,
+          "kind": "mobius",
+          "group": 68,
+          "r2": 0.9729900610247114,
+          "n": 3082
+        },
+        {
+          "factor": 69,
+          "kind": "swiss_roll",
+          "group": 69,
+          "r2": 0.9755427582359752,
+          "n": 3133
+        },
+        {
+          "factor": 70,
+          "kind": "helix",
+          "group": 70,
+          "r2": 0.9684224401878566,
+          "n": 3091
+        },
+        {
+          "factor": 71,
+          "kind": "circle",
+          "group": 71,
+          "r2": 0.981549607766521,
+          "n": 3115
+        },
+        {
+          "factor": 72,
+          "kind": "disk",
+          "group": 72,
+          "r2": 0.9745192808025652,
+          "n": 3155
+        },
+        {
+          "factor": 73,
+          "kind": "sphere",
+          "group": 73,
+          "r2": 0.9731257566091259,
+          "n": 3169
+        },
+        {
+          "factor": 74,
+          "kind": "torus",
+          "group": 74,
+          "r2": 0.9734217682188255,
+          "n": 3187
+        },
+        {
+          "factor": 75,
+          "kind": "mobius",
+          "group": 75,
+          "r2": 0.9718816960115176,
+          "n": 3121
+        },
+        {
+          "factor": 76,
+          "kind": "swiss_roll",
+          "group": 76,
+          "r2": 0.9742748501838431,
+          "n": 3071
+        },
+        {
+          "factor": 77,
+          "kind": "helix",
+          "group": 77,
+          "r2": 0.972842509531944,
+          "n": 2985
+        },
+        {
+          "factor": 78,
+          "kind": "circle",
+          "group": 78,
+          "r2": 0.9781457767276568,
+          "n": 3207
+        },
+        {
+          "factor": 79,
+          "kind": "disk",
+          "group": 79,
+          "r2": 0.9782262115036399,
+          "n": 3203
+        },
+        {
+          "factor": 80,
+          "kind": "sphere",
+          "group": 80,
+          "r2": 0.9755815824512821,
+          "n": 3126
+        },
+        {
+          "factor": 81,
+          "kind": "torus",
+          "group": 81,
+          "r2": 0.9724932859029877,
+          "n": 3112
+        },
+        {
+          "factor": 82,
+          "kind": "mobius",
+          "group": 82,
+          "r2": 0.978166235876471,
+          "n": 3194
+        },
+        {
+          "factor": 83,
+          "kind": "swiss_roll",
+          "group": 83,
+          "r2": 0.9734897690197769,
+          "n": 3112
+        },
+        {
+          "factor": 84,
+          "kind": "helix",
+          "group": 84,
+          "r2": 0.9724864789684668,
+          "n": 3120
+        },
+        {
+          "factor": 85,
+          "kind": "circle",
+          "group": 85,
+          "r2": 0.9816448778531045,
+          "n": 3161
+        },
+        {
+          "factor": 86,
+          "kind": "disk",
+          "group": 86,
+          "r2": 0.9821771811751246,
+          "n": 3155
+        },
+        {
+          "factor": 87,
+          "kind": "sphere",
+          "group": 87,
+          "r2": 0.9753788963446214,
+          "n": 3183
+        },
+        {
+          "factor": 88,
+          "kind": "torus",
+          "group": 88,
+          "r2": 0.9733431827481402,
+          "n": 3126
+        },
+        {
+          "factor": 89,
+          "kind": "mobius",
+          "group": 89,
+          "r2": 0.9724908931251707,
+          "n": 3188
+        },
+        {
+          "factor": 90,
+          "kind": "swiss_roll",
+          "group": 90,
+          "r2": 0.9807048353752313,
+          "n": 3015
+        },
+        {
+          "factor": 91,
+          "kind": "helix",
+          "group": 91,
+          "r2": 0.9705766021272688,
+          "n": 3198
+        },
+        {
+          "factor": 92,
+          "kind": "circle",
+          "group": 92,
+          "r2": 0.9831704917134052,
+          "n": 3066
+        },
+        {
+          "factor": 93,
+          "kind": "disk",
+          "group": 93,
+          "r2": 0.9845622493003143,
+          "n": 3105
+        },
+        {
+          "factor": 94,
+          "kind": "sphere",
+          "group": 94,
+          "r2": 0.9725658338201985,
+          "n": 3070
+        },
+        {
+          "factor": 95,
+          "kind": "torus",
+          "group": 95,
+          "r2": 0.9769239040180636,
+          "n": 3092
+        },
+        {
+          "factor": 96,
+          "kind": "mobius",
+          "group": 96,
+          "r2": 0.974680644818873,
+          "n": 3014
+        },
+        {
+          "factor": 97,
+          "kind": "swiss_roll",
+          "group": 97,
+          "r2": 0.9697661833818084,
+          "n": 3083
+        },
+        {
+          "factor": 98,
+          "kind": "helix",
+          "group": 98,
+          "r2": 0.9730105455082289,
+          "n": 3032
+        },
+        {
+          "factor": 99,
+          "kind": "circle",
+          "group": 99,
+          "r2": 0.9827682922278964,
+          "n": 3146
+        },
+        {
+          "factor": 100,
+          "kind": "disk",
+          "group": 100,
+          "r2": 0.9774414665195109,
+          "n": 3039
+        },
+        {
+          "factor": 101,
+          "kind": "sphere",
+          "group": 101,
+          "r2": 0.9729416035120941,
+          "n": 3165
+        },
+        {
+          "factor": 102,
+          "kind": "torus",
+          "group": 102,
+          "r2": 0.9761386045128931,
+          "n": 3130
+        },
+        {
+          "factor": 103,
+          "kind": "mobius",
+          "group": 103,
+          "r2": 0.9772924413883435,
+          "n": 3225
+        },
+        {
+          "factor": 104,
+          "kind": "swiss_roll",
+          "group": 104,
+          "r2": 0.9839827579930571,
+          "n": 3069
+        },
+        {
+          "factor": 105,
+          "kind": "helix",
+          "group": 105,
+          "r2": 0.9736740529769848,
+          "n": 3154
+        },
+        {
+          "factor": 106,
+          "kind": "circle",
+          "group": 106,
+          "r2": 0.980793468000833,
+          "n": 3150
+        },
+        {
+          "factor": 107,
+          "kind": "disk",
+          "group": 107,
+          "r2": 0.9779616946335749,
+          "n": 3120
+        },
+        {
+          "factor": 108,
+          "kind": "sphere",
+          "group": 108,
+          "r2": 0.9691808566415908,
+          "n": 3159
+        },
+        {
+          "factor": 109,
+          "kind": "torus",
+          "group": 109,
+          "r2": 0.9762175987653018,
+          "n": 3165
+        },
+        {
+          "factor": 110,
+          "kind": "mobius",
+          "group": 110,
+          "r2": 0.9730548588334668,
+          "n": 3195
+        },
+        {
+          "factor": 111,
+          "kind": "swiss_roll",
+          "group": 111,
+          "r2": 0.9783773355403305,
+          "n": 3168
+        },
+        {
+          "factor": 112,
+          "kind": "helix",
+          "group": 112,
+          "r2": 0.9696276880238124,
+          "n": 3029
+        },
+        {
+          "factor": 113,
+          "kind": "circle",
+          "group": 113,
+          "r2": 0.9823830122921786,
+          "n": 3095
+        },
+        {
+          "factor": 114,
+          "kind": "disk",
+          "group": 114,
+          "r2": 0.9814159763343794,
+          "n": 3142
+        },
+        {
+          "factor": 115,
+          "kind": "sphere",
+          "group": 115,
+          "r2": 0.9644739946684106,
+          "n": 3163
+        },
+        {
+          "factor": 116,
+          "kind": "torus",
+          "group": 116,
+          "r2": 0.9820649068786442,
+          "n": 3135
+        },
+        {
+          "factor": 117,
+          "kind": "mobius",
+          "group": 117,
+          "r2": 0.9708424728306745,
+          "n": 3198
+        },
+        {
+          "factor": 118,
+          "kind": "swiss_roll",
+          "group": 118,
+          "r2": 0.9776377778728066,
+          "n": 3117
+        },
+        {
+          "factor": 119,
+          "kind": "helix",
+          "group": 119,
+          "r2": 0.9722786561049696,
+          "n": 3151
+        },
+        {
+          "factor": 120,
+          "kind": "circle",
+          "group": 120,
+          "r2": 0.9841682264919246,
+          "n": 3141
+        },
+        {
+          "factor": 121,
+          "kind": "disk",
+          "group": 121,
+          "r2": 0.9769987020558181,
+          "n": 3152
+        },
+        {
+          "factor": 122,
+          "kind": "sphere",
+          "group": 122,
+          "r2": 0.973045616632573,
+          "n": 3134
+        },
+        {
+          "factor": 123,
+          "kind": "torus",
+          "group": 123,
+          "r2": 0.9779137519443047,
+          "n": 3094
+        },
+        {
+          "factor": 124,
+          "kind": "mobius",
+          "group": 124,
+          "r2": 0.9768570862358746,
+          "n": 3056
+        },
+        {
+          "factor": 125,
+          "kind": "swiss_roll",
+          "group": 125,
+          "r2": 0.980465455839305,
+          "n": 3185
+        },
+        {
+          "factor": 126,
+          "kind": "helix",
+          "group": 126,
+          "r2": 0.972823983131954,
+          "n": 3168
+        },
+        {
+          "factor": 127,
+          "kind": "circle",
+          "group": 127,
+          "r2": 0.9813079260487271,
+          "n": 3180
+        }
+      ],
+      "archived_score_max_abs_difference": 1.4978018825217987e-11
+    }
+  }
+}

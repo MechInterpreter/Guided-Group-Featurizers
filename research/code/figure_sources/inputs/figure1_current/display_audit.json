@@ -1,0 +1,52 @@
+{
+  "source_weights_sha": "5147a325efc0d491eecd1651c45c5c29cc3df3c33a073aed6f6d0a7140a52d8e",
+  "source_run": "bd3eb87f9fb5ffc0a41963b4e8154c881e32b96cb44b8c40e8730665a72fff32",
+  "source_measured_data_sha": "d1e19f16f28293f27a9fffbee9a457ac85b1adb37935ba5caab1d2dcae9d6077",
+  "measured_codes_and_coordinates_unchanged": true,
+  "points_not_added_removed_or_shifted": true,
+  "plotted_indices_unchanged": true,
+  "color_mapping": "First centered contribution principal coordinate, 2nd\u201398th active TRAIN percentile limits, clipped for display. Identical function for cloud and image within each group.",
+  "activity_scale": "99th percentile of nonzero group norms in the fixed displayed image, separately for each group. Joint and individual panels share these scales.",
+  "opacity": "0.88 * normalized activity^0.90 in individual overlays; 0.86 * max normalized activity^1.10 in categorical cyan/magenta joint panel.",
+  "source_image_sha": "918ae5b0e99393fe3db3dcc89285c06ad23894b77f109ed04e965a61bd69003d",
+  "groups": [
+    {
+      "category": "Potted plant",
+      "group": 55,
+      "activity_display_scale": 14.367497444152832,
+      "direction1_display_scale": 9.48569393157959,
+      "PC1_color_limits": [
+        -7.5661407563963765,
+        2.5331853160632782
+      ],
+      "palette": [
+        "#253bb8",
+        "#00aee9",
+        "#04efd0"
+      ],
+      "point_count": 3000,
+      "display_zoom": 1.12,
+      "variance_retained_pct": 63.4606610238642
+    },
+    {
+      "category": "Vase",
+      "group": 71,
+      "activity_display_scale": 6.584055423736572,
+      "direction1_display_scale": 6.002627849578857,
+      "PC1_color_limits": [
+        -5.381176389840324,
+        2.8849234642182844
+      ],
+      "palette": [
+        "#6918b5",
+        "#f01bc9",
+        "#ff9e68"
+      ],
+      "point_count": 3000,
+      "display_zoom": 1.12,
+      "variance_retained_pct": 67.03948256757921
+    }
+  ],
+  "display_interpolation": "Gaussian sigma0.35 patches, cubic interpolation at patch centers, clipped to measured scalar range.",
+  "scope": "Display colors and scales only; no retraining, readout fitting, test selection, geometry smoothing or changed quantitative results."
+}

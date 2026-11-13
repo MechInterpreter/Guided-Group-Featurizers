@@ -1,0 +1,38 @@
+{
+  "g4096_k32_s21_mask_lr3000_p10000_agf_g_c060": {
+    "weights_sha": "7ba79ec022b8fceee1c427c9aa3088669678a145129224c0bfd6e975cd17a029",
+    "targets_sha": "50d1848a9649c7a98765d548c38a164a1e1e73ef14d02bc1838aeea4be88feaa",
+    "seed": 21,
+    "kind": "agf_g"
+  },
+  "g4096_k32_s21_released_vanilla_lr3000_p10000_released_vanilla": {
+    "weights_sha": "20a8a09512415222d6576325365d13607f16be5de5559376646a2409ca8dc788",
+    "targets_sha": "018d20f4434701ec350c30a1992106244e65f0785293f0cf617f3a4fd2c59545",
+    "seed": 21,
+    "kind": "released_vanilla"
+  },
+  "g4096_k32_s22_mask_lr3000_p10000_agf_g_c060": {
+    "weights_sha": "d0e7072c8dfb192eadfa23fb781b7a4e1c2692f3164c083508bafdfd9fc12667",
+    "targets_sha": "ffad8356bd3f541dc0e1d5062cd6159783f7ca416909eb7594fcb93bdaedd4eb",
+    "seed": 22,
+    "kind": "agf_g"
+  },
+  "g4096_k32_s22_released_vanilla_lr3000_p10000_released_vanilla": {
+    "weights_sha": "e04ee2ea66ba17463d3017df33a63cc5af7472967898639995b50255a5eaa819",
+    "targets_sha": "ad942afabc9858ddf3694357f07ca1928e213e9b1d73d2c61c9299f54f8de865",
+    "seed": 22,
+    "kind": "released_vanilla"
+  },
+  "g4096_k32_s23_mask_lr3000_p10000_agf_g_c060": {
+    "weights_sha": "5147a325efc0d491eecd1651c45c5c29cc3df3c33a073aed6f6d0a7140a52d8e",
+    "targets_sha": "aa24c1477b10660f13551e1a53d08fb669ba3459070cc0dafc663aaa789fd4f0",
+    "seed": 23,
+    "kind": "agf_g"
+  },
+  "g4096_k32_s23_released_vanilla_lr3000_p10000_released_vanilla": {
+    "weights_sha": "13e1769ac218731637acdcd4c51c8ff97f6bcdc8c7aad7d3a323833fc795065b",
+    "targets_sha": "0bdb713f41778db1c3b396f9aaa639d0c85ae41fcca410e12a95ae94eb9a0ac8",
+    "seed": 23,
+    "kind": "released_vanilla"
+  }
+}

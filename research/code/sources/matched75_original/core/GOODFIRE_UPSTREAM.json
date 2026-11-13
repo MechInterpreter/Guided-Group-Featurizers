@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/goodfire-ai/block-sparse-featurizer",
+  "commit": "219f121ea82d2b19200d1dac918396e6058d7eb9",
+  "retrieved": "2026-09-21",
+  "modifications": "None to the bsf package. Training and evaluation harness is our own.",
+  "paper": "https://arxiv.org/html/2606.25234v1",
+  "audit": [
+    "Paper Grassmannian: shared positive gain, periodic QR retraction. Released code: one unconstrained gain per group, differentiable QR each forward.",
+    "Paper Group Lasso: block soft threshold and group penalty. Released GroupLassoBSF: signed BlockJumpReLU, straight-through gradients, learned thresholds and dual control of mean active groups.",
+    "Released trainer defaults to denoising (snr=0.1); synthetic paper protocol has no added noise.",
+    "Repository contains rabbit starter demos, not a complete reproduction script for Appendix H or all ImageNet sweeps."
+  ]
+}

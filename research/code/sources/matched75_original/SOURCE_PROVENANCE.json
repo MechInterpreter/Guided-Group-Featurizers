@@ -1,0 +1,24 @@
+{
+  "core_archive_sha256": "dfed82ac09e358dd8fc5e8d6de1bb524519cc0965cfea45f1318367b7eab90cf",
+  "original_files": {
+    "LOCAL_INPUTS/f714ddb1c686fc5f": "2e0b85ae3970b649c514bec13185f5eb71d21f5616e6348d16608de9a0a7d8cf",
+    "LOCAL_INPUTS/7d82765f0e241d95": "ca431f8ca76ce0d247586708a83bd9dd60c4dc0b3f86d6f94c1ffc4b4235109a",
+    "LOCAL_INPUTS/ae59789e0ff92967": "f73686a171bed242fb18210628201fee1a6dd1bc2d2f15bbecf24b4ce96250a7",
+    "LOCAL_INPUTS/598bec6bf05d453e": "a1e220b1d9beee2864fb6a52560a3e742fc33373c281c0c94d981220de7f95fc",
+    "LOCAL_INPUTS/d7dc245f0eacb3e8": "93260d8d3564a6f42715b4811a5521b1a73ad05db7da5fd28580ac53a6d5e4fd",
+    "LOCAL_INPUTS/b1c3ff17d4474a6a": "8323fe5aebc108d3c5929f106446998d14a7b0e0129aa51f00d8d61b24ad6593",
+    "LOCAL_INPUTS/af975288ee879087": "af59662e3508bfe507825ebfff8d9850df0077652351b38e6f48efd20b9b693c",
+    "LOCAL_INPUTS/41f5853031cf0019": "f7b238e6e5c7a86288fa8d06a5d1249cb8f621b31d84ca8559d2cdb5af9c461a",
+    "LOCAL_INPUTS/3a1ed19c339317ef": "441eaf18aeed928c0e9a0ff8faac90d04f52995490305711ec9a8971eea1276c",
+    "LOCAL_INPUTS/ebc28c943882ec98": "f3fd3c20f94f61234944c41fd23fc40d9c67581d0d36c8894b35502d85bf8532",
+    "LOCAL_INPUTS/ce36a6bd069d5b15": "5c4cc75c1ab2c343d3d15e2b193c6cfe7ec0bce4a8e30bba1d6b8dc8326ab71d",
+    "LOCAL_INPUTS/923bec9f9633228b": "2dfde641fa41c6c21a0feff6231a22430077071f479a62ee3f02ef6607952a07"
+  },
+  "changes": [
+    "New orchestration/protocol/dashboard/tests",
+    "Explicit continuation LR in isolated cd_train copy",
+    "Unused Concept-SAE import/orchestration removed from isolated cd_train copy",
+    "Native cd_common SPEC is configured before constructing any new store"
+  ],
+  "original_checkpoints_and_results_modified": false
+}

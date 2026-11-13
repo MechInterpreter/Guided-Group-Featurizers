@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p082",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I0985",
+      "yes": [41,42,45,50,51,60],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,46,47,49,52,53,54,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [43,44,48],
+      "all_definitions_considered": true,
+      "rationale": "The saved crop shows a meal on a patterned dining table: a yellow handled mug, identifiable forks, a partial open ceramic bowl at the top, broccoli florets and orange carrot pieces among the vegetables. The broad plates are not themselves bowls. A partial straight metallic utensil near the lower left does not resolve knife identity (43); the small reflective utensil at the upper edge does not resolve spoon identity (44). The food cut off at the left could be a filled bread portion or plated food without sandwich structure, so sandwich (48) remains unclear. I considered each of the 75 frozen definitions; the remaining categories have no identifiable object in this crop."
+    },
+    {
+      "case_id": "I0986",
+      "yes": [0,38],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual tennis player and several spectators are visible. The player holds an identifiable strung tennis racket. The green court barrier, rails and indistinct audience seating do not establish a bench or chair. I explicitly considered all 75 frozen definitions against the whole crop; no other category object is identifiable and there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0987",
+      "yes": [20],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Several actual elephants fill the crop; trunks, broad ears, feet and bodies are identifiable. The background contains sky, trees and paved ground without any other defined object. I considered every one of the 75 frozen definitions, including the other animal identities and excluded representations. No category ambiguity remains."
+    },
+    {
+      "case_id": "I0988",
+      "yes": [23],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Actual giraffes are visible behind enclosure bars, with long necks, heads and distinctive patch-patterned bodies. The hanging hay holder and enclosure fixtures are not any of the defined household vessels or furniture. I considered all 75 frozen definitions individually; no additional category or unresolved category distinction is supported."
+    },
+    {
+      "case_id": "I0989",
+      "yes": [0,11],
+      "no": [1,2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A woman stands beside a real red octagonal stop-sign face, whose upper part is cut off but whose stop-sign form and remaining lettering are identifiable. The adjacent fuel-pump pictogram is a printed sign and does not establish an actual object of another category. The dark fabric at her hip reads as clothing rather than an identifiable bag. All 75 frozen definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0990",
+      "yes": [0,41,55,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,45,46,47,48,49,50,51,52,53,54,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [13,42,43,44,56,57],
+      "all_definitions_considered": true,
+      "rationale": "Children surround a dining table bearing an actual decorated cake and recognizable handleless drinking glasses. The cartoon decoration on the cake is not an actual animal. Small partly occluded metallic implements do not resolve fork, knife or spoon heads, so 42, 43 and 44 remain unclear. The tan upholstered seating behind the children is too partial to distinguish a multi-person bench, couch or individual chair, so 13, 56 and 57 remain unclear. I considered every one of the 75 frozen definitions; the other categories lack identifiable objects."
+    },
+    {
+      "case_id": "I0991",
+      "yes": [0,14,45],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,42,43,44,46,47,48,49,50,51,52,53,54,55,56,57,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [40,41,58],
+      "all_definitions_considered": true,
+      "rationale": "A man holds a shallow open food bowl while actual green and red parrots feed from it; additional people are visible at the left. The held vessel is a feeding bowl rather than an identifiable drinking cup. At the extreme right, the tiny cropped colored drinking vessel does not clearly resolve the bowl/stem/foot needed for wine glass versus a cup, leaving 40 and 41 unclear. Hanging/background greenery has insufficiently resolved container evidence to settle potted plant (58). The visible serving counter does not establish a dining table. I explicitly considered all 75 frozen definitions."
+    },
+    {
+      "case_id": "I0992",
+      "yes": [0,18,39],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A child and several other people's hands, arms and legs are visible around a small woolly lamb. Its fleece, face and ears support sheep rather than cattle or another animal. The lamb is being fed from a held milk bottle, with cylindrical body and narrowed nipple end in feeding context. I considered each of the 75 frozen definitions across the saved crop; no other identifiable category or unresolved category distinction remains."
+    },
+    {
+      "case_id": "I0993",
+      "yes": [0,42,45],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [43,44],
+      "all_definitions_considered": true,
+      "rationale": "People stand at a food-serving counter. The middle man's downward-pointing utensil has a fork end, and an open white bowl is visible in the foreground. The flat serving surface is a counter rather than an identifiable dining table; the wide cylindrical food tubs are not bottles. A further partly obscured serving implement near the right hand does not resolve a blade versus spoon head, leaving knife (43) and spoon (44) unclear. I considered all 75 frozen definitions, including food distinctions; the small mixed food portions do not identify the listed specific food categories."
+    },
+    {
+      "case_id": "I0994",
+      "yes": [0,14,25,28],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18,19,20,21,22,23,24,26,27,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The crop shows a woman holding an open umbrella and a rigid rectangular travel case with handle, supporting person, umbrella and suitcase. Three small flying bird silhouettes are identifiable in the sky. The trees are unpotted, and the field and clothing do not establish other objects. I explicitly considered all 75 frozen definitions; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0995",
+      "yes": [0,2,3,9],
+      "no": [4,6,8,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [1,5,7],
+      "all_definitions_considered": true,
+      "rationale": "Pedestrians and a rider, passenger cars, a foreground motorcycle and an illuminated traffic-signal head are identifiable. The farther round lamps are street lighting rather than additional evidence for traffic signals. Very small distant two-wheeled/vehicle forms cannot settle whether a pedal bicycle is present (1); a distant pale boxy road vehicle lacks detail to distinguish bus or truck from a car/van, leaving 5 and 7 unclear. I considered all 75 frozen definitions; no other category has identifiable supporting evidence."
+    },
+    {
+      "case_id": "I0996",
+      "yes": [68,69,71,72],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The kitchen has a tall refrigerator at left, an overhead microwave with door and control panel, a cooking range with an identifiable oven door, and a cropped metal sink basin/rim at the lower right. The wooden panels are cabinets; the granite surfaces are kitchen counters rather than dining tables. I explicitly considered every one of the 75 frozen definitions. No additional identifiable category or unresolved category ambiguity remains."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "run": "544561a40caa4025b92a97fe3af221cdf3aeb955a191787e3027d36685ab4418",
+  "complete": true,
+  "n_seeds": 3,
+  "summary": {
+    "GGF": {
+      "Capture": {
+        "mean": 44.27097357881797,
+        "sd": 0.08793696819428329
+      },
+      "patch_AP": {
+        "mean": 88.0448620848656,
+        "sd": 0.10643621945781394
+      },
+      "VE": {
+        "mean": 57.09738363434161,
+        "sd": 0.0693306225470221
+      },
+      "training_loop_minutes": {
+        "mean": 2.417992723733175,
+        "sd": 0.0314923998052225
+      },
+      "fit_invocation_seconds": {
+        "mean": 383.7600391409994,
+        "sd": 21.547118171854674
+      }
+    },
+    "SLiCS": {
+      "Capture": {
+        "mean": 22.963405732415556,
+        "sd": 0.8493197959639693
+      },
+      "patch_AP": {
+        "mean": 71.71695826342905,
+        "sd": 5.07092651391561
+      },
+      "VE": {
+        "mean": 34.77987556564531,
+        "sd": 0.4386733153114033
+      },
+      "training_loop_minutes": {
+        "mean": 44.31145185616583,
+        "sd": 0.08432832626509194
+      },
+      "fit_invocation_seconds": {
+        "mean": 3555.410658373666,
+        "sd": 54.07298014010058
+      }
+    }
+  },
+  "paired": [
+    {
+      "metric": "Capture",
+      "GGF_minus_SLiCS": 21.307567846402417,
+      "sample_SD": 0.8821191013338427,
+      "CI95_low": 19.116262520550865,
+      "CI95_high": 23.498873172253973
+    },
+    {
+      "metric": "patch_AP",
+      "GGF_minus_SLiCS": 16.327903821436536,
+      "sample_SD": 4.997381202055273,
+      "CI95_low": 3.913720717572677,
+      "CI95_high": 28.742086925300395
+    },
+    {
+      "metric": "VE",
+      "GGF_minus_SLiCS": 22.31750806869629,
+      "sample_SD": 0.4262821178789788,
+      "CI95_low": 21.258564583841448,
+      "CI95_high": 23.376451553551146
+    }
+  ],
+  "SLiCS_over_GGF_loop_ratio": 18.32571761744292,
+  "SLiCS_over_GGF_fit_ratio": 9.264671398126872,
+  "fit_memory_max": {
+    "GGF": {
+      "fit_peak_allocated_GiB": 0.0738544464111328,
+      "fit_peak_reserved_GiB": 0.1015625
+    },
+    "SLiCS": {
+      "fit_peak_allocated_GiB": 0.0546770095825195,
+      "fit_peak_reserved_GiB": 0.07421875
+    }
+  },
+  "full_FLOPs_available": false,
+  "hardware": {
+    "GPU": "NVIDIA A100-SXM4-40GB",
+    "torch": "2.11.0+cu130",
+    "cuda": "13.0",
+    "python": "3.13.15",
+    "TF32": false
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "caps": [
+    0.4
+  ],
+  "seeds": [
+    21,
+    22,
+    23
+  ],
+  "reused_controls": [
+    "mask4_balanced",
+    "vanilla4",
+    "mask3_fixed"
+  ],
+  "new_gradient_updates": 0,
+  "excluded_caps": [
+    0.6,
+    0.8,
+    1.0
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "verified": true,
+  "completion": true,
+  "configuration": {
+    "groups": 4096,
+    "width": 12,
+    "topk": 32,
+    "cap": 0.6,
+    "seeds": [
+      21,
+      22,
+      23
+    ],
+    "updates": 10640
+  },
+  "means": [
+    {
+      "kind": "released_vanilla",
+      "label": "Vanilla BSF",
+      "seeds": "3",
+      "capture_pct": "21.365928181427606",
+      "capture_pct_seed_sd": "0.8363484342016699",
+      "patch_AP_pct": "51.65946773588197",
+      "patch_AP_pct_seed_sd": "1.550929304262547",
+      "VE_pct": "80.35076595788799",
+      "VE_pct_seed_sd": "0.3877312412976572"
+    },
+    {
+      "kind": "mask_only",
+      "label": "Mask + reconstruction",
+      "seeds": "3",
+      "capture_pct": "23.560072077781502",
+      "capture_pct_seed_sd": "0.04685439481969883",
+      "patch_AP_pct": "68.54687551150926",
+      "patch_AP_pct_seed_sd": "0.1745989319508882",
+      "VE_pct": "79.55684018959384",
+      "VE_pct_seed_sd": "0.23257520340157847"
+    },
+    {
+      "kind": "fixed_guided",
+      "label": "Fixed-weight guidance",
+      "seeds": "3",
+      "capture_pct": "42.24892400204289",
+      "capture_pct_seed_sd": "0.1244069135773165",
+      "patch_AP_pct": "74.62592506517323",
+      "patch_AP_pct_seed_sd": "0.19205770363644767",
+      "VE_pct": "77.33153642496949",
+      "VE_pct_seed_sd": "0.20312011398113475"
+    },
+    {
+      "kind": "agf_g",
+      "label": "GGF",
+      "seeds": "3",
+      "capture_pct": "42.76844370492582",
+      "capture_pct_seed_sd": "0.10453101282017987",
+      "patch_AP_pct": "74.75660380632948",
+      "patch_AP_pct_seed_sd": "0.1356643742214794",
+      "VE_pct": "76.93646943486696",
+      "VE_pct_seed_sd": "0.2658027879467611"
+    }
+  ],
+  "comparisons": [
+    {
+      "component": "Initialization",
+      "treatment": "mask_only",
+      "control": "released_vanilla",
+      "mean_gains_pp": {
+        "capture_pct": 2.1941438963538964,
+        "patch_AP_pct": 16.88740777562729,
+        "VE_pct": -0.7939257682941445
+      },
+      "per_seed": {
+        "21": {
+          "gains_pp": {
+            "capture_pct": 2.559584741131939,
+            "patch_AP_pct": 18.76276344661307,
+            "VE_pct": -0.9085566323385592
+          },
+          "capture_ci95": [
+            2.1975429692183988,
+            2.9327889176258717
+          ],
+          "AP_ci95": [
+            17.039474810726198,
+            20.32830543864443
+          ]
+        },
+        "22": {
+          "gains_pp": {
+            "capture_pct": 2.801165315914119,
+            "patch_AP_pct": 16.377330546395697,
+            "VE_pct": -0.6047693341981528
+          },
+          "capture_ci95": [
+            2.4405634297222956,
+            3.1254868857158744
+          ],
+          "AP_ci95": [
+            14.844055546259721,
+            18.218569127775343
+          ]
+        },
+        "23": {
+          "gains_pp": {
+            "capture_pct": 1.2216816320156383,
+            "patch_AP_pct": 15.522129333873082,
+            "VE_pct": -0.8684513383457357
+          },
+          "capture_ci95": [
+            0.8773913283155873,
+            1.6047387762249627
+          ],
+          "AP_ci95": [
+            13.84196314010734,
+            17.110713721204842
+          ]
+        }
+      },
+      "category_mean_wins": {
+        "capture": {
+          "positive": 46,
+          "negative": 29,
+          "tied": 0,
+          "total": 75
+        },
+        "ap": {
+          "positive": 67,
+          "negative": 8,
+          "tied": 0,
+          "total": 75
+        }
+      }
+    },
+    {
+      "component": "Fixed object guidance",
+      "treatment": "fixed_guided",
+      "control": "mask_only",
+      "mean_gains_pp": {
+        "capture_pct": 18.68885192426139,
+        "patch_AP_pct": 6.079049553663978,
+        "VE_pct": -2.225303764624357
+      },
+      "per_seed": {
+        "21": {
+          "gains_pp": {
+            "capture_pct": 18.76869440036516,
+            "patch_AP_pct": 5.677407178295823,
+            "VE_pct": -2.2577057355480292
+          },
+          "capture_ci95": [
+            18.389214331714673,
+            19.133208145471222
+          ],
+          "AP_ci95": [
+            5.053352242879089,
+            6.491173452544238
+          ]
+        },
+        "22": {
+          "gains_pp": {
+            "capture_pct": 18.6058098295734,
+            "patch_AP_pct": 6.379233596660086,
+            "VE_pct": -2.1992053004198624
+          },
+          "capture_ci95": [
+            18.218076136027484,
+            18.96333691556176
+          ],
+          "AP_ci95": [
+            5.501081843074098,
+            7.161489765121168
+          ]
+        },
+        "23": {
+          "gains_pp": {
+            "capture_pct": 18.692051542845622,
+            "patch_AP_pct": 6.180507886036068,
+            "VE_pct": -2.2190002579051367
+          },
+          "capture_ci95": [
+            18.314703654009342,
+            19.050574238703962
+          ],
+          "AP_ci95": [
+            5.481489296387005,
+            6.902129327458486
+          ]
+        }
+      },
+      "category_mean_wins": {
+        "capture": {
+          "positive": 75,
+          "negative": 0,
+          "tied": 0,
+          "total": 75
+        },
+        "ap": {
+          "positive": 65,
+          "negative": 10,
+          "tied": 0,
+          "total": 75
+        }
+      }
+    },
+    {
+      "component": "Adaptive weighting",
+      "treatment": "agf_g",
+      "control": "fixed_guided",
+      "mean_gains_pp": {
+        "capture_pct": 0.5195197028829313,
+        "patch_AP_pct": 0.13067874115624534,
+        "VE_pct": -0.3950669901025208
+      },
+      "per_seed": {
+        "21": {
+          "gains_pp": {
+            "capture_pct": 0.49395041480596547,
+            "patch_AP_pct": 0.19902151335710982,
+            "VE_pct": -0.2976556983043821
+          },
+          "capture_ci95": [
+            0.46929056979911526,
+            0.518268397658275
+          ],
+          "AP_ci95": [
+            0.054621839498541463,
+            0.41256179761758016
+          ]
+        },
+        "22": {
+          "gains_pp": {
+            "capture_pct": 0.6234646171184224,
+            "patch_AP_pct": 0.10670089186062626,
+            "VE_pct": -0.3127191206889961
+          },
+          "capture_ci95": [
+            0.5937922135818569,
+            0.6530195157501623
+          ],
+          "AP_ci95": [
+            -0.02833191258991664,
+            0.28849745440465574
+          ]
+        },
+        "23": {
+          "gains_pp": {
+            "capture_pct": 0.4411440767243917,
+            "patch_AP_pct": 0.08631381825097151,
+            "VE_pct": -0.5748261513142126
+          },
+          "capture_ci95": [
+            0.4169074946085939,
+            0.4649197312509662
+          ],
+          "AP_ci95": [
+            -0.010571552738836955,
+            0.2333470491674163
+          ]
+        }
+      },
+      "category_mean_wins": {
+        "capture": {
+          "positive": 71,
+          "negative": 4,
+          "tied": 0,
+          "total": 75
+        },
+        "ap": {
+          "positive": 49,
+          "negative": 26,
+          "tied": 0,
+          "total": 75
+        }
+      }
+    }
+  ],
+  "total_guided_vs_vanilla_gain_pp": {
+    "capture_pct": 21.402515523498217,
+    "patch_AP_pct": 23.09713607044751,
+    "VE_pct": -3.4142965230210223
+  },
+  "sequential_gain_fractions_pct": {
+    "Initialization": {
+      "capture_pct": 10.251803784208942,
+      "patch_AP_pct": 73.11472610335665,
+      "VE_pct": 23.252982362283717
+    },
+    "Fixed object guidance": {
+      "capture_pct": 87.32081938565845,
+      "patch_AP_pct": 26.31949491539795,
+      "VE_pct": 65.17605455824247
+    },
+    "Adaptive weighting": {
+      "capture_pct": 2.427376830132612,
+      "patch_AP_pct": 0.5657789812454156,
+      "VE_pct": 11.570963079473819
+    }
+  },
+  "seed_intervals": [
+    {
+      "component": "Adaptive schedule versus matched-scale fixed weights",
+      "capture_gain_pp": "0.5195197028829257",
+      "capture_gain_pp_seed_sd": "0.0938111732789069",
+      "capture_gain_pp_seed_ci_low": "0.2864798295601362",
+      "capture_gain_pp_seed_ci_high": "0.7525595762057152",
+      "AP_gain_pp": "0.13067874115623898",
+      "AP_gain_pp_seed_sd": "0.06005796430671371",
+      "AP_gain_pp_seed_ci_low": "-0.01851351286717498",
+      "AP_gain_pp_seed_ci_high": "0.27987099517965297",
+      "VE_gain_pp": "-0.39506699010252905",
+      "VE_gain_pp_seed_sd": "0.15585808834684534",
+      "VE_gain_pp_seed_ci_low": "-0.7822399450414442",
+      "VE_gain_pp_seed_ci_high": "-0.007894035163613866"
+    },
+    {
+      "component": "Fixed object guidance",
+      "capture_gain_pp": "18.688851924261396",
+      "capture_gain_pp_seed_sd": "0.08148941047656248",
+      "capture_gain_pp_seed_ci_low": "18.486421006590774",
+      "capture_gain_pp_seed_ci_high": "18.891282841932018",
+      "AP_gain_pp": "6.0790495536639915",
+      "AP_gain_pp_seed_sd": "0.3617463549011842",
+      "AP_gain_pp_seed_ci_low": "5.180421791376877",
+      "AP_gain_pp_seed_ci_high": "6.977677315951106",
+      "VE_gain_pp": "-2.2253037646243423",
+      "VE_gain_pp_seed_sd": "0.029755266345064074",
+      "VE_gain_pp_seed_ci_low": "-2.2992199438743754",
+      "VE_gain_pp_seed_ci_high": "-2.151387585374309"
+    },
+    {
+      "component": "Initialization",
+      "capture_gain_pp": "2.1941438963538995",
+      "capture_gain_pp_seed_sd": "0.8507951781712474",
+      "capture_gain_pp_seed_ci_low": "0.08065150930955367",
+      "capture_gain_pp_seed_ci_high": "4.307636283398246",
+      "AP_gain_pp": "16.88740777562728",
+      "AP_gain_pp_seed_sd": "1.6794527227638623",
+      "AP_gain_pp_seed_ci_low": "12.7154159319595",
+      "AP_gain_pp_seed_ci_high": "21.059399619295064",
+      "VE_gain_pp": "-0.7939257682941495",
+      "VE_gain_pp_seed_sd": "0.1650370445430195",
+      "VE_gain_pp_seed_ci_low": "-1.2039005144742028",
+      "VE_gain_pp_seed_ci_high": "-0.38395102211409626"
+    }
+  ],
+  "development_MSE_passes": {
+    "released_vanilla": 3,
+    "mask_only": 3,
+    "fixed_guided": 0,
+    "agf_g": 0
+  },
+  "scope": "Same previously inspected 1,500-image test cohort. No fresh holdout, new warm-ups or retraining of six controls. Fixed weights are per-seed means of six logged TRAIN weight vectors; no validation or test tuning. Three-seed intervals are distinct from paired whole-image bootstrap intervals. Matched capacity, activity, updates and image/noise streams; not matched FLOPs. Sequential gain fractions describe this ablation path, not unique independent causal shares.",
+  "artifact_zip_sha256": "2c2ec70992d9823acc6f079c20731d0e183a917f6cc7fcd8752648a5ba06307c"
+}

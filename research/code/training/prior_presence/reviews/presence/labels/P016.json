@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p016",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I0193",
+      "yes": [0,39,41,45,46,59,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,48,50,51,52,53,54,55,56,57,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [42,43,44,47,49,58],
+      "all_definitions_considered": true,
+      "rationale": "Two people sit at an eating table with capped bottles, drinking tumblers, open bowls and a banana bunch. Bedding and pillows behind them establish a bed. The reddish fruit could be peaches or apples (apple unclear), and the small yellow-orange fruit lacks enough detail to establish orange rather than other citrus (orange unclear). Small implements around the dishes are insufficiently resolved to distinguish fork, knife and spoon, so those remain unclear. Greenery at the rear window has inadequate pot evidence, leaving potted plant unclear. The foreground melon is not one of the fruit categories; the remaining definitions have no identifiable qualifying objects in this crop."
+    },
+    {
+      "case_id": "I0194",
+      "yes": [0,27,55],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The crop shows two people, with a necktie worn by the man and a small frosted cupcake/cake portion being fed to the woman. The man's boutonniere is a cut flower attached to clothing, not a potted plant or vase. The veil and jewelry are not other listed objects. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0195",
+      "yes": [0,16],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual gray-and-white dog with pointed ears, muzzle, legs and curled tail sits on grass. A partial human hand is visible at the left edge above the white paper/surface. The paper has no identifiable bound-book structure and the white curved surface has no dining-table context. The dog is distinguishable from the other animal definitions and from a plush toy. All definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0196",
+      "yes": [39,61,71],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,60,62,63,64,65,66,67,68,69,72,73,74,75,76,77,79],
+      "unclear": [41,56],
+      "all_definitions_considered": true,
+      "rationale": "A white sink basin occupies the foreground and a toilet seat/bowl and cistern are visible behind it. A clear pump bottle stands at the left. The little green vessel on the cistern could be a drinking glass or a candle/container, leaving cup unclear. The small slatted wooden object behind it could be chair backing or a separate wooden accessory, so chair remains unclear. Wall panels and printed wall decoration do not establish books, furniture or a clock. The rest of the definitions lack qualifying visible objects."
+    },
+    {
+      "case_id": "I0197",
+      "yes": [76],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Yellow-handled scissors with paired cutting blades lie across printed craft sheets. The tall labeled cylinder is a glue stick with a cap, not an identifiable bottle with a neck/opening. The metal cylinder at right is a storage holder rather than an identifiable drinking cup or flower vase. The loose printed sheets and cardboard object are not bound books, and the work surface has no dining-table context. Every definition was considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0198",
+      "yes": [0],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [29],
+      "all_definitions_considered": true,
+      "rationale": "A person in a blue sleeveless shirt and shorts stands in a grassy area. The narrow yellow-green object angled above his face could be a flying disc viewed edge-on, but its form is insufficiently resolved for confident frisbee identification; frisbee remains unclear. Trees are unpotted, and the background contains no identifiable listed animal, vehicle, furniture or appliance. The visible object does not establish the structure/context of any other listed implement. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0199",
+      "yes": [0,39,69,71],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,41,42,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,72,73,74,75,76,77,79],
+      "unclear": [43],
+      "all_definitions_considered": true,
+      "rationale": "A person works in a kitchen. A capped bottle is cropped at the lower left, the metal sink basin is visible at the bottom left, and the range at right includes a visible conventional oven door. The small dark-handled metallic implement on the left counter is too indistinct to establish a cutting blade, leaving knife unclear. The shiny domed object at the bottom is cookware/lid rather than an identifiable open bowl. Open shelves contain packages and indistinct containers, not identifiable books or other listed vessels; the counter is not a dining table. All definitions were considered."
+    },
+    {
+      "case_id": "I0200",
+      "yes": [0,36],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [13],
+      "all_definitions_considered": true,
+      "rationale": "A foreground skateboarder and a background person are visible. The foreground rider has an identifiable skateboard deck/wheel assembly beneath his shoes. The long raised rectangular structures could function as benches or skate obstacles/ledges; their intended seating identity is unresolved, so bench is unclear. They do not establish dining tables or individual chairs. Background vegetation is unpotted. All other definitions were considered without qualifying evidence."
+    },
+    {
+      "case_id": "I0201",
+      "yes": [0,38],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A person in an orange shirt extends his arm overhead holding the visible handle/shaft of a tennis racket, with the racket continuing beyond the upper edge in a tennis-playing pose beside a court fence. The cap and clothing are not listed accessory categories, and the fence texture is not an object depiction or book. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0202",
+      "yes": [5,9],
+      "no": [1,2,3,4,6,7,8,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [0],
+      "all_definitions_considered": true,
+      "rationale": "A full-size road bus with passenger windows, front windshield and wheels passes a traffic-light assembly with visible signal heads. Dark shapes behind the windshield could include a driver, but the crop does not resolve a definite human body/head, leaving person unclear. The bus is distinguishable from a train, truck and passenger car. Building signs do not establish stop signs, and street trees have no identifiable pots. All remaining definitions were considered without qualifying objects."
+    },
+    {
+      "case_id": "I0203",
+      "yes": [64,66,73],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,65,67,68,69,71,72,74,75,76,77,79],
+      "unclear": [41],
+      "all_definitions_considered": true,
+      "rationale": "A computer mouse fills the foreground beside a keyboard with key rows and a curved silver wrist area. Bound notebook/book edges are visible along the upper center, unlike the separate loose note sheet below them. The partially cropped circular object at the right could be a drinking cup or a different round desktop object, so cup is unclear. No standalone display or integrated laptop is visible; the desktop is a work surface without dining-table context. All definitions were considered."
+    },
+    {
+      "case_id": "I0204",
+      "yes": [0,35,56],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Multiple actual people appear on the field, in the dugout and in the stands. The catcher extends a recognizable baseball fielding mitt, and the red stadium seating shows individual chair seats/backs. The batter's batting gloves are excluded from baseball-glove evidence, while the catcher's mitt qualifies. No visible equipment establishes another listed sports object, and the dugout does not show a separately identifiable bench seat. All 75 definitions were considered; no unresolved category ambiguity remains."
+    }
+  ]
+}

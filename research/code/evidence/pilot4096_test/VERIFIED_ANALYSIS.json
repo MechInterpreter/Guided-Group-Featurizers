@@ -1,0 +1,154 @@
+{
+  "complete": true,
+  "model_identity_matches_original_pilot": true,
+  "all_six_fixed_TRAIN_readouts_unchanged": true,
+  "metrics": [
+    {
+      "kind": "agf_g",
+      "label": "AGF",
+      "seeds": 3,
+      "capture_pct": 42.76844370492582,
+      "capture_pct_seed_sd": 0.10453101282017987,
+      "capture_pct_seed_ci_low": 42.508774273934975,
+      "capture_pct_seed_ci_high": 43.02811313591667,
+      "patch_AP_pct": 74.75660380632948,
+      "patch_AP_pct_seed_sd": 0.1356643742214794,
+      "patch_AP_pct_seed_ci_low": 74.41959481818907,
+      "patch_AP_pct_seed_ci_high": 75.09361279446989,
+      "VE_pct": 76.93646943486696,
+      "VE_pct_seed_sd": 0.2658027879467611,
+      "VE_pct_seed_ci_low": 76.27617870544822,
+      "VE_pct_seed_ci_high": 77.59676016428571
+    },
+    {
+      "kind": "released_vanilla",
+      "label": "Vanilla BSF",
+      "seeds": 3,
+      "capture_pct": 21.365928181427606,
+      "capture_pct_seed_sd": 0.8363484342016699,
+      "capture_pct_seed_ci_low": 19.288323495889642,
+      "capture_pct_seed_ci_high": 23.44353286696557,
+      "patch_AP_pct": 51.65946773588197,
+      "patch_AP_pct_seed_sd": 1.550929304262547,
+      "patch_AP_pct_seed_ci_low": 47.80674576295242,
+      "patch_AP_pct_seed_ci_high": 55.51218970881152,
+      "VE_pct": 80.35076595788799,
+      "VE_pct_seed_sd": 0.3877312412976572,
+      "VE_pct_seed_ci_low": 79.38758815936865,
+      "VE_pct_seed_ci_high": 81.31394375640733
+    }
+  ],
+  "paired_gains": {
+    "capture_gain_pp": 21.40251552349822,
+    "capture_gain_pp_seed_sd": 0.913234544946771,
+    "capture_gain_pp_seed_ci_low": 19.13391515075091,
+    "capture_gain_pp_seed_ci_high": 23.67111589624553,
+    "AP_gain_pp": 23.097136070447515,
+    "AP_gain_pp_seed_sd": 1.439440977646697,
+    "AP_gain_pp_seed_ci_low": 19.521366454080905,
+    "AP_gain_pp_seed_ci_high": 26.672905686814126,
+    "VE_gain_pp": -3.414296523021021,
+    "VE_gain_pp_seed_sd": 0.2761561085907592,
+    "VE_gain_pp_seed_ci_low": -4.100306326693044,
+    "VE_gain_pp_seed_ci_high": -2.728286719348998
+  },
+  "all_three_seed_image_intervals_positive": true,
+  "all75_categories_finite_in_all6_models": true,
+  "bootstrap_valid_per_seed": 1000,
+  "bootstrap_invalid_per_seed": 0,
+  "development_native_warm_eligible_AGF_seeds": 0,
+  "categories_with_positive_mean_capture_gain": 75,
+  "categories_with_positive_mean_AP_gain": 72,
+  "categories_with_capture_gain_all_seeds": 75,
+  "categories_with_AP_gain_all_seeds": 64,
+  "context_difference_from_older_expanded1024": {
+    "capture_pp": -1.501855967832384,
+    "AP_pp": 0.5196432449419177,
+    "VE_pp": 7.430705795618223,
+    "scope": "Different initialization, updates, group count, Top-k and cap; context only, not an isolated group-count effect."
+  },
+  "top_capture_categories": [
+    {
+      "category": "tennis racket",
+      "category_index": 38,
+      "capture_gain_pp": 41.6519934858468,
+      "AP_gain_pp": 10.98560634894022,
+      "capture_positive_all_seeds": true,
+      "AP_positive_all_seeds": false
+    },
+    {
+      "category": "tie",
+      "category_index": 27,
+      "capture_gain_pp": 37.78885274080836,
+      "AP_gain_pp": 28.407583753953713,
+      "capture_positive_all_seeds": true,
+      "AP_positive_all_seeds": true
+    },
+    {
+      "category": "toilet",
+      "category_index": 61,
+      "capture_gain_pp": 33.83406953746959,
+      "AP_gain_pp": 9.83631646721667,
+      "capture_positive_all_seeds": true,
+      "AP_positive_all_seeds": true
+    },
+    {
+      "category": "airplane",
+      "category_index": 4,
+      "capture_gain_pp": 31.857265642686457,
+      "AP_gain_pp": 22.75218797942246,
+      "capture_positive_all_seeds": true,
+      "AP_positive_all_seeds": true
+    },
+    {
+      "category": "sink",
+      "category_index": 71,
+      "capture_gain_pp": 31.615529753012044,
+      "AP_gain_pp": 23.353763433984554,
+      "capture_positive_all_seeds": true,
+      "AP_positive_all_seeds": true
+    }
+  ],
+  "lowest_capture_categories": [
+    {
+      "category": "bowl",
+      "category_index": 45,
+      "capture_gain_pp": 6.092660907645934,
+      "AP_gain_pp": 40.15512688540164,
+      "capture_positive_all_seeds": true,
+      "AP_positive_all_seeds": true
+    },
+    {
+      "category": "cell phone",
+      "category_index": 67,
+      "capture_gain_pp": 12.315876538125341,
+      "AP_gain_pp": 11.294207266030352,
+      "capture_positive_all_seeds": true,
+      "AP_positive_all_seeds": true
+    },
+    {
+      "category": "hot dog",
+      "category_index": 52,
+      "capture_gain_pp": 12.554900500473739,
+      "AP_gain_pp": 44.90147099544272,
+      "capture_positive_all_seeds": true,
+      "AP_positive_all_seeds": true
+    },
+    {
+      "category": "carrot",
+      "category_index": 51,
+      "capture_gain_pp": 13.071734169344932,
+      "AP_gain_pp": 26.1518594191466,
+      "capture_positive_all_seeds": true,
+      "AP_positive_all_seeds": true
+    },
+    {
+      "category": "book",
+      "category_index": 73,
+      "capture_gain_pp": 13.156079898393125,
+      "AP_gain_pp": 9.645027295418128,
+      "capture_positive_all_seeds": true,
+      "AP_positive_all_seeds": true
+    }
+  ]
+}

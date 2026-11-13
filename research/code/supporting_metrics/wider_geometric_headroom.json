@@ -1,0 +1,2733 @@
+{
+  "categories": [
+    {
+      "category_index": 0,
+      "category": "person",
+      "train_images": 888,
+      "development_images": 175,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.28091797195510054,
+          "development_optimistic_ceiling": 0.28182133375459645,
+          "development_capture_with_training_basis": 0.2596437999054421
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.3001890401201221,
+          "development_optimistic_ceiling": 0.31298240632733954,
+          "development_capture_with_training_basis": 0.279410291412505
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.36538528255785585,
+          "development_optimistic_ceiling": 0.40160339976642623,
+          "development_capture_with_training_basis": 0.33874795178930206
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.4563228243852487,
+          "development_optimistic_ceiling": 0.5137037500716423,
+          "development_capture_with_training_basis": 0.42104765368067587
+        }
+      ],
+      "train_objects": 1705,
+      "development_objects": 329,
+      "train_energy": 739358.4877091812,
+      "development_energy": 147036.9771986818
+    },
+    {
+      "category_index": 1,
+      "category": "bicycle",
+      "train_images": 60,
+      "development_images": 12,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5277936994687558,
+          "development_optimistic_ceiling": 0.6406177514431223,
+          "development_capture_with_training_basis": 0.43644722778957123
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5581831734228989,
+          "development_optimistic_ceiling": 0.7040956039746665,
+          "development_capture_with_training_basis": 0.44416772082645717
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6463977342423224,
+          "development_optimistic_ceiling": 0.8826745228888951,
+          "development_capture_with_training_basis": 0.482003162380591
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7563325523974045,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.5294987391216603
+        }
+      ],
+      "train_objects": 76,
+      "development_objects": 13,
+      "train_energy": 31474.37602545827,
+      "development_energy": 5783.138548653373
+    },
+    {
+      "category_index": 2,
+      "category": "car",
+      "train_images": 102,
+      "development_images": 25,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.4367512101258097,
+          "development_optimistic_ceiling": 0.5035147721225531,
+          "development_capture_with_training_basis": 0.3865557068401637
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.4642661050388492,
+          "development_optimistic_ceiling": 0.5541526288633947,
+          "development_capture_with_training_basis": 0.40247610794205274
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.5590489309522112,
+          "development_optimistic_ceiling": 0.7022782343296136,
+          "development_capture_with_training_basis": 0.45839301875208294
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.6679193831338529,
+          "development_optimistic_ceiling": 0.8563837764143984,
+          "development_capture_with_training_basis": 0.5124193386090964
+        }
+      ],
+      "train_objects": 151,
+      "development_objects": 45,
+      "train_energy": 70132.98204158785,
+      "development_energy": 22828.885569771017
+    },
+    {
+      "category_index": 3,
+      "category": "motorcycle",
+      "train_images": 54,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5262068991548016,
+          "development_optimistic_ceiling": 0.6208629975676581,
+          "development_capture_with_training_basis": 0.41293535485051897
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5605714881178436,
+          "development_optimistic_ceiling": 0.6881992418745386,
+          "development_capture_with_training_basis": 0.41930950906168063
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6525878623779469,
+          "development_optimistic_ceiling": 0.8842080039372019,
+          "development_capture_with_training_basis": 0.4566832788201858
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7668312153798622,
+          "development_optimistic_ceiling": 0.9977407020345078,
+          "development_capture_with_training_basis": 0.5064597328731023
+        }
+      ],
+      "train_objects": 81,
+      "development_objects": 17,
+      "train_energy": 36215.5079475683,
+      "development_energy": 7722.249283072715
+    },
+    {
+      "category_index": 4,
+      "category": "airplane",
+      "train_images": 46,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.4495336610764743,
+          "development_optimistic_ceiling": 0.6131355122797483,
+          "development_capture_with_training_basis": 0.41106222257749797
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.49632468473708674,
+          "development_optimistic_ceiling": 0.7031452765828382,
+          "development_capture_with_training_basis": 0.4349102175767833
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6247636450738934,
+          "development_optimistic_ceiling": 0.9046760296785884,
+          "development_capture_with_training_basis": 0.48639840554620567
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7704317287278559,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.5272396996166677
+        }
+      ],
+      "train_objects": 53,
+      "development_objects": 14,
+      "train_energy": 28175.297230580578,
+      "development_energy": 8363.240382801992
+    },
+    {
+      "category_index": 5,
+      "category": "bus",
+      "train_images": 58,
+      "development_images": 11,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.4924215384889315,
+          "development_optimistic_ceiling": 0.5249820982526745,
+          "development_capture_with_training_basis": 0.27291990134879035
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5260553040963288,
+          "development_optimistic_ceiling": 0.6088414267393563,
+          "development_capture_with_training_basis": 0.28881834325749334
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6292450927600723,
+          "development_optimistic_ceiling": 0.8481877112527593,
+          "development_capture_with_training_basis": 0.34798572982398285
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7546017597806878,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.40379933504696097
+        }
+      ],
+      "train_objects": 68,
+      "development_objects": 12,
+      "train_energy": 32369.493525583544,
+      "development_energy": 5883.742845853805
+    },
+    {
+      "category_index": 6,
+      "category": "train",
+      "train_images": 52,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.4170598644256739,
+          "development_optimistic_ceiling": 0.5625035787550305,
+          "development_capture_with_training_basis": 0.3099106242865312
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.45981927790794913,
+          "development_optimistic_ceiling": 0.6736047915967964,
+          "development_capture_with_training_basis": 0.3269787085768837
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.5838462193009891,
+          "development_optimistic_ceiling": 0.9271556208010503,
+          "development_capture_with_training_basis": 0.37169460952716055
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7347561784905404,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.4497279576852237
+        }
+      ],
+      "train_objects": 58,
+      "development_objects": 10,
+      "train_energy": 30991.920490946133,
+      "development_energy": 4965.283387165989
+    },
+    {
+      "category_index": 7,
+      "category": "truck",
+      "train_images": 61,
+      "development_images": 15,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.3954636537779039,
+          "development_optimistic_ceiling": 0.49239147282106105,
+          "development_capture_with_training_basis": 0.32748281684180264
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.4382004943781576,
+          "development_optimistic_ceiling": 0.5734916173978944,
+          "development_capture_with_training_basis": 0.3410863502726277
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.5520146183381934,
+          "development_optimistic_ceiling": 0.7824293968207994,
+          "development_capture_with_training_basis": 0.3813530779642459
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.6893579858560368,
+          "development_optimistic_ceiling": 0.9861484843922633,
+          "development_capture_with_training_basis": 0.4283162371594181
+        }
+      ],
+      "train_objects": 72,
+      "development_objects": 17,
+      "train_energy": 30470.078448889108,
+      "development_energy": 7802.82121164058
+    },
+    {
+      "category_index": 8,
+      "category": "boat",
+      "train_images": 54,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.3726686658297604,
+          "development_optimistic_ceiling": 0.6155127314425847,
+          "development_capture_with_training_basis": 0.3371843690558285
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.4185965725377081,
+          "development_optimistic_ceiling": 0.6887786568828782,
+          "development_capture_with_training_basis": 0.3742066798457374
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.5543163613393619,
+          "development_optimistic_ceiling": 0.8576754318442052,
+          "development_capture_with_training_basis": 0.43586113186441494
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7123170953968851,
+          "development_optimistic_ceiling": 0.9947068884898517,
+          "development_capture_with_training_basis": 0.4704481328602948
+        }
+      ],
+      "train_objects": 76,
+      "development_objects": 17,
+      "train_energy": 36281.24795715351,
+      "development_energy": 7200.783142174099
+    },
+    {
+      "category_index": 9,
+      "category": "traffic light",
+      "train_images": 45,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.6456648235250512,
+          "development_optimistic_ceiling": 0.711847834143067,
+          "development_capture_with_training_basis": 0.4948267375697606
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.6730811968058353,
+          "development_optimistic_ceiling": 0.7810506118655861,
+          "development_capture_with_training_basis": 0.507779043491027
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.7501251125426929,
+          "development_optimistic_ceiling": 0.9440925492864599,
+          "development_capture_with_training_basis": 0.5548464820504282
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.8410378151961401,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.5965657796291651
+        }
+      ],
+      "train_objects": 61,
+      "development_objects": 12,
+      "train_energy": 35029.470553222054,
+      "development_energy": 6231.533615173306
+    },
+    {
+      "category_index": 10,
+      "category": "fire hydrant",
+      "train_images": 40,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5250968288845006,
+          "development_optimistic_ceiling": 0.7269187669076345,
+          "development_capture_with_training_basis": 0.5473898019493937
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5620287120877754,
+          "development_optimistic_ceiling": 0.7823195041016656,
+          "development_capture_with_training_basis": 0.5536003675285519
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6691554471002085,
+          "development_optimistic_ceiling": 0.9448268936637751,
+          "development_capture_with_training_basis": 0.5843655196478149
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.8131062999562716,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.6217521755879217
+        }
+      ],
+      "train_objects": 40,
+      "development_objects": 10,
+      "train_energy": 19694.415904383575,
+      "development_energy": 5742.499034347352
+    },
+    {
+      "category_index": 11,
+      "category": "stop sign",
+      "train_images": 43,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.6824461955999777,
+          "development_optimistic_ceiling": 0.8199347801500902,
+          "development_capture_with_training_basis": 0.6761459077263007
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.7095967158552478,
+          "development_optimistic_ceiling": 0.8618253712472698,
+          "development_capture_with_training_basis": 0.6844340118352925
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.7837917813681701,
+          "development_optimistic_ceiling": 0.9704062726279117,
+          "development_capture_with_training_basis": 0.7161492976990942
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.872196355594033,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.7431284093965929
+        }
+      ],
+      "train_objects": 45,
+      "development_objects": 10,
+      "train_energy": 35589.03363278708,
+      "development_energy": 8604.55089093872
+    },
+    {
+      "category_index": 12,
+      "category": "parking meter",
+      "train_images": 41,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5850682942595784,
+          "development_optimistic_ceiling": 0.6850680723538161,
+          "development_capture_with_training_basis": 0.4815434677507735
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.6164854298300201,
+          "development_optimistic_ceiling": 0.7586576774329112,
+          "development_capture_with_training_basis": 0.48962688022261924
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.714564615705075,
+          "development_optimistic_ceiling": 0.9380605301928495,
+          "development_capture_with_training_basis": 0.5396202735856322
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.8390959855361116,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.5765547282353269
+        }
+      ],
+      "train_objects": 49,
+      "development_objects": 12,
+      "train_energy": 28148.011222963403,
+      "development_energy": 6202.167121070888
+    },
+    {
+      "category_index": 13,
+      "category": "bench",
+      "train_images": 63,
+      "development_images": 11,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.37322755905796456,
+          "development_optimistic_ceiling": 0.5079350475656186,
+          "development_capture_with_training_basis": 0.24842167532368126
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.4152852691866358,
+          "development_optimistic_ceiling": 0.6008642904133096,
+          "development_capture_with_training_basis": 0.27001522993818117
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.5405061827489195,
+          "development_optimistic_ceiling": 0.8496787533418562,
+          "development_capture_with_training_basis": 0.3267959801809759
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.6812064960339694,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.37528975125909275
+        }
+      ],
+      "train_objects": 71,
+      "development_objects": 14,
+      "train_energy": 25840.938651768385,
+      "development_energy": 5573.072900655387
+    },
+    {
+      "category_index": 14,
+      "category": "bird",
+      "train_images": 57,
+      "development_images": 11,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.39241832585505565,
+          "development_optimistic_ceiling": 0.5592994322460367,
+          "development_capture_with_training_basis": 0.2550993161365854
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.43853929188154656,
+          "development_optimistic_ceiling": 0.6381545568802404,
+          "development_capture_with_training_basis": 0.2818406608615563
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.5781500678091208,
+          "development_optimistic_ceiling": 0.8606197459863558,
+          "development_capture_with_training_basis": 0.32909926584054183
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7334861601485265,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.3892183235013358
+        }
+      ],
+      "train_objects": 96,
+      "development_objects": 14,
+      "train_energy": 57269.13412786226,
+      "development_energy": 8218.57172175809
+    },
+    {
+      "category_index": 15,
+      "category": "cat",
+      "train_images": 63,
+      "development_images": 12,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5201272984762401,
+          "development_optimistic_ceiling": 0.617642656353668,
+          "development_capture_with_training_basis": 0.38741737506046964
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5560829212022393,
+          "development_optimistic_ceiling": 0.6970090867894514,
+          "development_capture_with_training_basis": 0.41949688340886704
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6666537525741887,
+          "development_optimistic_ceiling": 0.8887660523257,
+          "development_capture_with_training_basis": 0.4794574479648647
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7797309919912953,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.5455660813324564
+        }
+      ],
+      "train_objects": 65,
+      "development_objects": 13,
+      "train_energy": 46232.94054128106,
+      "development_energy": 8511.928775817072
+    },
+    {
+      "category_index": 16,
+      "category": "dog",
+      "train_images": 69,
+      "development_images": 12,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.42034810315692067,
+          "development_optimistic_ceiling": 0.5318816849315472,
+          "development_capture_with_training_basis": 0.36705110339505076
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.46122638110357234,
+          "development_optimistic_ceiling": 0.6038672193522266,
+          "development_capture_with_training_basis": 0.389313917347821
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.5677478823326989,
+          "development_optimistic_ceiling": 0.8089578656433348,
+          "development_capture_with_training_basis": 0.45514324735723877
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.6997152055682979,
+          "development_optimistic_ceiling": 0.9905460926395547,
+          "development_capture_with_training_basis": 0.522687774917088
+        }
+      ],
+      "train_objects": 88,
+      "development_objects": 18,
+      "train_energy": 51149.5410697853,
+      "development_energy": 10230.601703008826
+    },
+    {
+      "category_index": 17,
+      "category": "horse",
+      "train_images": 51,
+      "development_images": 11,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5058197982904736,
+          "development_optimistic_ceiling": 0.682453520009707,
+          "development_capture_with_training_basis": 0.5058637929664546
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5441008599722704,
+          "development_optimistic_ceiling": 0.7338981101827361,
+          "development_capture_with_training_basis": 0.5233840450274714
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6625000720572747,
+          "development_optimistic_ceiling": 0.8870574791649022,
+          "development_capture_with_training_basis": 0.5534358877969441
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7860646748598055,
+          "development_optimistic_ceiling": 0.9967111562624276,
+          "development_capture_with_training_basis": 0.5983332189491783
+        }
+      ],
+      "train_objects": 71,
+      "development_objects": 17,
+      "train_energy": 32592.782206541386,
+      "development_energy": 7968.887629247423
+    },
+    {
+      "category_index": 18,
+      "category": "sheep",
+      "train_images": 47,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5630744020109699,
+          "development_optimistic_ceiling": 0.7295871775558468,
+          "development_capture_with_training_basis": 0.4699669809718683
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5956565973984195,
+          "development_optimistic_ceiling": 0.7713983322408108,
+          "development_capture_with_training_basis": 0.47729193929340474
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.7007478093955161,
+          "development_optimistic_ceiling": 0.8868882190679453,
+          "development_capture_with_training_basis": 0.532856631451234
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.8113832936787259,
+          "development_optimistic_ceiling": 0.9767528643250456,
+          "development_capture_with_training_basis": 0.5609181601538216
+        }
+      ],
+      "train_objects": 101,
+      "development_objects": 25,
+      "train_energy": 66959.40916391372,
+      "development_energy": 15793.522541269498
+    },
+    {
+      "category_index": 19,
+      "category": "cow",
+      "train_images": 53,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5156990412808937,
+          "development_optimistic_ceiling": 0.721446233798514,
+          "development_capture_with_training_basis": 0.45735965844964077
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5540645881782311,
+          "development_optimistic_ceiling": 0.7772108940357946,
+          "development_capture_with_training_basis": 0.4709209848950966
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6659878145486464,
+          "development_optimistic_ceiling": 0.9061666636258601,
+          "development_capture_with_training_basis": 0.529278878775414
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7832187275283499,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.5741810450049641
+        }
+      ],
+      "train_objects": 77,
+      "development_objects": 15,
+      "train_energy": 42487.41945492603,
+      "development_energy": 7846.227867256033
+    },
+    {
+      "category_index": 20,
+      "category": "elephant",
+      "train_images": 42,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5945205272989079,
+          "development_optimistic_ceiling": 0.7813609572478898,
+          "development_capture_with_training_basis": 0.6151677739398014
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.6289016978348069,
+          "development_optimistic_ceiling": 0.8282626092924165,
+          "development_capture_with_training_basis": 0.6336485902031854
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.7238776668708725,
+          "development_optimistic_ceiling": 0.9406562913276255,
+          "development_capture_with_training_basis": 0.6503511436007148
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.8354306166634539,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.6855827373811779
+        }
+      ],
+      "train_objects": 66,
+      "development_objects": 16,
+      "train_energy": 41169.29542599293,
+      "development_energy": 11175.184460977285
+    },
+    {
+      "category_index": 21,
+      "category": "bear",
+      "train_images": 41,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.4840973949891636,
+          "development_optimistic_ceiling": 0.6939285103816922,
+          "development_capture_with_training_basis": 0.43624681750523037
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5299131124324217,
+          "development_optimistic_ceiling": 0.7522454338473544,
+          "development_capture_with_training_basis": 0.46321149106619103
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.648952902547346,
+          "development_optimistic_ceiling": 0.9268584920019828,
+          "development_capture_with_training_basis": 0.5120672005280372
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.785590865301028,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.5534795963101236
+        }
+      ],
+      "train_objects": 55,
+      "development_objects": 12,
+      "train_energy": 34397.69253690608,
+      "development_energy": 7347.992521231405
+    },
+    {
+      "category_index": 22,
+      "category": "zebra",
+      "train_images": 53,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.6430008168654965,
+          "development_optimistic_ceiling": 0.8227348799726386,
+          "development_capture_with_training_basis": 0.6989553194754503
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.6709520294343416,
+          "development_optimistic_ceiling": 0.8608516832139729,
+          "development_capture_with_training_basis": 0.7160122795527796
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.7497716197835966,
+          "development_optimistic_ceiling": 0.9460139548072346,
+          "development_capture_with_training_basis": 0.7407557699107452
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.840274314247813,
+          "development_optimistic_ceiling": 0.9938943339917303,
+          "development_capture_with_training_basis": 0.7680866037488935
+        }
+      ],
+      "train_objects": 99,
+      "development_objects": 20,
+      "train_energy": 55673.03067187946,
+      "development_energy": 11926.155799805056
+    },
+    {
+      "category_index": 23,
+      "category": "giraffe",
+      "train_images": 52,
+      "development_images": 11,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.6469182734000966,
+          "development_optimistic_ceiling": 0.8028619285918914,
+          "development_capture_with_training_basis": 0.6511735126512443
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.6741533341292718,
+          "development_optimistic_ceiling": 0.8460848591506175,
+          "development_capture_with_training_basis": 0.660257476442164
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.756262789215461,
+          "development_optimistic_ceiling": 0.957756791512483,
+          "development_capture_with_training_basis": 0.6988807028449995
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.8434836871767402,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.7358522571225217
+        }
+      ],
+      "train_objects": 76,
+      "development_objects": 14,
+      "train_energy": 38987.46312680203,
+      "development_energy": 9175.958738198064
+    },
+    {
+      "category_index": 24,
+      "category": "backpack",
+      "train_images": 66,
+      "development_images": 15,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.43790918680463403,
+          "development_optimistic_ceiling": 0.5102146806406602,
+          "development_capture_with_training_basis": 0.34378162335937845
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.46538543820315575,
+          "development_optimistic_ceiling": 0.5816049580605742,
+          "development_capture_with_training_basis": 0.3578032006607762
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.5587585947789558,
+          "development_optimistic_ceiling": 0.7854369630042494,
+          "development_capture_with_training_basis": 0.3955815847388427
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.6879394750388106,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.4386309523639809
+        }
+      ],
+      "train_objects": 78,
+      "development_objects": 15,
+      "train_energy": 34230.83689865852,
+      "development_energy": 6243.883910874516
+    },
+    {
+      "category_index": 25,
+      "category": "umbrella",
+      "train_images": 57,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5376285546600624,
+          "development_optimistic_ceiling": 0.649521345333957,
+          "development_capture_with_training_basis": 0.45999657985286124
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5740031315884692,
+          "development_optimistic_ceiling": 0.7230799031648133,
+          "development_capture_with_training_basis": 0.4698271959163167
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6736828407249987,
+          "development_optimistic_ceiling": 0.8905622343404869,
+          "development_capture_with_training_basis": 0.5043587217045273
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7845191264679661,
+          "development_optimistic_ceiling": 0.9999999999999998,
+          "development_capture_with_training_basis": 0.5483741994526257
+        }
+      ],
+      "train_objects": 79,
+      "development_objects": 16,
+      "train_energy": 44268.6659795911,
+      "development_energy": 7943.016562007138
+    },
+    {
+      "category_index": 26,
+      "category": "handbag",
+      "train_images": 70,
+      "development_images": 11,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.3729116677555074,
+          "development_optimistic_ceiling": 0.5655874910537849,
+          "development_capture_with_training_basis": 0.31847759334029346
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.4111311737011335,
+          "development_optimistic_ceiling": 0.6495874865160067,
+          "development_capture_with_training_basis": 0.3511654336368009
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.5144961548309142,
+          "development_optimistic_ceiling": 0.8702936192759523,
+          "development_capture_with_training_basis": 0.40016787848758073
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.644749441761176,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.44625296205620113
+        }
+      ],
+      "train_objects": 80,
+      "development_objects": 12,
+      "train_energy": 34330.41630939575,
+      "development_energy": 5188.840915068731
+    },
+    {
+      "category_index": 27,
+      "category": "tie",
+      "train_images": 46,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5819852303888534,
+          "development_optimistic_ceiling": 0.6872494374850932,
+          "development_capture_with_training_basis": 0.4583085164899378
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.6363928824587582,
+          "development_optimistic_ceiling": 0.7521570672370048,
+          "development_capture_with_training_basis": 0.4666839879278738
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.7384300053249956,
+          "development_optimistic_ceiling": 0.9316727276467667,
+          "development_capture_with_training_basis": 0.5297317146621575
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.8390619044043099,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.5718953165512985
+        }
+      ],
+      "train_objects": 59,
+      "development_objects": 11,
+      "train_energy": 35235.760206582716,
+      "development_energy": 6339.661440000544
+    },
+    {
+      "category_index": 28,
+      "category": "suitcase",
+      "train_images": 53,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5421535358830674,
+          "development_optimistic_ceiling": 0.7363028252988447,
+          "development_capture_with_training_basis": 0.3806360838706199
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.588051265387925,
+          "development_optimistic_ceiling": 0.7874518583172558,
+          "development_capture_with_training_basis": 0.3836377314595009
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.698671927290316,
+          "development_optimistic_ceiling": 0.9276045669937749,
+          "development_capture_with_training_basis": 0.4635842306135219
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7976526835073582,
+          "development_optimistic_ceiling": 0.9972931807218384,
+          "development_capture_with_training_basis": 0.5186424030955092
+        }
+      ],
+      "train_objects": 96,
+      "development_objects": 17,
+      "train_energy": 51277.860166640705,
+      "development_energy": 9683.684030115328
+    },
+    {
+      "category_index": 29,
+      "category": "frisbee",
+      "train_images": 45,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5327021918993349,
+          "development_optimistic_ceiling": 0.6876207407256186,
+          "development_capture_with_training_basis": 0.33414650685491487
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5869207375632788,
+          "development_optimistic_ceiling": 0.7522514166330615,
+          "development_capture_with_training_basis": 0.35885376533488716
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6952768641744187,
+          "development_optimistic_ceiling": 0.9308490148707748,
+          "development_capture_with_training_basis": 0.3836246063609952
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.8118188136142444,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.4210022681897328
+        }
+      ],
+      "train_objects": 51,
+      "development_objects": 13,
+      "train_energy": 31401.42302354539,
+      "development_energy": 7888.6241312282145
+    },
+    {
+      "category_index": 31,
+      "category": "snowboard",
+      "train_images": 44,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5519090104193919,
+          "development_optimistic_ceiling": 0.7027473161166684,
+          "development_capture_with_training_basis": 0.5045657517232471
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.586331003118316,
+          "development_optimistic_ceiling": 0.7619191990820744,
+          "development_capture_with_training_basis": 0.5296079304845098
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.688945667177088,
+          "development_optimistic_ceiling": 0.9226252740300438,
+          "development_capture_with_training_basis": 0.5724926775175475
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.8097206660034584,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.6062454936604401
+        }
+      ],
+      "train_objects": 52,
+      "development_objects": 12,
+      "train_energy": 23469.350753594812,
+      "development_energy": 5329.569635186046
+    },
+    {
+      "category_index": 33,
+      "category": "kite",
+      "train_images": 41,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.4437467673010299,
+          "development_optimistic_ceiling": 0.6639098214558148,
+          "development_capture_with_training_basis": 0.43385310777704866
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.4878157076141051,
+          "development_optimistic_ceiling": 0.7464966761498151,
+          "development_capture_with_training_basis": 0.47582524502065093
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.5987579251198946,
+          "development_optimistic_ceiling": 0.9451945192084111,
+          "development_capture_with_training_basis": 0.4994252971496871
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7387587781209621,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.5516347332323058
+        }
+      ],
+      "train_objects": 73,
+      "development_objects": 10,
+      "train_energy": 33551.142270646356,
+      "development_energy": 6148.33246547359
+    },
+    {
+      "category_index": 35,
+      "category": "baseball glove",
+      "train_images": 43,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.4915002077019783,
+          "development_optimistic_ceiling": 0.7014998034340134,
+          "development_capture_with_training_basis": 0.4951598667562031
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5271539066250035,
+          "development_optimistic_ceiling": 0.7754628385378269,
+          "development_capture_with_training_basis": 0.5075153416684669
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6429870849732133,
+          "development_optimistic_ceiling": 0.9503720950554625,
+          "development_capture_with_training_basis": 0.5562762899357618
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7919952368689789,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.6088708811149942
+        }
+      ],
+      "train_objects": 46,
+      "development_objects": 10,
+      "train_energy": 23547.02290766186,
+      "development_energy": 5169.485224477987
+    },
+    {
+      "category_index": 36,
+      "category": "skateboard",
+      "train_images": 45,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5293207129798398,
+          "development_optimistic_ceiling": 0.7186501420304794,
+          "development_capture_with_training_basis": 0.47718618256192513
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5793246126305275,
+          "development_optimistic_ceiling": 0.7858834418068932,
+          "development_capture_with_training_basis": 0.5104817561238325
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6824710940391815,
+          "development_optimistic_ceiling": 0.9501711240696251,
+          "development_capture_with_training_basis": 0.5699708773717117
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7974943331610981,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.6003503072659311
+        }
+      ],
+      "train_objects": 59,
+      "development_objects": 10,
+      "train_energy": 26052.72385842043,
+      "development_energy": 4965.124531029223
+    },
+    {
+      "category_index": 37,
+      "category": "surfboard",
+      "train_images": 44,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5503427030534863,
+          "development_optimistic_ceiling": 0.8178792484256774,
+          "development_capture_with_training_basis": 0.3910326721185334
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5840670441012508,
+          "development_optimistic_ceiling": 0.8560412667768217,
+          "development_capture_with_training_basis": 0.40630266926892794
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6790290315161233,
+          "development_optimistic_ceiling": 0.9416724653751981,
+          "development_capture_with_training_basis": 0.44873017871540405
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.8013597509691234,
+          "development_optimistic_ceiling": 0.9932050083558188,
+          "development_capture_with_training_basis": 0.5038144811299351
+        }
+      ],
+      "train_objects": 63,
+      "development_objects": 25,
+      "train_energy": 32546.90198803003,
+      "development_energy": 14485.488816654506
+    },
+    {
+      "category_index": 38,
+      "category": "tennis racket",
+      "train_images": 44,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.6883904621624848,
+          "development_optimistic_ceiling": 0.8326376400079415,
+          "development_capture_with_training_basis": 0.6920138133766006
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.7121506685320883,
+          "development_optimistic_ceiling": 0.8692371543372658,
+          "development_capture_with_training_basis": 0.6956741329799238
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.7820675848036824,
+          "development_optimistic_ceiling": 0.970151433617912,
+          "development_capture_with_training_basis": 0.7271797943335946
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.8620253916170968,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.7454341391527703
+        }
+      ],
+      "train_objects": 56,
+      "development_objects": 10,
+      "train_energy": 30781.451474872665,
+      "development_energy": 5912.262849014215
+    },
+    {
+      "category_index": 39,
+      "category": "bottle",
+      "train_images": 78,
+      "development_images": 16,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.3849518165589241,
+          "development_optimistic_ceiling": 0.5323083282001789,
+          "development_capture_with_training_basis": 0.3144256616324966
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.42273135108897103,
+          "development_optimistic_ceiling": 0.5922925158738026,
+          "development_capture_with_training_basis": 0.3429998542997093
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.5325403003337847,
+          "development_optimistic_ceiling": 0.7796565054320225,
+          "development_capture_with_training_basis": 0.41102460200183905
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.6626736672957316,
+          "development_optimistic_ceiling": 0.9682106379783052,
+          "development_capture_with_training_basis": 0.47343058347346173
+        }
+      ],
+      "train_objects": 110,
+      "development_objects": 21,
+      "train_energy": 52721.89794166024,
+      "development_energy": 10028.534669291628
+    },
+    {
+      "category_index": 40,
+      "category": "wine glass",
+      "train_images": 52,
+      "development_images": 11,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5071894023194204,
+          "development_optimistic_ceiling": 0.7058313759946313,
+          "development_capture_with_training_basis": 0.47563987237910915
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5492732363109462,
+          "development_optimistic_ceiling": 0.7699020630807625,
+          "development_capture_with_training_basis": 0.497523896126777
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6575860677425698,
+          "development_optimistic_ceiling": 0.8950958611947472,
+          "development_capture_with_training_basis": 0.5455212748025807
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7773525864051576,
+          "development_optimistic_ceiling": 0.9786510649577739,
+          "development_capture_with_training_basis": 0.6125000894545541
+        }
+      ],
+      "train_objects": 77,
+      "development_objects": 25,
+      "train_energy": 35981.69244315117,
+      "development_energy": 11528.901800268906
+    },
+    {
+      "category_index": 41,
+      "category": "cup",
+      "train_images": 117,
+      "development_images": 27,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.4009336650032878,
+          "development_optimistic_ceiling": 0.47122830056599163,
+          "development_capture_with_training_basis": 0.35549675632048855
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.44015114053578247,
+          "development_optimistic_ceiling": 0.5252932883348062,
+          "development_capture_with_training_basis": 0.3798326571967167
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.534558630675076,
+          "development_optimistic_ceiling": 0.6628401839907191,
+          "development_capture_with_training_basis": 0.43240938506414706
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.6483888978038553,
+          "development_optimistic_ceiling": 0.8334045065248462,
+          "development_capture_with_training_basis": 0.5094804992260489
+        }
+      ],
+      "train_objects": 162,
+      "development_objects": 35,
+      "train_energy": 79079.31772693954,
+      "development_energy": 15642.124747201506
+    },
+    {
+      "category_index": 42,
+      "category": "fork",
+      "train_images": 58,
+      "development_images": 13,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5969455061263692,
+          "development_optimistic_ceiling": 0.7589133335084232,
+          "development_capture_with_training_basis": 0.615682934016662
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.62577650825061,
+          "development_optimistic_ceiling": 0.8055150482567794,
+          "development_capture_with_training_basis": 0.6245778265585017
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.7118634964527328,
+          "development_optimistic_ceiling": 0.9267847775002587,
+          "development_capture_with_training_basis": 0.6656856622222765
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.8135688845950628,
+          "development_optimistic_ceiling": 0.9999999999999996,
+          "development_capture_with_training_basis": 0.7116530330140801
+        }
+      ],
+      "train_objects": 66,
+      "development_objects": 15,
+      "train_energy": 34682.94934007032,
+      "development_energy": 8311.144696167128
+    },
+    {
+      "category_index": 43,
+      "category": "knife",
+      "train_images": 63,
+      "development_images": 12,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.44041382322545936,
+          "development_optimistic_ceiling": 0.6424231650153166,
+          "development_capture_with_training_basis": 0.394149299418939
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.4783868608228356,
+          "development_optimistic_ceiling": 0.7081485901039909,
+          "development_capture_with_training_basis": 0.4025450179083118
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.5846184180930065,
+          "development_optimistic_ceiling": 0.8801351669988285,
+          "development_capture_with_training_basis": 0.4285328412932064
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7191991467905409,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.49095168279081985
+        }
+      ],
+      "train_objects": 79,
+      "development_objects": 14,
+      "train_energy": 34969.664148059805,
+      "development_energy": 5847.790872459447
+    },
+    {
+      "category_index": 44,
+      "category": "spoon",
+      "train_images": 48,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5065242347954858,
+          "development_optimistic_ceiling": 0.6282476528288645,
+          "development_capture_with_training_basis": 0.41614283484944414
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5450877562084364,
+          "development_optimistic_ceiling": 0.6962993830359359,
+          "development_capture_with_training_basis": 0.4246417273410994
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6618018884047739,
+          "development_optimistic_ceiling": 0.9010932786498984,
+          "development_capture_with_training_basis": 0.4484799285296353
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7995038943347627,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.495645624334246
+        }
+      ],
+      "train_objects": 61,
+      "development_objects": 12,
+      "train_energy": 29273.613341822096,
+      "development_energy": 4968.060816053751
+    },
+    {
+      "category_index": 45,
+      "category": "bowl",
+      "train_images": 119,
+      "development_images": 22,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.28570238094338735,
+          "development_optimistic_ceiling": 0.3973131376112761,
+          "development_capture_with_training_basis": 0.2475044535219975
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.32086361726079715,
+          "development_optimistic_ceiling": 0.4592312101230438,
+          "development_capture_with_training_basis": 0.2608690385398673
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.42272593706417844,
+          "development_optimistic_ceiling": 0.6309441873016759,
+          "development_capture_with_training_basis": 0.3266109862639412
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.5559315253708872,
+          "development_optimistic_ceiling": 0.833262832913838,
+          "development_capture_with_training_basis": 0.39450904235757894
+        }
+      ],
+      "train_objects": 176,
+      "development_objects": 37,
+      "train_energy": 81043.1073539885,
+      "development_energy": 16219.008673662276
+    },
+    {
+      "category_index": 46,
+      "category": "banana",
+      "train_images": 58,
+      "development_images": 11,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.6093670503035931,
+          "development_optimistic_ceiling": 0.7347602614658948,
+          "development_capture_with_training_basis": 0.5259428250929501
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.6470335134917626,
+          "development_optimistic_ceiling": 0.800229447783489,
+          "development_capture_with_training_basis": 0.54243757475143
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.7394308639595143,
+          "development_optimistic_ceiling": 0.937702455979407,
+          "development_capture_with_training_basis": 0.5845574279296233
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.8290357644979123,
+          "development_optimistic_ceiling": 0.9938772856396506,
+          "development_capture_with_training_basis": 0.6192215950891609
+        }
+      ],
+      "train_objects": 115,
+      "development_objects": 22,
+      "train_energy": 76701.316028738,
+      "development_energy": 14896.897650467083
+    },
+    {
+      "category_index": 47,
+      "category": "apple",
+      "train_images": 56,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.49341305597175666,
+          "development_optimistic_ceiling": 0.5948191516653439,
+          "development_capture_with_training_basis": 0.3198403647547288
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5383233316006172,
+          "development_optimistic_ceiling": 0.658468047443639,
+          "development_capture_with_training_basis": 0.33527755071170373
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6535158866534272,
+          "development_optimistic_ceiling": 0.8213326765717635,
+          "development_capture_with_training_basis": 0.3789515993144539
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7794760887979413,
+          "development_optimistic_ceiling": 0.9380941956147244,
+          "development_capture_with_training_basis": 0.4328143392645791
+        }
+      ],
+      "train_objects": 121,
+      "development_objects": 37,
+      "train_energy": 65405.04814934054,
+      "development_energy": 16722.09825658306
+    },
+    {
+      "category_index": 48,
+      "category": "sandwich",
+      "train_images": 57,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.39722952879754325,
+          "development_optimistic_ceiling": 0.6114174408790112,
+          "development_capture_with_training_basis": 0.31371515138185335
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.44738014335711107,
+          "development_optimistic_ceiling": 0.6972527897047799,
+          "development_capture_with_training_basis": 0.3561690564540554
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.5776409224336954,
+          "development_optimistic_ceiling": 0.8821925550199681,
+          "development_capture_with_training_basis": 0.4336487675693502
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7306350394556557,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.49095809804610147
+        }
+      ],
+      "train_objects": 77,
+      "development_objects": 15,
+      "train_energy": 47249.570876008205,
+      "development_energy": 7803.804334711041
+    },
+    {
+      "category_index": 49,
+      "category": "orange",
+      "train_images": 54,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5880717044217363,
+          "development_optimistic_ceiling": 0.7223351085544949,
+          "development_capture_with_training_basis": 0.45504850314008044
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.6285895037876013,
+          "development_optimistic_ceiling": 0.7750914632194544,
+          "development_capture_with_training_basis": 0.5014651356814662
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.715997573461195,
+          "development_optimistic_ceiling": 0.9053823398389855,
+          "development_capture_with_training_basis": 0.5490816757750479
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.8215336673380687,
+          "development_optimistic_ceiling": 0.9934860381481048,
+          "development_capture_with_training_basis": 0.6003028358825189
+        }
+      ],
+      "train_objects": 92,
+      "development_objects": 19,
+      "train_energy": 61227.1682452848,
+      "development_energy": 9958.808319445861
+    },
+    {
+      "category_index": 50,
+      "category": "broccoli",
+      "train_images": 52,
+      "development_images": 11,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5927119454749742,
+          "development_optimistic_ceiling": 0.743047441660153,
+          "development_capture_with_training_basis": 0.5935651561797424
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.6290626417922764,
+          "development_optimistic_ceiling": 0.7875106548343155,
+          "development_capture_with_training_basis": 0.6105249445613682
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.7218950041186787,
+          "development_optimistic_ceiling": 0.9082439973920124,
+          "development_capture_with_training_basis": 0.6424510189622422
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.8231311794832732,
+          "development_optimistic_ceiling": 0.9885739387021463,
+          "development_capture_with_training_basis": 0.6878319520214243
+        }
+      ],
+      "train_objects": 115,
+      "development_objects": 22,
+      "train_energy": 74133.81175202594,
+      "development_energy": 15117.741404589357
+    },
+    {
+      "category_index": 51,
+      "category": "carrot",
+      "train_images": 57,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.4970420705973312,
+          "development_optimistic_ceiling": 0.5985784492303566,
+          "development_capture_with_training_basis": 0.31711540005398503
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5327220169176552,
+          "development_optimistic_ceiling": 0.677506674651276,
+          "development_capture_with_training_basis": 0.32748915224699454
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6501947117022845,
+          "development_optimistic_ceiling": 0.8952176582267474,
+          "development_capture_with_training_basis": 0.3998743695822012
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7845696124215858,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.46701340690617
+        }
+      ],
+      "train_objects": 139,
+      "development_objects": 14,
+      "train_energy": 77317.46815688582,
+      "development_energy": 7003.668281445029
+    },
+    {
+      "category_index": 52,
+      "category": "hot dog",
+      "train_images": 52,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.46932787180725327,
+          "development_optimistic_ceiling": 0.7856788538030547,
+          "development_capture_with_training_basis": 0.38095905494593557
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5236055147131785,
+          "development_optimistic_ceiling": 0.8345523933618288,
+          "development_capture_with_training_basis": 0.4177691888915927
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6565054697886267,
+          "development_optimistic_ceiling": 0.9392474131334394,
+          "development_capture_with_training_basis": 0.45679527103254813
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7891526530891206,
+          "development_optimistic_ceiling": 0.9982113010112852,
+          "development_capture_with_training_basis": 0.5016359009986239
+        }
+      ],
+      "train_objects": 85,
+      "development_objects": 20,
+      "train_energy": 52012.31058828727,
+      "development_energy": 15220.700310906117
+    },
+    {
+      "category_index": 53,
+      "category": "pizza",
+      "train_images": 59,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5476257972364558,
+          "development_optimistic_ceiling": 0.7268504221935784,
+          "development_capture_with_training_basis": 0.5695497333836665
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5805084888077687,
+          "development_optimistic_ceiling": 0.783924997770511,
+          "development_capture_with_training_basis": 0.583605166221427
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6665462217249922,
+          "development_optimistic_ceiling": 0.9396831811518731,
+          "development_capture_with_training_basis": 0.6193946472883262
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.77465425929568,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.6562057497368466
+        }
+      ],
+      "train_objects": 92,
+      "development_objects": 13,
+      "train_energy": 58861.59200774816,
+      "development_energy": 8605.250565225306
+    },
+    {
+      "category_index": 54,
+      "category": "donut",
+      "train_images": 52,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.47969502930765906,
+          "development_optimistic_ceiling": 0.6528222492571143,
+          "development_capture_with_training_basis": 0.3267514492506516
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5242453335132011,
+          "development_optimistic_ceiling": 0.7312471113827347,
+          "development_capture_with_training_basis": 0.3448998997772147
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6458465963076168,
+          "development_optimistic_ceiling": 0.890739076571426,
+          "development_capture_with_training_basis": 0.39951764861980466
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7831780739676745,
+          "development_optimistic_ceiling": 0.9890083828837204,
+          "development_capture_with_training_basis": 0.4648709949532358
+        }
+      ],
+      "train_objects": 111,
+      "development_objects": 23,
+      "train_energy": 74093.68575439222,
+      "development_energy": 16141.812399811904
+    },
+    {
+      "category_index": 55,
+      "category": "cake",
+      "train_images": 61,
+      "development_images": 13,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.3680835750237043,
+          "development_optimistic_ceiling": 0.5462468734896123,
+          "development_capture_with_training_basis": 0.24502028940413373
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.4157489797624773,
+          "development_optimistic_ceiling": 0.6286930919022343,
+          "development_capture_with_training_basis": 0.2618415137504811
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.5327017650545114,
+          "development_optimistic_ceiling": 0.7878738160944417,
+          "development_capture_with_training_basis": 0.31790858185613347
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.6781396449531254,
+          "development_optimistic_ceiling": 0.9361463168786783,
+          "development_capture_with_training_basis": 0.3867510944579914
+        }
+      ],
+      "train_objects": 85,
+      "development_objects": 31,
+      "train_energy": 51691.97233513479,
+      "development_energy": 16858.100257465456
+    },
+    {
+      "category_index": 56,
+      "category": "chair",
+      "train_images": 169,
+      "development_images": 37,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.31836367883281635,
+          "development_optimistic_ceiling": 0.34354131012200634,
+          "development_capture_with_training_basis": 0.24376499248088818
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.3563026965263228,
+          "development_optimistic_ceiling": 0.3943283727723144,
+          "development_capture_with_training_basis": 0.2676891723356648
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.4611350635090125,
+          "development_optimistic_ceiling": 0.5469552187414608,
+          "development_capture_with_training_basis": 0.3171518249789594
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.5833937435341455,
+          "development_optimistic_ceiling": 0.7251395964096503,
+          "development_capture_with_training_basis": 0.39820041185527777
+        }
+      ],
+      "train_objects": 277,
+      "development_objects": 60,
+      "train_energy": 115758.39666849922,
+      "development_energy": 25034.437889276807
+    },
+    {
+      "category_index": 57,
+      "category": "couch",
+      "train_images": 86,
+      "development_images": 17,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.4119562473004373,
+          "development_optimistic_ceiling": 0.4676182601430112,
+          "development_capture_with_training_basis": 0.3384425517273004
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.4486322373648066,
+          "development_optimistic_ceiling": 0.5236020517883249,
+          "development_capture_with_training_basis": 0.3598788309171517
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.5559601036888933,
+          "development_optimistic_ceiling": 0.703856288451807,
+          "development_capture_with_training_basis": 0.42525821027045346
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.6825359840397458,
+          "development_optimistic_ceiling": 0.9095810769286392,
+          "development_capture_with_training_basis": 0.4942282070983242
+        }
+      ],
+      "train_objects": 99,
+      "development_objects": 26,
+      "train_energy": 41024.97769220761,
+      "development_energy": 10804.498916853607
+    },
+    {
+      "category_index": 58,
+      "category": "potted plant",
+      "train_images": 66,
+      "development_images": 11,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.35201061819314383,
+          "development_optimistic_ceiling": 0.5310349628592328,
+          "development_capture_with_training_basis": 0.28648188559689397
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.3878456865277437,
+          "development_optimistic_ceiling": 0.6115988744700911,
+          "development_capture_with_training_basis": 0.29520759070684904
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.5056076577705825,
+          "development_optimistic_ceiling": 0.8257771528938265,
+          "development_capture_with_training_basis": 0.33619740105954454
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.6514753958320085,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.3865843831693263
+        }
+      ],
+      "train_objects": 85,
+      "development_objects": 15,
+      "train_energy": 36016.17720472306,
+      "development_energy": 6457.157860159279
+    },
+    {
+      "category_index": 59,
+      "category": "bed",
+      "train_images": 58,
+      "development_images": 11,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.35304209409674975,
+          "development_optimistic_ceiling": 0.6077729765040707,
+          "development_capture_with_training_basis": 0.34629028982447835
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.4014418321671168,
+          "development_optimistic_ceiling": 0.6840445717920023,
+          "development_capture_with_training_basis": 0.37595893860054597
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.5330447289162474,
+          "development_optimistic_ceiling": 0.8878810081807154,
+          "development_capture_with_training_basis": 0.43114237200893285
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.699141590085008,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.47063771532957493
+        }
+      ],
+      "train_objects": 62,
+      "development_objects": 12,
+      "train_energy": 25095.14602029681,
+      "development_energy": 4430.547861578308
+    },
+    {
+      "category_index": 60,
+      "category": "dining table",
+      "train_images": 210,
+      "development_images": 43,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.2772927823005164,
+          "development_optimistic_ceiling": 0.3128749826188966,
+          "development_capture_with_training_basis": 0.2389002203667727
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.31226295084706424,
+          "development_optimistic_ceiling": 0.3636107058980628,
+          "development_capture_with_training_basis": 0.27094342602753774
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.4043658961489524,
+          "development_optimistic_ceiling": 0.5061135372955489,
+          "development_capture_with_training_basis": 0.3297511639139569
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.520595524320593,
+          "development_optimistic_ceiling": 0.7019305341825799,
+          "development_capture_with_training_basis": 0.400621211558119
+        }
+      ],
+      "train_objects": 235,
+      "development_objects": 51,
+      "train_energy": 83875.79160705916,
+      "development_energy": 17456.20687194628
+    },
+    {
+      "category_index": 61,
+      "category": "toilet",
+      "train_images": 62,
+      "development_images": 11,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5676584472020961,
+          "development_optimistic_ceiling": 0.7071984520457352,
+          "development_capture_with_training_basis": 0.5152930475768445
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.6009809450658666,
+          "development_optimistic_ceiling": 0.778500169215569,
+          "development_capture_with_training_basis": 0.5373151016195188
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6895555549846446,
+          "development_optimistic_ceiling": 0.9393324776006224,
+          "development_capture_with_training_basis": 0.581566565092822
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7928554511191637,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.6311282543154926
+        }
+      ],
+      "train_objects": 68,
+      "development_objects": 11,
+      "train_energy": 34109.59444322589,
+      "development_energy": 5688.479012899186
+    },
+    {
+      "category_index": 62,
+      "category": "tv",
+      "train_images": 93,
+      "development_images": 17,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.40844991258065144,
+          "development_optimistic_ceiling": 0.5525852275376583,
+          "development_capture_with_training_basis": 0.3911446778413151
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.4526949309383761,
+          "development_optimistic_ceiling": 0.6103951514045138,
+          "development_capture_with_training_basis": 0.41783615717674366
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.5549480599280996,
+          "development_optimistic_ceiling": 0.7746535137683367,
+          "development_capture_with_training_basis": 0.4637075171499725
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.6790881603076561,
+          "development_optimistic_ceiling": 0.9558695271161457,
+          "development_capture_with_training_basis": 0.518763758265897
+        }
+      ],
+      "train_objects": 113,
+      "development_objects": 21,
+      "train_energy": 48616.59021476148,
+      "development_energy": 9107.087202300352
+    },
+    {
+      "category_index": 63,
+      "category": "laptop",
+      "train_images": 75,
+      "development_images": 13,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.48242577086171473,
+          "development_optimistic_ceiling": 0.6314626461383565,
+          "development_capture_with_training_basis": 0.48200376487280094
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5265191616458276,
+          "development_optimistic_ceiling": 0.696764340809351,
+          "development_capture_with_training_basis": 0.49767164094651145
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6419051864764258,
+          "development_optimistic_ceiling": 0.8646714181046621,
+          "development_capture_with_training_basis": 0.5577120328111856
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7516900197140254,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.6091272657520995
+        }
+      ],
+      "train_objects": 83,
+      "development_objects": 14,
+      "train_energy": 38373.229446168465,
+      "development_energy": 6269.6610126919895
+    },
+    {
+      "category_index": 64,
+      "category": "mouse",
+      "train_images": 48,
+      "development_images": 12,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.6015696346537317,
+          "development_optimistic_ceiling": 0.6897641376986916,
+          "development_capture_with_training_basis": 0.5387242816514596
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.6336111397230079,
+          "development_optimistic_ceiling": 0.7478861546102986,
+          "development_capture_with_training_basis": 0.5575558781311646
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.7291348774674948,
+          "development_optimistic_ceiling": 0.9027101257846338,
+          "development_capture_with_training_basis": 0.5954158175988423
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.8369963726682185,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.6344707054017417
+        }
+      ],
+      "train_objects": 51,
+      "development_objects": 12,
+      "train_energy": 29855.069024838478,
+      "development_energy": 7141.555259018378
+    },
+    {
+      "category_index": 65,
+      "category": "remote",
+      "train_images": 48,
+      "development_images": 11,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.4446311222233624,
+          "development_optimistic_ceiling": 0.6159315442896244,
+          "development_capture_with_training_basis": 0.41286125382036715
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.4923562310706254,
+          "development_optimistic_ceiling": 0.6844418462939897,
+          "development_capture_with_training_basis": 0.4376742716708744
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6208939087983183,
+          "development_optimistic_ceiling": 0.8661278199359368,
+          "development_capture_with_training_basis": 0.48146574713661694
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7675918066356102,
+          "development_optimistic_ceiling": 0.993588319133731,
+          "development_capture_with_training_basis": 0.5315557773890139
+        }
+      ],
+      "train_objects": 59,
+      "development_objects": 18,
+      "train_energy": 33191.05099196897,
+      "development_energy": 9570.117181662761
+    },
+    {
+      "category_index": 66,
+      "category": "keyboard",
+      "train_images": 63,
+      "development_images": 11,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.6096869262304434,
+          "development_optimistic_ceiling": 0.6935715116172555,
+          "development_capture_with_training_basis": 0.5549604404227909
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.6454428746286998,
+          "development_optimistic_ceiling": 0.7475089598190887,
+          "development_capture_with_training_basis": 0.5872652247490379
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.7249015536243562,
+          "development_optimistic_ceiling": 0.910724719964152,
+          "development_capture_with_training_basis": 0.6396842695029301
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.81419051148204,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.6745209652930934
+        }
+      ],
+      "train_objects": 70,
+      "development_objects": 13,
+      "train_energy": 40047.65669233608,
+      "development_energy": 7330.854203070436
+    },
+    {
+      "category_index": 67,
+      "category": "cell phone",
+      "train_images": 49,
+      "development_images": 13,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.44741861348624373,
+          "development_optimistic_ceiling": 0.5197015120653609,
+          "development_capture_with_training_basis": 0.3490916706476487
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.4926446790103769,
+          "development_optimistic_ceiling": 0.5947398987577304,
+          "development_capture_with_training_basis": 0.36212551788220004
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6136188350468013,
+          "development_optimistic_ceiling": 0.8024835916672499,
+          "development_capture_with_training_basis": 0.39642652882594615
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7568414854442039,
+          "development_optimistic_ceiling": 0.9999999999999999,
+          "development_capture_with_training_basis": 0.4492187646688013
+        }
+      ],
+      "train_objects": 56,
+      "development_objects": 16,
+      "train_energy": 29319.48845950153,
+      "development_energy": 7328.0179677460455
+    },
+    {
+      "category_index": 68,
+      "category": "microwave",
+      "train_images": 54,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5542010778279416,
+          "development_optimistic_ceiling": 0.6508054267774172,
+          "development_capture_with_training_basis": 0.4835584812448566
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5913501005915752,
+          "development_optimistic_ceiling": 0.7203297996069846,
+          "development_capture_with_training_basis": 0.5069173600278432
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6952976184988306,
+          "development_optimistic_ceiling": 0.9115641348178847,
+          "development_capture_with_training_basis": 0.5522815228158067
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.8104630409735666,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.5972102314333444
+        }
+      ],
+      "train_objects": 55,
+      "development_objects": 12,
+      "train_energy": 25606.82795252797,
+      "development_energy": 5017.799053281999
+    },
+    {
+      "category_index": 69,
+      "category": "oven",
+      "train_images": 63,
+      "development_images": 12,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.4684169391734705,
+          "development_optimistic_ceiling": 0.5496237679487375,
+          "development_capture_with_training_basis": 0.32266295586150107
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5097899142462303,
+          "development_optimistic_ceiling": 0.6409534819228766,
+          "development_capture_with_training_basis": 0.3562085630475368
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6290683409037122,
+          "development_optimistic_ceiling": 0.8589713561243598,
+          "development_capture_with_training_basis": 0.44792582859281266
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7586249234701654,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.49820770937302006
+        }
+      ],
+      "train_objects": 69,
+      "development_objects": 14,
+      "train_energy": 29082.68829048248,
+      "development_energy": 5523.606831214699
+    },
+    {
+      "category_index": 71,
+      "category": "sink",
+      "train_images": 66,
+      "development_images": 13,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.47745382532068276,
+          "development_optimistic_ceiling": 0.6047185901140226,
+          "development_capture_with_training_basis": 0.38338025515925744
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5160531520819638,
+          "development_optimistic_ceiling": 0.6681824521005363,
+          "development_capture_with_training_basis": 0.4226193638326583
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6287592581291335,
+          "development_optimistic_ceiling": 0.8649117585832765,
+          "development_capture_with_training_basis": 0.46781608046913514
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7552537037698118,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.5227340068581626
+        }
+      ],
+      "train_objects": 68,
+      "development_objects": 13,
+      "train_energy": 29828.24349031058,
+      "development_energy": 5035.424781238571
+    },
+    {
+      "category_index": 72,
+      "category": "refrigerator",
+      "train_images": 56,
+      "development_images": 11,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.45656628674846844,
+          "development_optimistic_ceiling": 0.5712600079002843,
+          "development_capture_with_training_basis": 0.3158758434213575
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5059472552457205,
+          "development_optimistic_ceiling": 0.6719834965209432,
+          "development_capture_with_training_basis": 0.366276733418777
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6364901327860729,
+          "development_optimistic_ceiling": 0.9099369489525125,
+          "development_capture_with_training_basis": 0.4145882893792812
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7740483127872415,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.475171297933456
+        }
+      ],
+      "train_objects": 57,
+      "development_objects": 11,
+      "train_energy": 20353.381633389567,
+      "development_energy": 4261.972139886606
+    },
+    {
+      "category_index": 73,
+      "category": "book",
+      "train_images": 68,
+      "development_images": 13,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.3800566561865767,
+          "development_optimistic_ceiling": 0.5229536407384854,
+          "development_capture_with_training_basis": 0.30021704928662235
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.421910194052344,
+          "development_optimistic_ceiling": 0.6028890778874824,
+          "development_capture_with_training_basis": 0.31672700366141615
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.5384482362322547,
+          "development_optimistic_ceiling": 0.8059511143343742,
+          "development_capture_with_training_basis": 0.3661656836565345
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.6795933526781108,
+          "development_optimistic_ceiling": 0.9805558267220947,
+          "development_capture_with_training_basis": 0.43803995102021476
+        }
+      ],
+      "train_objects": 114,
+      "development_objects": 19,
+      "train_energy": 50560.86022533405,
+      "development_energy": 8075.871960530554
+    },
+    {
+      "category_index": 74,
+      "category": "clock",
+      "train_images": 56,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.4742406643775722,
+          "development_optimistic_ceiling": 0.676545010216927,
+          "development_capture_with_training_basis": 0.4678242195615226
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5066951231877335,
+          "development_optimistic_ceiling": 0.7485507207131862,
+          "development_capture_with_training_basis": 0.4698156709745535
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6049166066727073,
+          "development_optimistic_ceiling": 0.9479417520282863,
+          "development_capture_with_training_basis": 0.5098466653903795
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7338417036611976,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.5615902549881049
+        }
+      ],
+      "train_objects": 66,
+      "development_objects": 10,
+      "train_energy": 39488.98222931918,
+      "development_energy": 6640.940022677167
+    },
+    {
+      "category_index": 75,
+      "category": "vase",
+      "train_images": 57,
+      "development_images": 11,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.41563138515463866,
+          "development_optimistic_ceiling": 0.47705374532270617,
+          "development_capture_with_training_basis": 0.21660433676499188
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.4540624407839271,
+          "development_optimistic_ceiling": 0.5689191816056334,
+          "development_capture_with_training_basis": 0.23646555892190435
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.5586109651661963,
+          "development_optimistic_ceiling": 0.8202780368278528,
+          "development_capture_with_training_basis": 0.2824477171427815
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.6983252324066229,
+          "development_optimistic_ceiling": 1.0,
+          "development_capture_with_training_basis": 0.3462361177375504
+        }
+      ],
+      "train_objects": 85,
+      "development_objects": 15,
+      "train_energy": 37265.329217178485,
+      "development_energy": 5492.155896984366
+    },
+    {
+      "category_index": 76,
+      "category": "scissors",
+      "train_images": 44,
+      "development_images": 12,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.494744121388168,
+          "development_optimistic_ceiling": 0.6074949358584834,
+          "development_capture_with_training_basis": 0.3791740099095525
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5363376243838717,
+          "development_optimistic_ceiling": 0.689213948554517,
+          "development_capture_with_training_basis": 0.40158796891345167
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6553655984488546,
+          "development_optimistic_ceiling": 0.8603014768158245,
+          "development_capture_with_training_basis": 0.42937003012729313
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7923053467533158,
+          "development_optimistic_ceiling": 0.9882764436092207,
+          "development_capture_with_training_basis": 0.4566857383092298
+        }
+      ],
+      "train_objects": 54,
+      "development_objects": 20,
+      "train_energy": 23934.247584678124,
+      "development_energy": 9196.151470230547
+    },
+    {
+      "category_index": 77,
+      "category": "teddy bear",
+      "train_images": 52,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5236150068099296,
+          "development_optimistic_ceiling": 0.7596047088556441,
+          "development_capture_with_training_basis": 0.40012360905176625
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5580214300709833,
+          "development_optimistic_ceiling": 0.816228431789678,
+          "development_capture_with_training_basis": 0.41249257991573973
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6592513776456592,
+          "development_optimistic_ceiling": 0.9365499254278254,
+          "development_capture_with_training_basis": 0.4552622193829781
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.7763672323060559,
+          "development_optimistic_ceiling": 0.996851629954641,
+          "development_capture_with_training_basis": 0.5013802936424537
+        }
+      ],
+      "train_objects": 95,
+      "development_objects": 18,
+      "train_energy": 52438.32597446024,
+      "development_energy": 12437.734452635013
+    },
+    {
+      "category_index": 79,
+      "category": "toothbrush",
+      "train_images": 41,
+      "development_images": 10,
+      "rows": [
+        {
+          "width": 3,
+          "train_optimistic_ceiling": 0.5367818489199343,
+          "development_optimistic_ceiling": 0.6160799628908236,
+          "development_capture_with_training_basis": 0.29317804961183397
+        },
+        {
+          "width": 4,
+          "train_optimistic_ceiling": 0.5711564654196869,
+          "development_optimistic_ceiling": 0.7129757208533525,
+          "development_capture_with_training_basis": 0.30777474385615766
+        },
+        {
+          "width": 8,
+          "train_optimistic_ceiling": 0.6853840871294199,
+          "development_optimistic_ceiling": 0.9188472013731251,
+          "development_capture_with_training_basis": 0.3446850270494453
+        },
+        {
+          "width": 16,
+          "train_optimistic_ceiling": 0.811132303546521,
+          "development_optimistic_ceiling": 0.9927989337105555,
+          "development_capture_with_training_basis": 0.3982787126162739
+        }
+      ],
+      "train_objects": 74,
+      "development_objects": 20,
+      "train_energy": 38078.68652809379,
+      "development_energy": 8823.957625502484
+    }
+  ],
+  "macro": [
+    {
+      "width": 3,
+      "train_optimistic_ceiling": 0.4863771626139707,
+      "development_optimistic_ceiling": 0.6278144411845863,
+      "development_capture_with_training_basis": 0.41150716251838804
+    },
+    {
+      "width": 4,
+      "train_optimistic_ceiling": 0.5248340113735398,
+      "development_optimistic_ceiling": 0.6940129511594052,
+      "development_capture_with_training_basis": 0.431254034916286
+    },
+    {
+      "width": 8,
+      "train_optimistic_ceiling": 0.6305681258698634,
+      "development_optimistic_ceiling": 0.8642000886947595,
+      "development_capture_with_training_basis": 0.4783954953301087
+    },
+    {
+      "width": 16,
+      "train_optimistic_ceiling": 0.7535661813065945,
+      "development_optimistic_ceiling": 0.973234728356259,
+      "development_capture_with_training_basis": 0.5286355981661934
+    }
+  ],
+  "formula": "sum of top b eigenvalues of X.T@X / trace(X.T@X); X contains uncentered object-minus-comparison patch contrasts.",
+  "meaning": "Optimistic rank-b linear-subspace ceiling on each finite sample set. Ignores gating, encoder, joint reconstruction, dictionary sharing and optimization.",
+  "caution": "The development-fitted ceiling is an audit bound, never a trained representation. The training-fitted projection tests geometry transfer; neither establishes population headroom or manifold recovery."
+}

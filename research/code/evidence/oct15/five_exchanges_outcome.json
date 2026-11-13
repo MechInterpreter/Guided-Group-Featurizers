@@ -1,0 +1,30 @@
+{
+  "complete": true,
+  "models": [
+    {
+      "seed": 21,
+      "root_sha": "23396d3db5b3d29f8886fd9abea4cde8ce8c7c4f8b60ca7f67997b947f3123de",
+      "final_sha": "23396d3db5b3d29f8886fd9abea4cde8ce8c7c4f8b60ca7f67997b947f3123de",
+      "attempted": 8,
+      "accepted_proposals": [],
+      "original_native_eligible": true
+    },
+    {
+      "seed": 22,
+      "root_sha": "14018792b31b82bf0b3b3920e4d958c122531e76c3d4c6615cdeff2f871cc638",
+      "final_sha": "14018792b31b82bf0b3b3920e4d958c122531e76c3d4c6615cdeff2f871cc638",
+      "attempted": 8,
+      "accepted_proposals": [],
+      "original_native_eligible": true
+    },
+    {
+      "seed": 23,
+      "root_sha": "15b9f924c1f84db041c155a81dead31440929d38b2777ceae170e8dfd4503502",
+      "final_sha": "15b9f924c1f84db041c155a81dead31440929d38b2777ceae170e8dfd4503502",
+      "attempted": 8,
+      "accepted_proposals": [],
+      "original_native_eligible": true
+    }
+  ],
+  "new_gradient_updates": 0
+}

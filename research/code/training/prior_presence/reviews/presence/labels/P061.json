@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p061",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I0733",
+      "yes": [41,63,64,65,66],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,68,69,71,72,74,75,76,77,79],
+      "unclear": [67,73],
+      "all_definitions_considered": true,
+      "rationale": "The desk holds an open laptop with integrated keyboard, a separate mouse, a handled mug and identifiable button-covered remote controls. The work surface is a desk, not an eating table. A partly cropped black device at the upper left is too incomplete to distinguish a phone from another electronic device (67 unclear). The dark cover-like object at the upper right could be a bound book but has insufficient exposed binding/page detail (73 unclear). I considered every frozen definition against the whole crop; no other category object is identifiable."
+    },
+    {
+      "case_id": "I0734",
+      "yes": [53],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,54,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [60],
+      "all_definitions_considered": true,
+      "rationale": "Two actual pepperoni pizzas on flat plates show crust, cheese and toppings. They are not sandwiches, cakes or hot dogs; the meat slices do not identify an actual frankfurter. The narrow dark supporting surface might be an eating table or counter, and its structure is unresolved (60 unclear). I explicitly considered all 75 definitions; no other defined object is visible."
+    },
+    {
+      "case_id": "I0735",
+      "yes": [61],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The open white toilet has a recognizable seat, raised lid and water-filled toilet bowl. Its attached side buttons are fixture controls, not an identifiable handheld remote or computer keyboard. The bowl is a toilet fixture rather than a portable bowl or sink. All 75 definitions were considered; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0736",
+      "yes": [39,72],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A large stainless refrigerator/freezer has two doors and a horizontal lower handle. A small red-capped bottle with a neck and body sits at the left side of the kitchen counter. The black round cooking pan is not a bowl, and the cabinets and counter do not identify an oven, microwave, sink or dining table. The hanging shopping sack does not show handbag or backpack construction. I considered all 75 definitions; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0737",
+      "yes": [0,1,2,18],
+      "no": [3,4,5,6,8,9,10,11,12,13,14,15,16,17,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [7],
+      "all_definitions_considered": true,
+      "rationale": "People stand along the road, a cyclist with a pedal bicycle is visible near the parked passenger cars, and the flock has identifiable woolly sheep bodies and faces rather than cattle or goats. The small distant blue/white boxy vehicle lacks enough detail to decide whether it is a truck (7 unclear). I considered every one of the 75 definitions; the road markings, mountains and clothing do not establish other categories."
+    },
+    {
+      "case_id": "I0738",
+      "yes": [0,5,27],
+      "no": [1,2,3,4,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,25,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [24,26],
+      "all_definitions_considered": true,
+      "rationale": "Three people pose in front of a recognizable double-decker road bus. The man in the white shirt wears an actual patterned necktie. At the extreme lower left a partly cut-off dark/blue carried item has insufficient visible pack body and straps to resolve backpack versus shoulder bag (24 and 26 unclear). Bus window contents do not clearly identify separate chairs. All 75 frozen definitions were explicitly considered."
+    },
+    {
+      "case_id": "I0739",
+      "yes": [0,41,53,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,27,28,29,31,33,35,36,37,38,39,40,42,43,44,45,46,47,48,49,50,51,52,54,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [26],
+      "all_definitions_considered": true,
+      "rationale": "Two actual people sit at an eating table with pizza portions on a large metal serving tray. The tall straight drinking glass and small yellow cup count as cups, not stemmed wine glasses or bottles; the flat tray is not a bowl. A brown strap/body-like item beside the woman's forearm may be a handbag but is too occluded to resolve (26 unclear). Decorations across the foreground are not actual category animals. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0740",
+      "yes": [9],
+      "no": [0,1,2,3,4,5,6,7,8,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The street intersection contains identifiable red and green traffic signal heads. The slender curved poles also carry ordinary street lamps, which alone do not count as signals. Small roadside signs have no identifiable stop-sign face or text; the distant scene does not reveal a recognizable vehicle or person. I considered all 75 definitions and found no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0741",
+      "yes": [56,59,62],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,60,61,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [39,41],
+      "all_definitions_considered": true,
+      "rationale": "This room contains several individual upholstered chairs, a bed with mattress/bedding and a standalone television on a cabinet. The low table beside the chairs does not show dining-table use. A tiny pale/clear vessel at its far edge lacks enough pixels to distinguish a drinking cup from a small bottle (39 and 41 unclear). The lamps and outdoor vegetation do not supply another defined category. All 75 definitions were explicitly considered."
+    },
+    {
+      "case_id": "I0742",
+      "yes": [0,56,63,64,66],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,60,61,62,65,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Two men work at open laptops; the right laptop's integrated key deck is visible, and the man on the right uses a recognizable white mouse. The left man's black office-chair back and arm are identifiable. These are work desks with computer cables and power hardware, not eating tables. Integrated laptop displays are laptops rather than standalone TV/monitors. I considered all 75 definitions; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0743",
+      "yes": [0,25,26],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20,21,22,23,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [13,24,67],
+      "all_definitions_considered": true,
+      "rationale": "Many actual people occupy the plaza. The blue canopies have umbrella structure, and the foreground woman carries a visible shoulder handbag with a long strap and small pouch body. Some distant worn bags cannot be resolved as backpacks (24 unclear). A partly occluded horizontal seating-like structure in the central crowd may be a bench (13 unclear). The small dark object in the foreground left person's hands lacks enough handset detail to decide cell phone (67 unclear). Round balloons are not flying kites. All 75 frozen definitions were considered."
+    },
+    {
+      "case_id": "I0744",
+      "yes": [14,15],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A real black cat with pointed ears, eyes and a visible furry body sits beside the window. Inside the metal cage is a real green bird with an identifiable head, beak and feathered body among rope toys. The rope and hanging toys are not actual animals or identifiable teddy bears. I explicitly considered all 75 definitions; no unresolved category ambiguity remains."
+    }
+  ]
+}

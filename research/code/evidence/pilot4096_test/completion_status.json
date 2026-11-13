@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "point_metrics_complete": true,
+  "paired_intervals_complete": true,
+  "new_gradient_updates": 0,
+  "new_feature_extractions": 0,
+  "seven_seed_study": false,
+  "fresh_holdout_opened": false,
+  "exchanges": false
+}

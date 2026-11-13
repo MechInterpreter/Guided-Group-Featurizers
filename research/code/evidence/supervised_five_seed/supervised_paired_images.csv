@@ -1,0 +1,12 @@
+seed,treatment,control,capture_ci_low_pp,capture_ci_high_pp,AP_ci_low_pp,AP_ci_high_pp,valid_bootstraps,invalid_bootstraps,scope
+21,matched_ggf,slics_object_partial,3.402134690182147,4.0779999234558595,9.628041879845545,12.61157654327276,1000,0,Paired whole-image bootstrap conditional on fitted models
+21,matched_ggf_final,slics_final_partial,14.147481276315155,15.120638614344061,22.85077313791292,26.039811145712306,1000,0,Paired whole-image bootstrap conditional on fitted models
+22,matched_ggf,slics_object_partial,3.316145197349871,4.003208459783094,9.985636363620108,12.892597710601333,1000,0,Paired whole-image bootstrap conditional on fitted models
+22,matched_ggf_final,slics_final_partial,15.777268281243591,16.782490933435106,25.77464634118035,28.6533707893036,1000,0,Paired whole-image bootstrap conditional on fitted models
+23,matched_ggf,slics_object_partial,3.3866378915618744,4.093156773092113,9.826982281773269,12.717290641521384,1000,0,Paired whole-image bootstrap conditional on fitted models
+23,matched_ggf_final,slics_final_partial,15.145992881993314,16.094186265215015,21.883262266988,24.919525007740948,1000,0,Paired whole-image bootstrap conditional on fitted models
+24,matched_ggf,slics_object_partial,3.5631793934263163,4.26647914071711,9.64592929764389,12.56255909271919,1000,0,Paired whole-image bootstrap conditional on fitted models
+24,matched_ggf_final,slics_final_partial,14.818118431123676,15.714181087217177,24.26879360096191,27.293614793451397,1000,0,Paired whole-image bootstrap conditional on fitted models
+25,matched_ggf,slics_object_partial,3.3196727754755413,4.03103744107275,9.91255326730995,12.78404732968814,1000,0,Paired whole-image bootstrap conditional on fitted models
+25,matched_ggf_final,slics_final_partial,15.123823997854839,16.08466596945726,26.686014042620855,29.752796921761117,1000,0,Paired whole-image bootstrap conditional on fitted models
+

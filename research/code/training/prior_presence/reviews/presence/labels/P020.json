@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p020",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I0241",
+      "yes": [41,42,43,44,45,46,47,60],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,48,49,50,51,52,53,54,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The meal sits on a dining tabletop. The rice vessel and small round sugar vessel are bowls; the white drinking vessel at the upper right is a cup. Fork tines, the broad table-knife blade, and a spoon near the cup are visible. A green apple and yellow bananas appear at the upper left. The rolled food is not identifiable as any of the defined sandwich, hot-dog, pizza, donut or cake categories. I considered every frozen definition; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0242",
+      "yes": [12],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A parking-meter head with its payment/dial assembly is mounted on the slanted pole beside the sidewalk. Its dial belongs to the meter rather than a time-of-day clock. The tree, wall, barred window and paving supply no other category objects. I considered every frozen definition; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0243",
+      "yes": [0,39,56,62],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,60,61,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "People are visible in the salon, including the child and the adult beside him. The adult holds an orange bottle with a narrow spray-neck assembly. The child occupies a vehicle-shaped barber chair, and another such chair is behind him; these are actual chairs, while their decorative vehicle bodies are excluded as cars or motorcycles. Standalone display screens are mounted above the cabinets. Printed animals and screen imagery are excluded. I considered every frozen definition; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0244",
+      "yes": [3,6,9],
+      "no": [1,4,5,7,8,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [0,2],
+      "all_definitions_considered": true,
+      "rationale": "An actual red-and-black motorcycle occupies the foreground. The red-and-white rail vehicle at the right is a train/tram, supported by the rail crossing and visible tracks. Signal heads are visible on the poles. Tiny distant shapes along the left street and sidewalk are insufficient to resolve a possible person or passenger-car portion, so person and car remain unclear. The other signs are not stop signs, and the trees lack pot context. I considered every frozen definition."
+    },
+    {
+      "case_id": "I0245",
+      "yes": [50],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [51],
+      "all_definitions_considered": true,
+      "rationale": "Distinct green broccoli florets and stalks are visible around the plate. Egg, leafy greens and pale onion-like strips are also visible but have no corresponding category. The cooked orange pieces could include carrot, but their broad cut shapes and texture do not securely distinguish carrot from other cooked orange ingredients; carrot is unclear. Their orange color does not establish orange fruit. The shallow white plate is not a bowl, and the crop supplies no identifiable dining-table context. I considered every frozen definition."
+    },
+    {
+      "case_id": "I0246",
+      "yes": [45,48,60],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,46,47,49,50,51,52,53,54,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [42,43,44],
+      "all_definitions_considered": true,
+      "rationale": "Bread enclosing meat, cheese and lettuce clearly identifies sandwiches. A small white open bowl holds a creamy side dish, and the eating arrangement rests on a dining tabletop. The narrow reflective utensil portion at the upper left lacks a sufficiently visible working end to determine fork, knife or spoon, leaving those three alternatives unclear. The browned potato-like pieces are not identifiable carrot, fruit or a defined baked-food category. I considered every frozen definition."
+    },
+    {
+      "case_id": "I0247",
+      "yes": [0,16,17,26],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,18,19,20,21,22,23,24,25,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Several actual people and saddled horses are clearly visible. The small dark animal between the foreground people has a dog's muzzle, body and legs. The left person's black bag has a carried shoulder-bag body and strap, supporting handbag rather than backpack or suitcase. Saddles, reins and clothing do not establish other listed categories. I considered every frozen definition; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0248",
+      "yes": [39,41,45,56],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,42,43,44,46,47,48,49,50,51,52,53,54,55,57,59,60,61,62,63,64,65,66,67,68,71,72,73,74,76,77,79],
+      "unclear": [58,69,75],
+      "all_definitions_considered": true,
+      "rationale": "Two individual wooden chairs stand in the kitchen. Shelved open crockery includes bowls and handled drinking cups; a narrow-neck bottle is visible among the counter vessels. The small foliage arrangement at the left window is too small to distinguish a plant growing in a pot from cut stems in a vase, so potted plant and vase are unclear. The dark paneled cooking-area unit at the right could contain an oven, but its door/cavity identity is unresolved, so oven is unclear. Work counters do not identify a dining table; hanging pans and metal strips do not identify forks, knives or spoons. I considered every frozen definition."
+    },
+    {
+      "case_id": "I0249",
+      "yes": [0,6,13,25,56,58],
+      "no": [1,2,3,4,5,7,8,9,10,11,12,14,15,16,17,18,19,20,21,22,23,24,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The rear of a rail train sits on tracks between station platforms, with actual people beside it. A colorful umbrella canopy shades the right platform. Long platform seating and separate tubular chairs are visible, supporting bench and chair respectively. Large leafy plants emerge from visible platform containers. The right-side bins and stacked items are not identifiable travel luggage, and printed imagery on the umbrella is excluded. I considered every frozen definition; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0250",
+      "yes": [0,35],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A batter, catcher and umpire are actual people. The catcher has a visible fielding mitt beside the extended arm, distinct from the batter's small batting gloves. The bat, ball, protective equipment, grass and field markings do not match other frozen categories. I considered every frozen definition; no unresolved category ambiguity remains."
+    },
+    {
+      "case_id": "I0251",
+      "yes": [0,13,38],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20,21,22,23,24,25,27,28,29,31,33,35,36,37,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [26],
+      "all_definitions_considered": true,
+      "rationale": "Actual people sit beside the court. The long slatted seat integrated with the advertising enclosure is a bench. A stringed tennis-racket head is visible behind the player, with further racket equipment at the bottom edge. The cropped strapped equipment bundle at the bottom might be a carried shoulder bag, but its bag body and construction are insufficiently visible, so handbag is unclear. The draped towel is not bedding, and no single-person chair is identified. I considered every frozen definition."
+    },
+    {
+      "case_id": "I0252",
+      "yes": [16,29],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual long-haired dog holds a yellow flying disc in its mouth. The disc's rim, flat form and dog-play context establish frisbee rather than a plate or generic circular object. The remaining crop is brick paving without other category objects. I considered every frozen definition; no unresolved category ambiguity remains."
+    }
+  ]
+}

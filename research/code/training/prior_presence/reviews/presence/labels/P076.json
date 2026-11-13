@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p076",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I0913",
+      "yes": [0,3,19],
+      "no": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [1,2],
+      "all_definitions_considered": true,
+      "rationale": "Actual cattle fill the street, with horns, bovine heads, bodies and legs. People stand along the right and farther down the street. Parked motor scooters/motorcycles are identifiable on the left. Small distant vehicle detail leaves bicycle (1) and passenger car (2) uncertain: thin two-wheel structures and a small light-colored road vehicle cannot be resolved confidently at this crop resolution. The cattle are not horses or sheep, and no other defined object is identifiable. All 75 frozen definitions were individually considered."
+    },
+    {
+      "case_id": "I0914",
+      "yes": [0,27,43,55,60],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,28,29,31,33,35,36,37,38,39,42,44,45,46,47,48,49,50,51,52,53,54,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [40,41],
+      "all_definitions_considered": true,
+      "rationale": "The bride, groom and background guests are actual people. The groom wears a necktie, the couple hold a large cake-cutting knife with a visible blade, and the tiered decorated cake sits on a cloth-covered serving/eating table. A guest in the background appears to hold a small drinking vessel, but the bowl/stem versus tumbler shape cannot be resolved; wine glass (40) and cup (41) remain unclear. Camera-like equipment is not a cell phone, and the cake is not a donut or other food category. All 75 frozen definitions were individually considered."
+    },
+    {
+      "case_id": "I0915",
+      "yes": [18,22],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,19,20,21,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Two clearly striped zebras stand behind a flock of woolly sheep/lambs grazing in grass. Their striped equid bodies establish zebra rather than horse, and the grazing animals have sheep bodies and fleece rather than cattle identity. Grass, distant vegetation and sky contain no other identifiable defined object. All 75 frozen definitions were individually considered; there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0916",
+      "yes": [0,56,66],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,60,61,62,63,64,65,67,68,69,71,72,73,75,76,77,79],
+      "unclear": [74],
+      "all_definitions_considered": true,
+      "rationale": "A child sits cross-legged on the floor beside a clearly visible computer keyboard. The curved wooden arm and padded structure at the left belong to an individual chair. The wooden foreground surface has computer-work context and is not established as a dining table; no laptop or monitor is visible. The blue wrist-worn round object resembles a watch, but its small face does not establish whether it is a functioning time-of-day clock object or a decorative/toy item, leaving clock (74) unclear. The printed colorful box behind is not an identifiable bound book. All 75 frozen definitions were individually considered."
+    },
+    {
+      "case_id": "I0917",
+      "yes": [0,59,65,73],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,60,61,62,63,64,66,67,68,69,71,72,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A child holds a gray handheld remote with an evident button grid. The striped bedding, pillows and wooden headboard identify a bed, and the stacked bound volumes on the bedside furniture show book edges/spines. The remote is distinguishable from a phone or computer keyboard. No television is visible merely because a remote is present. All 75 frozen definitions were individually considered; there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0918",
+      "yes": [0,16,36],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual bulldog stands on a black skateboard deck with orange wheels. Human legs, footwear and clothing are visible behind it and at the left edge. The dog's harness/leash is not a necktie or backpack, and the wheeled deck is a skateboard rather than a snowboard or surfboard. The surrounding pavement and wall provide no other defined object. All 75 frozen definitions were individually considered; there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0919",
+      "yes": [41,42,43,46,60],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,44,45,47,48,49,50,51,52,53,54,55,56,57,58,59,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A handleless paper drinking cup sits on a wooden eating table beside a plate of pancakes. The white plastic fork has visible tines and handle, and a separate plastic knife lies diagonally across the plate. Round pale banana pieces are visible on the pancakes. The shallow plate is not a bowl, and the pancakes are explicitly excluded from cake; the liquid syrup does not establish a bottle. All 75 frozen definitions were individually considered; there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0920",
+      "yes": [0,1,2,13,36],
+      "no": [4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20,21,22,23,25,27,28,29,31,33,35,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [3,24,26],
+      "all_definitions_considered": true,
+      "rationale": "The airborne skateboarder and background pedestrians are people, and his skateboard has an identifiable deck and trucks/wheels. A rider and bicycle with two thin wheels are visible behind him; a passenger car is visible at the right background. Long supported seats along the right background are benches. Other distant two-wheel detail may include a motor scooter but is insufficient for motorcycle (3). The purple bag at the far left lacks a resolved carrying/wearing design, leaving backpack (24) and handbag (26) unclear. The pole-mounted dark street fixture does not establish an identifiable traffic signal. All 75 frozen definitions were individually considered."
+    },
+    {
+      "case_id": "I0921",
+      "yes": [39,41,62,71],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,63,64,65,66,67,68,69,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The bathroom counter contains a built-in washbasin with faucet, a pump bottle at the back right, and a transparent drinking tumbler to the left of the tissue box. A standalone wall-mounted television is visible at the upper right. The basin is a sink rather than a portable bowl or toilet. Towels and a tissue box are not evidence of a bed, toilet, or toothbrush, and the countertop is not a dining table. All 75 frozen definitions were individually considered; there is no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0922",
+      "yes": [0],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [37],
+      "all_definitions_considered": true,
+      "rationale": "The far left edge contains part of an actual person's torso/arm above splashing water. A narrow pale form below the person could be a cropped surfboard, but foam and the severe edge crop prevent resolving its deck/rail identity, so surfboard (37) remains unclear. The remainder is water, wooded hillside and sky, without an identifiable boat or other defined object. All 75 frozen definitions were individually considered."
+    },
+    {
+      "case_id": "I0923",
+      "yes": [0,39,72],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,73,74,75,76,77,79],
+      "unclear": [71],
+      "all_definitions_considered": true,
+      "rationale": "An actual kitchen worker stands beside a large stainless refrigerator with recognizable doors and dispenser/control area. Small capped condiment bottles sit at the far left. Fryers, metal food trays and a tall cooking pot do not establish an oven, microwave, dining table, or bowl. The partly cropped stainless recess/counter area at the left may be a sink, but a sufficiently clear basin-and-tap assembly cannot be resolved, leaving sink (71) unclear. Hanging kitchen skimmers are not identifiable forks, spoons or scissors. All 75 frozen definitions were individually considered."
+    },
+    {
+      "case_id": "I0924",
+      "yes": [8,13,19],
+      "no": [0,1,2,3,4,5,6,7,9,10,11,12,14,15,16,17,18,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The large cropped animal at the left has a cattle body, legs and cloven hooves. A turquoise canopy boat with an actual hull floats on the water behind it, and a simple supported wooden long seat stands beside the shore as a bench. The cattle is not a horse, the boat is not a surfboard, and the shore vegetation has no identifiable plant pot. The distant boat does not resolve an actual human body. All 75 frozen definitions were individually considered; there is no unresolved category ambiguity."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+arm,label,capture_pct,patch_AP_pct,VE_pct,native_eligible_seeds
+guided5_continue,AGF-G 5D: unchanged,41.037175628274866,75.01466644253364,66.04329143887553,3
+agfx5,AGF-X 5D: Exchanges,41.037175628274866,75.01466644253364,66.04329143887553,3
+vanilla5_continue,Vanilla BSF 5D: reused control,22.3389654451085,59.578552974276796,68.1182107827723,3
+

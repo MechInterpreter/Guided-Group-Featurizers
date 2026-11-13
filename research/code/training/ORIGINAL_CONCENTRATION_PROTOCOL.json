@@ -1,0 +1,135 @@
+{
+  "version": "category75-response-concentration-v1",
+  "status": "ROOT_FROZEN_BEFORE_NEW_LABELS_AND_OUTCOMES",
+  "timing": "Requested after guided75/all-native pair-consistency outcomes were inspected. Exploratory extension; no preregistration claim. No production outcome tables may be computed before root freezes this proposal and independent labels are ready.",
+  "scope": {
+    "run": 21,
+    "methods": [
+      "agf_g",
+      "slics"
+    ],
+    "native_units_each": [
+      0,
+      74
+    ],
+    "candidate_pool": "ALL75 native guided groups/dictionaries in each method for EVERY target category, regardless of interpreted/mixed/unclear status, old names or intended assignment.",
+    "target_categories": "All75 source-verified native target definitions, fixed before new crop-presence judgment. Training assignments identify target list only; independent new crop labels supply semantic presence.",
+    "source_target_proof": "../guided75_comparison_v1/native_target_alignment.json",
+    "inputs": "Only saved400 evaluation crops and signed196-position response arrays. No inference/training/new images.",
+    "halves": "Existing fixed200-description/200-audit image split from frozen run21 plans; no per-unit peak exclusion in concentration curves. Original fixed-pair coherence retains its separate inherited exclusions."
+  },
+  "presence_labels": {
+    "source": "New independent crop-only presence judgments for all75 definitions in all400 planned crops; no response overlays, training masks, old labels or auto names as evidence.",
+    "states": [
+      "yes",
+      "no",
+      "unclear",
+      "missing"
+    ],
+    "denominators": "Positive/negative response rates use determinate available yes/no crops only. Report planned, yes, no, unclear, missing and unreviewed counts per half. Never convert unclear/missing/unreviewed to no.",
+    "support_rule": "At least5 determinate positives and10 determinate negatives in EACH half. Retain every category/method/q/budget low-support row with counts/status and null audit metrics; never drop low-support rows or fabricate scores.",
+    "label_lock": "Root validates complete all400x75 label manifest, definitions and split hashes; retains raw provenance. Labels and annotation protocol are immutable at scoring.",
+    "review_protocol": "REVIEW_PROTOCOL.json",
+    "qa": "Fixed40-crop second pass, every75category cell; no original reviewer repeats their own crop; nominal named-pair Cohen and pooled Fleiss with support/confusion. Canonical outcomes preserved, explicit disagreement sensitivity."
+  },
+  "response": {
+    "primary": "Arithmetic mean of the four largest signed saved responses among all196 positions per image/group; no clipping or zeroing.",
+    "secondary_pooling": "None in this proposed extension; no post-result pooling choice.",
+    "validation": "Exact frozen source/collection/weight/score hashes, IDs, split, finite shape400x196xnativebank and selectednative0..74. Source arrays read only."
+  },
+  "calibration": {
+    "primary_negative_quantile": 0.95,
+    "secondary_negative_quantile": 0.9,
+    "threshold": "Per target/category, group and q: numpy quantile(method='higher') of description-negative image responses. Detection is STRICT response>threshold; ties at threshold are negative.",
+    "ranking": "Descending description balanced accuracy .5*(TPR+1-FPR) at the fixed threshold, ties ascending native group index. All75 candidates remain eligible.",
+    "budgets": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "selection": "First min(budget,75) ranked groups; never sum dictionaries, decoder vectors, raw responses or scores. Selection uses description labels/responses only.",
+    "lock": "Persist and SHA-lock all thresholds, full75 rankings, actual selections and description support before any audit scoring or audit alignment review."
+  },
+  "description_alignment": {
+    "target_meaning": "Exact fixed native category definition in categories.json, locked before new labels. Never form or revise a meaning from audit outcomes.",
+    "views": "Six highest signed mean-top4 responding DESCRIPTION crops per unique selected category/group, ties ascending imageID, excluding that unit's two known original peak-image IDs. No filtering for category presence or favorable images. Positive among top4 positions outlined; zero/negative filler never outlined.",
+    "judgments": [
+      "target",
+      "related_context",
+      "other",
+      "mixed",
+      "unclear"
+    ],
+    "rubric": "Target requires dominant outlined content identifiable as the actual target object or part under its locked definition. Related_context means target-related scene/context with no dominant actual target support; other is identifiable different content; mixed retains competing target/non-target content; unclear includes missing/unreadable/zero-positive activity. A target elsewhere in the crop does not establish outlined target alignment.",
+    "lock": "Immutable per-link description judgments and evidence hashes locked before that link's audit alignment review. These judgments never remove candidates or alter primary response-curve denominators.",
+    "priority": "Review every supported category's primary q=.95 budget1 selected link first, then budget2/4/8 and q=.90 unique additions. Report actual links reviewed and all pending states."
+  },
+  "metrics": {
+    "primary": "Audit OR positive coverage TP/Npositive and FPR FP/Nnegative at q=.95 for budgets1/2/4/8, per category. Equal weight per category for explicitly supported-category summaries, always report all75 support statuses.",
+    "secondary": [
+      "q=.90 curves",
+      "Audit OR positive predictive precision TP/(TP+FP), undefined when no predictions",
+      "Mean pairwise positive-support Jaccard and mean pairwise negative-support Jaccard among selected groups; omit zero-union pairs from each mean, count informative/zero-union pairs, null if none",
+      "OR incremental positive/negative counts and rates when adding each group in locked ranking order",
+      "Unique positive/negative coverage per selected group: responses not covered by any other selected group at that budget; count and rate",
+      "Actual groups used, selected native IDs, thresholds and description rank/quality"
+    ],
+    "overlap_interpretation": "Overlap describes redundancy of thresholded crop responses, not purity or decoder-information recovery. Incremental/unique coverage is conditional on fixed thresholds and order.",
+    "coherence_support": "Attach selected groups' existing corrected fixed3-pair semantic yes/no/unclear counts and shared meanings from immutable guided75/fullbank snapshot. Separate endpoint, never a candidate filter or a claim of target-specific alignment.",
+    "interpretation": "CATEGORY-CONDITIONED RESPONSE CONCENTRATION. It does not alone prove semantic consolidation, category alignment, human interpretability, object-part coverage, training-label accuracy or information recovery.",
+    "uncertainty": "One saved model run and reused crop pool. No model-run significance, confidence intervals from unknown bounds, or independence claim for shared images/groups. Unknown presence labels and low support explicitly limit generalization."
+  },
+  "production_gates": [
+    "Root-issued FROZEN_PROTOCOL.json plus matching SHA, referencing proposal SHA",
+    "Locked definitions, all400x75 presence labels and split/score provenance with matching hashes",
+    "Description-only selection lock derived under frozen protocol",
+    "Description alignment lock before audit alignment review; pending remains explicit",
+    "No audit outcome computation or reporting in preparation/synthetic tests"
+  ],
+  "outputs": [
+    "PROPOSED_PROTOCOL.json",
+    "pure computational module and synthetic tests",
+    "After gates: description selection/view payload and immutable lock",
+    "After gates and labels: all75 percategory rows including low-support statuses, OR curves, overlap and incremental/unique support",
+    "Separate target-specific audit alignment status; pending until independently judged"
+  ],
+  "proposal_sha256": "c814d1cac194b702beca4fbc5cba93c54c17eb4369a7556b0f5e84d43c199357",
+  "frozen_input_sha256": {
+    "categories.json": "fb91a7036331d26e05f69c90fec699772b8eea0aa06f44193776a996bcb28bfb",
+    "image_manifest.json": "143439e9e3ba4fa1749fa1e716d03e4cab8ef21492e5196456556894341592f1",
+    "REVIEW_PROTOCOL.json": "02fb17c141cdda9ac7852392bfcb04dfa332793bf2330221830018a63d105f04"
+  },
+  "source_input_sha256": {
+    "PROTOCOL.json": "2dd3a8a94150f6c3403a5cea6e6a2e152f332f49fbbf0b36e221e4f0b2d08dd4",
+    "verified_plans.json": "db940a6a0b3f2b0ec34a1989963de995cde584818091fd92251e16a62098855d",
+    "plans\\agf_g_21.json": "714cf16f761e40218a9c265833aecd110c226d4c278446b0989fbb895b6beb53",
+    "plans\\slics_21.json": "7b05681291f7128a4bf26a606915d7af019ce52e57111b1a9cb19dd178ccab10",
+    "scores\\agf_g_21.npz": "09a8c691dd252d539c66cd3ccf1a86b4076e52e0d63c007491b2eb1b59478206",
+    "scores\\slics_21.npz": "f60c7e56e80bdc471af94a4dba03ec33a51a626f28e0e3db23eae1f537f32705",
+    "guided75_comparison_v1\\native_target_alignment.json": "54d14f90871531caa9496ce80300b0abb81975350c13f5cafff9b8ec89afad09",
+    "wholebank_pair_review_v2\\wholebank_pairs_2d1c62a790f68f2d84c500bf95dea2f65db9e8a5cb95da8a78bd1a3ee928fa69.json": "2d1c62a790f68f2d84c500bf95dea2f65db9e8a5cb95da8a78bd1a3ee928fa69"
+  },
+  "audit_alignment": {
+    "views": "Six highest signed mean-top4 responding AUDIT crops per locked category/group link, ties imageID, excluding original peak IDs. Same fixed target definition and positive-top4 overlay. No favorable presence filtering.",
+    "gate": "Requires exact per-link description lock and unchanged target definition; no revision of meanings or canonical presence labels from audit responses.",
+    "judgments": [
+      "target",
+      "related_context",
+      "other",
+      "mixed",
+      "unclear"
+    ],
+    "pending": "Pending remains explicit. Curves may be reported as category-conditioned response concentration after presence/selection locks, never as completed semantic-consolidation evidence when target alignment is missing."
+  },
+  "workflow": [
+    "Freeze definitions, crop review and analytical protocol before new judgments/outcomes.",
+    "Complete and validate all400crop records with yes/no/unclear or missing across75 categories; lock canonical labels.",
+    "Select thresholds/ranks on description half only and lock complete selections before audit response scoring.",
+    "Produce every75-category support row; compute curves only for supported categories, with low-support values null.",
+    "Review fixed target-specific description evidence, prioritizing budget1 across every supported category; lock per link.",
+    "Review audit alignment only for locked links. Keep higher-budget or incomplete semantic evidence pending.",
+    "Report response concentration, generic group coherence and target-specific semantic alignment as separate components; no arbitrary composite winner."
+  ],
+  "reporting": "Equal per-group generic coherence and equal per-category supported-category summaries only. No activity weighting in main claims. No category support selection based on response outcomes. No overall75-category claim when some categories have insufficient evidence."
+}

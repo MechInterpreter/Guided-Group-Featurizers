@@ -1,0 +1,26 @@
+{
+  "repository": "https://github.com/RafaDD/Concept-SAE",
+  "commit": "956d19b32baccd9c355b5ada9b281898ca998a16",
+  "files": [
+    {
+      "path": "step1-3/replace_model.py",
+      "sha256": "8323fe5aebc108d3c5929f106446998d14a7b0e0129aa51f00d8d61b24ad6593"
+    },
+    {
+      "path": "step1-3/step1_clip.py",
+      "sha256": "4f6b317745149ff3b0f0c13ea4b0f99ccf12070131d298bf50f44e2c2c47327b"
+    },
+    {
+      "path": "step1-3/step2_clip.py",
+      "sha256": "614722ee1477f056fef9bbb2540201b8f74c36137cb32056ce235c1a4ed1c347"
+    },
+    {
+      "path": "step1-3/step3_clip.py",
+      "sha256": "685384ba189b9fc6380e776e12092ce8e4027b01c52ce21d5b01acc6563531b6"
+    },
+    {
+      "path": "README.md",
+      "sha256": "853118ba53e117ed561285a43f803e8846142c3d8b77d3a5f12f23a9c9aa5bfb"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "public_sha256": "89a92b37e9596e4af6c42a862c13b24a6497f06d543c7641369221d894c6a13a",
+  "reviewer": "agent:/root/presence_p022",
+  "method_blind": true,
+  "cases": [
+    {
+      "case_id": "I0265",
+      "yes": [0,25,74],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,75,76,77,79],
+      "unclear": [24],
+      "all_definitions_considered": true,
+      "rationale": "Actual pedestrians and identifiable human legs surround several open umbrellas. The ornate black and gold street object has an identifiable clock face. At the right edge a partly cut-off dark item and shoulder straps may be a worn backpack, but its pack body is insufficiently visible, so backpack remains unclear. Vegetation has no identifiable pot. After considering each frozen definition, no other category object is supported."
+    },
+    {
+      "case_id": "I0266",
+      "yes": [0],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,25,26,27,28,29,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [24,31],
+      "all_definitions_considered": true,
+      "rationale": "The foreground bent person and several distant people are actual humans on a snowy slope. The gray and black structure on the foreground person's back could be a backpack or the jacket, leaving backpack unclear. A small red boardlike fragment at the lower left and distant snow gear do not resolve snowboard versus ski equipment, so snowboard is unclear. Snow, rocks and trees supply no other identifiable category objects after consideration of every definition."
+    },
+    {
+      "case_id": "I0267",
+      "yes": [11],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual red octagonal STOP sign is mounted on the chain-link gate. The background consists of building/trailer-like structures, fencing, bare ground and vegetation; no identifiable vehicle parts, people, animals or other defined objects are visible. Every definition was considered, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0268",
+      "yes": [0,56,57],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual person in a yellow shirt stands in front of upholstered seating. The cropped orange individual armchair at the left and the longer sofa with a rolled arm and upholstered back behind the person support chair and couch separately. The folding metal structure is an ironing/drying arrangement, not a dining table; draped fabric is not identifiable as a bag or bedding. All definitions were considered, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0269",
+      "yes": [0,24,31],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,25,26,27,28,29,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "A human snowboarder is airborne with both feet attached to a single wide snowboard. A blue/gray pack with a distinct body and shoulder-strap wearing context is visible on the rider's back. Snow-covered trees and branches are unpotted vegetation. Each frozen definition was considered; no other category object or unresolved category ambiguity is present."
+    },
+    {
+      "case_id": "I0270",
+      "yes": [26,37],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,27,28,29,31,33,35,36,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [0],
+      "all_definitions_considered": true,
+      "rationale": "A full-size glossy surfboard with a rounded pointed nose and long board outline stands in a shop display; the printed Chanel logo is not an additional actual object category. A tan handbag with a handle is identifiable on the upper right display. Small humanlike figures in the left background are too indistinct to resolve shoppers versus mannequins, so person is unclear. Display surfaces and clothing do not establish any other category after all definitions were considered."
+    },
+    {
+      "case_id": "I0271",
+      "yes": [71],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,72,73,74,75,76,77,79],
+      "unclear": [39],
+      "all_definitions_considered": true,
+      "rationale": "The rear counter contains an identifiable sink basin and faucet assembly. This is cabinetry and a counter, not a dining table or refrigerator. Baskets, a tissue box, folded material and a small appliance on the open shelves do not meet the other category definitions. A tiny cropped container at the upper left has insufficient visible neck/body detail to establish bottle identity, so bottle is unclear. All 75 definitions were considered."
+    },
+    {
+      "case_id": "I0272",
+      "yes": [2,6,7],
+      "no": [0,1,3,4,5,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "Passenger cars are visible along the divided road, and a white long-bodied truck with a teal cab is identifiable on the nearer lane. A continuous series of red freight rail cars occupies the far left edge, supporting train. The distant water, trees, road barriers and landscape provide no identifiable boats, people or other defined objects. Every definition was considered, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0273",
+      "yes": [15,62,64,66],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,63,65,67,68,69,71,72,74,75,76,77,79],
+      "unclear": [73],
+      "all_definitions_considered": true,
+      "rationale": "An actual long-haired cat sits next to a standalone monitor, desktop keyboard and clearly shaped computer mouse at the lower left. The monitor is TV under the frozen scope; this is a work desk rather than a dining table. The lined stack under the cat might be a bound notebook or loose/notepad sheets, with no clear binding, so book remains unclear. The collar tag is not a clock. All definitions were considered."
+    },
+    {
+      "case_id": "I0274",
+      "yes": [0,36,41,56,62,66],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,37,38,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,60,61,63,64,65,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "An actual person stands on a skateboard whose deck, trucks and wheels are visible, and holds a small drinking cup. The office background contains an individual chair, a standalone desktop monitor and its visible keyboard. The work desks are excluded from dining table; the tall silver wheeled object is an office partition, not a refrigerator. No integrated laptop is identifiable. Each definition was considered, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0275",
+      "yes": [11],
+      "no": [0,1,2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,77,79],
+      "unclear": [],
+      "all_definitions_considered": true,
+      "rationale": "The crop clearly shows an actual octagonal traffic sign with readable STOP and an ALL WAY plate. The orange pieces above it are warning flags, not kites, umbrellas or traffic lights. Cloudy sky and utility lines contain no additional defined object. All definitions were considered, with no unresolved category ambiguity."
+    },
+    {
+      "case_id": "I0276",
+      "yes": [0,16,56],
+      "no": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28,29,31,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,60,61,62,63,64,65,66,67,68,69,71,72,73,74,75,76,79],
+      "unclear": [77],
+      "all_definitions_considered": true,
+      "rationale": "Two actual dogs fill the crop, and a person's bare leg is visible at the lower left beside the khaki fabric. A wooden single-person chair back with slats is visible behind them. The soft pink animal-like item at the top is too cropped to establish whether it is bear-shaped, so teddy bear is unclear. The dogs' round collar tags are not clocks, and the foreground fabric does not establish bed context. Every definition was considered."
+    }
+  ]
+}

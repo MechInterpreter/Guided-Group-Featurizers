@@ -1,0 +1,17 @@
+{
+  "source": "https://already-clean.goodfire.com/",
+  "title": "Neural Networks Are Already Clean",
+  "author": "Nick Cammarata",
+  "year": 2026,
+  "verified_via": "Original essay read in the connected browser",
+  "sections": [
+    "The Short Version",
+    "A Note on Features and Definitions",
+    "Relation to Attention Superposition",
+    "Citation"
+  ],
+  "companion_status": "Essay announces a forthcoming technical companion; no companion link found in the original essay or indexed search.",
+  "interpretation": "Related branching responses and groups of mechanisms motivate an object-aligned view; no empirical recovery of recursive generalization is claimed.",
+  "rank_scope": "Three-seed means, first 75 initialized slots, 1,024 groups, Top-16; 5D continued, 6D, 8D, 12D expanded. Different continuation stages are disclosed.",
+  "reconstruction_scope": "Matched Vanilla/GGF pairs in baseline_comparison.csv; no causal attribution from VE decrease to object-metric improvements."
+}
