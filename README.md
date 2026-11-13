@@ -1,6 +1,20 @@
-# Guided Group Featurizers (GGF)
+<p align="center">
+  <a href="https://algoverseairesearch.org"><img src="docs/media/algoverse-logo.png" width="32" height="32" alt="Algoverse logo" align="absmiddle"> <strong>Algoverse AI Research</strong></a>
+</p>
 
-Research code and an interactive concept atlas for **Guided Group Featurizers: Improving Block-Sparse Featurizers with Object-Guided Learning**.
+<h1 align="center">Guided Group Featurizers (GGF)</h1>
+<p align="center"><strong>Improving Block-Sparse Featurizers with Object-Guided Learning</strong></p>
+<p align="center"><a href="docs/PAPER.md">Paper</a> · <a href="#explore-the-demo">Interactive demo</a> · <a href="#reproduce-the-research">Research code</a></p>
+
+![Figure 2: selected GGF, SLiCS, supervised Vanilla BSF and Vanilla BSF groups, with reviewed patches linked to measured PCA geometry.](docs/media/figure-2.png)
+
+> **Figure 2. Coherent and mixed responses in selected native groups.** Six reviewed images per method are linked to PCA projections of their decoded patch contributions. **Specific pairs** counts majority-confirmed shared meanings out of three fixed pairs. **Theme matches** gives each of three reviewers' matching-view counts out of six. **3-PC variance** is the reference variance retained by the first three principal components. Each method has its own fitted PCA basis. These selected seed-21 examples illustrate the seven-order aggregate study; they are not an exhaustive comparison.
+
+## Demo video
+
+https://github.com/user-attachments/assets/4ff30560-c541-476a-958d-e2451fd33d92
+
+Original pair-by-pair judgments and marked patches, linked group geometry, and a live DINOv3 upload compared across all four methods. Recorded from the running app; live inference runs locally on a CPU. The upload uses a public COCO image.
 
 GGF uses object guidance to organize block-sparse visual representations into groups with more semantically coherent responses and more concentrated object information. It retains the BSF architecture. The research compares matched 75-group methods across seven training orders, with three-context blinded GPT reviews, a separate Gemini check, and calibrated concentration and false-positive measurements.
 
@@ -30,7 +44,7 @@ Open [the reproduction notebook](research/notebooks/reproduce_paper.ipynb) in Co
 
 - [Method implementations](research/docs/METHODS.md)
 - [Paper-to-evidence map](research/docs/PAPER_MAP.md)
-- [Preprint](demo/public/paper.pdf)
+- [Preprint](docs/PAPER.md)
 - [Recorded demo and live inference](demo/README.md)
 - [Repository privacy checks](docs/REPOSITORY_SAFETY.md)
 
