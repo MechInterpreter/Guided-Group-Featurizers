@@ -8,7 +8,7 @@
 
 ![Figure 2: selected GGF, SLiCS, supervised Vanilla BSF and Vanilla BSF groups, with reviewed patches linked to measured PCA geometry.](docs/media/figure-2.png)
 
-> **Figure 2. Coherent and mixed responses in selected native groups.** Six reviewed images per method are linked to PCA projections of their decoded patch contributions. **Specific pairs** counts majority-confirmed shared meanings out of three fixed pairs. **Theme matches** gives each of three reviewers' matching-view counts out of six. **3-PC variance** is the reference variance retained by the first three principal components. Each method has its own fitted PCA basis. These selected seed-21 examples illustrate the seven-order aggregate study; they are not an exhaustive comparison.
+> **Figure 2. Coherent and mixed responses in selected native groups.** Six reviewed images per method are linked to PCA projections of their decoded patch contributions. **Specific pairs** counts majority-confirmed shared meanings out of three fixed pairs. **Theme matches** gives each of three reviewers' matching-view counts out of six. **3-PC variance** is the reference variance retained by the first three principal components. RGB encodes PCA coordinates; arrows locate the shown patches, and outlined points include all four marks per image. Each method has its own fitted PCA basis. These selected seed-21 examples illustrate the seven-order aggregate study; they are not an exhaustive comparison.
 
 ## Demo video
 
