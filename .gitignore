@@ -62,3 +62,6 @@
 **/*.pth
 **/*.safetensors
 **/*.joblib
+
+# The paper is distributed through arXiv.
+/demo/public/paper.pdf

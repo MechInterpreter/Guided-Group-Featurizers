@@ -4,7 +4,7 @@
 
 <h1 align="center">Guided Group Featurizers (GGF)</h1>
 <p align="center"><strong>Improving Block-Sparse Featurizers with Object-Guided Learning</strong></p>
-<p align="center"><a href="docs/PAPER.md">Paper</a> · <a href="#explore-the-demo">Interactive demo</a> · <a href="#reproduce-the-research">Research code</a></p>
+<p align="center"><a href="https://arxiv.org/abs/2611.18861">Paper</a> Â· <a href="#explore-the-demo">Interactive demo</a> Â· <a href="#reproduce-the-research">Research code</a></p>
 
 ![Figure 2: selected GGF, SLiCS, supervised Vanilla BSF and Vanilla BSF groups, with reviewed patches linked to measured PCA geometry.](docs/media/figure-2.png)
 
@@ -44,7 +44,7 @@ Open [the reproduction notebook](research/notebooks/reproduce_paper.ipynb) in Co
 
 - [Method implementations](research/docs/METHODS.md)
 - [Paper-to-evidence map](research/docs/PAPER_MAP.md)
-- [Preprint](docs/PAPER.md)
+- [Paper (arXiv)](https://arxiv.org/abs/2611.18861)
 - [Recorded demo and live inference](demo/README.md)
 - [Repository privacy checks](docs/REPOSITORY_SAFETY.md)
 

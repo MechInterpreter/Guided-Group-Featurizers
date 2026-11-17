@@ -1,7 +1,5 @@
-# Guided Group Featurizers: preprint
+# Guided Group Featurizers: paper
 
-[Open or download the complete 50-page PDF](https://github.com/MechInterpreter/Guided-Group-Featurizers/raw/refs/heads/main/demo/public/paper.pdf)
+[Read the paper on arXiv](https://arxiv.org/abs/2611.18861)
 
-The direct PDF link works independently of GitHub's file-preview renderer. The PDF contains selectable text, original-resolution figures, and the full supplementary material.
-
-[![First page of the GGF preprint](media/paper-first-page.png)](https://github.com/MechInterpreter/Guided-Group-Featurizers/raw/refs/heads/main/demo/public/paper.pdf)
+[![First page of the GGF preprint](media/paper-first-page.png)](https://arxiv.org/abs/2611.18861)
