@@ -58,3 +58,18 @@ Open [the reproduction notebook](research/notebooks/reproduce_paper.ipynb) in Co
 | `docs/` | Setup, provenance and publication checks |
 
 Frozen research implementations, required historical profiles and saved results retain their verified identities. One documented quick-check portability fix makes its internal device setting honor the explicit CPU/GPU argument; see [source provenance](docs/SOURCE_PROVENANCE.json). The demo omits author-machine caches, model weights, upload sessions, deployment credentials and hosting account configuration. Research data and model access remain subject to their original licenses. Project code uses the [MIT license](LICENSE); retain [third-party notices](research/LICENSES.md).
+
+## Citation
+
+If you find this work useful, please cite our paper:
+
+```bibtex
+@article{chang2026ggf,
+  title = {{Guided Group Featurizers (GGF): Improving Block-Sparse Featurizers with Object-Guided Learning}},
+  author = {Chang, Waldemar and Krutsylo, Andrii},
+  journal = {arXiv preprint arXiv:2611.18861},
+  year = {2026},
+  doi = {10.48550/arXiv.2611.18861},
+  url = {https://arxiv.org/abs/2611.18861}
+}
+```
